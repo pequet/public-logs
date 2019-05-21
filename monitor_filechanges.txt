@@ -1,55 +1,88 @@
-tradingview_watchlists
+golden_cross_tradingview_scanner
 local path: ../files/repositories/
-local folder: tradingview-watchlists
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-watchlists
-last run: 1558437036.6915
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1558401638.6065
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt Commit (May 21 2019 21:10:36 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt wait .......... Commit (May 21 2019 21:10:38 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt wait .......... Commit (May 21 2019 21:10:40 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt wait .......... Commit (May 21 2019 21:10:42 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt wait .......... Commit (May 21 2019 21:10:44 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt wait .......... Commit (May 21 2019 21:10:46 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_7_of_8.txt wait .......... Commit (May 21 2019 21:10:48 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt wait .......... Commit (May 21 2019 21:10:50 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_8_of_8.txt wait .......... Commit (May 21 2019 21:10:52 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt wait .......... Commit (May 21 2019 21:10:54 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt wait .......... Commit (May 21 2019 21:10:56 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt wait .......... Commit (May 21 2019 21:10:58 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt wait .......... Commit (May 21 2019 21:11:01 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt wait .......... Commit (May 21 2019 21:11:04 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt wait .......... Commit (May 21 2019 21:11:06 UTC) 
-- tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt wait .......... Commit (May 21 2019 21:11:10 UTC) 
-update last run: 1558473070.9163
-coins_by_volume
-local path: ../files/repositories
-local folder: coins-by-volume
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-volume
-last run: 1558472722.0807
-- readme.md wait .......... Commit (May 21 2019 21:11:12 UTC) 
-update last run: 1558473073.4924
-coins_by_id
-local path: ../files/repositories
-local folder: coins-by-id
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-id
-last run: 1558472724.7447
-- readme.md wait .......... Commit (May 21 2019 21:11:14 UTC) 
-update last run: 1558473075.6765
-🗲 done in 39.34969496727s
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1557697551.222
+- bittrex_tri_mas_btc_btc_5_of_8.txt 
+- bittrex_tri_mas_btc_btc_3_of_8.txt 
+- bittrex_tri_mas_btc_btc_7_of_8.txt 
+- bittrex_tri_mas_btc_btc_4_of_8.txt 
+- bittrex_tri_mas_btc_usd_6_of_8.txt 
+- bittrex_tri_mas_btc_usd_4_of_8.txt 
+- bittrex_tri_mas_btc_usd_7_of_8.txt 
+- bittrex_tri_mas_btc_usd_3_of_8.txt 
+- bittrex_tri_mas_btc_usd_8_of_8.txt 
+- bittrex_tri_mas_btc_usd_1_of_8.txt 
+- bittrex_tri_mas_btc_btc_2_of_8.txt 
+- bittrex_tri_mas_btc_usd_2_of_8.txt 
+- bittrex_tri_mas_btc_btc_6_of_8.txt 
+- bittrex_tri_mas_btc_usd_5_of_8.txt 
+- bittrex_tri_mas_btc_btc_8_of_8.txt 
+- bittrex_tri_mas_btc_btc_1_of_8.txt 
+processing 16 indicators
+opened the browser
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (7/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (4/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (6/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (4/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (7/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_7_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (3/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (8/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_8_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (2/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (2/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (6/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (8/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt
+wait ..............................done
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+  https://ww...
+  tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+wait ..............................done
+closed the browser
