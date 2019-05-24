@@ -3,43 +3,33 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/tri_mas/indicators
 callback: indicator_update_callback
 last run: 1558474568.8721
-- no file to update
-tradingview_watchlists
-local path: ../files/repositories/
-local folder: tradingview-watchlists
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-watchlists
-last run: 1558670745.1185
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1558473070.9163
-- no file to update
-coins_by_volume
-local path: ../files/repositories
-local folder: coins-by-volume
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-volume
-last run: 1558673737.57
-- readme.md Commit (May 24 2019 05:00:20 UTC) 
-update last run: 1558674021.7637
-coins_by_id
-local path: ../files/repositories
-local folder: coins-by-id
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-id
-last run: 1558673739.5501
-- readme.md wait .......... Commit (May 24 2019 05:00:22 UTC) 
-update last run: 1558674023.9197
-🗲 done in 3.7308487892151s
+- bittrex_tri_mas_btc_btc_5_of_8.txt 
+- bittrex_tri_mas_btc_btc_3_of_8.txt 
+- bittrex_tri_mas_btc_btc_7_of_8.txt 
+- bittrex_tri_mas_btc_btc_4_of_8.txt 
+- bittrex_tri_mas_btc_usd_6_of_8.txt 
+- bittrex_tri_mas_btc_usd_4_of_8.txt 
+- bittrex_tri_mas_btc_usd_7_of_8.txt 
+- bittrex_tri_mas_btc_usd_3_of_8.txt 
+- bittrex_tri_mas_btc_usd_8_of_8.txt 
+- bittrex_tri_mas_btc_usd_1_of_8.txt 
+- bittrex_tri_mas_btc_btc_2_of_8.txt 
+- bittrex_tri_mas_btc_usd_2_of_8.txt 
+- bittrex_tri_mas_btc_btc_6_of_8.txt 
+- bittrex_tri_mas_btc_usd_5_of_8.txt 
+- bittrex_tri_mas_btc_btc_8_of_8.txt 
+- bittrex_tri_mas_btc_btc_1_of_8.txt 
+processing 16 indicator scripts
+Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 552
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:552
+  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:552
+  3. My_webdriver->quit() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:109
+  4. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:105
+  5. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_shout.php:50
+  6. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:243
+  7. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
+  8. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
+  9. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
+ 10. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+ 11. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
