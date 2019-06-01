@@ -1,419 +1,428 @@
 bittrex
-- exchange_info (0.056602954864502s) ☺
-- exchange_info_v1 wait .................... (2.4413819313049s) ☺
+- exchange_info (0.049299001693726s) ☺
+- exchange_info_v1 wait .................... (2.1662278175354s) ☺
 binance
-- exchange_info (at 297.37266111374s/300s)
+- exchange_info (2.936154127121s) ☺
 poloniex
-- exchange_info (at 297.27479100227s/300s)
+- exchange_info (0.088896989822388s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3000.1512219906s/3600s)
+- cryptocurrency_listings_latest_header (at 3302.6350438595s/3600s)
 coingecko
-- exchanges_list (0.063123941421509s) ☺
-- coins_list wait .......... (1.1125679016113s) ☺
+- exchanges_list (0.26601004600525s) ☺
+- coins_list wait .......... (1.3180129528046s) ☺
 - exchanges_tickers__binance 
-page 1 (at 295.50789690018s/300s)
+page 1 wait .......... (2.463819026947s) ☺
+page 2 wait .......... (3.6118319034576s) ☺
+page 3 wait .......... (4.7680790424347s) ☺
+page 4 wait .......... (5.9119789600372s) ☺
+page 5 wait .......... (7.0413038730621s) ☺
+page 6 wait .......... end reached
 - exchanges_tickers__bittrex 
-page 1 (at 288.63774490356s/300s)
-- coin__harmony (at 13797.583767891s/14400s)
-- coin__binancecoin (at 1481.5356009007s/14400s)
-- coin__eos (at 282.84589505196s/14400s)
-- coin__ethereum (at 1480.3608310223s/14400s)
-- coin__ripple (at 1479.2030730247s/14400s)
-- coin__matic-network (at 1478.0133841038s/14400s)
-- coin__litecoin (at 1476.8470561504s/14400s)
-- coin__tron (at 1475.6922490597s/14400s)
-- coin__cosmos (at 281.70083594322s/14400s)
-- coin__bitcoin-cash (at 1474.5339210033s/14400s)
-- coin__celer-network (at 280.4785721302s/14400s)
-- coin__fetch-ai (at 1473.2230758667s/14400s)
-- coin__bittorrent-2 (at 279.27565979958s/14400s)
-- coin__cardano (at 278.11204004288s/14400s)
-- coin__chainlink (at 276.9484231472s/14400s)
-- coin__ravencoin (at 275.85664582253s/14400s)
-- coin__neo (at 274.70560598373s/14400s)
-- coin__iota (at 273.50296020508s/14400s)
-- coin__quark-chain (at 272.34852910042s/14400s)
-- coin__theta-fuel (at 8969.9003620148s/14400s)
-- coin__hshare (at 271.1924469471s/14400s)
-- coin__zcash (at 270.04568099976s/14400s)
-- coin__waves (at 268.85910177231s/14400s)
-- coin__stellar (at 267.7123708725s/14400s)
-- coin__dent (at 266.47070789337s/14400s)
-- coin__red-pulse (at 6589.8689720631s/14400s)
-- coin__aion (at 265.27065014839s/14400s)
-- coin__nem (at 262.95837497711s/14400s)
-- coin__pundi-x (at 261.65743398666s/14400s)
-- coin__raiden-network (at 264.13147497177s/14400s)
-- coin__holotoken (at 260.48912596703s/14400s)
-- coin__gifto (at 259.26671910286s/14400s)
-- coin__monero (at 257.98376011848s/14400s)
-- coin__iostoken (at 256.69712805748s/14400s)
-- coin__ontology (at 255.53454208374s/14400s)
-- coin__qtum (at 254.30819797516s/14400s)
-- coin__zilliqa (at 253.12548017502s/14400s)
-- coin__blockmason-credit-protocol (at 251.96920585632s/14400s)
-- coin__waltonchain (at 250.80346798897s/14400s)
-- coin__basic-attention-token (at 249.60606193542s/14400s)
-- coin__aeron (at 248.45212602615s/14400s)
-- coin__icon (at 247.30067920685s/14400s)
-- coin__ethereum-classic (at 246.04649496078s/14400s)
-- coin__nuls (at 244.87863302231s/14400s)
-- coin__theta-token (at 243.73490095139s/14400s)
-- coin__bitcoin-diamond (at 242.31517481804s/14400s)
-- coin__skycoin (at 239.10765910149s/14400s)
-- coin__republic-protocol (at 14388.861407042s/14400s)
-- coin__qlink (at 237.90322804451s/14400s)
-- coin__vechain (at 236.74535799026s/14400s)
-- coin__nano (at 235.49438714981s/14400s)
-- coin__singularitynet (at 234.33249592781s/14400s)
-- coin__dash (at 232.89787817001s/14400s)
-- coin__genesis-vision (at 231.51486587524s/14400s)
-- coin__0x (at 230.3636431694s/14400s)
-- coin__enjincoin (at 229.0213239193s/14400s)
-- coin__tierion (at 226.22794294357s/14400s)
-- coin__everex (at 222.69356012344s/14400s)
-- coin__verge (at 221.03155899048s/14400s)
-- coin__mainframe (at 218.75283098221s/14400s)
-- coin__wabi (at 217.58059811592s/14400s)
-- coin__aelf (at 216.32844805717s/14400s)
-- coin__mithril (at 215.11586594582s/14400s)
-- coin__decentraland (at 212.50379085541s/14400s)
-- coin__openanx (at 211.35531210899s/14400s)
-- coin__monaco (at 210.1603770256s/14400s)
-- coin__bitcoin-gold (at 209.00911188126s/14400s)
-- coin__komodo (at 213.88203597069s/14400s)
-- coin__etherparty (at 206.63115906715s/14400s)
-- coin__viberate (at 205.45823097229s/14400s)
-- coin__populous (at 204.3113360405s/14400s)
-- coin__omisego (at 207.84497308731s/14400s)
-- coin__streamr-datacoin (at 203.13930296898s/14400s)
-- coin__polymath-network (at 201.90089702606s/14400s)
-- coin__airswap (at 200.70274806023s/14400s)
-- coin__iexec-rlc (at 199.53844499588s/14400s)
-- coin__ethos (at 198.35845303535s/14400s)
-- coin__metal (at 197.21414709091s/14400s)
-- coin__gxchain (at 14386.341825008s/14400s)
-- coin__wanchain (at 194.86529803276s/14400s)
-- coin__aeternity (at 193.6582968235s/14400s)
-- coin__storm (at 192.43812823296s/14400s)
-- coin__iotex (at 196.07907581329s/14400s)
-- coin__moeda-loyalty-points (at 191.27951097488s/14400s)
-- coin__syscoin (at 190.14547586441s/14400s)
-- coin__ark (at 184.21466398239s/14400s)
-- coin__gochain (at 189.0444009304s/14400s)
-- coin__stratis (at 187.85773301125s/14400s)
-- coin__groestlcoin (at 186.65887999535s/14400s)
-- coin__digixdao (at 182.15630602837s/14400s)
-- coin__kyber-network (at 180.93865609169s/14400s)
-- coin__augur (at 179.75246500969s/14400s)
-- coin__lisk (at 185.54163002968s/14400s)
-- coin__steem (at 178.58206701279s/14400s)
-- coin__request-network (at 14374.652492046s/14400s)
-- coin__nebulas (at 177.49905490875s/14400s)
-- coin__agrello (at 176.34424519539s/14400s)
-- coin__ripio-credit-network (at 175.14112496376s/14400s)
-- coin__loom-network (at 173.65798711777s/14400s)
-- coin__siacoin (at 172.45071601868s/14400s)
-- coin__decred (at 168.68351316452s/14400s)
-- coin__district0x (at 161.26497912407s/14400s)
-- coin__dock (at 171.30355596542s/14400s)
-- coin__vibe (at 170.06704998016s/14400s)
-- coin__poa-network (at 163.5649638176s/14400s)
-- coin__golem (at 14385.028921127s/14400s)
-- coin__nucleus-vision (at 162.38692212105s/14400s)
-- coin__time-new-bank (at 158.99260210991s/14400s)
-- coin__appcoins (at 160.14959597588s/14400s)
-- coin__ardor (at 14381.784661055s/14400s)
-- coin__gas (at 157.76119589806s/14400s)
-- coin__simple-token (at 156.6160671711s/14400s)
-- coin__nexus (at 14380.464368105s/14400s)
-- coin__bitshares (at 14368.125432014s/14400s)
-- coin__selfkey (at 155.43621897697s/14400s)
-- coin__lunyr (at 151.98611402512s/14400s)
-- coin__amber (at 154.30640101433s/14400s)
-- coin__eidoo (at 153.16553592682s/14400s)
-- coin__bluzelle (at 14369.383802891s/14400s)
-- coin__civic (at 150.83644604683s/14400s)
-- coin__nav-coin (at 149.63091611862s/14400s)
-- coin__cybermiles (at 147.28905797005s/14400s)
-- coin__power-ledger (at 148.46327805519s/14400s)
-- coin__storj (at 146.1493229866s/14400s)
-- coin__adex (at 145.03069591522s/14400s)
-- coin__neblio (at 14363.546814919s/14400s)
-- coin__viacoin (at 143.88929796219s/14400s)
-- coin__ong (at 142.31748199463s/14400s)
-- coin__ins-ecosystem (at 14365.47437501s/14400s)
-- coin__zcoin (at 14366.814667225s/14400s)
-- coin__quantstamp (at 141.21652388573s/14400s)
-- coin__yoyow (at 140.10619091988s/14400s)
-- coin__blox (at 138.9601380825s/14400s)
-- coin__ethlend (at 14356.808501005s/14400s)
-- coin__sonm (at 14359.734531164s/14400s)
-- coin__poet (at 137.8180539608s/14400s)
-- coin__monetha (at 136.67241311073s/14400s)
-- coin__bread (at 14361.478804111s/14400s)
-- coin__wepower (at 135.50096702576s/14400s)
-- coin__funfair (at 14352.983929157s/14400s)
-- coin__cindicator (at 14355.620563984s/14400s)
-- coin__zencash (at 14354.412103891s/14400s)
-- coin__pivx (at 134.19563889503s/14400s)
-- coin__enigma (at 14358.455909967s/14400s)
-- coin__singulardtv (at 133.03789377213s/14400s)
-- coin__loopring (at 131.9227950573s/14400s)
-- coin__status (at 130.71949005127s/14400s)
-- coin__bancor (at 14351.822863102s/14400s)
-- coin__monacoin (at 14350.687314987s/14400s)
-- coin__ravencoin (at 276.69827985764s/14400s)
-- coin__bitcoin-cash-sv (at 14349.43421483s/14400s)
-- coin__ethereum (at 1481.2741949558s/14400s)
-- coin__ripple (at 1480.1155281067s/14400s)
-- coin__metadium (at 14348.206338882s/14400s)
-- coin__bitcoin-cash (at 1475.4306540489s/14400s)
-- coin__spendcoin (at 14344.864370823s/14400s)
-- coin__solve-care (at 14343.58882308s/14400s)
-- coin__nem (at 263.77876591682s/14400s)
-- coin__cardano (at 279.02152490616s/14400s)
-- coin__qtum (at 255.09086894989s/14400s)
-- coin__dogecoin (at 14337.442619085s/14400s)
-- coin__orbs (at 14341.76243782s/14400s)
-- coin__vodi-x (at 14338.842631102s/14400s)
-- coin__sibcoin (at 14085.84129405s/14400s)
-- coin__litecoin (at 1477.8300161362s/14400s)
-- coin__tron (at 1476.67572999s/14400s)
-- coin__matchpool (at 14332.60216403s/14400s)
-- coin__origo (at 8968.8421490192s/14400s)
-- coin__emercoin (at 14336.245780945s/14400s)
-- coin__bittorrent-2 (at 280.26367878914s/14400s)
-- coin__nolimitcoin (at 14333.853433132s/14400s)
-- coin__digibyte (at 14331.406979799s/14400s)
-- coin__odyssey (at 14329.986393929s/14400s)
-- coin__siacoin (at 172.94428396225s/14400s)
-- coin__veriblock (at 14335.094494104s/14400s)
-- coin__dent (at 267.44054985046s/14400s)
-- coin__fsn (at 14327.524043083s/14400s)
-- coin__syndicate (at 14324.004961014s/14400s)
-- coin__stellar (at 268.70460605621s/14400s)
-- coin__true-usd (at 14328.847312927s/14400s)
-- coin__cosmos (at 282.78024101257s/14400s)
-- coin__transfercoin (at 14326.298103094s/14400s)
-- coin__uptoken (at 14325.138532162s/14400s)
-- coin__neo (at 275.76264595985s/14400s)
-- coin__verge (at 221.84210801125s/14400s)
-- coin__vericoin (at 14321.123209s/14400s)
-- coin__dash (at 233.75499820709s/14400s)
-- coin__gifto (at 260.25325202942s/14400s)
-- coin__gamecredits (at 14317.587347984s/14400s)
-- coin__syscoin (at 190.80467987061s/14400s)
-- coin__pumapay (at 14316.428671122s/14400s)
-- coin__quantum-resistant-ledger (at 14322.822157145s/14400s)
-- coin__zcash (at 271.1228621006s/14400s)
-- coin__korecoin (at 14311.666313887s/14400s)
-- coin__aidcoin (at 14312.836625099s/14400s)
-- coin__vertcoin (at 14275.436940908s/14400s)
-- coin__sphere (at 14294.478656054s/14400s)
-- coin__iht-real-estate-protocol (at 14310.328059912s/14400s)
-- coin__zencash (at 14354.75480485s/14400s)
-- coin__paxos-standard (at 14301.974398851s/14400s)
-- coin__edgeless (at 14305.605300903s/14400s)
-- coin__mobius (at 14084.872082949s/14400s)
-- coin__internet-of-people (at 14306.805912971s/14400s)
-- coin__monero (at 259.05860304832s/14400s)
-- coin__reddcoin (at 14309.195545197s/14400s)
-- coin__komodo (at 214.75944304466s/14400s)
-- coin__pundi-x (at 262.77493786812s/14400s)
-- coin__naga (at 14288.180552006s/14400s)
-- coin__decentraland (at 213.42044591904s/14400s)
-- coin__factom (at 14304.483788013s/14400s)
-- coin__einsteinium (at 14314.180974007s/14400s)
-- coin__dynamic (at 14303.288454056s/14400s)
-- coin__golem (at 14385.713423967s/14400s)
-- coin__feathercoin (at 14300.881343842s/14400s)
-- coin__lbry-credits (at 14299.705391169s/14400s)
-- coin__bloom (at 14290.960047007s/14400s)
-- coin__polymath-network (at 202.81205511093s/14400s)
-- coin__ethereum-classic (at 247.14358997345s/14400s)
-- coin__groestlcoin (at 187.47635006905s/14400s)
-- coin__lisk (at 186.34292817116s/14400s)
-- coin__wax (at 14298.512072802s/14400s)
-- coin__nucleus-vision (at 163.13356995583s/14400s)
-- coin__basic-attention-token (at 250.75862693787s/14400s)
-- coin__nexus (at 14381.188660145s/14400s)
-- coin__particl (at 14295.895669937s/14400s)
-- coin__revolutionvr (at 14293.416251898s/14400s)
-- coin__ark (at 185.10229992867s/14400s)
-- coin__data (at 14308.170534134s/14400s)
-- coin__omisego (at 208.84482097626s/14400s)
-- coin__ripio-credit-network (at 175.98016190529s/14400s)
-- coin__zclassic (at 14292.227768898s/14400s)
-- coin__stratis (at 188.75748610497s/14400s)
-- coin__waves (at 270.17661595345s/14400s)
-- coin__monaco (at 211.2159049511s/14400s)
-- coin__zilliqa (at 254.35979509354s/14400s)
-- coin__iexec-rlc (at 200.54871511459s/14400s)
-- coin__enjincoin (at 230.16326212883s/14400s)
-- coin__exclusivecoin (at 14282.22100687s/14400s)
-- coin__steem (at 179.48661112785s/14400s)
-- coin__bytom (at 14274.537472963s/14400s)
-- coin__haven (at 14270.957709074s/14400s)
-- coin__aergo (at 14289.542860985s/14400s)
-- coin__crowd-machine (at 14266.191879034s/14400s)
-- coin__ardor (at 14382.628927946s/14400s)
-- coin__serve (at 14276.921990156s/14400s)
-- coin__ocean-protocol (at 14272.194530964s/14400s)
-- coin__crypto-com-chain (at 14268.579308987s/14400s)
-- coin__bankex (at 14269.808079958s/14400s)
-- coin__tenx (at 14273.400918007s/14400s)
-- coin__decred (at 169.60686707497s/14400s)
-- coin__nkn (at 14285.703006029s/14400s)
-- coin__burst (at 14265.023142099s/14400s)
-- coin__mediblocx (at 14297.265511036s/14400s)
-- coin__zcoin (at 14367.56054616s/14400s)
-- coin__sirin-labs-token (at 14279.928837061s/14400s)
-- coin__civic (at 151.67053318024s/14400s)
-- coin__gochain (at 190.08244490623s/14400s)
-- coin__blockmason-credit-protocol (at 253.31824183464s/14400s)
-- coin__cloakcoin (at 14256.206660032s/14400s)
-- coin__district0x (at 162.24289608002s/14400s)
-- coin__libra-credit (at 14278.246502876s/14400s)
-- coin__mainframe (at 220.00882482529s/14400s)
-- coin__ttc-protocol (at 14287.024050951s/14400s)
-- coin__cortex (at 14253.164803982s/14400s)
-- coin__aeon (at 14267.506177187s/14400s)
-- coin__viberate (at 206.66938185692s/14400s)
-- coin__swarm-city (at 14248.098816872s/14400s)
-- coin__memetic (at 14220.658463955s/14400s)
-- coin__monetaryunit (at 14246.950296164s/14400s)
-- coin__ignis (at 14263.93938899s/14400s)
-- coin__refereum (at 14250.497581005s/14400s)
-- coin__grin (at 14254.642816067s/14400s)
-- coin__ion (at 14251.686108112s/14400s)
-- coin__bean-cash (at 14249.317292929s/14400s)
-- coin__hydro (at 14245.848348141s/14400s)
-- coin__nxt (at 14284.46945405s/14400s)
-- coin__storj (at 147.09027695656s/14400s)
-- coin__unikoin-gold (at 14230.355797052s/14400s)
-- coin__ankr (at 14257.51218915s/14400s)
-- coin__status (at 131.52752494812s/14400s)
-- coin__viacoin (at 144.8378469944s/14400s)
-- coin__nav-coin (at 150.62603807449s/14400s)
-- coin__power-ledger (at 149.45595884323s/14400s)
-- coin__numeraire (at 14243.537497044s/14400s)
-- coin__bittube (at 14236.436430931s/14400s)
-- coin__decision-token (at 14244.739345074s/14400s)
-- coin__bitsend (at 14210.957625151s/14400s)
-- coin__pchain (at 14242.36529994s/14400s)
-- coin__adtoken (at 14237.616824865s/14400s)
-- coin__quant-network (at 14232.864635944s/14400s)
-- coin__ontology (at 257.1389439106s/14400s)
-- coin__digitalnote (at 14229.284741163s/14400s)
-- coin__synereo (at 14235.321539879s/14400s)
-- coin__blocktix (at 14240.023376942s/14400s)
-- coin__fx-coin (at 14241.261564016s/14400s)
-- coin__metal (at 198.5827600956s/14400s)
-- coin__iostoken (at 258.34339404106s/14400s)
-- coin__bitshares (at 14369.291702986s/14400s)
-- coin__storm (at 193.79179406166s/14400s)
-- coin__expanse (at 14208.67703414s/14400s)
-- coin__elastic (at 14185.193676949s/14400s)
-- coin__aelf (at 217.83293485641s/14400s)
-- coin__melon (at 14226.97435689s/14400s)
-- coin__bitbay (at 14234.15614295s/14400s)
-- coin__augur (at 181.07833695412s/14400s)
-- coin__loom-network (at 174.9580450058s/14400s)
-- coin__enigma (at 14359.458827972s/14400s)
-- coin__okcash (at 14215.884795904s/14400s)
-- coin__havven (at 14219.646522999s/14400s)
-- coin__loopring (at 132.93407392502s/14400s)
-- coin__policypal (at 14224.427438021s/14400s)
-- coin__aragon (at 14197.824331045s/14400s)
-- coin__pivx (at 135.24218797684s/14400s)
-- coin__foresting (at 14238.969619036s/14400s)
-- coin__bora (at 14225.871837854s/14400s)
-- coin__dmarket (at 14218.469192982s/14400s)
-- coin__peercoin (at 14213.546055794s/14400s)
-- coin__0x (at 232.01751303673s/14400s)
-- coin__iotex (at 197.54935693741s/14400s)
-- coin__blocknet (at 14214.765716076s/14400s)
-- coin__incent (at 14203.849810123s/14400s)
-- coin__adex (at 146.25670003891s/14400s)
-- coin__blockv (at 14210.006705999s/14400s)
-- coin__endor (at 14228.263630152s/14400s)
-- coin__radium (at 14207.501085997s/14400s)
-- coin__crown (at 14192.583965063s/14400s)
-- coin__ubiq (at 14202.463478804s/14400s)
-- coin__steem-dollars (at 14206.363289833s/14400s)
-- coin__spacechain-erc-20 (at 14171.5657022s/14400s)
-- coin__patientory (at 14260.946977139s/14400s)
-- coin__gnosis (at 14194.012301922s/14400s)
-- coin__humaniq (at 14201.165948868s/14400s)
-- coin__bancor (at 14352.97304821s/14400s)
-- coin__sentinel-protocol (at 14205.221776009s/14400s)
-- coin__byteball (at 14212.438971996s/14400s)
-- coin__flo (at 14231.96880579s/14400s)
-- coin__stableusd (at 14195.412647009s/14400s)
-- coin__blackcoin (at 14190.197463989s/14400s)
-- coin__shift (at 14168.217735052s/14400s)
-- coin__mossland (at 14188.999439955s/14400s)
-- coin__lunyr (at 153.40370893478s/14400s)
-- coin__gulden (at 14196.649534941s/14400s)
-- coin__vite (at 14191.413597107s/14400s)
-- coin__jibrel (at 14199.264658928s/14400s)
-- coin__propy (at 14187.805945873s/14400s)
-- coin__simple-token (at 158.09067606926s/14400s)
-- coin__mercury (at 14175.242186069s/14400s)
-- coin__bnktothefuture (at 14186.664705992s/14400s)
-- coin__boxx (at 14183.114816904s/14400s)
-- coin__ink-protocol (at 14177.531890154s/14400s)
-- coin__blue-whale (at 14178.725067139s/14400s)
-- coin__potcoin (at 14176.442137003s/14400s)
-- coin__dragonchain (at 14174.107093811s/14400s)
-- coin__stealthcoin (at 14157.173681021s/14400s)
-- coin__xyo-network (at 14180.829435825s/14400s)
-- coin__hempcoin-thc (at 14184.367955208s/14400s)
-- coin__tokes (at 14169.511789083s/14400s)
-- coin__gridcoin-research (at 14170.651335955s/14400s)
-- coin__diamond (at 14172.945996046s/14400s)
-- coin__salus (at 14182.015822172s/14400s)
-- coin__musicoin (at 14165.94926095s/14400s)
-- coin__ong (at 143.78542590141s/14400s)
-- coin__decent (at 14167.139932156s/14400s)
-- coin__btu-protocol (at 14162.297533989s/14400s)
-- coin__legends-room (at 14159.795144081s/14400s)
-- coin__pinkcoin (at 14161.036645889s/14400s)
-- coin__artbyte (at 14158.558107853s/14400s)
-- coin__geocoin (at 14154.211966038s/14400s)
-- coin__goldcoin (at 14164.654846191s/14400s)
-- coin__hxro (at 14134.096341848s/14400s)
-- coin__myriadcoin (at 14150.595850945s/14400s)
-- coin__wings (at 14153.041122198s/14400s)
-- coin__origintrail (at 14149.426263094s/14400s)
-- coin__qwark (at 14128.170730114s/14400s)
-- coin__nusd (at 14130.5637362s/14400s)
-- coin__sequence (at 14148.265412092s/14400s)
-- coin__neoscoin (at 14147.098723173s/14400s)
-- coin__playchip (at 14129.387786865s/14400s)
-- coin__foldingcoin (at 14144.749518156s/14400s)
-- coin__wibson (at 14155.982843161s/14400s)
-- coin__solarcoin (at 14143.308769941s/14400s)
-- coin__metronome (at 14141.942382097s/14400s)
-- coin__tripio (at 14146.002576113s/14400s)
-- coin__maecenas (at 14137.464802027s/14400s)
-- coin__smartlands (at 14151.915843964s/14400s)
-- coin__whitecoin (at 14140.745974064s/14400s)
-- coin__curecoin (at 14135.376342773s/14400s)
-- coin__iocoin (at 14127.060909986s/14400s)
-- coin__cosmo-coin (at 11398.426024914s/14400s)
-- coin__cindicator (at 14357.161395073s/14400s)
-- coin__salt (at 13797.759208202s/14400s)
-- coin__counterparty (at 14133.032227039s/14400s)
-- coin__circuits-of-value (at 14131.860301971s/14400s)
-- coin__funfair (at 14354.559894085s/14400s)
-- coin__2give (at 14124.732647896s/14400s)
-- coin__cannabiscoin (at 14121.163286924s/14400s)
-- coin__cashbet-coin (at 14125.91069603s/14400s)
-- coin__eboost (at 14122.345340014s/14400s)
-- coin__dopecoin (at 14123.598912954s/14400s)
+page 1 wait .......... (9.3541169166565s) ☺
+page 2 wait .......... (10.740983009338s) ☺
+page 3 wait .......... (12.579902887344s) ☺
+page 4 wait .......... (13.774776935577s) ☺
+page 5 wait .......... end reached
+- coin__harmony (at 14116.14575696s/14400s)
+- coin__binancecoin (at 1800.0965130329s/14400s)
+- coin__eos (at 601.40643310547s/14400s)
+- coin__ethereum (at 1798.9213371277s/14400s)
+- coin__ripple (at 1797.7640600204s/14400s)
+- coin__matic-network (at 1796.5738470554s/14400s)
+- coin__litecoin (at 1795.4101731777s/14400s)
+- coin__tron (at 1794.2571849823s/14400s)
+- coin__cosmos (at 600.26755595207s/14400s)
+- coin__bitcoin-cash (at 1793.1023981571s/14400s)
+- coin__celer-network (at 599.04904198647s/14400s)
+- coin__fetch-ai (at 1791.7951788902s/14400s)
+- coin__bittorrent-2 (at 597.84853196144s/14400s)
+- coin__cardano (at 596.68538308144s/14400s)
+- coin__chainlink (at 595.52240014076s/14400s)
+- coin__ravencoin (at 594.43151092529s/14400s)
+- coin__neo (at 593.28047299385s/14400s)
+- coin__iota (at 592.0776181221s/14400s)
+- coin__quark-chain (at 590.92432022095s/14400s)
+- coin__theta-fuel (at 9288.4776089191s/14400s)
+- coin__hshare (at 589.77115678787s/14400s)
+- coin__zcash (at 588.62618303299s/14400s)
+- coin__waves (at 587.44110298157s/14400s)
+- coin__stellar (at 586.29653382301s/14400s)
+- coin__dent (at 585.05530595779s/14400s)
+- coin__red-pulse (at 6908.4522790909s/14400s)
+- coin__aion (at 583.85402703285s/14400s)
+- coin__nem (at 581.5390689373s/14400s)
+- coin__pundi-x (at 580.23579478264s/14400s)
+- coin__raiden-network (at 582.70853304863s/14400s)
+- coin__holotoken (at 579.06599593163s/14400s)
+- coin__gifto (at 577.84350991249s/14400s)
+- coin__monero (at 576.56424093246s/14400s)
+- coin__iostoken (at 575.27980589867s/14400s)
+- coin__ontology (at 574.11907887459s/14400s)
+- coin__qtum (at 572.88913702965s/14400s)
+- coin__zilliqa (at 571.70412707329s/14400s)
+- coin__blockmason-credit-protocol (at 570.54687094688s/14400s)
+- coin__waltonchain (at 569.38092589378s/14400s)
+- coin__basic-attention-token (at 568.18449306488s/14400s)
+- coin__aeron (at 567.03003501892s/14400s)
+- coin__icon (at 565.87977218628s/14400s)
+- coin__ethereum-classic (at 564.62528610229s/14400s)
+- coin__nuls (at 563.45918011665s/14400s)
+- coin__theta-token (at 562.31791114807s/14400s)
+- coin__bitcoin-diamond (at 560.9028968811s/14400s)
+- coin__skycoin (at 557.69911003113s/14400s)
+- coin__republic-protocol wait ....... (18.724050998688s) ☺
+- coin__qlink (at 557.70511507988s/14400s)
+- coin__vechain (at 556.54704904556s/14400s)
+- coin__nano (at 555.29622602463s/14400s)
+- coin__singularitynet (at 554.13357496262s/14400s)
+- coin__dash (at 552.69970107079s/14400s)
+- coin__genesis-vision (at 551.31706500053s/14400s)
+- coin__0x (at 550.16680407524s/14400s)
+- coin__enjincoin (at 548.82435798645s/14400s)
+- coin__tierion (at 546.03003191948s/14400s)
+- coin__everex (at 542.49584913254s/14400s)
+- coin__verge (at 540.83349299431s/14400s)
+- coin__mainframe (at 538.5575928688s/14400s)
+- coin__wabi (at 537.38396501541s/14400s)
+- coin__aelf (at 536.12983894348s/14400s)
+- coin__mithril (at 534.91500091553s/14400s)
+- coin__decentraland (at 532.29981184006s/14400s)
+- coin__openanx (at 531.14944911003s/14400s)
+- coin__monaco (at 529.95618104935s/14400s)
+- coin__bitcoin-gold (at 528.80566692352s/14400s)
+- coin__komodo (at 533.67935395241s/14400s)
+- coin__etherparty (at 526.42836999893s/14400s)
+- coin__viberate (at 525.25395083427s/14400s)
+- coin__populous (at 524.106965065s/14400s)
+- coin__omisego (at 527.63979697227s/14400s)
+- coin__streamr-datacoin (at 522.93231797218s/14400s)
+- coin__polymath-network (at 521.69333815575s/14400s)
+- coin__airswap (at 520.49380707741s/14400s)
+- coin__iexec-rlc (at 519.32654500008s/14400s)
+- coin__ethos (at 518.14305591583s/14400s)
+- coin__metal (at 516.99695491791s/14400s)
+- coin__gxchain wait ......... (20.012003898621s) ☺
+- coin__wanchain (at 515.7598490715s/14400s)
+- coin__aeternity (at 514.54931688309s/14400s)
+- coin__storm (at 513.32898020744s/14400s)
+- coin__iotex (at 516.96926879883s/14400s)
+- coin__moeda-loyalty-points (at 512.16660690308s/14400s)
+- coin__syscoin (at 511.03213977814s/14400s)
+- coin__ark (at 505.10162091255s/14400s)
+- coin__gochain (at 509.93116402626s/14400s)
+- coin__stratis (at 508.74453020096s/14400s)
+- coin__groestlcoin (at 507.54569792747s/14400s)
+- coin__digixdao (at 503.04371595383s/14400s)
+- coin__kyber-network (at 501.82630515099s/14400s)
+- coin__augur (at 500.64096593857s/14400s)
+- coin__lisk (at 506.431194067s/14400s)
+- coin__steem (at 499.4725921154s/14400s)
+- coin__request-network wait ......... (21.197641849518s) ☺
+- coin__nebulas (at 499.48166894913s/14400s)
+- coin__agrello (at 498.32980704308s/14400s)
+- coin__ripio-credit-network (at 497.12900400162s/14400s)
+- coin__loom-network (at 495.6478600502s/14400s)
+- coin__siacoin (at 494.44230484962s/14400s)
+- coin__decred (at 490.67666602135s/14400s)
+- coin__district0x (at 483.25863695145s/14400s)
+- coin__dock (at 493.29777693748s/14400s)
+- coin__vibe (at 492.060516119s/14400s)
+- coin__poa-network (at 485.55860996246s/14400s)
+- coin__golem wait .......... (23.470269918442s) ☺
+- coin__nucleus-vision (at 486.58064007759s/14400s)
+- coin__time-new-bank (at 483.18801903725s/14400s)
+- coin__appcoins (at 484.34588289261s/14400s)
+- coin__ardor wait .......... (24.694439888s) ☺
+- coin__gas (at 483.15800189972s/14400s)
+- coin__simple-token (at 482.01402807236s/14400s)
+- coin__nexus wait .......... (26.125417947769s) ☺
+- coin__bitshares wait .......... (27.425060987473s) ☺
+- coin__selfkey (at 483.54109692574s/14400s)
+- coin__lunyr (at 480.09422206879s/14400s)
+- coin__amber (at 482.4134478569s/14400s)
+- coin__eidoo (at 481.27171111107s/14400s)
+- coin__bluzelle wait .......... (28.619704961777s) ☺
+- coin__civic (at 480.09015822411s/14400s)
+- coin__nav-coin (at 478.88064193726s/14400s)
+- coin__cybermiles (at 476.53930616379s/14400s)
+- coin__power-ledger (at 477.71377801895s/14400s)
+- coin__storj (at 475.39938783646s/14400s)
+- coin__adex (at 474.28060889244s/14400s)
+- coin__neblio wait .......... (29.850455999374s) ☺
+- coin__viacoin (at 474.32675504684s/14400s)
+- coin__ong (at 472.75587296486s/14400s)
+- coin__ins-ecosystem wait .......... (31.104711055756s) ☺
+- coin__zcoin wait .......... (32.927157878876s) ☺
+- coin__quantstamp (at 474.69708299637s/14400s)
+- coin__yoyow (at 473.58741903305s/14400s)
+- coin__blox (at 472.44159817696s/14400s)
+- coin__ethlend wait .......... (35.562757968903s) ☺
+- coin__sonm wait .......... (36.729007959366s) ☺
+- coin__poet (at 475.07083702087s/14400s)
+- coin__monetha (at 473.9246571064s/14400s)
+- coin__bread wait .......... (37.9494099617s) ☺
+- coin__wepower (at 473.95279788971s/14400s)
+- coin__funfair wait .......... (39.212370872498s) ☺
+- coin__cindicator wait .......... (40.350427865982s) ☺
+- coin__zencash wait .......... (41.568619966507s) ☺
+- coin__pivx (at 476.23474311829s/14400s)
+- coin__enigma wait .......... (42.81340098381s) ☺
+- coin__singulardtv (at 476.31275391579s/14400s)
+- coin__loopring (at 475.19917297363s/14400s)
+- coin__status (at 473.99743008614s/14400s)
+- coin__bancor wait .......... (44.018033981323s) ☺
+- coin__monacoin wait .......... (45.252973079681s) ☺
+- coin__ravencoin (at 622.38671803474s/14400s)
+- coin__bitcoin-cash-sv wait .......... (46.47803902626s) ☺
+- coin__ethereum (at 1828.1776981354s/14400s)
+- coin__ripple (at 1827.0204610825s/14400s)
+- coin__metadium wait .......... (47.709709882736s) ☺
+- coin__bitcoin-cash (at 1823.5484871864s/14400s)
+- coin__spendcoin wait .......... (48.90292096138s) ☺
+- coin__solve-care wait .......... (50.090726852417s) ☺
+- coin__nem (at 614.25379610062s/14400s)
+- coin__cardano (at 629.49864006042s/14400s)
+- coin__qtum (at 605.56779789925s/14400s)
+- coin__dogecoin wait .......... (51.379302978516s) ☺
+- coin__orbs wait .......... (52.559220075607s) ☺
+- coin__vodi-x wait .......... (53.683369874954s) ☺
+- coin__sibcoin wait .......... (54.869472026825s) ☺
+- coin__litecoin (at 1833.0362839699s/14400s)
+- coin__tron (at 1831.8819360733s/14400s)
+- coin__matchpool wait .......... (56.218143939972s) ☺
+- coin__origo (at 9325.3797459602s/14400s)
+- coin__emercoin wait .......... (59.639677047729s) ☺
+- coin__bittorrent-2 (at 640.20729994774s/14400s)
+- coin__nolimitcoin wait .......... (61.8805539608s) ☺
+- coin__digibyte wait .......... (63.056313037872s) ☺
+- coin__odyssey wait .......... (64.261564016342s) ☺
+- coin__siacoin (at 537.47659802437s/14400s)
+- coin__veriblock wait .......... (65.631133079529s) ☺
+- coin__dent (at 633.3291208744s/14400s)
+- coin__fsn wait .......... (66.853823900223s) ☺
+- coin__syndicate wait .......... (68.017581939697s) ☺
+- coin__stellar (at 636.96576189995s/14400s)
+- coin__true-usd wait .......... (69.193064928055s) ☺
+- coin__cosmos (at 652.20468497276s/14400s)
+- coin__transfercoin wait .......... (70.672837018967s) ☺
+- coin__uptoken wait .......... (73.657520055771s) ☺
+- coin__neo (at 649.6382329464s/14400s)
+- coin__verge (at 595.72068786621s/14400s)
+- coin__vericoin wait .......... (76.568672895432s) ☺
+- coin__dash (at 610.52152204514s/14400s)
+- coin__gifto (at 637.02072906494s/14400s)
+- coin__gamecredits wait .......... (77.779111862183s) ☺
+- coin__syscoin (at 568.76945590973s/14400s)
+- coin__pumapay wait .......... (78.920351982117s) ☺
+- coin__quantum-resistant-ledger wait .......... (80.098258018494s) ☺
+- coin__zcash (at 651.38994693756s/14400s)
+- coin__korecoin wait .......... (81.28132390976s) ☺
+- coin__aidcoin wait .......... (82.492003917694s) ☺
+- coin__vertcoin wait .......... (83.680306911469s) ☺
+- coin__sphere wait .......... (84.904955863953s) ☺
+- coin__iht-real-estate-protocol wait .......... (86.064912080765s) ☺
+- coin__zencash (at 44.503695964813s/14400s)
+- coin__paxos-standard wait .......... (87.249409914017s) ☺
+- coin__edgeless wait .......... (88.383303880692s) ☺
+- coin__mobius wait .......... (89.570064067841s) ☺
+- coin__internet-of-people wait .......... (90.776167869568s) ☺
+- coin__monero (at 649.93529009819s/14400s)
+- coin__reddcoin wait .......... (91.977339982986s) ☺
+- coin__komodo (at 606.82096290588s/14400s)
+- coin__pundi-x (at 654.8355038166s/14400s)
+- coin__naga wait .......... (93.161226987839s) ☺
+- coin__decentraland (at 606.64964580536s/14400s)
+- coin__factom wait .......... (94.338939905167s) ☺
+- coin__einsteinium wait .......... (95.519572973251s) ☺
+- coin__dynamic wait .......... (96.70062994957s) ☺
+- coin__golem (at 73.239858865738s/14400s)
+- coin__feathercoin wait .......... (97.876935958862s) ☺
+- coin__lbry-credits wait .......... (99.009829998016s) ☺
+- coin__bloom wait .......... (100.2040810585s) ☺
+- coin__polymath-network (at 603.03358817101s/14400s)
+- coin__ethereum-classic (at 647.36697602272s/14400s)
+- coin__groestlcoin (at 587.69897890091s/14400s)
+- coin__lisk (at 586.5643761158s/14400s)
+- coin__wax wait .......... (101.40150499344s) ☺
+- coin__nucleus-vision (at 564.5133459568s/14400s)
+- coin__basic-attention-token (at 652.13985204697s/14400s)
+- coin__nexus (at 75.299461841583s/14400s)
+- coin__particl wait .......... (102.6174249649s) ☺
+- coin__revolutionvr wait .......... (103.80961203575s) ☺
+- coin__ark (at 588.86068797112s/14400s)
+- coin__data wait .......... (104.98860502243s) ☺
+- coin__omisego (at 613.77345609665s/14400s)
+- coin__ripio-credit-network (at 580.91113400459s/14400s)
+- coin__zclassic wait .......... (106.17645287514s) ☺
+- coin__stratis (at 594.8623521328s/14400s)
+- coin__waves (at 676.28539180756s/14400s)
+- coin__monaco (at 617.32767796516s/14400s)
+- coin__zilliqa (at 660.47187614441s/14400s)
+- coin__iexec-rlc (at 606.66088294983s/14400s)
+- coin__enjincoin (at 636.27567100525s/14400s)
+- coin__exclusivecoin wait .......... (107.35883498192s) ☺
+- coin__steem (at 586.73638296127s/14400s)
+- coin__bytom wait .......... (108.53002095222s) ☺
+- coin__haven wait .......... (109.61659502983s) ☺
+- coin__aergo wait .......... (110.77857804298s) ☺
+- coin__crowd-machine wait .......... (111.9875638485s) ☺
+- coin__ardor (at 87.303502082825s/14400s)
+- coin__serve wait .......... (113.20269608498s) ☺
+- coin__ocean-protocol wait .......... (114.39554095268s) ☺
+- coin__crypto-com-chain wait .......... (115.58826589584s) ☺
+- coin__bankex wait .......... (118.38836598396s) ☺
+- coin__tenx wait .......... (120.68783593178s) ☺
+- coin__decred (at 590.13095402718s/14400s)
+- coin__nkn wait .......... (122.66810798645s) ☺
+- coin__burst wait .......... (123.85367393494s) ☺
+- coin__mediblocx wait .......... (125.02974796295s) ☺
+- coin__zcoin (at 92.111763000488s/14400s)
+- coin__sirin-labs-token wait .......... (126.23128390312s) ☺
+- coin__civic (at 577.70146918297s/14400s)
+- coin__gochain (at 616.11529898643s/14400s)
+- coin__blockmason-credit-protocol (at 679.35191702843s/14400s)
+- coin__cloakcoin wait .......... (127.42486095428s) ☺
+- coin__district0x (at 589.44359397888s/14400s)
+- coin__libra-credit wait .......... (128.8573319912s) ☺
+- coin__mainframe (at 648.62675285339s/14400s)
+- coin__ttc-protocol wait .......... (131.1919169426s) ☺
+- coin__cortex wait .......... (132.50062298775s) ☺
+- coin__aeon wait .......... (133.65150690079s) ☺
+- coin__viberate (at 640.06025505066s/14400s)
+- coin__swarm-city wait .......... (134.89666104317s) ☺
+- coin__memetic wait .......... (136.07218408585s) ☺
+- coin__monetaryunit wait .......... (137.23331308365s) ☺
+- coin__ignis wait .......... (138.47741889954s) ☺
+- coin__refereum wait .......... (139.61177206039s) ☺
+- coin__grin wait .......... (140.78132200241s) ☺
+- coin__ion wait .......... (141.94589304924s) ☺
+- coin__bean-cash wait .......... (143.05628299713s) ☺
+- coin__hydro wait .......... (144.24326992035s) ☺
+- coin__nxt wait .......... (145.40079402924s) ☺
+- coin__storj (at 592.15514683723s/14400s)
+- coin__unikoin-gold wait .......... (146.53984189034s) ☺
+- coin__ankr wait .......... (147.78435301781s) ☺
+- coin__status (at 578.95614504814s/14400s)
+- coin__viacoin (at 592.27376103401s/14400s)
+- coin__nav-coin (at 598.06441903114s/14400s)
+- coin__power-ledger (at 596.89550089836s/14400s)
+- coin__numeraire wait .......... (149.03349995613s) ☺
+- coin__bittube wait .......... (150.18173003197s) ☺
+- coin__decision-token wait .......... (151.33259487152s) ☺
+- coin__bitsend wait .......... (152.49319386482s) ☺
+- coin__pchain wait .......... (153.68972086906s) ☺
+- coin__adtoken wait .......... (154.84137201309s) ☺
+- coin__quant-network wait .......... (156.0443880558s) ☺
+- coin__ontology (at 712.74259805679s/14400s)
+- coin__digitalnote wait .......... (157.23610901833s) ☺
+- coin__synereo wait .......... (158.40667390823s) ☺
+- coin__blocktix wait .......... (159.59120702744s) ☺
+- coin__fx-coin wait .......... (160.76398897171s) ☺
+- coin__metal (at 658.87567901611s/14400s)
+- coin__iostoken (at 718.63523793221s/14400s)
+- coin__bitshares (at 133.3579761982s/14400s)
+- coin__storm (at 654.08897018433s/14400s)
+- coin__expanse wait .......... (161.94956707954s) ☺
+- coin__elastic wait .......... (163.11866092682s) ☺
+- coin__aelf (at 680.44811201096s/14400s)
+- coin__melon wait .......... (164.2948319912s) ☺
+- coin__bitbay wait .......... (165.45692801476s) ☺
+- coin__augur (at 646.01239180565s/14400s)
+- coin__loom-network (at 639.89019107819s/14400s)
+- coin__enigma (at 122.66262388229s/14400s)
+- coin__okcash wait .......... (166.65909695625s) ☺
+- coin__havven wait .......... (167.86047101021s) ☺
+- coin__loopring (at 600.24048089981s/14400s)
+- coin__policypal wait .......... (169.03648090363s) ☺
+- coin__aragon wait .......... (170.19918894768s) ☺
+- coin__pivx (at 604.86539912224s/14400s)
+- coin__foresting wait .......... (171.37996888161s) ☺
+- coin__bora wait .......... (172.54487800598s) ☺
+- coin__dmarket wait .......... (173.79139685631s) ☺
+- coin__peercoin wait .......... (174.99821901321s) ☺
+- coin__0x (at 706.40707707405s/14400s)
+- coin__iotex (at 671.93955087662s/14400s)
+- coin__blocknet wait .......... (176.37979102135s) ☺
+- coin__incent wait .......... (178.34941101074s) ☺
+- coin__adex (at 623.98031783104s/14400s)
+- coin__blockv wait .......... (179.68800997734s) ☺
+- coin__endor wait .......... (180.96494698524s) ☺
+- coin__radium wait .......... (182.35494399071s) ☺
+- coin__crown wait .......... (183.50952196121s) ☺
+- coin__ubiq wait .......... (184.70118999481s) ☺
+- coin__steem-dollars wait .......... (185.89539599419s) ☺
+- coin__spacechain-erc-20 wait .......... (187.09125494957s) ☺
+- coin__patientory wait .......... (188.2601518631s) ☺
+- coin__gnosis wait .......... (189.48876595497s) ☺
+- coin__humaniq wait .......... (190.71930885315s) ☺
+- coin__bancor (at 146.71088290215s/14400s)
+- coin__sentinel-protocol wait .......... (192.42157292366s) ☺
+- coin__byteball wait .......... (195.23758387566s) ☺
+- coin__flo wait .......... (196.73663496971s) ☺
+- coin__stableusd wait .......... (197.91687488556s) ☺
+- coin__blackcoin wait .......... (199.036673069s) ☺
+- coin__shift wait .......... (200.16546201706s) ☺
+- coin__mossland wait .......... (201.35280990601s) ☺
+- coin__lunyr (at 654.01162385941s/14400s)
+- coin__gulden wait .......... (202.67351293564s) ☺
+- coin__vite wait .......... (203.84095692635s) ☺
+- coin__jibrel wait .......... (205.10317707062s) ☺
+- coin__propy wait .......... (206.33056902885s) ☺
+- coin__simple-token (at 663.6407520771s/14400s)
+- coin__mercury wait .......... (207.49758887291s) ☺
+- coin__bnktothefuture wait .......... (208.66706991196s) ☺
+- coin__boxx wait .......... (209.78112792969s) ☺
+- coin__ink-protocol wait .......... (210.95653891563s) ☺
+- coin__blue-whale wait .......... (212.16152405739s) ☺
+- coin__potcoin wait .......... (213.31176686287s) ☺
+- coin__dragonchain wait .......... (214.51171708107s) ☺
+- coin__stealthcoin wait .......... (215.6866350174s) ☺
+- coin__xyo-network wait .......... (216.84996795654s) ☺
+- coin__hempcoin-thc wait .......... (218.00432300568s) ☺
+- coin__tokes wait .......... (219.17010688782s) ☺
+- coin__gridcoin-research wait .......... (220.3473200798s) ☺
+- coin__diamond wait .......... (221.50448203087s) ☺
+- coin__salus wait .......... (222.69271087646s) ☺
+- coin__musicoin wait .......... (223.83136701584s) ☺
+- coin__ong (at 666.72540998459s/14400s)
+- coin__decent wait .......... (224.98597502708s) ☺
+- coin__btu-protocol wait .......... (226.17443299294s) ☺
+- coin__legends-room wait .......... (227.64754486084s) ☺
+- coin__pinkcoin wait .......... (228.80851697922s) ☺
+- coin__artbyte wait .......... (229.961550951s) ☺
+- coin__geocoin wait .......... (231.05895185471s) ☺
+- coin__goldcoin wait .......... (232.22620797157s) ☺
+- coin__hxro wait .......... (233.38638901711s) ☺
+- coin__myriadcoin wait .......... (234.59299993515s) ☺
+- coin__wings wait .......... (235.74005889893s) ☺
+- coin__origintrail wait .......... (237.04742193222s) ☺
+- coin__qwark wait .......... (238.5662779808s) ☺
+- coin__nusd wait .......... (239.65158390999s) ☺
+- coin__sequence wait .......... (240.82622694969s) ☺
+- coin__neoscoin wait .......... (242.00788497925s) ☺
+- coin__playchip wait .......... (243.21062994003s) ☺
+- coin__foldingcoin wait .......... (244.36888694763s) ☺
+- coin__wibson wait .......... (245.52021884918s) ☺
+- coin__solarcoin wait .......... (246.74258208275s) ☺
+- coin__metronome wait .......... (248.2246029377s) ☺
+- coin__tripio wait .......... (251.33519387245s) ☺
+- coin__maecenas wait .......... (252.59115505219s) ☺
+- coin__smartlands wait .......... (253.78968501091s) ☺
+- coin__whitecoin wait .......... (254.98355603218s) ☺
+- coin__curecoin wait .......... (256.16132497787s) ☺
+- coin__iocoin wait .......... (257.33150601387s) ☺
+- coin__cosmo-coin (at 11954.704335928s/14400s)
+- coin__cindicator (at 216.99660205841s/14400s)
+- coin__salt (at 14354.044612169s/14400s)
+- coin__counterparty wait .......... (258.53464007378s) ☺
+- coin__circuits-of-value wait .......... (259.68714189529s) ☺
+- coin__funfair (at 220.48186302185s/14400s)
+- coin__2give wait .......... (260.84814286232s) ☺
+- coin__cannabiscoin wait .......... (262.0085580349s) ☺
+- coin__cashbet-coin wait .......... (263.17356491089s) ☺
+- coin__eboost wait .......... (264.2899889946s) ☺
+- coin__dopecoin wait .......... (265.44273900986s) ☺
 coincheckup
-- coins wait .................................................. (5.2754111289978s) ☺
-- categories_tags wait .................................................. (10.343225002289s) ☺
-🗲 done in 16.421689987183s
+- coins wait .................................................. (5.231705904007s) ☺
+- categories_tags wait .................................................. (10.310744047165s) ☺
+🗲 done in 280.95956802368s
