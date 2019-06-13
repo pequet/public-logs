@@ -1,2 +1,10 @@
-coins-by-id/readme.md 
-🗲 done in 0.55779099464417s
+coins-by-id/readme.md Whoops\Exception\ErrorException: Undefined property: stdClass::$converted_volume in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/Coingecko.php on line 656
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/Coingecko.php:656
+  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/Coingecko.php:656
+  3. Coingecko->list_coins_full() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_reconcile.php:85
+  4. My_reconcile->matches_lowercase() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_reconcile_ids.php:20
+  5. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
+  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
+  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  8. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
