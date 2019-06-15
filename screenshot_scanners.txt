@@ -19,31 +19,27 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 16 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1045
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1117
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:644
-  5. Error->() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:157
-  6. Facebook\WebDriver\Remote\HttpCommandExecutor->__construct() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:105
-  7. Facebook\WebDriver\Remote\RemoteWebDriver->create() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1401
-  8. My_webdriver->connect() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:489
-  9. My_tradingview->screenshot_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_screenshot_scanners.php:18
- 10. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
- 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
- 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 13. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
-
-A PHP Error was encountered
-
-Severity:    Core Warning
-Message:     PHP Startup: Unable to load dynamic library 'readline.so' (tried: /usr/lib/php/20170718/readline.so (/usr/lib/php/20170718/readline.so: failed to map segment from shared object), /usr/lib/php/20170718/readline.so.so (/usr/lib/php/20170718/readline.so.so: cannot open shared object file: No such file or directory))
-Filename:    Unknown
-Line Number: 0
-
-Backtrace:
-
-Whoops\Exception\ErrorException: PHP Startup: Unable to load dynamic library 'readline.so' (tried: /usr/lib/php/20170718/readline.so (/usr/lib/php/20170718/readline.so: failed to map segment from shared object), /usr/lib/php/20170718/readline.so.so (/usr/lib/php/20170718/readline.so.so: cannot open shared object file: No such file or directory)) in file Unknown on line 0
-Stack trace:
-  1. Whoops\Exception\ErrorException->() Unknown:0
+opened the session
+logged in
+- bittrex_tri_mas_btc_btc_d.png
+loading daily chart
+8 panels .......... 1 loaded ................. 2 loaded ......................... 3 loaded . 6 loaded .. 7 loaded .. done
+take screenshot bittrex_tri_mas_btc_btc_d.png 
+- bittrex_tri_mas_btc_btc_w.png
+loading weekly chart
+☞ ignoring exception: unexpected alert open
+8 panels ........... done
+take screenshot bittrex_tri_mas_btc_btc_w.png 
+- bittrex_tri_mas_btc_usd_d.png
+loading daily chart
+☞ ignoring exception: unexpected alert open
+8 panels .......... 1 loaded ................. 2 loaded ......................... 3 loaded .. 5 loaded .... done
+take screenshot bittrex_tri_mas_btc_usd_d.png 
+- bittrex_tri_mas_btc_usd_w.png
+loading weekly chart
+☞ ignoring exception: unexpected alert open
+8 panels .......... 1 loaded ................. 2 loaded ...................... 3 loaded .. 4 loaded ... done
+take screenshot bittrex_tri_mas_btc_usd_w.png 
+logged out
+closed the session
+🗲 done in 116.99552583694s
