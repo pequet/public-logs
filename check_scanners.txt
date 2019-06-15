@@ -20,22 +20,3 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 16 indicator scripts
 opened the session
-logged in
-- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
-debug: 32ef74ffeb-23d8f5b7ee
-Facebook\WebDriver\Exception\UnknownServerException: java.net.ConnectException: Connection refused (Connection refused) in file /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 114
-Stack trace:
-  1. Facebook\WebDriver\Exception\UnknownServerException->() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:114
-  2. Facebook\WebDriver\Exception\WebDriverException->throwException() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:326
-  3. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  5. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  6. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1117
-  7. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:385
-  8. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:380
-  9. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:18
- 10. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
- 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
- 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 13. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
