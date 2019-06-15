@@ -18,16 +18,25 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_usd_5_of_8.txt
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
-wait .............................. processing 16 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1045
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1117
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:385
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:380
-  6. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:18
-  7. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  8. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  9. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 10. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+processing 16 indicator scripts
+opened the session
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+debug: 32ef74ffeb-23d8f5b7ee
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
+debug: 32ef74ffeb-eefc577314
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (7/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt
+debug: 32ef74ffeb-bde51e7eee
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (4/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt
+debug: 32ef74ffeb-e7efe74388
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt
+debug: fefae4c5e7-7f7e8f84ef
