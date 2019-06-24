@@ -60,19 +60,31 @@ indicator is up to date
 - 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt
 debug: bd0f232f9d-401d2fd1e1
-Facebook\WebDriver\Exception\NoSuchDriverException: invalid session id
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-50-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 100
-Stack trace:
-  1. Facebook\WebDriver\Exception\NoSuchDriverException->() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:100
-  2. Facebook\WebDriver\Exception\WebDriverException->throwException() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:326
-  3. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  5. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1045
-  6. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1117
-  7. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:385
-  8. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:380
-  9. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:18
- 10. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
- 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
- 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 13. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt
+debug: f22bf565d6-6e564d1f11
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt
+debug: bd0f232f9d-e06f141d20
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt
+debug: f22bf565d6-519ae52230
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
+debug: bd0f232f9d-10f65095fd
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (8/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt
+debug: f22bf565d6-f0392d10dd
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+debug: f22bf565d6-1e65169d55
+indicator is up to date
+logged out
+closed the session
+🗲 done in 165.29825901985s
