@@ -7,33 +7,14 @@ github repo user: pequet
 github repository: tradingview-watchlists
 last run: 1561498846.8958
 - no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1561501267.2294
-- no file to update
-coins_by_volume
-local path: ../files/repositories
-local folder: coins-by-volume
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-volume
-last run: 1561501269.3574
-- readme.md Commit (June 25 2019 22:30:51 UTC) 
-update last run: 1561501852.6532
-coins_by_id
-local path: ../files/repositories
-local folder: coins-by-id
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-id
-last run: 1561501271.4015
-- readme.md wait .......... Commit (June 25 2019 22:30:53 UTC) 
-update last run: 1561501854.6173
-🗲 done in 3.6796188354492s
+ParseError: syntax error, unexpected ';', expecting ')' in file /home/dkgbzkhsyhkrivzo/app-03/application/config/my_scanners.php on line 136
+Stack trace:
+  1. ParseError->() /home/dkgbzkhsyhkrivzo/app-03/application/config/my_scanners.php:136
+  2. CI_Loader->_ci_init_library() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/Loader.php:1083
+  3. CI_Loader->_ci_load_library() /home/dkgbzkhsyhkrivzo/app-03/application/third_party/MX/Loader.php:173
+  4. MX_Loader->library() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:57
+  5. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
+  6. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
+  7. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
+  8. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  9. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
