@@ -20,17 +20,23 @@ last run: 1561556590.5753
 - bittrex_tri_mas_btc_btc_8_of_8.txt 
 - bittrex_tri_mas_btc_btc_1_of_8.txt 
 processing 16 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1046
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1046
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1046
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1126
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:172
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:167
-  6. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_shout.php:50
-  7. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:243
-  8. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  9. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+debug: 965855c91c-8c2d5525bc
+wait for indicator name
+script name: 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+script modified indicator: yes
+wait for script to save
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
+debug: 965855c91c-c989c13629
+wait for indicator name
+script name: 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+script modified indicator: yes
+wait for script to save
+save chart layout 
