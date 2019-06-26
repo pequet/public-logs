@@ -6,15 +6,59 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-watchlists
 last run: 1561547443.1683
-- no file to update
-ParseError: syntax error, unexpected ';', expecting ')' in file /home/dkgbzkhsyhkrivzo/app-03/application/config/my_scanners.php on line 136
-Stack trace:
-  1. ParseError->() /home/dkgbzkhsyhkrivzo/app-03/application/config/my_scanners.php:136
-  2. CI_Loader->_ci_init_library() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/Loader.php:1083
-  3. CI_Loader->_ci_load_library() /home/dkgbzkhsyhkrivzo/app-03/application/third_party/MX/Loader.php:173
-  4. MX_Loader->library() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:57
-  5. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
-  6. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  7. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  8. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  9. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+- bittrex_watchlist_fa_btc.txt Commit (June 26 2019 12:32:03 UTC) 
+update last run: 1561552324.6157
+tradingview_scanners
+local path: ../files/repositories/
+local folder: tradingview-scanners
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: tradingview-scanners
+last run: 1561501267.2294
+- mov/indicators/bittrex_mov_btc_btc_1_of_8.txt wait ....... Commit (June 26 2019 12:32:05 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_3_of_8.txt wait .......... Commit (June 26 2019 12:32:07 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_7_of_8.txt wait .......... Commit (June 26 2019 12:32:09 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_5_of_8.txt wait .......... Commit (June 26 2019 12:32:12 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_8_of_8.txt wait .......... Commit (June 26 2019 12:32:14 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_4_of_8.txt wait .......... Commit (June 26 2019 12:32:16 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_6_of_8.txt wait .......... Commit (June 26 2019 12:32:18 UTC) 
+- mov/indicators/bittrex_mov_btc_btc_2_of_8.txt wait .......... Commit (June 26 2019 12:32:20 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt wait .......... Commit (June 26 2019 12:32:22 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt wait .......... Commit (June 26 2019 12:32:24 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt wait .......... Commit (June 26 2019 12:32:26 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt wait .......... Commit (June 26 2019 12:32:28 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt wait .......... Commit (June 26 2019 12:32:30 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt wait .......... Commit (June 26 2019 12:32:32 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_7_of_8.txt wait .......... Commit (June 26 2019 12:32:34 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt wait .......... Commit (June 26 2019 12:32:36 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_8_of_8.txt wait .......... Commit (June 26 2019 12:32:38 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt wait .......... Commit (June 26 2019 12:32:40 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt wait .......... Commit (June 26 2019 12:32:42 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt wait .......... Commit (June 26 2019 12:32:44 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt wait .......... Commit (June 26 2019 12:32:45 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt wait .......... Commit (June 26 2019 12:32:47 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt wait .......... Commit (June 26 2019 12:32:49 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt wait .......... Commit (June 26 2019 12:32:51 UTC) 
+update last run: 1561552372.4253
+coins_by_volume
+local path: ../files/repositories
+local folder: coins-by-volume
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-volume
+last run: 1561501852.6532
+- readme.md wait .......... Commit (June 26 2019 12:32:53 UTC) 
+update last run: 1561552374.6054
+coins_by_id
+local path: ../files/repositories
+local folder: coins-by-id
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-id
+last run: 1561501854.6173
+- readme.md wait .......... Commit (June 26 2019 12:32:55 UTC) 
+update last run: 1561552376.5695
+🗲 done in 58.552090167999s
