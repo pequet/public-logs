@@ -50,7 +50,8 @@ indicator is up to date
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
 debug: 965855c91c-c989c13629
 wait for indicator name
-indicator is up to date
+⚠ indicator is not up to date
+update file 
 - 2019: Bittrex MA30 EMA13 Scanner BTC (7/8)
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt
 debug: 965855c91c-95c12cfc2b
@@ -99,24 +100,3 @@ indicator is up to date
 - 2019: Bittrex MA30 EMA13 Scanner USD (2/8)
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt
 debug: 5195c525f9-9d9d525cc6
-wait for indicator name
-indicator is up to date
-- 2019: Bittrex MA30 EMA13 Scanner BTC (6/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt
-debug: 965855c91c-58c9cd1926
-wait for indicator name
-indicator is up to date
-- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
-debug: 5195c525f9-5c99288c55
-wait for indicator name
-logged out
-closed the session
-Exception: could not find the indicator 2019: Bittrex MA30 EMA13 Scanner USD (5/8) in the list in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php on line 384
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:384
-  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:18
-  3. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
