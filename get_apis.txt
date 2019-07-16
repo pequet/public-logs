@@ -1,34 +1,12 @@
 bittrex
-- exchange_info (0.15091991424561s) ☺
-- exchange_info_v1 wait .................... (2.3891370296478s) ☺
+- exchange_info (0.070452928543091s) ☺
+- exchange_info_v1 wait .................... (2.482311964035s) ☺
 binance
-- exchange_info (1.2598679065704s) ☺
+- exchange_info (0.83409881591797s) ☺
 poloniex
-- exchange_info (0.21905612945557s) ☺
+- exchange_info (0.23619294166565s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.16652607918s/3600s)
+- cryptocurrency_listings_latest_header (at 1798.7075881958s/3600s)
 coingecko
-- exchanges_list (3.4053480625153s) ☺
-- coins_list wait ......... (4.5131371021271s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (7.3979511260986s) ☺
-page 2 wait ....... (10.012007951736s) ☺
-page 3 wait ....... (20.499208927155s) ☺
-page 4 wait ......... (24.104095935822s) ☺
-page 5 wait ........ (26.989442110062s) ☺
-page 6 wait .... (get_api error: )
-error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__bitcoin-bep2 problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-bep2.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+- exchanges_list (3.0149190425873s) ☺
+- coins_list wait ....
