@@ -1,31 +1,12 @@
 bittrex
-- exchange_info (0.11869311332703s) ☺
-- exchange_info_v1 wait .................... (2.609696149826s) ☺
+- exchange_info (0.062616109848022s) ☺
+- exchange_info_v1 wait .................... (2.462170124054s) ☺
 binance
-- exchange_info (1.2326009273529s) ☺
+- exchange_info (1.1370480060577s) ☺
 poloniex
-- exchange_info (0.22370791435242s) ☺
+- exchange_info (0.099040985107422s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.1506941318512s) ☺
+- cryptocurrency_listings_latest_header (at 899.65707993507s/3600s)
 coingecko
-- exchanges_list (6.5029799938202s) ☺
-- coins_list wait ......... (7.5827050209045s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (12.82518696785s) ☺
-page 2 wait ........ (14.515457868576s) ☺
-page 3 wait ......... (19.858435869217s) ☺
-page 4 wait ....... (22.466632843018s) ☺
-page 5 wait ....... (25.494864940643s) ☺
-page 6 wait ...... (26.864657878876s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ....... (30.039543867111s) ☺
-page 2 wait .... (31.691579818726s) ☺
-page 3 wait ...... (33.647119045258s) ☺
-page 4 wait ...... (34.998863935471s) ☺
-page 5 wait ........ error: do_api_call coingecko
-- coin__bitcoin-bep2 problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-bep2.txt')
-coincheckup
-- coins wait ................................................. (6.7166450023651s) ☺
-- categories_tags wait .............................................. (12.822280168533s) ☺
-🗲 done in 54.584940910339s
+- exchanges_list (4.125960111618s) ☺
+- coins_list wait ..........
