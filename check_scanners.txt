@@ -179,15 +179,28 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 144 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1330
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1330
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1330
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1410
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:403
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:398
-  6. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:18
-  7. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  8. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  9. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 10. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+opened the session
+logged in
+- 2019: Bittrex Dav-o W Price Scanner BTC (4/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_4_of_8.txt
+debug: b8aa219a5e-aeca961656
+load indicator
+indicator is up to date
+- 2019: Bittrex Dav-o W Price Scanner USD (7/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_7_of_8.txt
+debug: 5889736eaa-1b67e8ca1a
+load indicator
+indicator is up to date
+- 2019: Bittrex Dav-o W Price Scanner USD (2/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_2_of_8.txt
+debug: 5889736eaa-69ca8ba88e
+load indicator
+indicator is up to date
+- 2019: Bittrex Dav-o W Price Scanner USD (1/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_1_of_8.txt
+debug: 5889736eaa-97a5a813a6
+load indicator
+indicator is up to date
+- 2019: Bittrex Dav-o W Price Scanner BTC (1/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_1_of_8.txt
+debug: b8aa219a5e-f718c8e3a6
