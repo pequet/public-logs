@@ -180,28 +180,9 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 144 indicator scripts
 opened the session
-logged in
-- 2019: Bittrex BoT Long Scanner BTC (1/8)
-tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt
-debug: 869e99caeb-1cda3a993c
-load indicator
-indicator is up to date
-- 2019: Bittrex BoT Long Scanner BTC (2/8)
-tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_2_of_8.txt
-debug: 6d05d83d27-08775a9490
-load indicator
-indicator is up to date
-- 2019: Bittrex BoT Long Scanner BTC (3/8)
-tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_3_of_8.txt
-debug: 6d05d83d27-67072a9b04
-load indicator
-indicator is up to date
-- 2019: Bittrex BoT Long Scanner BTC (4/8)
-tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_4_of_8.txt
-debug: 6d05d83d27-783ea94bd5
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/3e4225e5f1b42c8e8a011e7e8a958469/execute with params: {"script":"TradingView.signOut();","args":[]}
+Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/1049f36043f511d407bfdcb2c3ea2f86/execute with params: {"script":"TradingView.signOut();","args":[]}
 
-Operation timed out after 30008 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
+Operation timed out after 30013 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
 Stack trace:
   1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
   2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-03/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
