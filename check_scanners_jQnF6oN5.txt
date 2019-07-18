@@ -178,7 +178,7 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_usd_5_of_8.txt
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
-processing 144 indicator scripts
+wait .............................. processing 144 indicator scripts
 opened the session
 logged in
 - 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
@@ -407,15 +407,17 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 144 indicator scripts
 processing 1 scanner pages
-Array
-(
-    [0] => https://www.tradingview.com/chart/jQnF6oN5/
-)
-Exception: Error Processing Request in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 555
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:555
-  2. My_tradingview->screenshot_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:53
-  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+opened the session
+logged in
+- bittrex_tri_mas_btc_usd_d.png
+loading daily chart
+8 panels .......... 4 loaded ........................................... 5 loaded . 6 loaded .... done
+take screenshot bittrex_tri_mas_btc_usd_d.png 
+- bittrex_tri_mas_btc_usd_w.png
+loading weekly chart
+☞ ignoring exception: unexpected alert open
+8 panels .......... 4 loaded ........................................... 6 loaded ... done
+take screenshot bittrex_tri_mas_btc_usd_w.png 
+logged out
+closed the session
+🗲 done in 131.3515059948s
