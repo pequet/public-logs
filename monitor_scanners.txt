@@ -21,13 +21,35 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_willy/indicators
 callback: indicator_update_callback
 last run: 1563443559.691
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" /home/dkgbzkhsyhkrivzo/app-03/files/repositories/tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_2_of_8.txt' in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:184
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+- no file to update
+bot_long_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_long/indicators
+callback: indicator_update_callback
+last run: 1563443582.9798
+- no file to update
+bot_short_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_short/indicators
+callback: indicator_update_callback
+last run: 1563443672.7828
+- no file to update
+mov_bull_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bull/indicators
+callback: indicator_update_callback
+last run: 1563445158.2651
+- no file to update
+mov_bear_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bear/indicators
+callback: indicator_update_callback
+last run: 1563445218.9272
+- no file to update
+tri_mas_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1563443747.8694
+- no file to update
+🗲 done in 1.6412851810455s
