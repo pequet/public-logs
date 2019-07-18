@@ -180,17 +180,15 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 144 indicator scripts
 processing 8 scanner pages
-opened the session
-logged in
-- bittrex_davo_w_price_btc_btc_d.png
-loading daily chart
-8 panels ...logged out
-closed the session
-Exception: Undefined property: stdClass::$element in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php on line 662
+Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1355
 Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:662
-  2. My_tradingview->screenshot_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_screenshot_scanners.php:18
-  3. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1355
+  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1355
+  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1435
+  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:669
+  5. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:664
+  6. My_tradingview->screenshot_scanners() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_screenshot_scanners.php:18
+  7. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
+  8. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
+  9. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+ 10. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
