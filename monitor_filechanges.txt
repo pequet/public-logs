@@ -1,10 +1,3 @@
-stdClass Object
-(
-    [library_name] => my_watchlists
-    [default_path] => default_repository_path
-    [default_name] => default_watchlists_repository_name
-    [task] => github_update
-)
 tradingview_watchlists
 local path: ../files/repositories/
 local folder: tradingview-watchlists
@@ -14,13 +7,6 @@ github repo user: pequet
 github repository: tradingview-watchlists
 last run: 1563478544.6241
 - no file to update
-stdClass Object
-(
-    [library_name] => my_scanners
-    [default_path] => default_repository_path
-    [default_name] => default_scanners_repository_name
-    [task] => github_update
-)
 tradingview_scanners
 local path: ../files/repositories/
 local folder: tradingview-scanners
@@ -28,18 +14,8 @@ task: github_update
 github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-scanners
-last run: 1563478544.6241
-- tri_mas/screenshots/bittrex_tri_mas_btc_btc_d.png Commit (July 18 2019 21:15:49 UTC) 
-- tri_mas/screenshots/bittrex_tri_mas_btc_btc_w.png wait .......... Commit (July 18 2019 21:15:51 UTC) 
-- tri_mas/screenshots/bittrex_tri_mas_btc_usd_d.png wait .......... Commit (July 18 2019 21:15:54 UTC) 
-- tri_mas/screenshots/bittrex_tri_mas_btc_usd_w.png wait .......... Commit (July 18 2019 21:15:57 UTC) 
-update last run: 1563484558.2528
-stdClass Object
-(
-    [path] => ../files/repositories
-    [name] => coins-by-volume
-    [task] => github_update
-)
+last run: 1563484558.2528
+- no file to update
 coins_by_volume
 local path: ../files/repositories
 local folder: coins-by-volume
@@ -47,15 +23,9 @@ task: github_update
 github auth user: pakeji
 github repo user: pequet
 github repository: coins-by-volume
-last run: 1563483662.8781
-- readme.md wait ......... Commit (July 18 2019 21:15:59 UTC) 
-update last run: 1563484560.2849
-stdClass Object
-(
-    [path] => ../files/repositories
-    [name] => coins-by-id
-    [task] => github_update
-)
+last run: 1563484560.2849
+- readme.md Commit (July 18 2019 21:30:58 UTC) 
+update last run: 1563485459.1865
 coins_by_id
 local path: ../files/repositories
 local folder: coins-by-id
@@ -63,7 +33,7 @@ task: github_update
 github auth user: pakeji
 github repo user: pequet
 github repository: coins-by-id
-last run: 1563483665.0461
-- readme.md wait .......... Commit (July 18 2019 21:16:03 UTC) 
-update last run: 1563484564.381
-🗲 done in 15.805830001831s
+last run: 1563484564.381
+- readme.md wait .......... Commit (July 18 2019 21:31:00 UTC) 
+update last run: 1563485463.0946
+🗲 done in 6.4392280578613s
