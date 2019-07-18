@@ -1,15 +1,55 @@
-stdClass Object
-(
-    [library_name] => my_scanners
-    [default_path] => default_repository_path
-    [name] => tradingview-scanners/davo_w_price/indicators
-    [callback] => indicator_update_callback
-)
-Exception: Error Processing Request in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php on line 48
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:48
-  2. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+davo_w_price_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_price/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+davo_w_obv_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_obv/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+davo_w_rsi_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_rsi/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+davo_w_willy_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_willy/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+bot_long_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_long/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+bot_short_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_short/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+mov_bull_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bull/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+mov_bear_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bear/indicators
+callback: indicator_update_callback
+last run: 1563478544.6201
+- no file to update
+tri_mas_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1563478544.6241
+- no file to update
+🗲 done in 0.46427488327026s
