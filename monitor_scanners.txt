@@ -28,18 +28,228 @@ local folder: tradingview-scanners/bot_long/indicators
 callback: indicator_update_callback
 last run: 1563431852.7668
 - bittrex_bot_long_btc_btc_3_of_8.txt 
-processing 1 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php on line 1355
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1355
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1355
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_webdriver.php:1435
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:185
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_tradingview.php:180
-  6. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_shout.php:50
-  7. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-03/application/libraries/My_filechanges.php:251
-  8. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  9. include() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-03/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-03/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-03/public/index.php:315
+- bittrex_bot_long_btc_btc_5_of_8.txt 
+- bittrex_bot_long_btc_btc_6_of_8.txt 
+- bittrex_bot_long_btc_usd_2_of_8.txt 
+- bittrex_bot_long_btc_usd_3_of_8.txt 
+processing 5 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex BoT Long Scanner BTC (3/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_3_of_8.txt
+debug: 6d05d83d27-67072a9b04
+load indicator
+script modified: yes
+save script
+bring indicator to front in panel 3
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Long Scanner BTC (5/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_5_of_8.txt
+debug: 6d05d83d27-06be7a491a
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Long Scanner BTC (6/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_6_of_8.txt
+debug: 6d05d83d27-06be7a491a
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Long Scanner USD (2/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_2_of_8.txt
+debug: 8ed216a6ac-3e96ac9682
+load indicator
+script modified: yes
+save script
+bring indicator to front in panel 2
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Long Scanner USD (3/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_3_of_8.txt
+debug: 4314d9ad8b-d16abad34d
+load indicator
+script modified: yes
+save script
+bring indicator to front in panel 3
+save chart layout 
+pause .............................. ok
+logged out
+closed the session
+update last run: 1563437294.9123
+bot_short_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_short/indicators
+callback: indicator_update_callback
+last run: 1563428440.2885
+- no file to update
+mov_bull_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bull/indicators
+callback: indicator_update_callback
+last run: 1563432692.9746
+- no file to update
+mov_bear_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bear/indicators
+callback: indicator_update_callback
+last run: 1563433130.1151
+- no file to update
+tri_mas_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1563310470.7496
+- bittrex_tri_mas_btc_btc_1_of_8.txt 
+- bittrex_tri_mas_btc_btc_2_of_8.txt 
+- bittrex_tri_mas_btc_btc_3_of_8.txt 
+- bittrex_tri_mas_btc_btc_4_of_8.txt 
+- bittrex_tri_mas_btc_btc_5_of_8.txt 
+- bittrex_tri_mas_btc_btc_6_of_8.txt 
+- bittrex_tri_mas_btc_btc_7_of_8.txt 
+- bittrex_tri_mas_btc_btc_8_of_8.txt 
+- bittrex_tri_mas_btc_usd_1_of_8.txt 
+- bittrex_tri_mas_btc_usd_2_of_8.txt 
+- bittrex_tri_mas_btc_usd_3_of_8.txt 
+- bittrex_tri_mas_btc_usd_4_of_8.txt 
+- bittrex_tri_mas_btc_usd_5_of_8.txt 
+- bittrex_tri_mas_btc_usd_6_of_8.txt 
+- bittrex_tri_mas_btc_usd_7_of_8.txt 
+- bittrex_tri_mas_btc_usd_8_of_8.txt 
+wait ............................ processing 16 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+debug: 705e978d0b-b668ad049e
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt
+debug: 705e978d0b-a4a4a800d0
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
+debug: 705e978d0b-608482aba6
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (4/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt
+debug: 705e978d0b-bb40086980
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+debug: 705e978d0b-969bdbeab0
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt
+debug: 705e978d0b-969bdbeab0
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (7/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt
+debug: 705e978d0b-969bdbeab0
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner BTC (8/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt
+debug: 705e978d0b-969bdbeab0
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt
+debug: 8ab2bae9e4-04002bba7b
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner USD (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt
+debug: 8ab2bae9e4-8930b1e447
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner USD (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt
+debug: 8ab2bae9e4-b18b890260
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex MA30 EMA13 Scanner USD (4/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt
+debug: 8ab2bae9e4-9306aa0e77
+load indicator
+script modified: no
+take screenshot 20190718041133_8ab2bae9e4-9306aa0e77.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
+debug: 8ab2bae9e4-90a04d0be8
+load indicator
+script modified: no
+take screenshot 20190718041210_8ab2bae9e4-90a04d0be8.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner USD (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt
+debug: 8ab2bae9e4-90a04d0be8
+load indicator
+script modified: no
+take screenshot 20190718041216_8ab2bae9e4-90a04d0be8.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner USD (7/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_7_of_8.txt
+debug: 8ab2bae9e4-90a04d0be8
+load indicator
+script modified: no
+take screenshot 20190718041254_8ab2bae9e4-90a04d0be8.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner USD (8/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_8_of_8.txt
+debug: 8ab2bae9e4-90a04d0be8
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+logged out
+closed the session
+update last run: 1563437589.1712
+🗲 done in 574.82232999802s
