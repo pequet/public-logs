@@ -178,93 +178,22 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_usd_5_of_8.txt
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
-processing 144 indicator scripts
+wait .............................. processing 144 indicator scripts
 opened the session
 logged in
 - 2019: Bittrex MoV Bear Scanner USD (1/8)
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
 debug: 1e36e62de1-a20dfc8178
 load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (2/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_2_of_8.txt
-debug: 1e36e62de1-3bfc1ff23d
-load indicator
-⚠ indicator is NOT up to date
-mark file 
-- 2019: Bittrex MoV Bear Scanner USD (3/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_3_of_8.txt
-debug: 1e36e62de1-fb6e61fe88
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (4/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_4_of_8.txt
-debug: 1e36e62de1-3debf28366
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (5/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_5_of_8.txt
-debug: 1e36e62de1-26cf167e34
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (6/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_6_of_8.txt
-debug: 1e36e62de1-26cf167e34
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (7/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_7_of_8.txt
-debug: 1e36e62de1-26cf167e34
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (8/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_8_of_8.txt
-debug: 1e36e62de1-26cf167e34
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (1/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_1_of_8.txt
-debug: 3222f8ee86-4c8f32613f
-load indicator
-⚠ indicator is NOT up to date
-mark file 
-- 2019: Bittrex MoV Bull Scanner USD (2/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_2_of_8.txt
-debug: 3222f8ee86-1c282710e4
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (3/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_3_of_8.txt
-debug: 3222f8ee86-71af32d34f
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (4/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_4_of_8.txt
-debug: 3222f8ee86-1648a761cb
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (5/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_5_of_8.txt
-debug: 3222f8ee86-0f6b2c6f1e
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (6/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_6_of_8.txt
-debug: 3222f8ee86-0f6b2c6f1e
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (7/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_7_of_8.txt
-debug: 3222f8ee86-0f6b2c6f1e
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner USD (8/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_8_of_8.txt
-debug: 3222f8ee86-0f6b2c6f1e
-load indicator
-indicator is up to date
 logged out
 closed the session
-total: 16
-to update: 2
-🗲 done in 116.86658883095s
+Exception: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-54-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 413
+Stack trace:
+  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
+  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
+  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
