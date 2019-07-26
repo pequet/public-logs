@@ -28,3 +28,31 @@ not updated ☕
 tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_1_of_8.txt
 debug: b9c8adff50-bae556a64a
 load indicator
+script modified: no
+take screenshot 20190726190209_b9c8adff50-bae556a64a.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1564182130.6527
+davo_w_obv_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_obv/indicators
+callback: indicator_update_callback
+last run: 1564176754.4957
+- bittrex_davo_w_obv_btc_btc_5_of_8.txt 
+- bittrex_davo_w_obv_btc_usd_3_of_8.txt 
+wait .............................. processing 2 indicator scripts
+opened the session
+getting homepage
+logged out
+closed the session
+Exception: Undefined property: stdClass::$element in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 180
+Stack trace:
+  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
+  2. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
+  3. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
+  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
+  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
