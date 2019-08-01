@@ -15,31 +15,91 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_rsi/indicators
 callback: indicator_update_callback
 last run: 1564681745.11
-- no file to update
+- bittrex_davo_w_rsi_btc_btc_1_of_8.txt 
+- bittrex_davo_w_rsi_btc_btc_3_of_8.txt 
+processing 2 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex Dav-o W RSI Scanner BTC (1/8)
+tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_1_of_8.txt
+debug: 56f432f0d2-7165c3fb00
+load indicator
+script modified: no
+take screenshot 20190801144443_56f432f0d2-7165c3fb00.png 
+not updated ☕
+- 2019: Bittrex Dav-o W RSI Scanner BTC (3/8)
+tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_3_of_8.txt
+debug: 56f432f0d2-f461789b04
+load indicator
+script modified: no
+take screenshot 20190801144451_56f432f0d2-f461789b04.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1564685092.2025
 davo_w_willy_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_willy/indicators
 callback: indicator_update_callback
-last run: 1564680773.7853
-- bittrex_davo_w_willy_btc_usd_5_of_8.txt 
-processing 1 indicator scripts
+last run: 1564684401.2633
+- no file to update
+bot_long_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_long/indicators
+callback: indicator_update_callback
+last run: 1564676210.7725
+- bittrex_bot_long_btc_btc_2_of_8.txt 
+wait ............................. processing 1 indicator scripts
 opened the session
 getting homepage
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/6a74ff8994eee3b85dc7fcd97a6b9924/execute with params: {"script":"TradingView.signOut();","args":[]}
-
-Operation timed out after 30001 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
-Stack trace:
-  1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
-  2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  3. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  5. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
-  6. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:185
-  7. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  8. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  9. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
- 10. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
- 11. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 12. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 13. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 14. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+logged in
+- 2019: Bittrex BoT Long Scanner BTC (2/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_2_of_8.txt
+debug: 96430d6204-241b48d087
+load indicator
+script modified: no
+take screenshot 20190801144516_96430d6204-241b48d087.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1564685118.3153
+bot_short_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/bot_short/indicators
+callback: indicator_update_callback
+last run: 1564684344.4934
+- bittrex_bot_short_btc_usd_1_of_8.txt 
+wait .............................. processing 1 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex BoT Short Scanner USD (1/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_1_of_8.txt
+debug: f4cb08f90e-56e0cb612b
+load indicator
+script modified: no
+take screenshot 20190801144548_f4cb08f90e-56e0cb612b.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1564685149.1004
+mov_bull_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bull/indicators
+callback: indicator_update_callback
+last run: 1564681814.0923
+- no file to update
+mov_bear_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/mov_bear/indicators
+callback: indicator_update_callback
+last run: 1564684371.1583
+- no file to update
+tri_mas_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1564684317.4645
+- no file to update
+🗲 done in 87.744390010834s
