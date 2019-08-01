@@ -184,3 +184,15 @@ logged in
 - 2019: Bittrex BoT Long Scanner BTC (1/8)
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt
 debug: 0eb704299a-8969ada32c
+logged out
+closed the session
+Exception: Curl error thrown for http POST to /session/68d24840d552be60ee5aad0e41954637/element/0.34070430674365526-2/value with params: {"value":["2019: Bittrex BoT Long Scanner BTC (1\/8)"]}
+
+Operation timed out after 30003 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 413
+Stack trace:
+  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
+  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
+  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
