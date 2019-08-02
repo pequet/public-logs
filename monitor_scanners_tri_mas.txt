@@ -22,9 +22,11 @@ last run: 1564689836.7412
 processing 16 indicator scripts
 opened the session
 getting homepage
-WebDriverException: Curl error thrown for http POST to /session/79aa2d735a7263cf643aa648eb48836b/url with params: {"url":"https:\/\/www.tradingview.com"}
-
-Operation timed out after 30005 milliseconds with 0 bytes receivedFacebook\WebDriver\Exception\NoSuchDriverException: invalid session id
+WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-54-generic x86_64)Facebook\WebDriver\Exception\NoSuchDriverException: invalid session id
   (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-54-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 100
 Stack trace:
   1. Facebook\WebDriver\Exception\NoSuchDriverException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:100
