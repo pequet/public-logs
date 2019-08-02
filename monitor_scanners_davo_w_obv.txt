@@ -26,17 +26,16 @@ logged in
 - 2019: Bittrex Dav-o W OBV Scanner BTC (1/8)
 tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_1_of_8.txt
 debug: 52be4ad3c2-fd5dae4596
-load indicator
-failed to update indicator: Curl error thrown for http POST to /session/f0daa8b35d9732016b077affe21ef824/element/0.5976952166127907-4/click
+failed to update indicator: Curl error thrown for http POST to /session/928c75256cdac7d89e67fdfb1136a056/execute with params: {"script":"var sheet = document.createElement(\"style\")\nsheet.innerHTML = \"div.tv-insert-study-item__buttons { visibility:visible; } div.tv-insert-study-item__show-source-btn { display: block; } \";\ndocument.body.appendChild(sheet);","args":[]}
 
-Operation timed out after 30006 milliseconds with 0 bytes received
+Operation timed out after 30013 milliseconds with 0 bytes received
 not updated ☕
 - 2019: Bittrex Dav-o W OBV Scanner BTC (2/8)
 tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_2_of_8.txt
 debug: 52be4ad3c2-6edb3a025d
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/f0daa8b35d9732016b077affe21ef824/execute with params: {"script":"TradingView.signOut();","args":[]}
+Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/928c75256cdac7d89e67fdfb1136a056/execute with params: {"script":"TradingView.signOut();","args":[]}
 
-Operation timed out after 30026 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
+Operation timed out after 30002 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
 Stack trace:
   1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
   2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
