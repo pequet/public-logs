@@ -24,16 +24,16 @@ github auth user: pakeji
 github repo user: pequet
 github repository: coins-by-volume
 last run: 1564747800.3143
-- readme.md Commit (August 02 2019 12:16:24 UTC) Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_github__upload_update.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_github.php:193
-  5. My_github->upload_update() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  6. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:224
-  7. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
-  8. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  9. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 10. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 11. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- readme.md wait . Commit (August 02 2019 12:33:10 UTC) 
+update last run: 1564749191.5528
+coins_by_id
+local path: ../files/repositories
+local folder: coins-by-id
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-id
+last run: 1564747803.0223
+- readme.md wait .......... Commit (August 02 2019 12:33:12 UTC) 
+update last run: 1564749193.9769
+🗲 done in 4.5917429924011s
