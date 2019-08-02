@@ -8,7 +8,7 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (0.026948928833008s) ☺
+binance done (0.013952970504761s) ☺
 scanners based in USDT
 scanners based in BTC
 make scanner tri_mas BTC BTC 
@@ -319,13 +319,13 @@ wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_
 wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_8_of_8.txt (placeholder)
 scanners based in ETH
 scanners based in USD
-bittrex done (0.099036931991577s) ☺
+bittrex done (0.03645396232605s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in XMR
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.029869079589844s) ☺
+poloniex done (0.0028789043426514s) ☺
 - fa watchlists
 scanners based in BTC
 scanners based in ETH
@@ -336,24 +336,16 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (32.320240974426s) ☺
+binance done (1.9244139194489s) ☺
 scanners based in USDT
 scanners based in BTC
 scanners based in ETH
 scanners based in USD
-bittrex done (6.2799339294434s) ☺
+bittrex done (0.10935592651367s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in XMR
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.34942698478699s) ☺
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__refresh_scanners.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+poloniex done (0.0021271705627441s) ☺
+🗲 done in 2.1119418144226s
