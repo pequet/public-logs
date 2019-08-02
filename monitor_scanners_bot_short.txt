@@ -22,11 +22,11 @@ last run: 1564690817.274
 processing 16 indicator scripts
 opened the session
 getting homepage
-WebDriverException: Curl error thrown for http POST to /session/e1fe6e49bce82970212098a93316b480/url with params: {"url":"https:\/\/www.tradingview.com"}
+WebDriverException: Curl error thrown for http POST to /session/643e9f98cc6111960813d867cf81c987/url with params: {"url":"https:\/\/www.tradingview.com"}
 
-Operation timed out after 30004 milliseconds with 0 bytes receivedFacebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/e1fe6e49bce82970212098a93316b480/execute with params: {"script":"TradingView.signOut();","args":[]}
+Operation timed out after 30008 milliseconds with 0 bytes receivedFacebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/643e9f98cc6111960813d867cf81c987/execute with params: {"script":"TradingView.signOut();","args":[]}
 
-Operation timed out after 30003 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
+Operation timed out after 30005 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
 Stack trace:
   1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
   2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
