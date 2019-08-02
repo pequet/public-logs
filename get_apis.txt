@@ -1,21 +1,24 @@
 bittrex
-- exchange_info (8.0253870487213s) ☺
-- exchange_info_v1 wait ........ problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.10068297386169s) ☺
+- exchange_info_v1 wait .................... (2.3566989898682s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (2.1847379207611s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.39893198013306s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 4096 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
-
-Backtrace:
-
+- cryptocurrency_listings_latest_header (0.23497486114502s) ☺
+coingecko
+- exchanges_list (3.6071720123291s) ☺
+- coins_list wait .......... (4.786171913147s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (6.3074979782104s) ☺
+page 2 wait .......... (9.6003959178925s) ☺
+page 3 wait ......... (10.828840017319s) ☺
+page 4 wait ......... (13.867249965668s) ☺
+page 5 wait .... (27.974915981293s) ☺
+page 6 wait ......... (29.107217073441s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (31.973149061203s) ☺
+page 2 wait .......... (33.221466064453s) ☺
+page 3 wait .....
