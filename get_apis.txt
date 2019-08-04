@@ -1,14 +1,67 @@
 bittrex
-- exchange_info (2.7497370243073s) ☺
-- exchange_info_v1 problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.65300297737122s) ☺
+- exchange_info_v1 wait .................. (3.2969260215759s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.3359010219574s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.5393660068512s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2698.0399801731s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (9.1074647903442s) ☺
+- coins_list wait ........ (10.36363697052s) ☺
+- exchanges_tickers__binance 
+page 1 wait ....... (19.908056974411s) ☺
+page 2 wait ....... (22.752636909485s) ☺
+page 3 wait ....... (26.898405790329s) ☺
+page 4 wait ........ (30.373077869415s) ☺
+page 5 wait ........ (31.840248823166s) ☺
+page 6 wait ........ (33.243723869324s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ....... (39.852175951004s) ☺
+page 2 wait ...... (41.45455789566s) ☺
+page 3 wait ....... (42.784178972244s) ☺
+page 4 wait ........ (44.104430913925s) ☺
+page 5 wait ......... end reached
+- coin__bitcoin-bep2 (at 8116.6617012024s/14400s)
+- coin__chainlink (at 8114.7514190674s/14400s)
+- coin__ethereum (at 10801.846295118s/14400s)
+- coin__binancecoin (at 8113.8957848549s/14400s)
+- coin__litecoin (at 8112.3400030136s/14400s)
+- coin__ripple (at 8111.0259239674s/14400s)
+- coin__bitcoin-cash (at 8109.52343297s/14400s)
+- coin__eos (at 8108.2644240856s/14400s)
+- coin__tron (at 1807.5090410709s/14400s)
+- coin__algorand (at 8105.1674120426s/14400s)
+- coin__republic-protocol (at 8106.864741087s/14400s)
+- coin__monero (at 8103.758136034s/14400s)
+- coin__zcash (at 6310.3667969704s/14400s)
+- coin__cardano (at 8102.6195771694s/14400s)
+- coin__neo (at 6309.2502439022s/14400s)
+- coin__dogecoin (at 6307.9226281643s/14400s)
+- coin__stellar (at 6306.7237448692s/14400s)
+- coin__elrond (at 4507.9815011024s/14400s)
+- coin__dash (at 5411.9325108528s/14400s)
+- coin__basic-attention-token (at 4506.8689200878s/14400s)
+- coin__vechain (at 5410.9374570847s/14400s)
+- coin__ethereum-classic (at 4505.8788011074s/14400s)
+- coin__quark-chain (at 4504.4354360104s/14400s)
+- coin__ravencoin (at 5409.2838561535s/14400s)
+- coin__waves (at 4502.7912089825s/14400s)
+- coin__qtum (at 4501.4715027809s/14400s)
+- coin__zencash (at 8099.2745800018s/14400s)
+- coin__matic-network (at 1806.4475309849s/14400s)
+- coin__fantom (at 4500.3289170265s/14400s)
+- coin__harmony (51.466142892838s) ☺
+- coin__verge (at 4498.008633852s/14400s)
+- coin__ontology (at 4499.7957341671s/14400s)
+- coin__nano (at 5407.8698379993s/14400s)
+- coin__waltonchain (at 5409.5721690655s/14400s)
+- coin__cosmos (at 4497.149477005s/14400s)
+- coin__icon (at 3598.4077160358s/14400s)
+- coin__mainframe (55.141350984573s) ☺
+- coin__nem wait ........ problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
