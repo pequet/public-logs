@@ -1,14 +1,66 @@
 bittrex
-- exchange_info (1.2016961574554s) ☺
-- exchange_info_v1 wait .................... (3.6401669979095s) ☺
+- exchange_info (0.33638906478882s) ☺
+- exchange_info_v1 wait .................... (3.0924549102783s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.5678489208221s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.22082996368408s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (0.23150396347046s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (4.0249409675598s) ☺
+- coins_list wait .......... (5.2224459648132s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (7.970584154129s) ☺
+page 2 wait ......... (11.550801992416s) ☺
+page 3 wait ......... (13.13454413414s) ☺
+page 4 wait .......... (16.474348068237s) ☺
+page 5 wait .......... (26.187055110931s) ☺
+page 6 wait .......... (28.567687988281s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (35.175948143005s) ☺
+page 2 wait .......... (36.528829097748s) ☺
+page 3 wait ......... (38.792646169662s) ☺
+page 4 wait ......... (40.738965034485s) ☺
+page 5 wait .......... end reached
+- coin__bitcoin-bep2 (at 13494.914371014s/14400s)
+- coin__binancecoin (at 13493.543778896s/14400s)
+- coin__ethereum (at 5415.5789649487s/14400s)
+- coin__contentos (at 11686.351114035s/14400s)
+- coin__matic-network (at 8092.6325030327s/14400s)
+- coin__ripple (at 1814.7009899616s/14400s)
+- coin__litecoin (at 1813.4180729389s/14400s)
+- coin__chainlink (at 13492.239790916s/14400s)
+- coin__elrond (at 13490.959726095s/14400s)
+- coin__eos (at 1812.1022620201s/14400s)
+- coin__harmony (at 4495.4127559662s/14400s)
+- coin__dusk-network (at 6302.0099289417s/14400s)
+- coin__cardano wait ......... (43.364047050476s) ☺
+- coin__ankr (at 4492.0616848469s/14400s)
+- coin__bitcoin-cash (at 1806.7657990456s/14400s)
+- coin__monero wait .......... (45.369099140167s) ☺
+- coin__dogecoin (at 1807.4162299633s/14400s)
+- coin__tron wait ......... (46.789881944656s) ☺
+- coin__quark-chain (at 9902.2546532154s/14400s)
+- coin__zcash wait ......... (48.086673021317s) ☺
+- coin__neo wait .......... (49.604402065277s) ☺
+- coin__vechain (at 9902.5710828304s/14400s)
+- coin__algorand (at 13494.760198832s/14400s)
+- coin__republic-protocol (at 13496.063730001s/14400s)
+- coin__celer-network (at 8096.168861866s/14400s)
+- coin__basic-attention-token wait ......... (51.025146961212s) ☺
+- coin__iostoken (at 7198.0025210381s/14400s)
+- coin__stellar wait ......... (52.288980007172s) ☺
+- coin__ethereum-classic wait .......... (53.655714035034s) ☺
+- coin__ravencoin (at 12623.981678009s/14400s)
+- coin__mainframe (at 5425.9041352272s/14400s)
+- coin__cosmos (at 12618.661883831s/14400s)
+- coin__waves wait ......... (55.105999946594s) ☺
+- coin__fantom (at 12623.97709012s/14400s)
+- coin__dash wait ......... (59.922668933868s) ☺
+- coin__ontology (at 12626.234612942s/14400s)
+- coin__zilliqa problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_zilliqa.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
