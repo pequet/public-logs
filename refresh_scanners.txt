@@ -8,7 +8,7 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (0.027431011199951s) ☺
+binance done (0.019565105438232s) ☺
 scanners based in BTC
 make scanner tri_mas BTC BTC 
 deleted bittrex_tri_mas_btc_btc_5_of_8.txt
@@ -319,13 +319,13 @@ wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_
 scanners based in USDT
 scanners based in ETH
 scanners based in USD
-bittrex done (0.082255125045776s) ☺
+bittrex done (0.062900066375732s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in XMR
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.021903991699219s) ☺
+poloniex done (0.053738832473755s) ☺
 - fa watchlists
 scanners based in BTC
 scanners based in ETH
@@ -336,24 +336,15 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (3.3627951145172s) ☺
+binance done (5.5689930915833s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in ETH
 scanners based in USD
-bittrex done (0.22395014762878s) ☺
+bittrex done (0.20997405052185s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in XMR
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.012817859649658s) ☺
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__refresh_scanners.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+poloniex done (0.0086028575897217s) ☺
