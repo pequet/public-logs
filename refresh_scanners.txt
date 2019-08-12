@@ -8,7 +8,7 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (0.024456977844238s) ☺
+binance done (0.019306898117065s) ☺
 scanners based in BTC
 make scanner tri_mas BTC BTC 
 deleted bittrex_tri_mas_btc_btc_5_of_8.txt
@@ -319,13 +319,13 @@ wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_
 scanners based in USDT
 scanners based in ETH
 scanners based in USD
-bittrex done (0.076158046722412s) ☺
+bittrex done (0.067402124404907s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in XMR
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.01432204246521s) ☺
+poloniex done (0.01373815536499s) ☺
 - fa watchlists
 scanners based in BTC
 scanners based in ETH
@@ -336,9 +336,24 @@ scanners based in PAX
 scanners based in USDC
 scanners based in XRP
 scanners based in USDS
-binance done (3.4885220527649s) ☺
+binance done (5.2344398498535s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in ETH
 scanners based in USD
-bittrex done (0.36338400840759s) ☺
+bittrex done (0.23850297927856s) ☺
+scanners based in BTC
+scanners based in USDT
+scanners based in XMR
+scanners based in ETH
+scanners based in USDC
+poloniex done (0.033203840255737s) ☺
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__refresh_scanners.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
