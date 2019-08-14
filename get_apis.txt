@@ -1,21 +1,49 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (4.7341470718384s) ☺
+- exchange_info_v1 (8.2000629901886s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (2.8146450519562s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.2235541343689s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2696.8049690723s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (5.0959079265594s) ☺
+- coins_list wait .......... (6.1940860748291s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (10.529214859009s) ☺
+page 2 wait .......... (12.535354852676s) ☺
+page 3 wait .......... (13.893379926682s) ☺
+page 4 wait .......... (15.132468938828s) ☺
+page 5 wait .......... (18.560262918472s) ☺
+page 6 wait .......... (21.612093925476s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (25.660609960556s) ☺
+page 2 wait .......... (26.843637943268s) ☺
+page 3 wait .......... (28.068119049072s) ☺
+page 4 wait .......... (29.241740942001s) ☺
+page 5 wait .......... end reached
+- coin__bitcoin-bep2 (at 5387.4446849823s/14400s)
+- coin__binancecoin wait .......... (32.543643951416s) ☺
+- coin__ethereum (at 5387.9281878471s/14400s)
+- coin__chainlink (at 13480.861871958s/14400s)
+- coin__bitcoin-cash (at 5384.7261400223s/14400s)
+- coin__matic-network (at 5367.3432250023s/14400s)
+- coin__litecoin wait .......... (33.785492897034s) ☺
+- coin__ripple (at 5367.2494039536s/14400s)
+- coin__eos wait .......... (35.19065785408s) ☺
+- coin__elrond (at 13481.223001003s/14400s)
+- coin__cardano wait .......... (36.570050001144s) ☺
+- coin__tron wait .......... (37.793319940567s) ☺
+- coin__monero wait .......... (39.030612945557s) ☺
+- coin__harmony wait .......... (40.399410963058s) ☺
+- coin__dusk-network (at 5371.8936240673s/14400s)
+- coin__contentos (at 9001.6610090733s/14400s)
+- coin__metal wait .......... (42.01696395874s) ☺
+- coin__quark-chain (at 5371.6182529926s/14400s)
+- coin__vechain (at 5370.4336900711s/14400s)
+- coin__neo wait .......... (43.291506052017s) ☺
+- coin__republic-protocol (at 13486.137260914s/14400s)
+- coin__zcash wait .......... (47.966696023941s) ☺
+- coin__basic-attention-token wait .......... 
