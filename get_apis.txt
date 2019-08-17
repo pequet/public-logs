@@ -1,21 +1,52 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (4.3867468833923s) ☺
+- exchange_info_v1 (9.7110958099365s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (7.7657840251923s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.20545196533203s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2711.9028439522s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (1.7999820709229s) ☺
+- coins_list wait .......... (2.8741769790649s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (5.9489109516144s) ☺
+page 2 wait .......... (10.491760969162s) ☺
+page 3 wait .......... (11.739535093307s) ☺
+page 4 wait .......... (12.949462175369s) ☺
+page 5 wait .......... (14.167471170425s) ☺
+page 6 wait .......... (23.549925088882s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (32.708148002625s) ☺
+page 2 wait .......... (35.846699953079s) ☺
+page 3 wait .......... (38.568367958069s) ☺
+page 4 wait .......... (41.975316047668s) ☺
+page 5 wait .......... end reached
+- coin__bitcoin-bep2 (at 14389.629565001s/14400s)
+- coin__ethereum (at 14387.777831078s/14400s)
+- coin__binancecoin (at 10794.321779013s/14400s)
+- coin__dusk-network (at 14386.387444019s/14400s)
+- coin__ripple (at 14385.165967941s/14400s)
+- coin__chainlink (at 8129.0735538006s/14400s)
+- coin__litecoin (at 10792.772198915s/14400s)
+- coin__eos (at 10791.286561012s/14400s)
+- coin__contentos (at 14383.861515045s/14400s)
+- coin__elrond (at 8127.3431830406s/14400s)
+- coin__bitcoin-cash (at 14381.525010824s/14400s)
+- coin__matic-network (at 14382.713026047s/14400s)
+- coin__monero (at 10789.804140091s/14400s)
+- coin__cardano (at 10785.837280989s/14400s)
+- coin__tron (at 10782.613168001s/14400s)
+- coin__dogecoin (at 10784.569178104s/14400s)
+- coin__republic-protocol (at 8125.8709490299s/14400s)
+- coin__vechain (at 12622.888849974s/14400s)
+- coin__metal (at 10779.224130869s/14400s)
+- coin__ravencoin (at 8124.4808449745s/14400s)
+- coin__quark-chain (at 12614.221467018s/14400s)
+- coin__zcash (at 8121.1079339981s/14400s)
+- coin__harmony (at 10777.963200092s/14400s)
+- coin__ethereum-classic (at 8123.2934761047s/14400s)
+- coin__neo (at 8117.1856548786s/14400s)
+- coin__algorand 
