@@ -1,47 +1,53 @@
 bittrex
-- exchange_info (0.6257438659668s) ☺
-- exchange_info_v1 wait .................. (2.928407907486s) ☺
+- exchange_info (13.704004049301s) ☺
+- exchange_info_v1 problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/bittrex_api_v1.1_public_getmarketsummaries.txt')
 binance
-- exchange_info (1.7075710296631s) ☺
+- exchange_info (4.2280240058899s) ☺
 poloniex
-- exchange_info (0.23087906837463s) ☺
+- exchange_info (0.36696100234985s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2698.5884680748s/3600s)
+- cryptocurrency_listings_latest_header (0.44594597816467s) ☺
 coingecko
-- exchanges_list (1.1240420341492s) ☺
-- coins_list wait .......... (2.2085361480713s) ☺
+- exchanges_list (0.79736685752869s) ☺
+- coins_list wait ....... (1.9985430240631s) ☺
 - exchanges_tickers__binance 
-page 1 wait .......... (5.8098430633545s) ☺
-page 2 wait .......... (11.972681045532s) ☺
-page 3 wait .......... (18.038275003433s) ☺
-page 4 wait .......... (21.040823936462s) ☺
-page 5 wait .......... (32.557728052139s) ☺
-page 6 wait .......... (33.803504943848s) ☺
+page 1 wait ........ (3.2943558692932s) ☺
+page 2 wait ........ (4.6280720233917s) ☺
+page 3 wait ....... (6.1752150058746s) ☺
+page 4 wait .......... (7.6739940643311s) ☺
+page 5 wait ......... (10.83815908432s) ☺
+page 6 wait ......... (13.572375059128s) ☺
 page 7 wait .......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait .......... (39.567528963089s) ☺
-page 2 wait .......... (42.187754154205s) ☺
-page 3 wait .......... (45.749710083008s) ☺
-page 4 wait .......... (47.049093008041s) ☺
-page 5 wait .......... end reached
-- coin__bitcoin-bep2 (at 5398.8742699623s/14400s)
-- coin__binancecoin (at 914.03302717209s/14400s)
-- coin__ethereum (at 6315.5338470936s/14400s)
-- coin__chainlink wait .......... (51.349681138992s) ☺
-- coin__ripple (at 4511.1786289215s/14400s)
-- coin__litecoin (at 915.80069088936s/14400s)
-- coin__metal (at 914.54693412781s/14400s)
-- coin__elrond wait .......... (53.328032016754s) ☺
-- coin__dogecoin (at 915.22147607803s/14400s)
-- coin__dusk-network (at 5402.4984850883s/14400s)
-- coin__eos (at 882.6826031208s/14400s)
-- coin__cardano (at 889.65109300613s/14400s)
-- coin__bitcoin-cash (at 4511.9339401722s/14400s)
-- coin__matic-network (at 2717.4389410019s/14400s)
-- coin__tron (at 883.99064493179s/14400s)
-- coin__contentos (at 2716.2744660378s/14400s)
-- coin__hshare wait ......... (56.831616163254s) ☺
-- coin__monero (at 889.8136548996s/14400s)
-- coin__vechain wait .......... (60.289730072021s) ☺
-- coin__neo wait .......... (63.357218027115s) ☺
-- coin__harmony wait .......... 
+page 1 wait .......... (16.456024885178s) ☺
+page 2 wait ........ (17.649447917938s) ☺
+page 3 wait .......... (19.022711992264s) ☺
+page 4 wait ......... (20.299865961075s) ☺
+page 5 wait ......... end reached
+- coin__bitcoin-bep2 (at 6320.9345140457s/14400s)
+- coin__binancecoin (at 1836.1976380348s/14400s)
+- coin__ethereum (at 7237.7473301888s/14400s)
+- coin__chainlink (at 919.15769004822s/14400s)
+- coin__ripple (at 5430.3661158085s/14400s)
+- coin__litecoin (at 1835.0085558891s/14400s)
+- coin__elrond (at 917.2691988945s/14400s)
+- coin__metal (at 1833.7631430626s/14400s)
+- coin__dusk-network (at 6319.7425301075s/14400s)
+- coin__dogecoin (at 1832.5019381046s/14400s)
+- coin__eos (at 1799.9369978905s/14400s)
+- coin__cardano (at 1806.9067699909s/14400s)
+- coin__bitcoin-cash (at 5429.1901249886s/14400s)
+- coin__matic-network (at 3634.694920063s/14400s)
+- coin__tron (at 1801.249037981s/14400s)
+- coin__vechain (at 910.39901208878s/14400s)
+- coin__monero (at 1803.6717178822s/14400s)
+- coin__contentos (at 3633.5709180832s/14400s)
+- coin__hshare (at 913.89994502068s/14400s)
+- coin__harmony (at 903.70363521576s/14400s)
+- coin__neo (at 907.39902806282s/14400s)
+- coin__ravencoin (at 1808.2588040829s/14400s)
+- coin__republic-protocol (at 901.66646885872s/14400s)
+- coin__stellar (at 1802.604156971s/14400s)
+- coin__zcash wait ... (23.720679044724s) ☺
+- coin__quark-chain wait ........ (25.394191026688s) ☺
+- coin__celer-network wait ........ 
