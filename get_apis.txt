@@ -1,37 +1,40 @@
 bittrex
-- exchange_info (0.53233408927917s) ☺
-- exchange_info_v1 wait .................. (3.4452340602875s) ☺
+- exchange_info (0.72910094261169s) ☺
+- exchange_info_v1 wait .................. (3.1140360832214s) ☺
 binance
-- exchange_info (4.2040798664093s) ☺
+- exchange_info (1.5321559906006s) ☺
 poloniex
-- exchange_info (0.55338907241821s) ☺
+- exchange_info (0.57815194129944s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2702.2154619694s/3600s)
+- cryptocurrency_listings_latest_header (at 3598.569272995s/3600s)
 coingecko
-- exchanges_list (4.1893889904022s) ☺
-- coins_list wait ....... (5.4808418750763s) ☺
+- exchanges_list (7.5639998912811s) ☺
+- coins_list wait .......... (8.6435518264771s) ☺
 - exchanges_tickers__binance 
-page 1 wait ....... (12.823889970779s) ☺
-page 2 wait ....... (17.831818819046s) ☺
-page 3 wait ........ (20.852806806564s) ☺
-page 4 wait ........ (24.285267829895s) ☺
-page 5 wait ....... (30.941754817963s) ☺
-page 6 wait ....... (34.402568817139s) ☺
-page 7 wait ........ end reached
+page 1 wait .......... (20.177232980728s) ☺
+page 2 wait .......... (24.388231039047s) ☺
+page 3 wait .......... (26.188654899597s) ☺
+page 4 wait .......... (28.735262870789s) ☺
+page 5 wait .......... (35.461429834366s) ☺
+page 6 wait .......... (37.658993959427s) ☺
+page 7 wait .......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ....... (48.426057815552s) ☺
-page 2 wait ....... (49.897616863251s) ☺
-page 3 wait ....... (52.742244005203s) ☺
-page 4 wait ...... error: do_api_call coingecko
-- coin__bitcoin-bep2 problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-bep2.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+page 1 wait .......... (44.02237701416s) ☺
+page 2 wait .......... (45.648113965988s) ☺
+page 3 wait .......... (47.149212837219s) ☺
+page 4 wait .......... (48.790632963181s) ☺
+page 5 wait .......... end reached
+- coin__bitcoin-bep2 (at 3609.6656620502s/14400s)
+- coin__binancecoin wait .......... (52.440963983536s) ☺
+- coin__ethereum (at 5414.6519348621s/14400s)
+- coin__chainlink (at 13501.39150095s/14400s)
+- coin__ripple (at 3610.2086191177s/14400s)
+- coin__metal wait .......... (54.643818855286s) ☺
+- coin__litecoin wait .......... (58.831924915314s) ☺
+- coin__elrond (at 13505.806169987s/14400s)
+- coin__dogecoin wait .......... (64.438887834549s) ☺
+- coin__bitcoin-cash (at 3620.6194648743s/14400s)
+- coin__dusk-network (at 3618.5390789509s/14400s)
+- coin__matic-network (at 1823.5550010204s/14400s)
+- coin__eos (at 14394.087498903s/14400s)
+- coin__cardano wait ......... 
