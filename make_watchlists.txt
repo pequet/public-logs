@@ -19,7 +19,7 @@ no change (35 markets)
 no change (2 markets)
 - binance_watchlist_usds.txt
 no change (3 markets)
-binance done (0.031002998352051s) ☺
+binance done (0.017461061477661s) ☺
 - bittrex_watchlist_btc.txt
 no change (95 markets)
 - bittrex_watchlist_usdt.txt
@@ -28,7 +28,7 @@ no change (25 markets)
 no change (27 markets)
 - bittrex_watchlist_usd.txt
 no change (22 markets)
-bittrex done (0.012452125549316s) ☺
+bittrex done (0.0049479007720947s) ☺
 - poloniex_watchlist_btc.txt
 no change (54 markets)
 - poloniex_watchlist_usdt.txt
@@ -37,7 +37,7 @@ no change (25 markets)
 no change (6 markets)
 - poloniex_watchlist_usdc.txt
 no change (16 markets)
-poloniex done (0.0077211856842041s) ☺
+poloniex done (0.0032031536102295s) ☺
 - fa watchlists
 - binance_watchlist_fa_btc.txt
 no change (130 markets)
@@ -59,7 +59,7 @@ no change (21 markets)
 no change (2 markets)
 - binance_watchlist_fa_usds.txt
 no change (1 markets)
-binance done (3.1787259578705s) ☺
+binance done (2.891774892807s) ☺
 - bittrex_watchlist_fa_btc.txt
 no change (68 markets)
 - bittrex_watchlist_fa_usdt.txt
@@ -68,7 +68,7 @@ no change (22 markets)
 no change (24 markets)
 - bittrex_watchlist_fa_usd.txt
 no change (16 markets)
-bittrex done (0.34490013122559s) ☺
+bittrex done (0.31435799598694s) ☺
 - poloniex_watchlist_fa_btc.txt
 no file written (0 markets)
 - poloniex_watchlist_fa_usdt.txt
@@ -77,13 +77,4 @@ no file written (0 markets)
 no file written (0 markets)
 - poloniex_watchlist_fa_usdc.txt
 no file written (0 markets)
-poloniex done (0.019652128219604s) ☺
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__make_watchlists.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+poloniex done (0.019537925720215s) ☺
