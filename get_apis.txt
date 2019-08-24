@@ -1,13 +1,121 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.677983045578s) ☺
+- exchange_info_v1 wait .................. (3.00377202034s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.4984600543976s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.4524450302124s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (0.51715707778931s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (2.2210199832916s) ☺
+- coins_list wait ........ (3.4776790142059s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (4.7689349651337s) ☺
+page 2 wait ........ (6.4068930149078s) ☺
+page 3 wait ........ (7.7886071205139s) ☺
+page 4 wait ........ (9.1352829933167s) ☺
+page 5 wait ........ (10.495012044907s) ☺
+page 6 wait ....... (11.854150056839s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (14.499170064926s) ☺
+page 2 wait ........ (15.849479913712s) ☺
+page 3 wait ........ (17.208797931671s) ☺
+page 4 wait ........ (18.558037996292s) ☺
+page 5 wait ........ end reached
+- coin__bitcoin-bep2 (at 6291.3319129944s/14400s)
+- coin__ethereum (at 9891.0456910133s/14400s)
+- coin__binancecoin (at 11699.462260008s/14400s)
+- coin__wanchain (at 7200.8117609024s/14400s)
+- coin__chainlink (at 11698.513746023s/14400s)
+- coin__matic-network wait . (21.185347080231s) ☺
+- coin__ripple (at 9890.9246101379s/14400s)
+- coin__litecoin (at 6291.5487148762s/14400s)
+- coin__dogecoin (at 1786.2415549755s/14400s)
+- coin__elrond (at 11698.464488983s/14400s)
+- coin__cocos-bcx (at 4499.8035290241s/14400s)
+- coin__bitcoin-cash (at 8999.7169411182s/14400s)
+- coin__metal (at 6288.629160881s/14400s)
+- coin__eos (at 1776.3171980381s/14400s)
+- coin__cardano (at 1784.4959769249s/14400s)
+- coin__monero (at 1783.3211319447s/14400s)
+- coin__ravencoin (at 1786.0616030693s/14400s)
+- coin__tron (at 1779.6841590405s/14400s)
+- coin__ethereum-classic (23.466241121292s) ☺
+- coin__harmony (at 11699.083864927s/14400s)
+- coin__icon (at 9005.3981289864s/14400s)
+- coin__republic-protocol (at 11696.885587931s/14400s)
+- coin__vechain (at 11698.22597909s/14400s)
+- coin__fantom (at 12607.007954121s/14400s)
+- coin__dusk-network (at 9885.4234378338s/14400s)
+- coin__waves (at 13471.705913067s/14400s)
+- coin__aion (24.990831136703s) ☺
+- coin__enjincoin (at 8106.3346478939s/14400s)
+- coin__0x (at 1777.9542510509s/14400s)
+- coin__algorand (at 11697.182507992s/14400s)
+- coin__neo (at 13475.484861135s/14400s)
+- coin__dash wait .. (26.304136037827s) ☺
+- coin__ontology (at 12607.821645975s/14400s)
+- coin__stellar (at 1785.9852511883s/14400s)
+- coin__basic-attention-token (at 13477.95784688s/14400s)
+- coin__celer-network (at 11697.375675917s/14400s)
+- coin__zcash (at 13475.70368886s/14400s)
+- coin__waltonchain (at 8105.446201086s/14400s)
+- coin__civic (at 11695.399081945s/14400s)
+- coin__iota (at 11696.758804798s/14400s)
+- coin__contentos (at 4500.2174141407s/14400s)
+- coin__cosmos (at 12607.774562836s/14400s)
+- coin__qtum (at 13473.801586151s/14400s)
+- coin__monaco (at 12602.71300292s/14400s)
+- coin__omisego (at 12605.651752949s/14400s)
+- coin__iostoken (at 5407.6333158016s/14400s)
+- coin__nano (at 5406.4548039436s/14400s)
+- coin__theta-token (29.331625938416s) ☺
+- coin__ankr (at 12605.356142044s/14400s)
+- coin__quark-chain (at 11695.101650953s/14400s)
+- coin__zilliqa (at 12608.449999094s/14400s)
+- coin__iotex wait .... (30.677675962448s) ☺
+- coin__komodo (at 3608.8282449245s/14400s)
+- coin__fetch-ai (at 4500.3743748665s/14400s)
+- coin__nebulas (at 3607.8451030254s/14400s)
+- coin__poet wait ... (32.100584030151s) ☺
+- coin__bitcoin-diamond wait ........ (33.545648097992s) ☺
+- coin__singularitynet (at 11696.76845789s/14400s)
+- coin__everex (at 7209.4355330467s/14400s)
+- coin__siacoin (at 1792.0841288567s/14400s)
+- coin__decentraland (at 11698.49448204s/14400s)
+- coin__verge (at 11701.110955s/14400s)
+- coin__funfair (at 12607.653181076s/14400s)
+- coin__selfkey (34.966399908066s) ☺
+- coin__storm (at 9014.9434740543s/14400s)
+- coin__nem (at 1790.8003590107s/14400s)
+- coin__etherparty wait ..... (36.271712064743s) ☺
+- coin__cybermiles wait ........ (37.547796964645s) ☺
+- coin__stratis (at 3613.0988729s/14400s)
+- coin__groestlcoin wait ....... (38.882484912872s) ☺
+- coin__tierion wait ........ (40.168159008026s) ☺
+- coin__ong wait ........ (41.526449918747s) ☺
+- coin__moeda-loyalty-points wait ........ (43.193454027176s) ☺
+- coin__ardor (at 13518.939393997s/14400s)
+- coin__golem (at 1794.784621954s/14400s)
+- coin__mithril wait ...... (44.516641139984s) ☺
+- coin__wabi wait ........ (45.867691993713s) ☺
+- coin__red-pulse wait ........ (47.15755200386s) ☺
+- coin__loom-network (at 5423.1699609756s/14400s)
+- coin__request-network (at 11708.101313114s/14400s)
+- coin__dock wait .... (48.521049976349s) ☺
+- coin__aelf (at 11710.509287119s/14400s)
+- coin__bread wait ...... (49.742984056473s) ☺
+- coin__gxchain wait ........ (51.10480093956s) ☺
+- coin__aeron wait ........ (52.42619395256s) ☺
+- coin__simple-token (at 4516.7334690094s/14400s)
+- coin__hshare (at 11712.10312295s/14400s)
+- coin__aeternity wait ...... (53.801465034485s) ☺
+- coin__skycoin (at 13518.918501854s/14400s)
+- coin__status (at 3625.3672819138s/14400s)
+- coin__bitcoin-gold wait ..... (55.175298929214s) ☺
+- coin__sonm problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_sonm.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
