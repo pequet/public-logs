@@ -1,39 +1,47 @@
 bittrex
-- exchange_info (1.3255791664124s) ☺
-- exchange_info_v1 wait ................. (4.069776058197s) ☺
+- exchange_info (1.3680760860443s) ☺
+- exchange_info_v1 wait ................ (4.114422082901s) ☺
 binance
-- exchange_info (2.0578949451447s) ☺
+- exchange_info (1.5486528873444s) ☺
 poloniex
-- exchange_info (0.8227059841156s) ☺
+- exchange_info (0.7975869178772s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (1.0007150173187s) ☺
+- cryptocurrency_listings_latest_header (at 898.03799581528s/3600s)
 coingecko
-- exchanges_list (1.0319809913635s) ☺
-- coins_list wait ....... (2.687301158905s) ☺
+- exchanges_list (0.71147799491882s) ☺
+- coins_list wait ....... (2.1883509159088s) ☺
 - exchanges_tickers__binance 
-page 1 wait ....... (4.7037501335144s) ☺
-page 2 wait ... (5.9396920204163s) ☺
-page 3 wait ...... (7.4966280460358s) ☺
-page 4 wait ....... (8.9430570602417s) ☺
-page 5 wait ...... (10.511375188828s) ☺
-page 6 wait ....... (11.862171173096s) ☺
-page 7 wait ......... end reached
+page 1 wait ....... (3.9596269130707s) ☺
+page 2 wait ...... (5.6796610355377s) ☺
+page 3 wait ........ (8.1776468753815s) ☺
+page 4 wait ... (9.6556160449982s) ☺
+page 5 wait ...... (11.012919902802s) ☺
+page 6 wait ....... (12.531494855881s) ☺
+page 7 wait ........ end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ (15.151340007782s) ☺
-page 2 wait ....... (16.627848148346s) ☺
-page 3 wait ....... (18.024772167206s) ☺
-page 4 wait ....... (19.468769073486s) ☺
-page 5 wait ........ end reached
-- coin__ethereum (at 12569.737514019s/14400s)
-- coin__binancecoin wait ..... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+page 1 wait ...... (16.090512037277s) ☺
+page 2 wait ...... (17.453970909119s) ☺
+page 3 wait ...... (18.777272939682s) ☺
+page 4 wait ........ (20.367411851883s) ☺
+page 5 wait ....... end reached
+- coin__ethereum (at 13469.132691145s/14400s)
+- coin__binancecoin wait ... (24.472048997879s) ☺
+- coin__chainlink wait ..... (26.21509885788s) ☺
+- coin__elrond (at 11706.682327032s/14400s)
+- coin__ripple (at 11708.120330095s/14400s)
+- coin__litecoin (at 6278.5736291409s/14400s)
+- coin__metal (at 1805.0019211769s/14400s)
+- coin__matic-network wait ..... (28.068161010742s) ☺
+- coin__eos (at 1805.271720171s/14400s)
+- coin__bitcoin-cash (at 11707.444233894s/14400s)
+- coin__dogecoin wait .. (29.431405067444s) ☺
+- coin__wanchain wait ....... (32.318624973297s) ☺
+- coin__wabi wait ...... (33.726362943649s) ☺
+- coin__cardano (at 1809.6006340981s/14400s)
+- coin__monero (35.228534936905s) ☺
+- coin__tron (at 10812.549572945s/14400s)
+- coin__fantom (at 10811.530534029s/14400s)
+- coin__ethereum-classic problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum-classic.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 42.853609800339s
