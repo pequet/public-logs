@@ -1,43 +1,65 @@
 bittrex
-- exchange_info (2.8104581832886s) ☺
-- exchange_info_v1 wait ................ (5.769994020462s) ☺
+- exchange_info (1.0021109580994s) ☺
+- exchange_info_v1 wait ................. (4.2845449447632s) ☺
 binance
-- exchange_info (1.6419649124146s) ☺
+- exchange_info (2.8547019958496s) ☺
 poloniex
-- exchange_info (1.7890729904175s) ☺
+- exchange_info (1.1390600204468s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.9183988571167s) ☺
+- cryptocurrency_listings_latest_header (at 898.35126113892s/3600s)
 coingecko
-- exchanges_list (1.2734279632568s) ☺
-- coins_list wait ...... (2.8870420455933s) ☺
+- exchanges_list (1.5083100795746s) ☺
+- coins_list wait ...... (3.2125060558319s) ☺
 - exchanges_tickers__binance 
-page 1 wait ...... (4.1597139835358s) ☺
-page 2 wait ....... (5.7402040958405s) ☺
-page 3 wait ...... (6.9745271205902s) ☺
-page 4 wait ...... (8.6171460151672s) ☺
-page 5 wait ..... (10.081012010574s) ☺
-page 6 wait ....... (11.549504041672s) ☺
-page 7 wait ....... end reached
+page 1 wait ...... (5.2466359138489s) ☺
+page 2 wait .... (7.0021669864655s) ☺
+page 3 wait ..... (8.5501270294189s) ☺
+page 4 wait ....... (10.445837020874s) ☺
+page 5 wait ..... (11.896974086761s) ☺
+page 6 wait ....... (13.635185003281s) ☺
+page 7 wait ...... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ....... (14.342717170715s) ☺
-page 2 wait ...... (16.566737174988s) ☺
-page 3 wait ....... (17.958732128143s) ☺
-page 4 wait ...... (20.073011159897s) ☺
-page 5 wait ....... end reached
-- coin__binancecoin (at 5404.6591279507s/14400s)
-- coin__ethereum (at 10802.500014067s/14400s)
-- coin__chiliz (at 5403.6377770901s/14400s)
-- coin__eos (at 13506.450037003s/14400s)
-- coin__litecoin (at 2704.5790419579s/14400s)
-- coin__ripple (at 9906.2318549156s/14400s)
-- coin__chainlink (at 5401.3840939999s/14400s)
-- coin__bitcoin-cash (at 9905.4589450359s/14400s)
-- coin__metal (at 10800.736630917s/14400s)
-- coin__ethereum-classic (at 6306.5009150505s/14400s)
-- coin__cardano (at 13505.347548008s/14400s)
-- coin__tron (at 9005.6143329144s/14400s)
-- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
+page 1 wait ...... (17.400239944458s) ☺
+page 2 wait ...... (19.014401912689s) ☺
+page 3 wait ...... (20.513803005219s) ☺
+page 4 wait ...... (22.638145923615s) ☺
+page 5 wait ...... end reached
+- coin__binancecoin (at 6305.654665947s/14400s)
+- coin__ethereum (at 11703.537807941s/14400s)
+- coin__chiliz (at 6304.7059099674s/14400s)
+- coin__eos (26.061537027359s) ☺
+- coin__litecoin (at 3606.553814888s/14400s)
+- coin__ripple (at 10808.141829967s/14400s)
+- coin__chainlink (at 6303.2372589111s/14400s)
+- coin__bitcoin-cash (at 10807.308648109s/14400s)
+- coin__metal (at 11702.505803823s/14400s)
+- coin__ethereum-classic (at 7208.2763249874s/14400s)
+- coin__cardano (28.011948108673s) ☺
+- coin__tron (at 9907.9583599567s/14400s)
+- coin__matic-network (at 7192.1512248516s/14400s)
+- coin__cosmos (at 6300.0188179016s/14400s)
+- coin__wanchain (at 6301.6179380417s/14400s)
+- coin__stellar (at 7208.7707288265s/14400s)
+- coin__ins-ecosystem (at 6292.4752020836s/14400s)
+- coin__dash (at 7207.8276720047s/14400s)
+- coin__zcash (at 2701.6881680489s/14400s)
+- coin__fantom (at 6299.7825119495s/14400s)
+- coin__algorand (at 6298.3935949802s/14400s)
+- coin__wabi (at 6297.1255497932s/14400s)
+- coin__qtum (at 2700.6405420303s/14400s)
+- coin__enjincoin (31.211348056793s) ☺
+- coin__monetha (at 2700.4778909683s/14400s)
+- coin__perlin (at 6296.4349780083s/14400s)
+- coin__iota (at 6293.6420707703s/14400s)
+- coin__basic-attention-token problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_basic-attention-token.txt')
 coincheckup
-- coins wait ................................................. (7.2919750213623s) ☺
-- categories_tags problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_categories_tags.txt')
-🗲 done in 42.085041999817s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
