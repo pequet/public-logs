@@ -1,55 +1,22 @@
 bittrex
-- exchange_info (1.0918588638306s) ☺
-- exchange_info_v1 wait ................. (3.5015938282013s) ☺
+- exchange_info (2.4010751247406s) ☺
+- exchange_info_v1 wait ................ (4.8716781139374s) ☺
 binance
-- exchange_info (2.3226659297943s) ☺
+- exchange_info (2.8911340236664s) ☺
 poloniex
-- exchange_info (1.0889790058136s) ☺
+- exchange_info (1.3707709312439s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2700.1205251217s/3600s)
+- cryptocurrency_listings_latest_header (1.357647895813s) ☺
 coingecko
-- exchanges_list (1.2988891601562s) ☺
-- coins_list wait ....... (2.8675920963287s) ☺
+- exchanges_list (1.2563529014587s) ☺
+- coins_list wait ...... (2.5692808628082s) ☺
 - exchanges_tickers__binance 
-page 1 wait ...... (4.4084281921387s) ☺
-page 2 wait ....... (6.0523030757904s) ☺
-page 3 wait ......... (7.9784951210022s) ☺
-page 4 wait ..... (10.103290081024s) ☺
-page 5 wait ...... (12.124351024628s) ☺
-page 6 wait ... (14.030909061432s) ☺
-page 7 wait ...... end reached
+page 1 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ...... (17.835293054581s) ☺
-page 2 wait ..... (19.219516038895s) ☺
-page 3 wait ....... (20.642574071884s) ☺
-page 4 wait ....... (22.225934028625s) ☺
-page 5 wait ..... end reached
-- coin__bitcoin-bep2 (28.050037145615s) ☺
-- coin__ethereum (at 11703.347536087s/14400s)
-- coin__binancecoin (at 4511.5865030289s/14400s)
-- coin__eos (at 908.81738805771s/14400s)
-- coin__etherparty (at 3610.2746779919s/14400s)
-- coin__ripple (at 11702.902608156s/14400s)
-- coin__litecoin (at 3609.4524450302s/14400s)
-- coin__dogecoin (at 10810.917184114s/14400s)
-- coin__elrond (at 8108.5805120468s/14400s)
-- coin__chainlink (at 4512.0966091156s/14400s)
-- coin__bitcoin-cash (at 11702.425807953s/14400s)
-- coin__matic-network (at 4510.9120788574s/14400s)
-- coin__airswap (at 2686.1663229465s/14400s)
-- coin__tron (at 9012.1626079082s/14400s)
-- coin__cardano (at 1815.6007559299s/14400s)
-- coin__monero (at 9011.3978250027s/14400s)
-- coin__mainframe (at 893.14556694031s/14400s)
-- coin__cosmos (at 5413.1173839569s/14400s)
-- coin__harmony (at 4511.4569129944s/14400s)
-- coin__ethereum-classic (at 8109.2565908432s/14400s)
-- coin__cocos-bcx (at 4509.3073370457s/14400s)
-- coin__chiliz (at 4510.9985320568s/14400s)
-- coin__zcash (at 3610.3014612198s/14400s)
-- coin__fantom problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_fantom.txt')
+page 1 error: do_api_call coingecko
+- coin__bitcoin-bep2 problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-bep2.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
 Stack trace:
   1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
