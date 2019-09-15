@@ -1,21 +1,78 @@
 bittrex
-- exchange_info (2.6320738792419s) ☺
-- exchange_info_v1 wait .............. (5.2843980789185s) ☺
+- exchange_info (2.6939129829407s) ☺
+- exchange_info_v1 wait ................ (5.6606969833374s) ☺
 binance
-- exchange_info (2.4800601005554s) ☺
+- exchange_info (2.9777362346649s) ☺
 poloniex
-- exchange_info (1.3998908996582s) ☺
+- exchange_info (2.7320370674133s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.75843286514s/3600s)
+- cryptocurrency_listings_latest_header (at 1803.9931418896s/3600s)
 coingecko
-- exchanges_list (2.3563060760498s) ☺
-- coins_list wait ...... (4.088937997818s) ☺
+- exchanges_list (2.1515998840332s) ☺
+- coins_list wait ...... (3.5801720619202s) ☺
 - exchanges_tickers__binance 
-page 1 wait ...... (6.0784571170807s) ☺
-page 2 error: do_api_call coingecko
+page 1 wait ........ (6.2432608604431s) ☺
+page 2 wait ........ (7.943687915802s) ☺
+page 3 wait ....... (9.6450879573822s) ☺
+page 4 wait ....... (11.315263032913s) ☺
+page 5 wait ....... (13.071693897247s) ☺
+page 6 wait ....... (14.664116859436s) ☺
+page 7 wait ........ end reached
 - exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
+page 1 wait ....... (18.427352905273s) ☺
+page 2 wait ..... (20.041174888611s) ☺
+page 3 wait ..... (22.235761880875s) ☺
+page 4 wait ...... (23.893710851669s) ☺
+page 5 wait ....... end reached
+- coin__binancecoin (at 9901.2220518589s/14400s)
+- coin__ethereum (at 5407.0092520714s/14400s)
+- coin__eos (at 9899.8491199017s/14400s)
+- coin__ripple (at 5405.7593159676s/14400s)
+- coin__chainlink (at 9898.0461270809s/14400s)
+- coin__litecoin (at 9896.129668951s/14400s)
+- coin__cardano (at 9894.7727088928s/14400s)
+- coin__monero (at 5404.729049921s/14400s)
+- coin__agrello (at 10806.120155096s/14400s)
+- coin__dash (at 10807.753710985s/14400s)
+- coin__cosmos (at 9893.4953250885s/14400s)
+- coin__ravencoin (at 9892.0273401737s/14400s)
+- coin__metal (at 10805.335041046s/14400s)
+- coin__quark-chain (at 9890.2911481857s/14400s)
+- coin__stellar (at 10804.13252902s/14400s)
+- coin__etherparty (at 2707.5603508949s/14400s)
+- coin__dock (at 5404.2497091293s/14400s)
+- coin__nem (30.837359905243s) ☺
+- coin__algorand (at 9885.9438049793s/14400s)
+- coin__blockmason-credit-protocol (at 9889.1120760441s/14400s)
+- coin__republic-protocol (at 9887.8571200371s/14400s)
+- coin__wanchain (at 9891.4861149788s/14400s)
+- coin__amber (at 5400.0404369831s/14400s)
+- coin__dusk-network (at 5405.187431097s/14400s)
+- coin__ankr (at 10803.433552027s/14400s)
+- coin__red-pulse (at 2706.343157053s/14400s)
+- coin__kyber-network (at 2708.1569509506s/14400s)
+- coin__moeda-loyalty-points (at 5403.0111858845s/14400s)
+- coin__icon (at 2704.2712240219s/14400s)
+- coin__0x (at 5405.0727791786s/14400s)
+- coin__perlin (34.315362930298s) ☺
+- coin__waltonchain wait ........ (35.989877939224s) ☺
+- coin__enjincoin (at 2703.7001359463s/14400s)
+- coin__cybermiles wait ..... (38.277511835098s) ☺
+- coin__fetch-ai wait ..... (40.083032846451s) ☺
+- coin__sonm wait ..... (41.77027797699s) ☺
+- coin__everex (at 2707.5851709843s/14400s)
+- coin__nano (at 10806.799660921s/14400s)
+- coin__ins-ecosystem (at 9894.3666329384s/14400s)
+- coin__mithril (at 2703.1251559258s/14400s)
+- coin__ark (at 10809.155834913s/14400s)
+- coin__wabi (at 5407.6291110516s/14400s)
+- coin__nebulas (44.136865854263s) ☺
+- coin__vibe (at 2707.813822031s/14400s)
+- coin__bitcoin-diamond (at 10802.419450998s/14400s)
+- coin__yoyow (at 10797.860327005s/14400s)
+- coin__gxchain (45.997846841812s) ☺
+- coin__openanx (at 1808.600466013s/14400s)
+- coin__viberate wait ... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
