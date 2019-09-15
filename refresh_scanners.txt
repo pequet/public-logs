@@ -9,7 +9,7 @@ scanners based in USDC
 scanners based in XRP
 scanners based in USDS
 scanners based in TRX
-binance done (0.34738802909851s) ☺
+binance done (0.016848802566528s) ☺
 scanners based in USDT
 scanners based in BTC
 make scanner tri_mas BTC BTC 
@@ -320,22 +320,40 @@ wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_
 wrote tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_8_of_8.txt (placeholder)
 scanners based in ETH
 scanners based in USD
-bittrex done (5.9166610240936s) ☺
+bittrex done (0.063327074050903s) ☺
 scanners based in BTC
 scanners based in USDT
 scanners based in ETH
 scanners based in USDC
-poloniex done (0.22631597518921s) ☺
+poloniex done (0.019423961639404s) ☺
 - fa watchlists
-
-Fatal error: Out of memory (allocated 8388608) (tried to allocate 5886680 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 49
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 8388608) (tried to allocate 5886680 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php
-Line Number: 49
-
-Backtrace:
-
+scanners based in BTC
+scanners based in ETH
+scanners based in USDT
+scanners based in BNB
+scanners based in TUSD
+scanners based in PAX
+scanners based in USDC
+scanners based in XRP
+scanners based in USDS
+scanners based in TRX
+binance done (4.8265910148621s) ☺
+scanners based in USDT
+scanners based in BTC
+scanners based in ETH
+scanners based in USD
+bittrex done (0.25552797317505s) ☺
+scanners based in BTC
+scanners based in USDT
+scanners based in ETH
+scanners based in USDC
+poloniex done (0.019441843032837s) ☺
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__refresh_scanners.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
