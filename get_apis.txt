@@ -1,84 +1,21 @@
 bittrex
-- exchange_info (2.2476649284363s) ☺
-- exchange_info_v1 wait ................. (4.9322190284729s) ☺
+- exchange_info (2.8517711162567s) ☺
+- exchange_info_v1 wait ................ (6.4971330165863s) ☺
 binance
-- exchange_info (2.5999190807343s) ☺
+- exchange_info (4.1944401264191s) ☺
 poloniex
-- exchange_info (1.2485449314117s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__poloniex.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2697.9316790104s/3600s)
+- cryptocurrency_listings_latest_header (2.4085710048676s) ☺
 coingecko
-- exchanges_list (5.2056310176849s) ☺
-- coins_list wait ..... (6.9032099246979s) ☺
+- exchanges_list (1.4711539745331s) ☺
+- coins_list wait ...... (3.1129989624023s) ☺
 - exchanges_tickers__binance 
-page 1 wait ...... (8.5856690406799s) ☺
-page 2 wait ...... (10.2165350914s) ☺
-page 3 wait ..... (11.6139960289s) ☺
-page 4 wait ....... (13.438473939896s) ☺
-page 5 wait ...... (15.571094036102s) ☺
-page 6 wait ..... (17.744179964066s) ☺
-page 7 wait .... end reached
+page 1 wait ...... (4.8774998188019s) ☺
+page 2 wait ....... error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ..... (20.956429004669s) ☺
-page 2 wait ....... (22.559942007065s) ☺
-page 3 wait ...... (23.957971096039s) ☺
-page 4 wait ...... (25.520628929138s) ☺
-page 5 wait ....... end reached
-- coin__binancecoin (at 14399.592777014s/14400s)
-- coin__ethereum (at 9905.527670145s/14400s)
-- coin__eos (at 14398.429111004s/14400s)
-- coin__ripple (at 9904.3380770683s/14400s)
-- coin__chainlink (at 14396.707768917s/14400s)
-- coin__litecoin (at 14394.849187136s/14400s)
-- coin__cardano (at 14393.405004978s/14400s)
-- coin__monero (at 9903.4233539104s/14400s)
-- coin__agrello (at 901.21796798706s/14400s)
-- coin__dash (at 899.67722892761s/14400s)
-- coin__metal (at 898.13246011734s/14400s)
-- coin__cosmos (at 14392.377133131s/14400s)
-- coin__stellar (at 896.8809030056s/14400s)
-- coin__ravencoin (at 14391.195219994s/14400s)
-- coin__etherparty (at 7206.1061348915s/14400s)
-- coin__dock (at 9902.8103470802s/14400s)
-- coin__nem (at 4497.5348730087s/14400s)
-- coin__wanchain (at 14388.339129925s/14400s)
-- coin__republic-protocol (at 14385.264695883s/14400s)
-- coin__algorand (at 14384.027745962s/14400s)
-- coin__blockmason-credit-protocol (at 14387.236995935s/14400s)
-- coin__monaco (at 3600.4448070526s/14400s)
-- coin__amber (at 9897.9072599411s/14400s)
-- coin__icon (at 7201.0623040199s/14400s)
-- coin__red-pulse (at 7203.9158499241s/14400s)
-- coin__dusk-network (at 9903.5223469734s/14400s)
-- coin__moeda-loyalty-points (at 9900.7310531139s/14400s)
-- coin__enjincoin (at 7198.5499620438s/14400s)
-- coin__perlin (at 4496.8297581673s/14400s)
-- coin__0x (at 9902.9919521809s/14400s)
-- coin__kyber-network (at 7206.8454639912s/14400s)
-- coin__fetch-ai (at 4491.6876790524s/14400s)
-- coin__ins-ecosystem (at 14384.184793949s/14400s)
-- coin__cybermiles (at 4494.3647079468s/14400s)
-- coin__waltonchain (at 4497.0134580135s/14400s)
-- coin__ankr (at 901.15126490593s/14400s)
-- coin__nano (at 895.77367186546s/14400s)
-- coin__wabi (at 9898.5886950493s/14400s)
-- coin__nebulas (at 4489.9341650009s/14400s)
-- coin__everex (at 7200.0834460258s/14400s)
-- coin__viberate (at 2698.2997338772s/14400s)
-- coin__ark (at 893.92895889282s/14400s)
-- coin__sonm (at 4493.39240098s/14400s)
-- coin__vibe (at 7198.9101059437s/14400s)
-- coin__mithril (at 7196.2074999809s/14400s)
-- coin__yoyow (39.998862981796s) ☺
-- coin__digixdao (at 9894.4732069969s/14400s)
-- coin__bitcoin-diamond (41.371670007706s) ☺
-- coin__decred (at 9904.7794480324s/14400s)
-- coin__lisk (at 3599.4937138557s/14400s)
-- coin__loom-network (at 890.07186508179s/14400s)
-- coin__tierion (at 895.54264807701s/14400s)
-- coin__gxchain (at 4493.5026829243s/14400s)
-- coin__airswap problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_airswap.txt')
+page 1 error: do_api_call coingecko
+- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
 coincheckup
-- coins wait ................................................ (7.1999969482422s) ☺
-- categories_tags problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_categories_tags.txt')
-🗲 done in 59.018330097198s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 20.200704813004s
