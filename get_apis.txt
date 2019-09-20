@@ -1,17 +1,4 @@
-bittrex
-- exchange_info (1.1985878944397s) ☺
-- exchange_info_v1 wait ................... (3.6417200565338s) ☺
-binance
-- exchange_info (1.5758819580078s) ☺
-poloniex
-- exchange_info (0.25758504867554s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1804.5579710007s/3600s)
-coingecko
-- exchanges_list (0.50362610816956s) ☺
-- coins_list wait .......... (1.6276779174805s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (2.9864659309387s) ☺
-page 2 wait .......... (4.3403370380402s) ☺
-page 3 wait .......... (5.9776499271393s) ☺
-page 4 wait .......... 
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
