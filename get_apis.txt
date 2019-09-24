@@ -1,53 +1,21 @@
 bittrex
-- exchange_info (1.7037100791931s) ☺
-- exchange_info_v1 wait ............. (4.7694499492645s) ☺
+- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
 binance
-- exchange_info (3.2459530830383s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
 poloniex
-- exchange_info (0.18150186538696s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.12663984298706s) ☺
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 coingecko
-- exchanges_list (32.28643989563s) ☺
-- coins_list wait .......... (33.349738836288s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (65.54395699501s) ☺
-page 2 wait .......... (83.34462594986s) ☺
-page 3 wait .......... (115.57317495346s) ☺
-page 4 wait .......... (147.82234787941s) ☺
-page 5 wait .......... (180.27080893517s) ☺
-page 6 wait .......... (189.44626402855s) ☺
-page 7 wait .......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait .......... (235.19407892227s) ☺
-page 2 wait .......... (247.10718083382s) ☺
-page 3 wait .......... (267.18742394447s) ☺
-page 4 wait .......... (299.38437891006s) ☺
-page 5 wait .......... end reached
-- coin__bitcoin-bep2 (at 11923.306890011s/14400s)
-- coin__ethereum wait .......... (363.84151101112s) ☺
-- coin__ripple wait .......... (381.95745992661s) ☺
-- coin__binancecoin wait .......... (386.01663184166s) ☺
-- coin__litecoin wait .......... (388.18479800224s) ☺
-- coin__elrond wait .......... (391.45390200615s) ☺
-- coin__chainlink wait .......... (393.89302492142s) ☺
-- coin__eos wait .......... (398.50784897804s) ☺
-- coin__sonm wait .......... (404.75105690956s) ☺
-- coin__bitcoin-cash wait .......... (437.16934299469s) ☺
-- coin__cardano wait .......... (456.84239792824s) ☺
-- coin__tron wait .......... (489.02886486053s) ☺
-- coin__dogecoin wait .......... (507.63095593452s) ☺
-- coin__monero wait .......... (539.84546589851s) ☺
-- coin__vechain wait .......... (560.37142181396s) ☺
-- coin__stellar wait .......... (592.59380984306s) ☺
-- coin__matic-network wait .......... (625.19117498398s) ☺
-- coin__komodo wait .......... (659.61482000351s) ☺
-- coin__ripio-credit-network wait .......... (676.55142903328s) ☺
-- coin__ethereum-classic wait .......... (737.68472695351s) ☺
-- coin__waves wait .......... (770.30111098289s) ☺
-- coin__celer-network wait .......... (802.68516898155s) ☺
-- coin__ravencoin wait .......... (835.03153395653s) ☺
-- coin__metal wait ...... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 856.62470507622s
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
