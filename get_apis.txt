@@ -1,21 +1,59 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.98778009414673s) ☺
+- exchange_info_v1 wait ................. (3.856831073761s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.9034190177917s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (3.4405238628387s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (2.1839880943298s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (2.6026351451874s) ☺
+- coins_list (4.0940749645233s) ☺
+- exchanges_tickers__binance 
+page 1 (8.9670879840851s) ☺
+page 2 (14.622689962387s) ☺
+page 3 (16.278466939926s) ☺
+page 4 wait .... (17.830197095871s) ☺
+page 5 wait .. (19.448073148727s) ☺
+page 6 (21.066829919815s) ☺
+page 7 wait ..... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ... (24.651068925858s) ☺
+page 2 (26.483685016632s) ☺
+page 3 (28.534783124924s) ☺
+page 4 (30.547949075699s) ☺
+page 5 wait .. end reached
+- coin__bitcoin-bep2 wait . (33.307142019272s) ☺
+- coin__ethereum (at 9013.5015728474s/14400s)
+- coin__ripple (at 9012.7994217873s/14400s)
+- coin__eos (at 9011.7314200401s/14400s)
+- coin__litecoin (at 9007.3469519615s/14400s)
+- coin__binancecoin (at 9010.7736020088s/14400s)
+- coin__chainlink (at 9009.4983768463s/14400s)
+- coin__bitcoin-cash (at 9006.8926968575s/14400s)
+- coin__cardano (at 9005.5196499825s/14400s)
+- coin__tron (at 9004.6003279686s/14400s)
+- coin__elrond (at 9003.2979440689s/14400s)
+- coin__matic-network (at 8997.537512064s/14400s)
+- coin__dogecoin (at 8997.1904301643s/14400s)
+- coin__ethereum-classic (at 8995.5115859509s/14400s)
+- coin__monero (at 9002.1767339706s/14400s)
+- coin__stellar (at 9004.903717041s/14400s)
+- coin__power-ledger (43.197371006012s) ☺
+- coin__dock wait .... (44.812444925308s) ☺
+- coin__vechain (at 8988.6834640503s/14400s)
+- coin__ripio-credit-network (at 8981.188904047s/14400s)
+- coin__celer-network (at 9004.0261979103s/14400s)
+- coin__zcash (51.319652080536s) ☺
+- coin__dash wait .......... (52.812262058258s) ☺
+- coin__neo wait .......... (54.004193067551s) ☺
+- coin__ravencoin (at 8988.3234601021s/14400s)
+- coin__siacoin wait .......... (55.26552605629s) ☺
+- coin__cosmos wait .......... (56.433912992477s) ☺
+- coin__ontology wait .......... (57.671478033066s) ☺
+- coin__iostoken wait .......... (58.892895936966s) ☺
+- coin__komodo (at 8990.6024618149s/14400s)
+- coin__sonm (at 8989.4134438038s/14400s)
+- coin__iota wait .......... (60.096849918365s) ☺
+- coin__0x wait .......
