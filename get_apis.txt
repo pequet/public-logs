@@ -1,21 +1,53 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (1.0834488868713s) ☺
+- exchange_info_v1 wait ................. (4.0150489807129s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.913880109787s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.67763018608093s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (0.51494288444519s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (4.5978629589081s) ☺
+- coins_list wait ........ (5.8955459594727s) ☺
+- exchanges_tickers__binance 
+page 1 wait ..... (7.3953049182892s) ☺
+page 2 wait ...... (8.9935297966003s) ☺
+page 3 wait .... (10.457477807999s) ☺
+page 4 wait .... (11.573119878769s) ☺
+page 5 wait ....... (13.106443881989s) ☺
+page 6 wait ...... (14.528162002563s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ...... (17.572360992432s) ☺
+page 2 wait ... (19.366390943527s) ☺
+page 3 wait .. (20.91742181778s) ☺
+page 4 wait .... (22.243165016174s) ☺
+page 5 wait ....... end reached
+- coin__bitcoin-bep2 wait . (25.155375957489s) ☺
+- coin__ethereum wait . (26.734102964401s) ☺
+- coin__ripple wait .. (28.378840923309s) ☺
+- coin__binancecoin (29.883987903595s) ☺
+- coin__eos wait ... (31.883744001389s) ☺
+- coin__elrond (33.880613803864s) ☺
+- coin__litecoin (36.013543844223s) ☺
+- coin__chainlink (37.786893844604s) ☺
+- coin__bitcoin-cash (39.276474952698s) ☺
+- coin__monero wait ...... (41.1331179142s) ☺
+- coin__cardano (42.558058977127s) ☺
+- coin__tron wait .... (43.805969953537s) ☺
+- coin__stellar wait ....... (45.493088006973s) ☺
+- coin__matic-network wait ..... (46.821228981018s) ☺
+- coin__dock wait .... (48.270349025726s) ☺
+- coin__vechain wait ...... (49.52965593338s) ☺
+- coin__ethereum-classic wait ...... (51.009230852127s) ☺
+- coin__dogecoin wait ..... (53.803313016891s) ☺
+- coin__fetch-ai (57.790426015854s) ☺
+- coin__metal wait .......... (59.386844873428s) ☺
+- coin__iostoken wait .......... (60.62336397171s) ☺
+- coin__algorand wait .......... (62.210244894028s) ☺
+- coin__dash wait .......... (63.417383909225s) ☺
+- coin__zcash wait .......... (64.671453952789s) ☺
+- coin__siacoin wait .......... (65.885833024979s) ☺
+- coin__ontology wait .......... (67.077690839767s) ☺
+- coin__0x wait ......
