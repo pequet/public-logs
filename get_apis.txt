@@ -1,13 +1,19 @@
 bittrex
-- exchange_info (1.5828378200531s) ☺
-- exchange_info_v1 wait ............ (4.0786259174347s) ☺
+- exchange_info (4.1365349292755s) ☺
+- exchange_info_v1 wait ................... problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
 binance
-- exchange_info (2.0116138458252s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
 poloniex
-- exchange_info (5.6033048629761s) ☺
+- exchange_info (0.7594108581543s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (8.3985381126404s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (at 892.77826309204s/3600s)
+coingecko
+- exchanges_list (2.101555109024s) ☺
+- coins_list wait .......... (3.1970491409302s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (4.2766230106354s) ☺
+page 2 wait .......... (5.3512470722198s) ☺
+page 3 wait .......... (6.4169230461121s) ☺
+page 4 wait .......... (7.4695072174072s) ☺
+page 5 wait .......... (8.5332791805267s) ☺
+page 6 wait ..........
