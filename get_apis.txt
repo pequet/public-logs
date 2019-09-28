@@ -1,21 +1,56 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (1.2383098602295s) ☺
+- exchange_info_v1 wait ................. (3.9656138420105s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (0.98161506652832s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.5361111164093s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2699.9387412071s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (1.1070330142975s) ☺
+- coins_list wait ....... (2.4839749336243s) ☺
+- exchanges_tickers__binance 
+page 1 wait ...... (3.6842288970947s) ☺
+page 2 wait ...... (4.8639688491821s) ☺
+page 3 wait ...... (6.3001658916473s) ☺
+page 4 wait ..... (7.3744339942932s) ☺
+page 5 wait ...... (8.6510398387909s) ☺
+page 6 wait ....... (9.9656639099121s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ...... (13.408926963806s) ☺
+page 2 wait .. (14.611544847488s) ☺
+page 3 wait .. (15.985029935837s) ☺
+page 4 wait ...... (17.50883102417s) ☺
+page 5 wait .... end reached
+- coin__ethereum wait . (20.229573011398s) ☺
+- coin__binancecoin wait ..... (21.74701499939s) ☺
+- coin__ripple wait .. (23.355171918869s) ☺
+- coin__elrond wait ..... (25.174623012543s) ☺
+- coin__litecoin wait ... (26.707531929016s) ☺
+- coin__monero wait ..... (28.55504989624s) ☺
+- coin__eos (31.119246006012s) ☺
+- coin__chainlink (32.823082923889s) ☺
+- coin__bitcoin-cash wait ... (34.298916816711s) ☺
+- coin__cardano wait .... (36.384747982025s) ☺
+- coin__tron (38.223375797272s) ☺
+- coin__sonm wait ... (39.5797560215s) ☺
+- coin__stellar wait ..... (41.205608844757s) ☺
+- coin__vechain wait .... (42.646148920059s) ☺
+- coin__matic-network wait .... (44.482774019241s) ☺
+- coin__dogecoin wait .. (45.822757005692s) ☺
+- coin__dock wait . (47.351634025574s) ☺
+- coin__ravencoin wait ... (49.328311920166s) ☺
+- coin__fetch-ai wait . (50.667027950287s) ☺
+- coin__ethereum-classic wait .. (52.636292934418s) ☺
+- coin__zcash (56.679307937622s) ☺
+- coin__metal (57.081863880157s) ☺
+- coin__iostoken wait .......... (58.335912942886s) ☺
+- coin__siacoin wait .......... (59.738713979721s) ☺
+- coin__neo wait .......... (60.929495811462s) ☺
+- coin__dash wait .......... (62.116858959198s) ☺
+- coin__agrello wait .......... (63.3214199543s) ☺
+- coin__quark-chain wait .......... (64.543119907379s) ☺
+- coin__aeron wait .......... (65.729956865311s) ☺
+- coin__mainframe wait ...
