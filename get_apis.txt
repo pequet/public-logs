@@ -48,4 +48,82 @@ page 5 wait .......... end reached
 - coin__dash wait .......... (53.0296459198s) ☺
 - coin__basic-attention-token wait .......... (54.972414970398s) ☺
 - coin__vibe wait .......... (56.332940101624s) ☺
-- coin__metal wait .
+- coin__metal wait .......... (57.605683088303s) ☺
+- coin__waves wait .......... (58.928987026215s) ☺
+- coin__gxchain wait .......... (60.096843957901s) ☺
+- coin__fetch-ai wait .......... (61.316219091415s) ☺
+- coin__cosmos wait .......... (62.487677097321s) ☺
+- coin__fantom wait .......... (63.678205966949s) ☺
+- coin__enjincoin wait .......... (65.161312103271s) ☺
+- coin__republic-protocol wait .......... (66.365972042084s) ☺
+- coin__0x wait .......... (67.528377056122s) ☺
+- coin__iota wait .......... (68.666877985001s) ☺
+- coin__band-protocol wait .......... (69.843540906906s) ☺
+- coin__singulardtv wait .......... (71.014966964722s) ☺
+- coin__dusk-network wait .......... (72.383605957031s) ☺
+- coin__funfair wait .......... (73.624953985214s) ☺
+- coin__wabi wait .......... (74.714836120605s) ☺
+- coin__ethos wait .......... (75.874810934067s) ☺
+- coin__ripio-credit-network wait .......... (77.074156999588s) ☺
+- coin__icon wait .......... (78.270697116852s) ☺
+- coin__tezos wait .......... (79.456496953964s) ☺
+- coin__nano wait .......... (80.676064014435s) ☺
+- coin__waltonchain wait .......... (81.952744960785s) ☺
+- coin__monetha wait .......... (83.199607133865s) ☺
+- coin__gochain wait .......... (84.354860067368s) ☺
+- coin__aeron wait .......... (85.514219999313s) ☺
+- coin__tierion wait .......... (86.675089120865s) ☺
+- coin__gifto wait .......... (87.882640123367s) ☺
+- coin__beam wait .......... (89.053837060928s) ☺
+- coin__syscoin wait .......... (90.280797958374s) ☺
+- coin__perlin wait .......... (91.470299959183s) ☺
+- coin__theta-token wait .......... (92.816648006439s) ☺
+- coin__everex wait .......... (94.017457962036s) ☺
+- coin__mithril wait .......... (95.299734115601s) ☺
+- coin__agrello wait .......... (96.463160037994s) ☺
+- coin__contentos wait .......... (97.655256032944s) ☺
+- coin__viberate wait .......... (98.833074092865s) ☺
+- coin__cybermiles wait .......... (100.03578591347s) ☺
+- coin__power-ledger wait .......... (101.26789808273s) ☺
+- coin__komodo wait .......... (102.47713708878s) ☺
+- coin__amber wait .......... (103.63656401634s) ☺
+- coin__cindicator wait .......... (104.85317897797s) ☺
+- coin__airswap wait .......... (106.04259705544s) ☺
+- coin__aelf wait .......... (107.20715308189s) ☺
+- coin__ins-ecosystem wait .......... (108.49776291847s) ☺
+- coin__blockmason-credit-protocol wait .......... (109.9344329834s) ☺
+- coin__loopring wait .......... (111.28806495667s) ☺
+- coin__aion wait .......... (112.46346497536s) ☺
+- coin__kyber-network wait .......... (117.09993696213s) ☺
+- coin__nebulas wait .......... (118.27229595184s) ☺
+- coin__district0x wait .......... (119.43820691109s) ☺
+- coin__singularitynet wait .......... (120.62991213799s) ☺
+- coin__poa-network wait .......... (121.83177995682s) ☺
+- coin__blox wait .......... (123.02509093285s) ☺
+- coin__ethlend wait .......... (124.18738913536s) ☺
+- coin__bitshares wait .......... (125.36981511116s) ☺
+- coin__aeternity wait .......... (126.67504191399s) ☺
+- coin__civic wait .......... (127.90378499031s) ☺
+- coin__time-new-bank wait .......... (129.07943892479s) ☺
+- coin__stratis wait .......... (130.23173713684s) ☺
+- coin__appcoins wait .......... (131.43753099442s) ☺
+- coin__simple-token wait .......... (132.62004899979s) ☺
+- coin__tomochain wait .......... (133.82221007347s) ☺
+- coin__bitcoin-gold wait .......... (135.08655691147s) ☺
+- coin__hshare wait .......... (136.33789896965s) ☺
+- coin__openanx wait .......... (137.59327602386s) ☺
+- coin__decred wait .......... (139.89342403412s) ☺
+- coin__gas wait .......... (141.28099703789s) ☺
+- coin__populous wait .......... (142.72430205345s) ☺
+- coin__yoyow problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_yoyow.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
