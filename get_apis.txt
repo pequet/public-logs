@@ -1,16 +1,41 @@
 bittrex
-- exchange_info (3.0226211547852s) ☺
-- exchange_info_v1 (9.2274670600891s) ☺
+- exchange_info (1.7064921855927s) ☺
+- exchange_info_v1 wait ........... (4.127289056778s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 569344 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 569344 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (1.9321999549866s) ☺
+poloniex
+- exchange_info (1.556734085083s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 1766.8954610825s/3600s)
+coingecko
+- exchanges_list (2.2129459381104s) ☺
+- coins_list (5.1805830001831s) ☺
+- exchanges_tickers__binance 
+page 1 (23.216979026794s) ☺
+page 2 wait .......... (25.029575824738s) ☺
+page 3 wait .......... (26.78758597374s) ☺
+page 4 wait .......... (28.692456960678s) ☺
+page 5 wait .......... (30.089915037155s) ☺
+page 6 wait .......... (31.562985897064s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (34.212038993835s) ☺
+page 2 wait .......... (35.479517936707s) ☺
+page 3 wait .......... (37.638028860092s) ☺
+page 4 wait .......... (38.933998823166s) ☺
+page 5 wait .......... end reached
+- coin__ethereum wait .......... (41.452949047089s) ☺
+- coin__binancecoin wait .......... (42.600340843201s) ☺
+- coin__ripple wait .......... (43.776020050049s) ☺
+- coin__litecoin wait .......... (44.994025945663s) ☺
+- coin__bitcoin-cash wait .......... (46.10302901268s) ☺
+- coin__eos wait .......... (47.300302028656s) ☺
+- coin__dock wait .......... (48.68426990509s) ☺
+- coin__chainlink wait .......... (49.855284929276s) ☺
+- coin__monero wait .......... (51.087792873383s) ☺
+- coin__cardano wait .......... (52.338615894318s) ☺
+- coin__sonm wait .......... (53.747951984406s) ☺
+- coin__matic-network wait .......... (55.130182027817s) ☺
+- coin__zcash wait .......... (57.142082929611s) ☺
+- coin__fetch-ai wait .......... (59.125263929367s) ☺
+- coin__stellar wait ..
