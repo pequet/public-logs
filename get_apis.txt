@@ -1,21 +1,55 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (1.1641018390656s) ☺
+- exchange_info_v1 wait .............. (3.8989849090576s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (3.1041960716248s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (1.973356962204s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (1.1287400722504s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (1.683669090271s) ☺
+- coins_list (2.7834639549255s) ☺
+- exchanges_tickers__binance 
+page 1 (6.5389759540558s) ☺
+page 2 (20.578676939011s) ☺
+page 3 (26.444443941116s) ☺
+page 4 (28.734750986099s) ☺
+page 5 wait ...... (30.307317018509s) ☺
+page 6 wait .... (31.559539079666s) ☺
+page 7 wait ....... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ....... (35.112703084946s) ☺
+page 2 wait .. (36.363023042679s) ☺
+page 3 wait ..... (38.135005950928s) ☺
+page 4 wait ...... (39.432467937469s) ☺
+page 5 wait ...... end reached
+- coin__ethereum (at 4512.0657999516s/14400s)
+- coin__ripple (at 4510.8127641678s/14400s)
+- coin__binancecoin (at 4509.3421058655s/14400s)
+- coin__litecoin (at 4508.0962891579s/14400s)
+- coin__eos (at 4505.554172039s/14400s)
+- coin__bitcoin-cash (at 4504.5081169605s/14400s)
+- coin__elrond (at 4507.9086999893s/14400s)
+- coin__dogecoin (at 4503.4966230392s/14400s)
+- coin__cardano (at 4501.4620840549s/14400s)
+- coin__tron (at 4498.1328790188s/14400s)
+- coin__chainlink (at 4487.8862111568s/14400s)
+- coin__monero (at 4471.9757628441s/14400s)
+- coin__siacoin (at 4473.4217917919s/14400s)
+- coin__vechain (at 4471.370262146s/14400s)
+- coin__matic-network (at 4469.3406999111s/14400s)
+- coin__stellar (at 4470.8534080982s/14400s)
+- coin__hedera-hashgraph (at 4468.694562912s/14400s)
+- coin__ravencoin (at 4467.8701460361s/14400s)
+- coin__ethereum-classic (at 4467.0665919781s/14400s)
+- coin__dock (at 4466.0278480053s/14400s)
+- coin__cosmos (at 4462.7216308117s/14400s)
+- coin__harmony (at 4460.4336881638s/14400s)
+- coin__algorand (at 4464.7543179989s/14400s)
+- coin__band-protocol (at 2725.0210311413s/14400s)
+- coin__neo (at 4466.1972880363s/14400s)
+- coin__red-pulse problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_red-pulse.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- coins wait .................................................. (7.9237258434296s) ☺
+- categories_tags wait .......................................
