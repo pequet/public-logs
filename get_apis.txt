@@ -1,21 +1,19 @@
 bittrex
-- exchange_info (1.7517259120941s) ☺
-- exchange_info_v1 wait ............. (4.5776219367981s) ☺
+- exchange_info (5.4715580940247s) ☺
+- exchange_info_v1 (9.530956029892s) ☺
 binance
-- exchange_info (2.6590170860291s) ☺
+- exchange_info (7.6881210803986s) ☺
 poloniex
-- exchange_info (9.3965480327606s) ☺
+- exchange_info (13.488873004913s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (4.3013639450073s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 20480 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
-
-Backtrace:
-
+- cryptocurrency_listings_latest_header (at 909.44588112831s/3600s)
+coingecko
+- exchanges_list (2.3750159740448s) ☺
+- coins_list wait .......... (3.50923204422s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (6.585391998291s) ☺
+page 2 wait .......... (10.927440881729s) ☺
+page 3 wait .......... (28.92157292366s) ☺
+page 4 wait .......... (33.393934011459s) ☺
+page 5 wait .......... (36.55872797966s) ☺
+page 6 wait ....
