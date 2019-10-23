@@ -2,51 +2,47 @@ davo_w_price_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_price/indicators
 callback: indicator_update_callback
-last run: 1571817973.8066
-- bittrex_davo_w_price_btc_btc_4_of_8.txt 
-- bittrex_davo_w_price_btc_usd_1_of_8.txt 
-- bittrex_davo_w_price_btc_usd_2_of_8.txt 
+last run: 1571819733.3833
+- bittrex_davo_w_price_btc_btc_2_of_8.txt 
+- bittrex_davo_w_price_btc_btc_5_of_8.txt 
+- bittrex_davo_w_price_btc_usd_3_of_8.txt 
 processing 3 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex Dav-o W Price Scanner BTC (4/8)
-tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_4_of_8.txt
-debug: 28910845ff-870bff917a
+- 2019: Bittrex Dav-o W Price Scanner BTC (2/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_2_of_8.txt
+debug: 28910845ff-cf78f14672
 load indicator
 script modified: no
-take screenshot 20191023043340_28910845ff-870bff917a.png 
+take screenshot 20191023051824_28910845ff-cf78f14672.png 
 not updated ☕
-- 2019: Bittrex Dav-o W Price Scanner USD (1/8)
-tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_1_of_8.txt
-debug: 48a585bfff-7b1f594e82
+- 2019: Bittrex Dav-o W Price Scanner BTC (5/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_5_of_8.txt
+debug: 28910845ff-f0c9b21aff
+failed to update indicator: unknown error: Element <div class="wrap-18oKCBRc-" id="header-toolbar-indicators">...</div> is not clickable at point (399, 19). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
+  (Session info: headless chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+not updated ☕
+- 2019: Bittrex Dav-o W Price Scanner USD (3/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_3_of_8.txt
+debug: 48a585bfff-2faf874cf4
 load indicator
 script modified: no
-take screenshot 20191023043353_48a585bfff-7b1f594e82.png 
-not updated ☕
-- 2019: Bittrex Dav-o W Price Scanner USD (2/8)
-tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_2_of_8.txt
-debug: 48a585bfff-ea410212ff
-load indicator
-script modified: yes
-save script
-bring indicator to front in panel 2
-failed to update indicator: Undefined property: stdClass::$element
+take screenshot 20191023051840_48a585bfff-2faf874cf4.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571819733.3833
+update last run: 1571822321.3214
 davo_w_obv_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_obv/indicators
 callback: indicator_update_callback
-last run: 1571818005.1709
+last run: 1571819852.3687
 - bittrex_davo_w_obv_btc_btc_2_of_8.txt 
-- bittrex_davo_w_obv_btc_btc_3_of_8.txt 
-- bittrex_davo_w_obv_btc_btc_4_of_8.txt 
-- bittrex_davo_w_obv_btc_btc_5_of_8.txt 
-- bittrex_davo_w_obv_btc_usd_2_of_8.txt 
-wait .............................. processing 5 indicator scripts
+- bittrex_davo_w_obv_btc_usd_1_of_8.txt 
+- bittrex_davo_w_obv_btc_usd_5_of_8.txt 
+wait .............................. processing 3 indicator scripts
 opened the session
 getting homepage
 logged in
@@ -54,102 +50,67 @@ logged in
 tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_2_of_8.txt
 debug: 1a3f014b58-04e6b4f782
 load indicator
-script modified: no
-take screenshot 20191023043624_1a3f014b58-04e6b4f782.png 
-not updated ☕
-- 2019: Bittrex Dav-o W OBV Scanner BTC (3/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_3_of_8.txt
-debug: 1a3f014b58-3217bfe951
-load indicator
 script modified: yes
 save script
-failed to update indicator: unknown error: Element <div class="title-1C5azoXt-" data-name="scripteditor" data-active="true">...</div> is not clickable at point (340, 1257). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
-  (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+bring indicator forward in panel 2 [1/2]
+failed to update indicator: Undefined property: stdClass::$element
 not updated ☕
-- 2019: Bittrex Dav-o W OBV Scanner BTC (4/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_4_of_8.txt
-debug: 1a3f014b58-f97c1a8f13
-load indicator
-could not load the script in the editor
-script modified: no
-take screenshot 20191023043715_1a3f014b58-f97c1a8f13.png 
-not updated ☕
-- 2019: Bittrex Dav-o W OBV Scanner BTC (5/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_5_of_8.txt
-debug: 1a3f014b58-f1b85642ab
-load indicator
-script modified: no
-take screenshot 20191023043721_1a3f014b58-f1b85642ab.png 
-not updated ☕
-- 2019: Bittrex Dav-o W OBV Scanner USD (2/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_usd_2_of_8.txt
-debug: 12f8ce28e5-07e7f14ec5
+- 2019: Bittrex Dav-o W OBV Scanner USD (1/8)
+tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_usd_1_of_8.txt
+debug: 12f8ce28e5-b82e706be7
 ☞ ignoring exception: unexpected alert open
 load indicator
 script modified: no
-take screenshot 20191023043731_12f8ce28e5-07e7f14ec5.png 
+take screenshot 20191023052119_12f8ce28e5-b82e706be7.png 
+not updated ☕
+- 2019: Bittrex Dav-o W OBV Scanner USD (5/8)
+tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_usd_5_of_8.txt
+debug: 12f8ce28e5-854f1fec2f
+load indicator
+script modified: no
+take screenshot 20191023052125_12f8ce28e5-854f1fec2f.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571819852.3687
+update last run: 1571822486.1553
 davo_w_rsi_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_rsi/indicators
 callback: indicator_update_callback
-last run: 1571818136.4685
-- bittrex_davo_w_rsi_btc_btc_2_of_8.txt 
+last run: 1571819908.4214
 - bittrex_davo_w_rsi_btc_btc_3_of_8.txt 
-- bittrex_davo_w_rsi_btc_usd_1_of_8.txt 
 - bittrex_davo_w_rsi_btc_usd_5_of_8.txt 
-wait .............................. processing 4 indicator scripts
+wait .............................. processing 2 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex Dav-o W RSI Scanner BTC (2/8)
-tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_2_of_8.txt
-debug: 749780e24f-11f4f2442a
-load indicator
-script modified: no
-take screenshot 20191023043755_749780e24f-11f4f2442a.png 
-not updated ☕
 - 2019: Bittrex Dav-o W RSI Scanner BTC (3/8)
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_3_of_8.txt
 debug: 749780e24f-5817f8fa4e
 load indicator
 script modified: no
-take screenshot 20191023043803_749780e24f-5817f8fa4e.png 
-not updated ☕
-- 2019: Bittrex Dav-o W RSI Scanner USD (1/8)
-tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_1_of_8.txt
-debug: 317e9ff5fa-2f2b87a044
-load indicator
-script modified: no
-take screenshot 20191023043818_317e9ff5fa-2f2b87a044.png 
+take screenshot 20191023052215_749780e24f-5817f8fa4e.png 
 not updated ☕
 - 2019: Bittrex Dav-o W RSI Scanner USD (5/8)
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_5_of_8.txt
 debug: 317e9ff5fa-e2fb486439
 load indicator
-failed to update indicator: unknown error: Element <div class="tv-insert-study-item__btn tv-insert-study-item__show-source-btn js-show-source-btn" data-role="button" data-name="indicators-dialog-show-code-button" title="Source code">...</div> is not clickable at point (1654, 612). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
-  (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+script modified: no
+take screenshot 20191023052231_317e9ff5fa-e2fb486439.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571819908.4214
+update last run: 1571822552.0921
 davo_w_willy_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_willy/indicators
 callback: indicator_update_callback
-last run: 1571818218.0974
+last run: 1571820055.0151
 - bittrex_davo_w_willy_btc_btc_2_of_8.txt 
-- bittrex_davo_w_willy_btc_btc_4_of_8.txt 
 - bittrex_davo_w_willy_btc_usd_1_of_8.txt 
+- bittrex_davo_w_willy_btc_usd_2_of_8.txt 
 - bittrex_davo_w_willy_btc_usd_3_of_8.txt 
-- bittrex_davo_w_willy_btc_usd_4_of_8.txt 
-- bittrex_davo_w_willy_btc_usd_5_of_8.txt 
-wait .............................. processing 6 indicator scripts
+wait .............................. processing 4 indicator scripts
 opened the session
 getting homepage
 logged in
@@ -158,32 +119,25 @@ tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_btc_2_of_8
 debug: f7a79524f1-82bff6c88e
 load indicator
 script modified: no
-take screenshot 20191023043848_f7a79524f1-82bff6c88e.png 
-not updated ☕
-- 2019: Bittrex Dav-o W Willy Scanner BTC (4/8)
-tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_btc_4_of_8.txt
-debug: f7a79524f1-185404f1a5
-failed to update indicator: unknown error: Element <div class="wrap-18oKCBRc-" id="header-toolbar-indicators">...</div> is not clickable at point (399, 19). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
-  (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+take screenshot 20191023052252_f7a79524f1-82bff6c88e.png 
 not updated ☕
 - 2019: Bittrex Dav-o W Willy Scanner USD (1/8)
 tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_1_of_8.txt
 debug: f5c78f0124-011c472f5f
 load indicator
 script modified: no
-take screenshot 20191023043959_f5c78f0124-011c472f5f.png 
+take screenshot 20191023052307_f5c78f0124-011c472f5f.png 
+not updated ☕
+- 2019: Bittrex Dav-o W Willy Scanner USD (2/8)
+tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_2_of_8.txt
+debug: f5c78f0124-4922ec16e3
+load indicator
+script modified: no
+take screenshot 20191023052314_f5c78f0124-4922ec16e3.png 
 not updated ☕
 - 2019: Bittrex Dav-o W Willy Scanner USD (3/8)
 tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_3_of_8.txt
 debug: f5c78f0124-8b4784529c
-load indicator
-script modified: no
-take screenshot 20191023044037_f5c78f0124-8b4784529c.png 
-not updated ☕
-- 2019: Bittrex Dav-o W Willy Scanner USD (4/8)
-tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_4_of_8.txt
-debug: f5c78f0124-478ffa2f81
 load indicator
 script modified: yes
 save script
@@ -191,24 +145,17 @@ failed to update indicator: unknown error: Element <div class="title-1C5azoXt-" 
   (Session info: headless chrome=73.0.3683.103)
   (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
 not updated ☕
-- 2019: Bittrex Dav-o W Willy Scanner USD (5/8)
-tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_5_of_8.txt
-debug: f5c78f0124-65f4f4f23b
-load indicator
-script modified: no
-take screenshot 20191023044054_f5c78f0124-65f4f4f23b.png 
-not updated ☕
 logged out
 closed the session
-update last run: 1571820055.0151
+update last run: 1571822602.6846
 bot_long_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/bot_long/indicators
 callback: indicator_update_callback
-last run: 1571818263.1019
+last run: 1571820140.5521
 - bittrex_bot_long_btc_btc_3_of_8.txt 
-- bittrex_bot_long_btc_usd_1_of_8.txt 
-wait .............................. processing 2 indicator scripts
+- bittrex_bot_long_btc_usd_5_of_8.txt 
+wait ............................. processing 2 indicator scripts
 opened the session
 getting homepage
 logged in
@@ -218,174 +165,194 @@ debug: 7f21ef7844-8f44be495a
 load indicator
 could not find the indicator
 script modified: no
-take screenshot 20191023044209_7f21ef7844-8f44be495a.png 
+take screenshot 20191023052436_7f21ef7844-8f44be495a.png 
 not updated ☕
-- 2019: Bittrex BoT Long Scanner USD (1/8)
-tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_1_of_8.txt
-debug: 0b4f1ff212-129e71c424
+- 2019: Bittrex BoT Long Scanner USD (5/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_5_of_8.txt
+debug: 0b4f1ff212-24ba44ee35
 load indicator
 script modified: no
-take screenshot 20191023044219_0b4f1ff212-129e71c424.png 
+take screenshot 20191023052446_0b4f1ff212-24ba44ee35.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571820140.5521
+update last run: 1571822686.8296
 bot_short_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/bot_short/indicators
 callback: indicator_update_callback
-last run: 1571818311.1305
-- bittrex_bot_short_btc_btc_1_of_8.txt 
+last run: 1571820201.5528
+- bittrex_bot_short_btc_btc_5_of_8.txt 
+- bittrex_bot_short_btc_usd_1_of_8.txt 
 - bittrex_bot_short_btc_usd_4_of_8.txt 
-wait .............................. processing 2 indicator scripts
+wait .............................. processing 3 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex BoT Short Scanner BTC (1/8)
-tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_btc_1_of_8.txt
-debug: 2fbff07821-1158ff4789
+- 2019: Bittrex BoT Short Scanner BTC (5/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_btc_5_of_8.txt
+debug: 2fbff07821-8708543fbf
 load indicator
 script modified: no
-take screenshot 20191023044239_2fbff07821-1158ff4789.png 
+take screenshot 20191023052536_2fbff07821-8708543fbf.png 
+not updated ☕
+- 2019: Bittrex BoT Short Scanner USD (1/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_1_of_8.txt
+debug: 42af304186-482fe74f12
+load indicator
+script modified: no
+take screenshot 20191023052617_42af304186-482fe74f12.png 
 not updated ☕
 - 2019: Bittrex BoT Short Scanner USD (4/8)
 tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_4_of_8.txt
 debug: 42af304186-73b282284a
 load indicator
 script modified: no
-take screenshot 20191023044321_42af304186-73b282284a.png 
+take screenshot 20191023052623_42af304186-73b282284a.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571820201.5528
+update last run: 1571822783.8107
 mov_bull_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bull/indicators
 callback: indicator_update_callback
-last run: 1571816497.7849
-- bittrex_mov_bull_btc_btc_1_of_8.txt 
-- bittrex_mov_bull_btc_btc_2_of_8.txt 
-- bittrex_mov_bull_btc_usd_3_of_8.txt 
-wait .............................. processing 3 indicator scripts
+last run: 1571820294.7178
+- bittrex_mov_bull_btc_btc_4_of_8.txt 
+- bittrex_mov_bull_btc_btc_5_of_8.txt 
+- bittrex_mov_bull_btc_usd_1_of_8.txt 
+- bittrex_mov_bull_btc_usd_2_of_8.txt 
+- bittrex_mov_bull_btc_usd_4_of_8.txt 
+- bittrex_mov_bull_btc_usd_5_of_8.txt 
+wait .............................. processing 6 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex MoV Bull Scanner BTC (1/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_1_of_8.txt
-debug: fc5984f43a-a2b01e85ff
+- 2019: Bittrex MoV Bull Scanner BTC (4/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_4_of_8.txt
+debug: fc5984f43a-c7f12f7f94
 load indicator
-could not find the indicator
 script modified: no
-take screenshot 20191023044435_fc5984f43a-a2b01e85ff.png 
+take screenshot 20191023052642_fc5984f43a-c7f12f7f94.png 
 not updated ☕
-- 2019: Bittrex MoV Bull Scanner BTC (2/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_2_of_8.txt
-debug: fc5984f43a-f6fef81074
+- 2019: Bittrex MoV Bull Scanner BTC (5/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_5_of_8.txt
+debug: fc5984f43a-19cf288067
 load indicator
 script modified: no
-take screenshot 20191023044442_fc5984f43a-f6fef81074.png 
+take screenshot 20191023052649_fc5984f43a-19cf288067.png 
 not updated ☕
-- 2019: Bittrex MoV Bull Scanner USD (3/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_3_of_8.txt
-debug: 45a2bf7fe3-2e17ff1f2c
+- 2019: Bittrex MoV Bull Scanner USD (1/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_1_of_8.txt
+debug: 45a2bf7fe3-b8441fffbf
 load indicator
 script modified: no
-take screenshot 20191023044454_45a2bf7fe3-2e17ff1f2c.png 
+take screenshot 20191023052701_45a2bf7fe3-b8441fffbf.png 
+not updated ☕
+- 2019: Bittrex MoV Bull Scanner USD (2/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_2_of_8.txt
+debug: 45a2bf7fe3-e18ff8e904
+load indicator
+script modified: no
+take screenshot 20191023052710_45a2bf7fe3-e18ff8e904.png 
+not updated ☕
+- 2019: Bittrex MoV Bull Scanner USD (4/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_4_of_8.txt
+debug: 45a2bf7fe3-613e447ff0
+load indicator
+script modified: no
+take screenshot 20191023052718_45a2bf7fe3-613e447ff0.png 
+not updated ☕
+- 2019: Bittrex MoV Bull Scanner USD (5/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_5_of_8.txt
+debug: 45a2bf7fe3-e3c92881af
+load indicator
+script modified: no
+take screenshot 20191023052726_45a2bf7fe3-e3c92881af.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571820294.7178
+update last run: 1571822847.0875
 mov_bear_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bear/indicators
 callback: indicator_update_callback
-last run: 1571818403.8396
-- bittrex_mov_bear_btc_btc_4_of_8.txt 
+last run: 1571820395.739
+- bittrex_mov_bear_btc_btc_3_of_8.txt 
 - bittrex_mov_bear_btc_btc_5_of_8.txt 
 - bittrex_mov_bear_btc_usd_1_of_8.txt 
-- bittrex_mov_bear_btc_usd_4_of_8.txt 
-wait .............................. processing 4 indicator scripts
+- bittrex_mov_bear_btc_usd_3_of_8.txt 
+wait ............................. processing 4 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex MoV Bear Scanner BTC (4/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_4_of_8.txt
-debug: 4b12a28bff-7138442f25
+- 2019: Bittrex MoV Bear Scanner BTC (3/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_3_of_8.txt
+debug: 4b12a28bff-6f4278e28a
 load indicator
 script modified: no
-take screenshot 20191023044544_4b12a28bff-7138442f25.png 
+take screenshot 20191023052815_4b12a28bff-6f4278e28a.png 
 not updated ☕
 - 2019: Bittrex MoV Bear Scanner BTC (5/8)
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_5_of_8.txt
 debug: 4b12a28bff-ee44107129
-load indicator
-script modified: no
-take screenshot 20191023044551_4b12a28bff-ee44107129.png 
-not updated ☕
-- 2019: Bittrex MoV Bear Scanner USD (1/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
-debug: 4382f159f7-af14f0ff5c
-load indicator
-script modified: no
-take screenshot 20191023044602_4382f159f7-af14f0ff5c.png 
-not updated ☕
-- 2019: Bittrex MoV Bear Scanner USD (4/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_4_of_8.txt
-debug: 4382f159f7-a32eca849f
-load indicator
-script modified: yes
-save script
-failed to update indicator: unknown error: Element <div class="title-1C5azoXt-" data-name="scripteditor" data-active="true">...</div> is not clickable at point (340, 1257). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
-  (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
-not updated ☕
-logged out
-closed the session
-update last run: 1571820395.739
-tri_mas_tradingview_scanner
-local path: ../files/repositories/
-local folder: tradingview-scanners/tri_mas/indicators
-callback: indicator_update_callback
-last run: 1571818453.8682
-- bittrex_tri_mas_btc_btc_5_of_8.txt 
-- bittrex_tri_mas_btc_usd_3_of_8.txt 
-- bittrex_tri_mas_btc_usd_4_of_8.txt 
-- bittrex_tri_mas_btc_usd_5_of_8.txt 
-wait .............................. processing 4 indicator scripts
-opened the session
-getting homepage
-logged in
-- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
-debug: 5fe2a824fc-a435f971b0
-load indicator
-script modified: no
-take screenshot 20191023044724_5fe2a824fc-a435f971b0.png 
-not updated ☕
-- 2019: Bittrex MA30 EMA13 Scanner USD (3/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt
-debug: 84f8f462a5-884ef791bf
-load indicator
-script modified: no
-take screenshot 20191023044734_84f8f462a5-884ef791bf.png 
-not updated ☕
-- 2019: Bittrex MA30 EMA13 Scanner USD (4/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt
-debug: 84f8f462a5-fff8a51a80
 load indicator
 script modified: yes
 failed to update indicator: unknown error: Element <a class="button tv-script-save-button hide-if-readonly">...</a> is not clickable at point (2038, 1298). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
   (Session info: headless chrome=73.0.3683.103)
   (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
 not updated ☕
-- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
-tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
-debug: 84f8f462a5-f20c187551
-failed to update indicator: unknown error: Element <div class="wrap-18oKCBRc-" id="header-toolbar-indicators">...</div> is not clickable at point (399, 19). Other element would receive the click: <div class="tv-dialog__modal-container">...</div>
-  (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)
+- 2019: Bittrex MoV Bear Scanner USD (1/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
+debug: 4382f159f7-af14f0ff5c
+load indicator
+script modified: no
+take screenshot 20191023052904_4382f159f7-af14f0ff5c.png 
+not updated ☕
+- 2019: Bittrex MoV Bear Scanner USD (3/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_3_of_8.txt
+debug: 4382f159f7-3aff98724c
+load indicator
+script modified: no
+take screenshot 20191023052910_4382f159f7-3aff98724c.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1571820490.6841
-🗲 done in 889.61196517944s
+update last run: 1571822951.2087
+tri_mas_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/tri_mas/indicators
+callback: indicator_update_callback
+last run: 1571820490.6841
+- bittrex_tri_mas_btc_btc_1_of_8.txt 
+- bittrex_tri_mas_btc_btc_5_of_8.txt 
+- bittrex_tri_mas_btc_usd_1_of_8.txt 
+wait .............................. processing 3 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+debug: 5fe2a824fc-59f47ba6f0
+load indicator
+script modified: no
+take screenshot 20191023052928_5fe2a824fc-59f47ba6f0.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+debug: 5fe2a824fc-a435f971b0
+load indicator
+script modified: no
+take screenshot 20191023052935_5fe2a824fc-a435f971b0.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt
+debug: 84f8f462a5-8ee58faf04
+load indicator
+script modified: no
+take screenshot 20191023053016_84f8f462a5-8ee58faf04.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1571823016.8094
+🗲 done in 728.4045920372s
