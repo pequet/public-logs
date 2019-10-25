@@ -1,61 +1,15 @@
 bittrex
-- exchange_info (0.059721946716309s) ☺
-- exchange_info_v1 wait .................... (2.1866779327393s) ☺
+- exchange_info (0.057365894317627s) ☺
+- exchange_info_v1 wait .................... (2.4959790706635s) ☺
 binance
-- exchange_info (0.95992994308472s) ☺
+- exchange_info (0.51364707946777s) ☺
 poloniex
-- exchange_info (0.15425610542297s) ☺
+- exchange_info (0.1377809047699s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2697.6788740158s/3600s)
+- cryptocurrency_listings_latest_header (at 3597.8899769783s/3600s)
 coingecko
-- exchanges_list (3.0620398521423s) ☺
-- coins_list wait .......... (14.43375992775s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (16.874601840973s) ☺
-page 2 wait .......... (24.745097875595s) ☺
-page 3 wait .......... (31.393743991852s) ☺
-page 4 wait .......... (40.578727006912s) ☺
-page 5 wait .......... (56.237724065781s) ☺
-page 6 wait .......... error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__binancecoin (at 10933.680938959s/14400s)
-- coin__ethereum (at 12731.900341034s/14400s)
-- coin__chainlink (at 10932.368191957s/14400s)
-- coin__ripple (at 6430.0087230206s/14400s)
-- coin__kava (at 2829.634980917s/14400s)
-- coin__holotoken (at 12730.558228016s/14400s)
-- coin__dogecoin (at 9133.3285391331s/14400s)
-- coin__matic-network (at 10931.083575964s/14400s)
-- coin__tron (at 12729.218187094s/14400s)
-- coin__litecoin (at 4632.871970892s/14400s)
-- coin__mainframe (at 3733.4062829018s/14400s)
-- coin__eos (at 12727.923018217s/14400s)
-- coin__vechain (at 10030.713920832s/14400s)
-- coin__monero (at 3730.9334039688s/14400s)
-- coin__bitcoin-cash (at 3732.2756409645s/14400s)
-- coin__blockstack-iou (at 10929.822453022s/14400s)
-- coin__cardano (at 3729.598815918s/14400s)
-- coin__basic-attention-token (at 2828.442376852s/14400s)
-- coin__cocos-bcx (at 10928.56103301s/14400s)
-- coin__stellar (at 1028.394220829s/14400s)
-- coin__neo (at 10927.257761002s/14400s)
-- coin__siacoin (at 9129.428057909s/14400s)
-- coin__ravencoin (at 12725.261959076s/14400s)
-- coin__0x (at 1026.8017559052s/14400s)
-- coin__cosmos (at 12726.620303154s/14400s)
-- coin__ethereum-classic (at 1024.4250710011s/14400s)
-- coin__chiliz (at 8233.0324308872s/14400s)
-- coin__zcash (at 9132.1219799519s/14400s)
-- coin__ankr (at 9130.81270504s/14400s)
-- coin__nkn (at 1023.1372969151s/14400s)
-- coin__harmony (at 3725.7834401131s/14400s)
-- coin__storm (at 3728.4039239883s/14400s)
-- coin__iota (at 10926.067960024s/14400s)
-- coin__metal (at 10924.714254856s/14400s)
-- coin__celer-network (at 3727.1303780079s/14400s)
-- coin__ontology problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+- exchanges_list problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
 coincheckup
-- coins wait .................................................. (5.2876501083374s) ☺
-- categories_tags wait .................................................. (10.348002195358s) ☺
-🗲 done in 163.89612603188s
+- coins wait .................................................. (5.3068850040436s) ☺
+- categories_tags wait .................................................. (10.387765884399s) ☺
+🗲 done in 73.827286958694s
