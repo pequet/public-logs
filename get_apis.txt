@@ -1,38 +1,15 @@
 bittrex
-- exchange_info (0.085331916809082s) ☺
-- exchange_info_v1 wait .................... (2.2188971042633s) ☺
+- exchange_info (0.12848210334778s) ☺
+- exchange_info_v1 wait .................... (2.3357179164886s) ☺
 binance
-- exchange_info (0.51685214042664s) ☺
+- exchange_info (0.64766097068787s) ☺
 poloniex
-- exchange_info (0.12339496612549s) ☺
+- exchange_info (0.45030689239502s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.26176500320435s) ☺
+- cryptocurrency_listings_latest_header (at 900.18676400185s/3600s)
 coingecko
-- exchanges_list (10.751132011414s) ☺
-- coins_list wait .......... (22.928028106689s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (25.65238904953s) ☺
-page 2 wait .......... (29.532787084579s) ☺
-page 3 wait .......... (32.077690124512s) ☺
-page 4 wait .......... (34.024955034256s) ☺
-page 5 wait .......... (38.201464176178s) ☺
-page 6 wait .......... error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 (101.99630713463s) ☺
-page 2 wait .......... (104.8240571022s) ☺
-page 3 wait .......... (110.68478512764s) ☺
-page 4 wait .......... (116.06275105476s) ☺
-page 5 wait .......... end reached
-- coin__binancecoin (at 12706.682744026s/14400s)
-- coin__ethereum wait .......... (125.62424516678s) ☺
-- coin__chainlink (at 12708.37065506s/14400s)
-- coin__ripple (at 8206.0135531425s/14400s)
-- coin__kava (at 4605.6411759853s/14400s)
-- coin__holotoken wait .......... (142.80964303017s) ☺
-- coin__dogecoin (at 10926.494805098s/14400s)
-- coin__matic-network (at 12724.257718086s/14400s)
-- coin__tron wait .......... problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+- exchanges_list problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
 coincheckup
-- coins wait .................................................. (5.3285858631134s) ☺
-- categories_tags wait .................................................. (10.410523891449s) ☺
-🗲 done in 217.64517688751s
+- coins wait .................................................. (5.4930260181427s) ☺
+- categories_tags wait ................................................. (10.629880189896s) ☺
+🗲 done in 46.181664943695s
