@@ -1,15 +1,26 @@
 bittrex
-- exchange_info (0.12501907348633s) ☺
-- exchange_info_v1 wait .................... (2.2877640724182s) ☺
+- exchange_info (0.063715934753418s) ☺
+- exchange_info_v1 wait .................... (2.2013869285583s) ☺
 binance
-- exchange_info (0.39814114570618s) ☺
+- exchange_info (0.68026113510132s) ☺
 poloniex
-- exchange_info (0.11944699287415s) ☺
+- exchange_info (0.12914204597473s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2699.6724247932s/3600s)
+- cryptocurrency_listings_latest_header (0.11223602294922s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+- exchanges_list (9.9993720054626s) ☺
+- coins_list wait .......... (18.455296039581s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (22.404199123383s) ☺
+page 2 wait .......... error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 (84.805819988251s) ☺
+page 2 wait .......... (86.897469997406s) ☺
+page 3 wait .......... (90.830803155899s) ☺
+page 4 wait .......... (115.45589518547s) ☺
+page 5 wait .......... error: do_api_call coingecko
+- coin__binancecoin problem with coingecko get_lists 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
 coincheckup
-- coins wait .................................................. (5.450767993927s) ☺
-- categories_tags wait .................................................. (10.530956029892s) ☺
-🗲 done in 45.794239997864s
+- coins wait .................................................. (5.3894529342651s) ☺
+- categories_tags wait .................................................. (10.456871032715s) ☺
+🗲 done in 250.56777787209s
