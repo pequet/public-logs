@@ -185,8 +185,7 @@ logged in
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt
 debug: 77d8846c12-2771b8862c
 load indicator
-☞ could not load indicator
-mark file 
+indicator is up to date
 - 2019: Bittrex BoT Long Scanner BTC (2/8)
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_2_of_8.txt
 debug: 77d8846c12-4372b269dd
@@ -226,7 +225,8 @@ indicator is up to date
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_1_of_8.txt
 debug: 82d7378914-d735705247
 load indicator
-indicator is up to date
+☞ could not load indicator
+mark file 
 - 2019: Bittrex BoT Long Scanner USD (2/8)
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_2_of_8.txt
 debug: 82d7378914-6bcd8d1d20
@@ -431,7 +431,8 @@ indicator is up to date
 tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_2_of_8.txt
 debug: 4172725bdc-578ed37054
 load indicator
-indicator is up to date
+⚠ indicator is NOT up to date
+mark file 
 - 2019: Bittrex Dav-o W Price Scanner BTC (3/8)
 tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_3_of_8.txt
 debug: 4172725bdc-5794d0d546
@@ -511,8 +512,7 @@ indicator is up to date
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_2_of_8.txt
 debug: ed45885478-3d17715705
 load indicator
-⚠ indicator is NOT up to date
-mark file 
+indicator is up to date
 - 2019: Bittrex Dav-o W RSI Scanner BTC (3/8)
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_3_of_8.txt
 debug: ed45885478-5738157722
@@ -787,13 +787,3 @@ indicator is up to date
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
 debug: 2654e13878-b4c846d57e
 load indicator
-logged out
-closed the session
-Exception: Undefined property: stdClass::$element in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 413
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
-  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
-  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
