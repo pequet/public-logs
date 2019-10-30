@@ -3,27 +3,27 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_price/indicators
 callback: indicator_update_callback
 last run: 1572440678.8333
-- no file to update
-davo_w_obv_tradingview_scanner
-local path: ../files/repositories/
-local folder: tradingview-scanners/davo_w_obv/indicators
-callback: indicator_update_callback
-last run: 1572441618.7282
-- bittrex_davo_w_obv_btc_usd_1_of_8.txt 
+- bittrex_davo_w_price_btc_btc_1_of_8.txt 
 processing 1 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex Dav-o W OBV Scanner USD (1/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_usd_1_of_8.txt
-debug: 086932368b-3c16bd9318
+- 2019: Bittrex Dav-o W Price Scanner BTC (1/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_1_of_8.txt
+debug: 630c1c92c8-0c6b295439
 load indicator
 script modified: no
-take screenshot 20191030095820_086932368b-3c16bd9318.png 
+take screenshot 20191030103323_630c1c92c8-0c6b295439.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1572443901.9277
+update last run: 1572446003.8404
+davo_w_obv_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_obv/indicators
+callback: indicator_update_callback
+last run: 1572443901.9277
+- no file to update
 davo_w_rsi_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_rsi/indicators
@@ -35,7 +35,21 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_willy/indicators
 callback: indicator_update_callback
 last run: 1572442815.8825
-- no file to update
+- bittrex_davo_w_willy_btc_usd_1_of_8.txt 
+wait ............................ processing 1 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex Dav-o W Willy Scanner USD (1/8)
+tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_1_of_8.txt
+debug: 2359d66333-3251306331
+load indicator
+script modified: no
+take screenshot 20191030103342_2359d66333-3251306331.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1572446023.6807
 bot_long_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/bot_long/indicators
@@ -46,7 +60,7 @@ bot_short_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/bot_short/indicators
 callback: indicator_update_callback
-last run: 1572438223.9479
+last run: 1572443950.9363
 - bittrex_bot_short_btc_usd_1_of_8.txt 
 wait ............................ processing 1 indicator scripts
 opened the session
@@ -56,52 +70,27 @@ logged in
 tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_1_of_8.txt
 debug: 200d81932c-c639f03ac9
 load indicator
-script modified: no
-take screenshot 20191030095910_200d81932c-c639f03ac9.png 
-not updated ☕
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
 logged out
 closed the session
-update last run: 1572443950.9363
+update last run: 1572446051.317
 mov_bull_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bull/indicators
 callback: indicator_update_callback
-last run: 1572439206.4477
-- bittrex_mov_bull_btc_btc_1_of_8.txt 
-- bittrex_mov_bull_btc_usd_4_of_8.txt 
-wait .............................. processing 2 indicator scripts
-opened the session
-getting homepage
-logged in
-- 2019: Bittrex MoV Bull Scanner BTC (1/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_1_of_8.txt
-debug: 9a635f685c-253c61f338
-load indicator
-script modified: yes
-save script
-bring indicator to front in panel 1
-failed to update indicator: Undefined property: stdClass::$element
-not updated ☕
-- 2019: Bittrex MoV Bull Scanner USD (4/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_4_of_8.txt
-debug: 23fa32b6f9-0cbf6922fc
-☞ ignoring exception: unexpected alert open
-load indicator
-script modified: no
-take screenshot 20191030100143_23fa32b6f9-0cbf6922fc.png 
-not updated ☕
-logged out
-closed the session
-update last run: 1572444104.7101
+last run: 1572444104.7101
+- no file to update
 mov_bear_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bear/indicators
 callback: indicator_update_callback
-last run: 1572439742.1901
+last run: 1572444264.784
 - bittrex_mov_bear_btc_btc_3_of_8.txt 
 - bittrex_mov_bear_btc_usd_1_of_8.txt 
-- bittrex_mov_bear_btc_usd_3_of_8.txt 
-wait ............................. processing 3 indicator scripts
+wait ............................. processing 2 indicator scripts
 opened the session
 getting homepage
 logged in
@@ -109,8 +98,9 @@ logged in
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_3_of_8.txt
 debug: 20196f633c-c9a3692f39
 load indicator
+could not find the indicator
 script modified: no
-take screenshot 20191030100236_20196f633c-c9a3692f39.png 
+take screenshot 20191030103526_20196f633c-c9a3692f39.png 
 not updated ☕
 - 2019: Bittrex MoV Bear Scanner USD (1/8)
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
@@ -118,23 +108,15 @@ debug: 629669c2ff-255936f203
 load indicator
 could not find the indicator
 script modified: no
-take screenshot 20191030100343_629669c2ff-255936f203.png 
+take screenshot 20191030103632_629669c2ff-255936f203.png 
 not updated ☕
-- 2019: Bittrex MoV Bear Scanner USD (3/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_3_of_8.txt
-debug: 629669c2ff-9209bda153
-load indicator
-script modified: yes
-save script
-save chart layout 
-pause .............................. ok
 logged out
 closed the session
-update last run: 1572444264.784
+update last run: 1572446193.4067
 tri_mas_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/tri_mas/indicators
 callback: indicator_update_callback
 last run: 1572437066.45
 - no file to update
-🗲 done in 380.68727302551s
+🗲 done in 212.26995015144s
