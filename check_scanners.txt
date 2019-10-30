@@ -178,7 +178,7 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_usd_5_of_8.txt
 - bittrex_tri_mas_btc_btc_8_of_8.txt
 - bittrex_tri_mas_btc_btc_1_of_8.txt
-processing 144 indicator scripts
+wait .......................... processing 144 indicator scripts
 opened the session
 logged in
 - 2019: Bittrex BoT Long Scanner BTC (1/8)
@@ -425,9 +425,7 @@ indicator is up to date
 tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_1_of_8.txt
 debug: 27ee3f0f0b-7c3025f47c
 load indicator
-could not find the indicator
-☞ could not load indicator
-mark file 
+indicator is up to date
 - 2019: Bittrex Dav-o W Price Scanner BTC (2/8)
 tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_btc_2_of_8.txt
 debug: 27ee3f0f0b-3ecf9dcf57
@@ -667,8 +665,7 @@ indicator is up to date
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
 debug: bff6592a0c-bcbad0c277
 load indicator
-☞ could not load indicator
-mark file 
+indicator is up to date
 - 2019: Bittrex MA30 EMA13 Scanner BTC (2/8)
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt
 debug: bff6592a0c-9e2395e4f7
@@ -677,19 +674,78 @@ indicator is up to date
 - 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
 tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
 debug: bff6592a0c-f6ce7cce29
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/d4bc6048989a82ce204d4192339e6a34/execute with params: {"script":"TradingView.signOut();","args":[]}
-
-Empty reply from server in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
-Stack trace:
-  1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
-  2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  3. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  5. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
-  6. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:418
-  7. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
-  8. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
-  9. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (4/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_4_of_8.txt
+debug: bff6592a0c-b7def7fac9
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_5_of_8.txt
+debug: bff6592a0c-a6fdb34776
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_6_of_8.txt
+debug: bff6592a0c-a6fdb34776
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (7/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_7_of_8.txt
+debug: bff6592a0c-a6fdb34776
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner BTC (8/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_8_of_8.txt
+debug: bff6592a0c-a6fdb34776
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_1_of_8.txt
+debug: 7747d06f62-95fc260ef4
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt
+debug: 7747d06f62-7c49aba020
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_3_of_8.txt
+debug: 7747d06f62-6a9227406f
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (4/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_4_of_8.txt
+debug: 7747d06f62-90f5caf626
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (5/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_5_of_8.txt
+debug: 7747d06f62-227404606f
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (6/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_6_of_8.txt
+debug: 7747d06f62-227404606f
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (7/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_7_of_8.txt
+debug: 7747d06f62-227404606f
+load indicator
+indicator is up to date
+- 2019: Bittrex MA30 EMA13 Scanner USD (8/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_usd_8_of_8.txt
+debug: 7747d06f62-227404606f
+load indicator
+indicator is up to date
+- 2019: Bittrex MoV Bear Scanner BTC (1/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_1_of_8.txt
+debug: cb0d642779-c7c59092ba
+load indicator
+indicator is up to date
+- 2019: Bittrex MoV Bear Scanner BTC (2/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_btc_2_of_8.txt
+debug: cb0d642779-922ab9c467
