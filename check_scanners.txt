@@ -305,8 +305,7 @@ indicator is up to date
 tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_1_of_8.txt
 debug: d961782f60-fdf4149366
 load indicator
-☞ could not load indicator
-mark file 
+indicator is up to date
 - 2019: Bittrex BoT Short Scanner USD (2/8)
 tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_2_of_8.txt
 debug: d961782f60-0ffa876344
@@ -566,7 +565,8 @@ indicator is up to date
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_5_of_8.txt
 debug: 2418a79883-9f2d96256a
 load indicator
-indicator is up to date
+⚠ indicator is NOT up to date
+mark file 
 - 2019: Bittrex Dav-o W RSI Scanner USD (6/8)
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_6_of_8.txt
 debug: 2418a79883-9f2d96256a
@@ -786,23 +786,3 @@ indicator is up to date
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_1_of_8.txt
 debug: 746da12956-7b4286d980
 load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (2/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_2_of_8.txt
-debug: 746da12956-9496481e67
-Facebook\WebDriver\Exception\NoSuchDriverException: invalid session id
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 100
-Stack trace:
-  1. Facebook\WebDriver\Exception\NoSuchDriverException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:100
-  2. Facebook\WebDriver\Exception\WebDriverException->throwException() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:326
-  3. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  5. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  6. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
-  7. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:418
-  8. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
-  9. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
- 10. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 13. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
