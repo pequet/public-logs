@@ -5,17 +5,17 @@ callback: indicator_update_callback
 last run: 1572715148.7212
 - bittrex_davo_w_obv_btc_usd_1_of_8.txt 
 processing 1 indicator scripts
-Whoops\Exception\ErrorException: Undefined property: My_webdriver::$driver in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php on line 1370
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
-  4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:185
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  6. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  7. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
-  8. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  9. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex Dav-o W OBV Scanner USD (1/8)
+tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_usd_1_of_8.txt
+debug: 3f1abf25f9-bf4fc3fad4
+load indicator
+script modified: no
+take screenshot 20191102140119_3f1abf25f9-bf4fc3fad4.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1572717679.9633
+🗲 done in 18.227108955383s
