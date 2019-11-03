@@ -15,13 +15,29 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-scanners
 last run: 1572819340.7306
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" /home/dkgbzkhsyhkrivzo/app-04/files/repositories/tradingview-scanners/bot_long/screenshots/bittrex_bot_long_btc_usd_w.png' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:188
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_1_of_8.txt Commit (November 03 2019 23:45:35 UTC) 
+- davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_btc_3_of_8.txt wait .......... Commit (November 03 2019 23:45:37 UTC) 
+- davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_3_of_8.txt wait .......... Commit (November 03 2019 23:45:39 UTC) 
+- tri_mas/indicators/bittrex_tri_mas_btc_usd_2_of_8.txt wait ....... Commit (November 03 2019 23:45:41 UTC) 
+update last run: 1572824742.115
+coins_by_volume
+local path: ../files/repositories
+local folder: coins-by-volume
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-volume
+last run: 1572822939.7138
+- readme.md wait ......... Commit (November 03 2019 23:45:43 UTC) 
+update last run: 1572824744.043
+coins_by_id
+local path: ../files/repositories
+local folder: coins-by-id
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-id
+last run: 1572822941.6618
+- readme.md wait .......... Commit (November 03 2019 23:45:45 UTC) 
+update last run: 1572824746.023
+🗲 done in 11.252142906189s
