@@ -3,27 +3,27 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_price/indicators
 callback: indicator_update_callback
 last run: 1572782515.7255
-- no file to update
-davo_w_obv_tradingview_scanner
-local path: ../files/repositories/
-local folder: tradingview-scanners/davo_w_obv/indicators
-callback: indicator_update_callback
-last run: 1572773634.8929
-- bittrex_davo_w_obv_btc_btc_1_of_8.txt 
+- bittrex_davo_w_price_btc_usd_5_of_8.txt 
 processing 1 indicator scripts
 opened the session
 getting homepage
 logged in
-- 2019: Bittrex Dav-o W OBV Scanner BTC (1/8)
-tradingview-scanners/davo_w_obv/indicators/bittrex_davo_w_obv_btc_btc_1_of_8.txt
-debug: 4b5c300535-55c35633c8
+- 2019: Bittrex Dav-o W Price Scanner USD (5/8)
+tradingview-scanners/davo_w_price/indicators/bittrex_davo_w_price_btc_usd_5_of_8.txt
+debug: 535901e83c-d5ca240133
 load indicator
 script modified: no
-take screenshot 20191103090256_4b5c300535-55c35633c8.png 
+take screenshot 20191103093222_535901e83c-d5ca240133.png 
 not updated ☕
 logged out
 closed the session
-update last run: 1572789777.2118
+update last run: 1572791544.1846
+davo_w_obv_tradingview_scanner
+local path: ../files/repositories/
+local folder: tradingview-scanners/davo_w_obv/indicators
+callback: indicator_update_callback
+last run: 1572789777.2118
+- no file to update
 davo_w_rsi_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/davo_w_rsi/indicators
@@ -53,7 +53,21 @@ local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bull/indicators
 callback: indicator_update_callback
 last run: 1572782534.2897
-- no file to update
+- bittrex_mov_bull_btc_usd_3_of_8.txt 
+wait ........................... processing 1 indicator scripts
+opened the session
+getting homepage
+logged in
+- 2019: Bittrex MoV Bull Scanner USD (3/8)
+tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_usd_3_of_8.txt
+debug: 3fb6054538-0953bbb528
+load indicator
+script modified: no
+take screenshot 20191103093248_3fb6054538-0953bbb528.png 
+not updated ☕
+logged out
+closed the session
+update last run: 1572791568.8729
 mov_bear_tradingview_scanner
 local path: ../files/repositories/
 local folder: tradingview-scanners/mov_bear/indicators
@@ -66,4 +80,4 @@ local folder: tradingview-scanners/tri_mas/indicators
 callback: indicator_update_callback
 last run: 1572786175.4369
 - no file to update
-🗲 done in 17.385983943939s
+🗲 done in 43.313366889954s
