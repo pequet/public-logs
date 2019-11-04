@@ -180,3 +180,19 @@ local folder: tradingview-scanners/tri_mas/indicators
 - bittrex_tri_mas_btc_btc_1_of_8.txt
 processing 144 indicator scripts
 opened the session
+logged in
+- 2019: Bittrex BoT Long Scanner BTC (1/8)
+tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt
+debug: 1a6175e918-a913627355
+WebDriverException: Curl error thrown for http POST to /session/164aac09584b0e215dad3490f19d4b98/url with params: {"url":"https:\/\/www.tradingview.com\/chart\/Idhie1J7\/"}
+
+Operation timed out after 30002 milliseconds with 0 bytes receivedlogged out
+closed the session
+Exception: exception: yep in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 413
+Stack trace:
+  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
+  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
+  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
