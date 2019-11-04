@@ -805,19 +805,18 @@ indicator is up to date
 - 2019: Bittrex MoV Bear Scanner USD (5/8)
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_5_of_8.txt
 debug: 5c5c59f7b2-6102e97975
-Facebook\WebDriver\Exception\WebDriverCurlException: Curl error thrown for http POST to /session/38b549dbb2e36c38333f95ddd46a8996/execute with params: {"script":"TradingView.signOut();","args":[]}
-
-Operation timed out after 30004 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php on line 292
-Stack trace:
-  1. Facebook\WebDriver\Exception\WebDriverCurlException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:292
-  2. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
-  3. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
-  4. Facebook\WebDriver\Remote\RemoteWebDriver->executeScript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
-  5. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
-  6. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:418
-  7. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
-  8. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
-  9. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+load indicator
+indicator is up to date
+- 2019: Bittrex MoV Bear Scanner USD (6/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_6_of_8.txt
+debug: 5c5c59f7b2-6102e97975
+load indicator
+indicator is up to date
+- 2019: Bittrex MoV Bear Scanner USD (7/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_7_of_8.txt
+debug: 5c5c59f7b2-6102e97975
+load indicator
+indicator is up to date
+- 2019: Bittrex MoV Bear Scanner USD (8/8)
+tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_8_of_8.txt
+debug: 5c5c59f7b2-6102e97975
