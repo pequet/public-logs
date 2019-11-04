@@ -195,7 +195,8 @@ indicator is up to date
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_3_of_8.txt
 debug: 792f7ee167-f552e77fe7
 load indicator
-indicator is up to date
+⚠ indicator is NOT up to date
+mark file 
 - 2019: Bittrex BoT Long Scanner BTC (4/8)
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_4_of_8.txt
 debug: 792f7ee167-c0ef9e277c
@@ -225,7 +226,8 @@ indicator is up to date
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_1_of_8.txt
 debug: 8751c176fb-27cf72e1ff
 load indicator
-indicator is up to date
+☞ could not load indicator
+mark file 
 - 2019: Bittrex BoT Long Scanner USD (2/8)
 tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_usd_2_of_8.txt
 debug: 8751c176fb-e7e5e15fc7
@@ -545,7 +547,8 @@ indicator is up to date
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_1_of_8.txt
 debug: 2f2e51b6e5-710e2bfe56
 load indicator
-indicator is up to date
+☞ could not load indicator
+mark file 
 - 2019: Bittrex Dav-o W RSI Scanner USD (2/8)
 tradingview-scanners/davo_w_rsi/indicators/bittrex_davo_w_rsi_btc_usd_2_of_8.txt
 debug: 2f2e51b6e5-e5717eb598
@@ -640,8 +643,7 @@ indicator is up to date
 tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_4_of_8.txt
 debug: cffece5167-ff7e17eeb5
 load indicator
-⚠ indicator is NOT up to date
-mark file 
+indicator is up to date
 - 2019: Bittrex Dav-o W Willy Scanner USD (5/8)
 tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_usd_5_of_8.txt
 debug: cffece5167-e5107e956e
@@ -816,23 +818,3 @@ indicator is up to date
 tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_7_of_8.txt
 debug: 5c5c59f7b2-6102e97975
 load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bear Scanner USD (8/8)
-tradingview-scanners/mov_bear/indicators/bittrex_mov_bear_btc_usd_8_of_8.txt
-debug: 5c5c59f7b2-6102e97975
-load indicator
-indicator is up to date
-- 2019: Bittrex MoV Bull Scanner BTC (1/8)
-tradingview-scanners/mov_bull/indicators/bittrex_mov_bull_btc_btc_1_of_8.txt
-debug: c71ff5198f-e511f877cc
-load indicator
-logged out
-closed the session
-Exception: Undefined property: stdClass::$element in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 413
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:413
-  2. My_tradingview->check_scanners() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_check_scanners.php:20
-  3. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  4. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  5. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  6. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
