@@ -22,18 +22,11 @@ last run: 1572950862.1078
 processing 16 indicator scripts
 opened the session
 getting homepage
-logged in
-- 2019: Bittrex Dav-o W Willy Scanner BTC (1/8)
-tradingview-scanners/davo_w_willy/indicators/bittrex_davo_w_willy_btc_btc_1_of_8.txt
-debug: 57e8596b1a-2827be7b17
-WebDriverException: unknown error: session deleted because of page crash
-from unknown error: cannot determine loading status
-from tab crashed
+Facebook\WebDriver\Exception\UnrecognizedExceptionException: chrome not reachable
   (Session info: headless chrome=73.0.3683.103)
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64)Facebook\WebDriver\Exception\NoSuchDriverException: invalid session id
-  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 100
+  (Driver info: chromedriver=2.46.628388 (4a34a70827ac54148e092aafb70504c4ea7ae926),platform=Linux 4.15.0-55-generic x86_64) in file /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php on line 158
 Stack trace:
-  1. Facebook\WebDriver\Exception\NoSuchDriverException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:100
+  1. Facebook\WebDriver\Exception\UnrecognizedExceptionException->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Exception/WebDriverException.php:158
   2. Facebook\WebDriver\Exception\WebDriverException->throwException() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:326
   3. Facebook\WebDriver\Remote\HttpCommandExecutor->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:547
   4. Facebook\WebDriver\Remote\RemoteWebDriver->execute() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:308
