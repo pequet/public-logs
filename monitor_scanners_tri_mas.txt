@@ -22,17 +22,7 @@ last run: 1572953477.9356
 processing 16 indicator scripts
 opened the session
 getting homepage
-logged out
-closed the session
-Exception: Curl error thrown for http POST to /session/bacd8d5f7bf706cfda04f3ec48d445db/element/0.27182761473810224-3/value with params: {"value":["pequet"]}
-
-Operation timed out after 30004 milliseconds with 0 bytes received in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 180
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  2. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  3. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+debug: 5eabc44d0b-a00d2edbcb
