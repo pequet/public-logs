@@ -9,15 +9,32 @@ last run: 1572960293.9946
 processing 3 indicator scripts
 opened the session
 getting homepage
+logged in
+- 2019: Bittrex BoT Short Scanner USD (1/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_1_of_8.txt
+debug: 4fcbb6a52e-cd5b5a420d
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Short Scanner USD (2/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_2_of_8.txt
+debug: 4fcbb6a52e-922cdafeb6
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
+- 2019: Bittrex BoT Short Scanner USD (3/8)
+tradingview-scanners/bot_short/indicators/bittrex_bot_short_btc_usd_3_of_8.txt
+debug: 4fcbb6a52e-b25c6e4d4d
+load indicator
+script modified: yes
+save script
+save chart layout 
+pause .............................. ok
 logged out
 closed the session
-Exception: Undefined property: stdClass::$element in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 180
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  2. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  3. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+update last run: 1572967250.7921
+🗲 done in 97.216627120972s
