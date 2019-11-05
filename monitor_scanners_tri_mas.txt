@@ -22,17 +22,22 @@ last run: 1572953477.9356
 processing 16 indicator scripts
 opened the session
 getting homepage
-WebDriverException: Curl error thrown for http POST to /session/30bea40aa99a950af92de6b5d9e0076e/url with params: {"url":"https:\/\/www.tradingview.com"}
-
-Operation timed out after 30020 milliseconds with 0 bytes receivedlogged out
-closed the session
-Exception: yep in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php on line 180
-Stack trace:
-  1. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  2. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  3. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+logged in
+- 2019: Bittrex MA30 EMA13 Scanner BTC (1/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_1_of_8.txt
+debug: 5eabc44d0b-a00d2edbcb
+load indicator
+script modified: no
+take screenshot 20191105113119_5eabc44d0b-a00d2edbcb.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner BTC (2/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_2_of_8.txt
+debug: 5eabc44d0b-2b4daef06d
+load indicator
+script modified: no
+take screenshot 20191105113127_5eabc44d0b-2b4daef06d.png 
+not updated ☕
+- 2019: Bittrex MA30 EMA13 Scanner BTC (3/8)
+tradingview-scanners/tri_mas/indicators/bittrex_tri_mas_btc_btc_3_of_8.txt
+debug: 5eabc44d0b-360cf7d2be
+load indicator
