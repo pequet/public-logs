@@ -1,45 +1,39 @@
 bittrex
-- exchange_info (0.47109389305115s) ☺
-- exchange_info_v1 wait .................. (3.0885338783264s) ☺
+- exchange_info (0.38039302825928s) ☺
+- exchange_info_v1 wait ................... (2.8480460643768s) ☺
 binance
-- exchange_info (0.62912702560425s) ☺
+- exchange_info (3.0957658290863s) ☺
 poloniex
-- exchange_info (0.45465111732483s) ☺
+- exchange_info (0.41051411628723s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.43954014778137s) ☺
+- cryptocurrency_listings_latest_header (at 901.79236197472s/3600s)
 coingecko
-- exchanges_list (1.0162289142609s) ☺
-- coins_list wait ......... (2.2524728775024s) ☺
+- exchanges_list (1.2462379932404s) ☺
+- coins_list wait ......... (2.5169460773468s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (3.4974799156189s) ☺
-page 2 wait ........ (4.6794700622559s) ☺
-page 3 wait ......... (5.9235510826111s) ☺
-page 4 wait ........ (7.1622679233551s) ☺
-page 5 wait ......... (8.4094579219818s) ☺
-page 6 wait ........ (9.5125560760498s) ☺
+page 1 wait ....... (3.6870601177216s) ☺
+page 2 wait ........ (4.8944249153137s) ☺
+page 3 wait ......... (6.1527869701385s) ☺
+page 4 wait ........ (7.2791829109192s) ☺
+page 5 wait ........ (8.4994969367981s) ☺
+page 6 wait ........ (9.7259659767151s) ☺
 page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ (12.252407073975s) ☺
-page 2 wait ........ (13.434820890427s) ☺
-page 3 wait ........ (14.664146900177s) ☺
-page 4 wait ........ (15.88128900528s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 1798.1607029438s/14400s)
-- coin__ethereum (at 1796.6153130531s/14400s)
-- coin__chainlink wait ....... (19.205286979675s) ☺
-- coin__tron wait ......... (20.925026893616s) ☺
-- coin__ripple wait ........ (22.50127196312s) ☺
-- coin__neo wait ......... (24.093436002731s) ☺
-- coin__vechain wait ......... (25.805237054825s) ☺
-- coin__eos wait ........ (27.346839904785s) ☺
-- coin__dogecoin wait ......... (29.048535108566s) ☺
-- coin__moeda-loyalty-points wait ......... (30.569710016251s) ☺
-- coin__litecoin wait ......... (32.175106048584s) ☺
-- coin__bitcoin-cash wait ......... (33.782808065414s) ☺
-- coin__cocos-bcx wait ......... (35.352999925613s) ☺
-- coin__elrond (at 1810.6804349422s/14400s)
-- coin__matic-network (at 1812.5896999836s/14400s)
-- coin__ontology problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ontology.txt')
+page 1 wait ........ (12.407462120056s) ☺
+page 2 wait ......... (13.696931123734s) ☺
+page 3 wait ........ (14.951663970947s) ☺
+page 4 wait ....... (16.425971031189s) ☺
+page 5 wait ........ end reached
+- coin__binancecoin (at 2700.2724399567s/14400s)
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 46.488739967346s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
