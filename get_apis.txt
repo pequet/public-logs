@@ -1,13 +1,45 @@
 bittrex
-- exchange_info (0.63209509849548s) ☺
-- exchange_info_v1 problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/bittrex_api_v1.1_public_getmarketsummaries.txt')
+- exchange_info (0.47109389305115s) ☺
+- exchange_info_v1 wait .................. (3.0885338783264s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (0.62912702560425s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.45465111732483s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coinmarketcap.txt')
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (0.43954014778137s) ☺
+coingecko
+- exchanges_list (1.0162289142609s) ☺
+- coins_list wait ......... (2.2524728775024s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.4974799156189s) ☺
+page 2 wait ........ (4.6794700622559s) ☺
+page 3 wait ......... (5.9235510826111s) ☺
+page 4 wait ........ (7.1622679233551s) ☺
+page 5 wait ......... (8.4094579219818s) ☺
+page 6 wait ........ (9.5125560760498s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (12.252407073975s) ☺
+page 2 wait ........ (13.434820890427s) ☺
+page 3 wait ........ (14.664146900177s) ☺
+page 4 wait ........ (15.88128900528s) ☺
+page 5 wait ......... end reached
+- coin__binancecoin (at 1798.1607029438s/14400s)
+- coin__ethereum (at 1796.6153130531s/14400s)
+- coin__chainlink wait ....... (19.205286979675s) ☺
+- coin__tron wait ......... (20.925026893616s) ☺
+- coin__ripple wait ........ (22.50127196312s) ☺
+- coin__neo wait ......... (24.093436002731s) ☺
+- coin__vechain wait ......... (25.805237054825s) ☺
+- coin__eos wait ........ (27.346839904785s) ☺
+- coin__dogecoin wait ......... (29.048535108566s) ☺
+- coin__moeda-loyalty-points wait ......... (30.569710016251s) ☺
+- coin__litecoin wait ......... (32.175106048584s) ☺
+- coin__bitcoin-cash wait ......... (33.782808065414s) ☺
+- coin__cocos-bcx wait ......... (35.352999925613s) ☺
+- coin__elrond (at 1810.6804349422s/14400s)
+- coin__matic-network (at 1812.5896999836s/14400s)
+- coin__ontology problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ontology.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 46.488739967346s
