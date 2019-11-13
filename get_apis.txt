@@ -1,50 +1,13 @@
 bittrex
-- exchange_info (0.64627695083618s) ☺
-- exchange_info_v1 wait .................. (3.347177028656s) ☺
+- exchange_info (0.63209509849548s) ☺
+- exchange_info_v1 problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/bittrex_api_v1.1_public_getmarketsummaries.txt')
 binance
-- exchange_info (1.5521340370178s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
 poloniex
-- exchange_info (0.41465210914612s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.7640390396s/3600s)
-coingecko
-- exchanges_list (0.67331504821777s) ☺
-- coins_list wait ......... (1.8701829910278s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.0698709487915s) ☺
-page 2 wait ......... (4.2597291469574s) ☺
-page 3 wait ......... (5.4082839488983s) ☺
-page 4 wait ......... (6.5742449760437s) ☺
-page 5 wait ......... (7.8211929798126s) ☺
-page 6 wait ......... (8.9946010112762s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (11.692374944687s) ☺
-page 2 wait ......... (12.988726139069s) ☺
-page 3 wait ......... (14.256446123123s) ☺
-page 4 wait ........ (15.418657064438s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin wait ......... (18.590816020966s) ☺
-- coin__ethereum wait ......... (20.216633081436s) ☺
-- coin__chainlink (at 13506.005882978s/14400s)
-- coin__dogecoin (at 13504.329554081s/14400s)
-- coin__tron (at 13502.529749155s/14400s)
-- coin__ripple (at 13500.96663785s/14400s)
-- coin__vechain (at 13499.294135809s/14400s)
-- coin__eos (at 13492.887645006s/14400s)
-- coin__neo (at 13497.699159145s/14400s)
-- coin__moeda-loyalty-points (at 13496.177229881s/14400s)
-- coin__bitcoin-cash (at 13494.511512041s/14400s)
-- coin__litecoin (at 13491.333111048s/14400s)
-- coin__cocos-bcx (at 13489.827105999s/14400s)
-- coin__matic-network wait ....... (21.872375965118s) ☺
-- coin__elrond wait ......... (23.712538957596s) ☺
-- coin__monero wait ....... (25.166871070862s) ☺
-- coin__cardano wait ......... (26.780531167984s) ☺
-- coin__ontology wait ......... (28.478837013245s) ☺
-- coin__stellar wait ....... (30.096666097641s) ☺
-- coin__ravencoin wait ....... (31.990479946136s) ☺
-- coin__chiliz problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chiliz.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-🗲 done in 37.563760042191s
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coinmarketcap.txt')
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
