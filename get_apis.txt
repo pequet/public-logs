@@ -1,31 +1,16 @@
 bittrex
-- exchange_info (0.52597498893738s) ☺
-- exchange_info_v1 wait .................. (3.1752099990845s) ☺
+- exchange_info (0.44410014152527s) ☺
+- exchange_info_v1 wait .................. (2.8161120414734s) ☺
 binance
-- exchange_info (1.8713948726654s) ☺
-poloniex
-- exchange_info (0.64069604873657s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1800.3974590302s/3600s)
-coingecko
-- exchanges_list (1.796884059906s) ☺
-- coins_list wait ........ (3.3786749839783s) ☺
-- exchanges_tickers__binance 
-page 1 wait ....... (5.1011869907379s) ☺
-page 2 wait ........ (7.2129480838776s) ☺
-page 3 wait ........ (8.3983290195465s) ☺
-page 4 wait ........ (9.5811991691589s) ☺
-page 5 wait ......... (10.870827198029s) ☺
-page 6 wait ........ (12.01596903801s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (14.630880117416s) ☺
-page 2 wait ........ (15.78155207634s) ☺
-page 3 wait ........ (16.982031106949s) ☺
-page 4 wait ........ (18.111443996429s) ☺
-page 5 wait ......... end reached
-- coin__holotoken (at 1813.879928112s/14400s)
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 32.13720202446s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
