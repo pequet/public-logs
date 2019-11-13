@@ -1,13 +1,49 @@
 bittrex
-- exchange_info (0.51143193244934s) ☺
-- exchange_info_v1 wait .................. (3.1431860923767s) ☺
+- exchange_info (0.39807915687561s) ☺
+- exchange_info_v1 wait .................. (2.6366791725159s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+- exchange_info (1.8015160560608s) ☺
 poloniex
-- exchange_info (0.54349207878113s) ☺
+- exchange_info (0.39537882804871s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.41170001029968s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 155
+- cryptocurrency_listings_latest_header (at 898.54717183113s/3600s)
+coingecko
+- exchanges_list (0.91665291786194s) ☺
+- coins_list wait ........ (2.0382709503174s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.1699659824371s) ☺
+page 2 wait ........ (4.3773729801178s) ☺
+page 3 wait ........ (5.5803489685059s) ☺
+page 4 wait ........ (6.7611038684845s) ☺
+page 5 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ........ (7.9471158981323s) ☺
+page 2 wait ........ (9.1279189586639s) ☺
+page 3 wait ........ (10.279042959213s) ☺
+page 4 wait ........ (11.476897001266s) ☺
+page 5 wait ........ end reached
+- coin__binancecoin (at 4493.36094594s/14400s)
+- coin__ethereum (at 4492.013876915s/14400s)
+- coin__chainlink wait ........ (14.910250902176s) ☺
+- coin__dogecoin wait ........ (16.613724946976s) ☺
+- coin__tron wait ........ (18.428562879562s) ☺
+- coin__ripple wait ........ (20.009502887726s) ☺
+- coin__vechain wait ....... (21.704617977142s) ☺
+- coin__neo wait ........ (23.345113992691s) ☺
+- coin__moeda-loyalty-points wait ........ (24.890601873398s) ☺
+- coin__bitcoin-cash wait ......... (26.578978776932s) ☺
+- coin__eos wait ........ (28.126974821091s) ☺
+- coin__litecoin wait ......... (29.770917892456s) ☺
+- coin__cocos-bcx wait ........ (31.298865795135s) ☺
+- coin__elrond wait ........ problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
