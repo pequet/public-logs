@@ -1,32 +1,4 @@
-bittrex
-- exchange_info (0.46323108673096s) ☺
-- exchange_info_v1 wait .................. (2.7992849349976s) ☺
-binance
-- exchange_info (0.94209504127502s) ☺
-poloniex
-- exchange_info (0.59720396995544s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 3598.6226038933s/3600s)
-coingecko
-- exchanges_list (1.1976408958435s) ☺
-- coins_list wait ......... (2.4385178089142s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.6603968143463s) ☺
-page 2 wait ........ (4.7892768383026s) ☺
-page 3 wait ......... (5.978670835495s) ☺
-page 4 wait ......... (7.1834688186646s) ☺
-page 5 wait ......... (8.3825438022614s) ☺
-page 6 wait ......... (9.6248588562012s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (13.116874933243s) ☺
-page 2 wait ....... (14.212204933167s) ☺
-page 3 wait ......... (15.475631952286s) ☺
-page 4 wait ........ (16.659339904785s) ☺
-page 5 wait ......... end reached
-- coin__holotoken (at 7197.5396809578s/14400s)
-- coin__binancecoin (at 6297.9415800571s/14400s)
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 29.095691204071s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
