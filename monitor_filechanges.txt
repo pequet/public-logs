@@ -6,19 +6,10 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-watchlists
 last run: 1573704016.3929
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1573074410.9876
-Whoops\Exception\ErrorException: Undefined offset: 1 in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 133
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" /home/dkgbzkhsyhkrivzo/app-04/files/repositories/tradingview-watchlists/bittrex_watchlist_eth.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
 Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:133
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:133
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
   3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:188
   4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
   5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
