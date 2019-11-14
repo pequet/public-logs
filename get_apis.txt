@@ -1,70 +1,13 @@
 bittrex
-- exchange_info (0.42177700996399s) ☺
-- exchange_info_v1 wait .................. (2.7471241950989s) ☺
+- exchange_info (0.51036190986633s) ☺
+- exchange_info_v1 wait ................. (2.9694230556488s) ☺
 binance
-- exchange_info (0.83210301399231s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
 poloniex
-- exchange_info (0.44829821586609s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3597.4439749718s/3600s)
-coingecko
-- exchanges_list (1.6960079669952s) ☺
-- coins_list wait ......... (2.9331200122833s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (4.1836969852448s) ☺
-page 2 wait ........ (5.3696138858795s) ☺
-page 3 wait ........ (6.4846720695496s) ☺
-page 4 wait ........ (7.6988790035248s) ☺
-page 5 wait ......... (8.9274768829346s) ☺
-page 6 wait ......... (10.172777891159s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (13.374840021133s) ☺
-page 2 wait ........ (15.098758935928s) ☺
-page 3 wait ....... (16.691540002823s) ☺
-page 4 wait ......... (17.924568891525s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 11690.792249918s/14400s)
-- coin__ethereum (at 11689.273841143s/14400s)
-- coin__chainlink (at 11687.440485001s/14400s)
-- coin__dogecoin (at 11676.106445074s/14400s)
-- coin__ripple (at 11684.226205111s/14400s)
-- coin__tron (at 11685.893049955s/14400s)
-- coin__neo (at 11682.695616961s/14400s)
-- coin__vechain (at 11681.053138971s/14400s)
-- coin__eos (at 11679.47104001s/14400s)
-- coin__moeda-loyalty-points (at 11677.877408981s/14400s)
-- coin__litecoin (at 11674.569330215s/14400s)
-- coin__bitcoin-cash (at 11673.107553005s/14400s)
-- coin__elrond (at 11670.612462044s/14400s)
-- coin__cardano wait ...... (20.980160951614s) ☺
-- coin__monero wait ......... (22.51867389679s) ☺
-- coin__stellar wait ......... (23.866638898849s) ☺
-- coin__chiliz wait ......... (25.545366048813s) ☺
-- coin__matic-network (at 11674.781513929s/14400s)
-- coin__ontology wait ......... (27.185477972031s) ☺
-- coin__basic-attention-token wait ........ (28.909478902817s) ☺
-- coin__mainframe wait ........ (30.621433019638s) ☺
-- coin__iota (at 10806.743060112s/14400s)
-- coin__fetch-ai wait ....... (31.817291975021s) ☺
-- coin__storm wait ......... (33.337337970734s) ☺
-- coin__qtum wait ......... (34.946038007736s) ☺
-- coin__cosmos wait ......... (36.489422082901s) ☺
-- coin__selfkey (at 10809.490195036s/14400s)
-- coin__iostoken wait ......... (38.107057094574s) ☺
-- coin__siacoin wait ........ (39.710495948792s) ☺
-- coin__ravencoin wait ........ (41.226089954376s) ☺
-- coin__arpa-chain (at 11688.741106033s/14400s)
-- coin__kava (at 10809.431381941s/14400s)
-- coin__verge (at 11687.222117186s/14400s)
-- coin__harmony wait ........ (42.800154924393s) ☺
-- coin__tezos (at 11687.06692791s/14400s)
-- coin__ethereum-classic (at 10814.344357014s/14400s)
-- coin__algorand (at 10817.703291178s/14400s)
-- coin__zcash (at 10812.913234949s/14400s)
-- coin__funfair (at 10791.059962988s/14400s)
-- coin__nkn (at 10795.793431044s/14400s)
-- coin__ankr problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ankr.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 54.538534879684s
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
