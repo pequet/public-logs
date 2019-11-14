@@ -1,38 +1,35 @@
 bittrex
-- exchange_info (0.45110988616943s) ☺
-- exchange_info_v1 wait ................... (3.1923649311066s) ☺
+- exchange_info (0.41127300262451s) ☺
+- exchange_info_v1 wait .................. (2.61430311203s) ☺
 binance
-- exchange_info (1.1975221633911s) ☺
+- exchange_info (1.5097029209137s) ☺
 poloniex
-- exchange_info (0.3441481590271s) ☺
+- exchange_info (0.38764119148254s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.9169890881s/3600s)
+- cryptocurrency_listings_latest_header (0.33186602592468s) ☺
 coingecko
-- exchanges_list (1.2263889312744s) ☺
-- coins_list wait ......... (2.4983689785004s) ☺
+- exchanges_list (0.96042704582214s) ☺
+- coins_list wait ......... (2.2306551933289s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (4.0138568878174s) ☺
-page 2 wait ......... (5.5873148441315s) ☺
-page 3 wait ......... (7.1306278705597s) ☺
-page 4 wait ......... (9.4424939155579s) ☺
-page 5 wait ........ (10.906577825546s) ☺
-page 6 wait ......... (12.120533943176s) ☺
-page 7 wait ......... end reached
+page 1 wait ........ (3.4531562328339s) ☺
+page 2 wait ....... (4.6391792297363s) ☺
+page 3 wait ........ (5.8935680389404s) ☺
+page 4 wait ........ (7.0585000514984s) ☺
+page 5 wait ........ (8.3128271102905s) ☺
+page 6 wait ........ (9.818629026413s) ☺
+page 7 wait ......... error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ........ (15.517394781113s) ☺
-page 2 wait ......... (16.745685815811s) ☺
-page 3 wait ......... (17.929986000061s) ☺
-page 4 wait ......... (19.155458927155s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 16384 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 16384 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
-
-Backtrace:
-
+page 1 wait ........ (12.630761146545s) ☺
+page 2 error: do_api_call coingecko
+- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
