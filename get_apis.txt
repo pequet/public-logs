@@ -1,13 +1,39 @@
 bittrex
-- exchange_info (0.51936912536621s) ☺
-- exchange_info_v1 wait ................. problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.53621983528137s) ☺
+- exchange_info_v1 wait .................. (3.1366338729858s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.6512041091919s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.46775197982788s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 1801.1772038937s/3600s)
+coingecko
+- exchanges_list (2.0944080352783s) ☺
+- coins_list wait ........ (3.2547190189362s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (4.6253199577332s) ☺
+page 2 wait ........ (5.9343099594116s) ☺
+page 3 wait ....... (7.0626289844513s) ☺
+page 4 wait ........ (8.2677121162415s) ☺
+page 5 wait ........ (9.3964421749115s) ☺
+page 6 wait ......... (10.546808958054s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.486612081528s) ☺
+page 2 wait ........ (14.744760036469s) ☺
+page 3 wait ...... (15.92317199707s) ☺
+page 4 wait ........ (17.162374973297s) ☺
+page 5 wait ....... error: do_api_call coingecko
+- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 12288 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 946
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 1
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 32768 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php
+Line Number: 1
+
+Backtrace:
+
