@@ -1,32 +1,28 @@
 bittrex
-- exchange_info (0.42795991897583s) ☺
-- exchange_info_v1 wait .................. (2.7856960296631s) ☺
+- exchange_info (0.48295187950134s) ☺
+- exchange_info_v1 wait .................. (3.1525328159332s) ☺
 binance
-- exchange_info (1.1595919132233s) ☺
+- exchange_info (1.235169172287s) ☺
 poloniex
-- exchange_info (0.43862509727478s) ☺
+- exchange_info (0.46063089370728s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.04074501991s/3600s)
+- cryptocurrency_listings_latest_header (at 1800.4437708855s/3600s)
 coingecko
-- exchanges_list (0.99145698547363s) ☺
-- coins_list wait ......... (7.7552239894867s) ☺
+- exchanges_list (1.6794738769531s) ☺
+- coins_list wait ......... (2.9181509017944s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (8.9239130020142s) ☺
-page 2 wait ......... (10.174255132675s) ☺
-page 3 wait ......... (11.43954205513s) ☺
-page 4 wait ......... (12.711292982101s) ☺
-page 5 wait ........ (13.791960954666s) ☺
-page 6 wait ......... (14.96403503418s) ☺
-page 7 wait ......... end reached
+page 1 wait .. (4.0060408115387s) ☺
+page 2 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ......... (17.73819899559s) ☺
-page 2 wait ....... (18.819818019867s) ☺
-page 3 wait ........ (20.013446092606s) ☺
-page 4 wait ......... (21.289932966232s) ☺
-page 5 wait ........ end reached
-- coin__binancecoin (at 12601.831276894s/14400s)
-- coin__ethereum (at 12600.304377079s/14400s)
-- coin__chainlink problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chainlink.txt')
+page 1 wait ....... (5.2972459793091s) ☺
+page 2 wait ..... (6.4557838439941s) ☺
+page 3 wait ....... (7.5539689064026s) ☺
+page 4 wait ........ (8.7674219608307s) ☺
+page 5 wait ......... end reached
+- coin__binancecoin (at 13489.769922018s/14400s)
+- coin__ethereum (at 13488.24161911s/14400s)
+- coin__chainlink (at 13486.494815111s/14400s)
+- coin__dogecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_dogecoin.txt')
 coincheckup
-- coins wait ................................................ problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 33.666962862015s
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 21.764153003693s
