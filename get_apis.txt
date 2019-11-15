@@ -1,40 +1,16 @@
 bittrex
-- exchange_info (0.41097402572632s) ☺
-- exchange_info_v1 wait ................... (3.0705010890961s) ☺
+- exchange_info (0.47068309783936s) ☺
+- exchange_info_v1 wait .................. (3.0587899684906s) ☺
 binance
-- exchange_info (1.1678440570831s) ☺
-poloniex
-- exchange_info (0.37113785743713s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 897.76981902122s/3600s)
-coingecko
-- exchanges_list (0.89899277687073s) ☺
-- coins_list wait ......... (2.0567100048065s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.2757909297943s) ☺
-page 2 wait ........ (4.5456578731537s) ☺
-page 3 wait ........ (5.6444358825684s) ☺
-page 4 wait ........ (6.7996368408203s) ☺
-page 5 wait ........ (7.9916689395905s) ☺
-page 6 wait ........ (9.1120707988739s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (11.850476980209s) ☺
-page 2 wait ........ (13.064304828644s) ☺
-page 3 wait ........ (14.203552007675s) ☺
-page 4 wait ......... (15.485535860062s) ☺
-page 5 wait ........ end reached
-- coin__vechain (at 6296.0490171909s/14400s)
-- coin__ethereum (at 6294.5073590279s/14400s)
-- coin__binancecoin (at 6292.1490008831s/14400s)
-- coin__chainlink (at 6290.5298070908s/14400s)
-- coin__ripple (at 6288.9672968388s/14400s)
-- coin__dogecoin (at 6287.3801398277s/14400s)
-- coin__eos (at 6285.8019759655s/14400s)
-- coin__verge (at 6282.4567768574s/14400s)
-- coin__moeda-loyalty-points (at 6277.2872059345s/14400s)
-- coin__tron (at 6284.2467939854s/14400s)
-- coin__litecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_litecoin.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 28.442844152451s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
