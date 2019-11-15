@@ -1,34 +1,16 @@
 bittrex
-- exchange_info (0.86839985847473s) ☺
-- exchange_info_v1 wait ................... (3.5670518875122s) ☺
+- exchange_info (0.59923315048218s) ☺
+- exchange_info_v1 wait ................. (2.917209148407s) ☺
 binance
-- exchange_info (1.2713220119476s) ☺
-poloniex
-- exchange_info (0.39494395256042s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.7601900101s/3600s)
-coingecko
-- exchanges_list (1.6390359401703s) ☺
-- coins_list wait .......... (2.9033210277557s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (4.5025999546051s) ☺
-page 2 wait ......... (6.75373005867s) ☺
-page 3 wait ......... (8.2707149982452s) ☺
-page 4 wait ......... (9.8275549411774s) ☺
-page 5 wait ......... (11.509747028351s) ☺
-page 6 wait ........ (12.631190061569s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (15.23592710495s) ☺
-page 2 wait ....... (16.387362003326s) ☺
-page 3 wait ......... (17.627564907074s) ☺
-page 4 wait ........ (18.844772100449s) ☺
-page 5 wait ........ end reached
-- coin__ethereum (at 10800.771703005s/14400s)
-- coin__binancecoin (at 10802.495192051s/14400s)
-- coin__chainlink (at 10799.14970994s/14400s)
-- coin__vechain (at 10797.587269068s/14400s)
-- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 34.0607380867s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
