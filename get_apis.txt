@@ -1,39 +1,15 @@
 bittrex
-- exchange_info (0.42902803421021s) ☺
-- exchange_info_v1 wait ................... (2.8283531665802s) ☺
+- exchange_info (0.42120909690857s) ☺
+- exchange_info_v1 wait ................... (3.1011760234833s) ☺
 binance
-- exchange_info (0.74404382705688s) ☺
+- exchange_info (1.6757550239563s) ☺
 poloniex
-- exchange_info (1.2061970233917s) ☺
+- exchange_info (1.2830078601837s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2698.1209819317s/3600s)
+- cryptocurrency_listings_latest_header (at 3598.2427918911s/3600s)
 coingecko
-- exchanges_list (1.9195630550385s) ☺
-- coins_list wait ......... (3.0590410232544s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (4.2977259159088s) ☺
-page 2 wait ........ (5.4874229431152s) ☺
-page 3 wait ........ (6.6584858894348s) ☺
-page 4 wait ......... (7.9421520233154s) ☺
-page 5 wait ......... (9.2281680107117s) ☺
-page 6 wait ....... (10.533081054688s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__vechain (at 6290.7154090405s/14400s)
-- coin__ethereum (at 6292.3019669056s/14400s)
-- coin__binancecoin (at 6289.2812819481s/14400s)
-- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
-coincheckup
-- coins 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 81920 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- exchanges_list (1.4543778896332s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 81920 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
-
-Backtrace:
-
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
