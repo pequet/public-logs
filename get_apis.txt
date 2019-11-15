@@ -1,29 +1,14 @@
 bittrex
-- exchange_info (0.4441659450531s) ☺
-- exchange_info_v1 wait ................... (2.748664855957s) ☺
+- exchange_info (0.43159103393555s) ☺
+- exchange_info_v1 wait .................. (3.0923900604248s) ☺
 binance
-- exchange_info (1.2021028995514s) ☺
+- exchange_info (1.4124820232391s) ☺
 poloniex
-- exchange_info (0.59887790679932s) ☺
+- exchange_info (0.45251488685608s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.3073961735s/3600s)
+- cryptocurrency_listings_latest_header (0.41637301445007s) ☺
 coingecko
-- exchanges_list (0.7418429851532s) ☺
-- coins_list wait ........ (1.9863519668579s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.1405999660492s) ☺
-page 2 wait ......... (4.3614149093628s) ☺
-page 3 wait ......... (5.6012017726898s) ☺
-page 4 wait ........ (6.7344529628754s) ☺
-page 5 wait ......... (7.9711298942566s) ☺
-page 6 wait ......... (9.1970298290253s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (12.105852842331s) ☺
-page 2 wait ....... error: do_api_call coingecko
-- coin__vechain (at 891.47362017632s/14400s)
-- coin__ethereum (at 890.05268311501s/14400s)
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
+- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
