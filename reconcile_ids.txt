@@ -1,22 +1,4 @@
-coins-by-id/readme.md Error: Call to undefined function json_decode() in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 34
-Stack trace:
-  1. Error->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php:34
-  2. Coingecko->list_coins() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_reconcile.php:81
-  3. My_reconcile->matches_lowercase() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_reconcile_ids.php:20
-  4. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+coins-by-id/readme.md 
+Fatal error: Out of memory (allocated 10485760) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 656
 
-A PHP Error was encountered
-
-Severity:    Core Warning
-Message:     PHP Startup: Unable to load dynamic library 'posix.so' (tried: /usr/lib/php/20170718/posix.so (/usr/lib/php/20170718/posix.so: failed to map segment from shared object), /usr/lib/php/20170718/posix.so.so (/usr/lib/php/20170718/posix.so.so: cannot open shared object file: No such file or directory))
-Filename:    Unknown
-Line Number: 0
-
-Backtrace:
-
-Whoops\Exception\ErrorException: PHP Startup: Unable to load dynamic library 'posix.so' (tried: /usr/lib/php/20170718/posix.so (/usr/lib/php/20170718/posix.so: failed to map segment from shared object), /usr/lib/php/20170718/posix.so.so (/usr/lib/php/20170718/posix.so.so: cannot open shared object file: No such file or directory)) in file Unknown on line 0
-Stack trace:
-  1. Whoops\Exception\ErrorException->() Unknown:0
+Fatal error: Out of memory (allocated 10485760) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
