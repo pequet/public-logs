@@ -1,16 +1,38 @@
 bittrex
-- exchange_info (0.4361400604248s) ☺
-- exchange_info_v1 wait ................... (3.1933689117432s) ☺
+- exchange_info (0.360680103302s) ☺
+- exchange_info_v1 wait ................... (3.0753390789032s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (1.175320148468s) ☺
+poloniex
+- exchange_info (0.36169385910034s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 1798.9434919357s/3600s)
+coingecko
+- exchanges_list (1.1578619480133s) ☺
+- coins_list wait ......... (2.3451581001282s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.485337972641s) ☺
+page 2 wait ......... (5.7180049419403s) ☺
+page 3 wait ......... (7.6308310031891s) ☺
+page 4 wait ......... (9.5903389453888s) ☺
+page 5 wait ........ (11.101809978485s) ☺
+page 6 wait ......... (12.793082952499s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (15.639367103577s) ☺
+page 2 wait ......... (16.856158018112s) ☺
+page 3 wait ......... (18.026730060577s) ☺
+page 4 wait ......... (19.191509008408s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 14397.258785963s/14400s)
+- coin__binancecoin (at 14393.926208019s/14400s)
+- coin__vechain (at 14395.637338877s/14400s)
+- coin__ripple (at 14392.421955109s/14400s)
+- coin__dogecoin (at 14390.483579159s/14400s)
+- coin__chainlink (at 14388.745743036s/14400s)
+- coin__eos (at 14387.241827011s/14400s)
+- coin__litecoin (at 14385.663605928s/14400s)
+- coin__tron problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_tron.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 31.675333976746s
