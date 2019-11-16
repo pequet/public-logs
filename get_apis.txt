@@ -1,16 +1,64 @@
 bittrex
-- exchange_info (0.6309871673584s) ☺
-- exchange_info_v1 wait ................. (3.2200241088867s) ☺
+- exchange_info (0.45337009429932s) ☺
+- exchange_info_v1 wait .................. (3.1026360988617s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (1.1953020095825s) ☺
+poloniex
+- exchange_info (0.5056312084198s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 1799.2306079865s/3600s)
+coingecko
+- exchanges_list (2.413822889328s) ☺
+- coins_list wait ......... (3.5525329113007s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (4.6961388587952s) ☺
+page 2 wait .......... (5.9997568130493s) ☺
+page 3 wait ........ (7.2921419143677s) ☺
+page 4 wait ....... (8.4443008899689s) ☺
+page 5 wait ......... (9.6474277973175s) ☺
+page 6 wait ......... (10.845057964325s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (14.158704996109s) ☺
+page 2 wait ........ (15.305852890015s) ☺
+page 3 wait ......... (17.42574095726s) ☺
+page 4 wait ......... (19.643912792206s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 1794.4254460335s/14400s)
+- coin__vechain (at 1797.0113120079s/14400s)
+- coin__binancecoin (at 1792.1957299709s/14400s)
+- coin__ripple (at 1788.1331291199s/14400s)
+- coin__chainlink (at 1789.7020111084s/14400s)
+- coin__dogecoin (at 1785.8236529827s/14400s)
+- coin__eos (at 1778.5692710876s/14400s)
+- coin__litecoin (at 1783.4290599823s/14400s)
+- coin__verge (at 1780.9661300182s/14400s)
+- coin__tron (at 1776.2459559441s/14400s)
+- coin__elrond (at 1773.9691889286s/14400s)
+- coin__cardano wait ...... (24.464265823364s) ☺
+- coin__bitcoin-cash (at 1774.1319839954s/14400s)
+- coin__neo (at 1771.8285119534s/14400s)
+- coin__monero wait ....... (26.991359949112s) ☺
+- coin__fetch-ai wait ........ (29.207494020462s) ☺
+- coin__moeda-loyalty-points wait ......... (31.358822822571s) ☺
+- coin__iostoken wait ........ (33.769474983215s) ☺
+- coin__mainframe wait ......... (36.122488975525s) ☺
+- coin__stellar wait ........ (38.652144908905s) ☺
+- coin__matic-network wait ........ (40.80504989624s) ☺
+- coin__basic-attention-token wait ......... (43.190501928329s) ☺
+- coin__ontology wait ......... (45.919384002686s) ☺
+- coin__zilliqa wait ........ (48.279882907867s) ☺
+- coin__siacoin wait ......... (50.464550971985s) ☺
+- coin__iota wait ......... (52.633827924728s) ☺
+- coin__ravencoin wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
