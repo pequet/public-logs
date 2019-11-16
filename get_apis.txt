@@ -1,33 +1,39 @@
 bittrex
-- exchange_info (0.39763784408569s) ☺
-- exchange_info_v1 wait ................... (3.0987799167633s) ☺
+- exchange_info (0.44948601722717s) ☺
+- exchange_info_v1 wait .................. (3.0561380386353s) ☺
 binance
-- exchange_info (2.083359003067s) ☺
+- exchange_info (0.87771391868591s) ☺
 poloniex
-- exchange_info (0.47514986991882s) ☺
+- exchange_info (0.40179014205933s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.6851019859s/3600s)
+- cryptocurrency_listings_latest_header (0.39726901054382s) ☺
 coingecko
-- exchanges_list (0.73376512527466s) ☺
-- coins_list wait ......... (1.9375269412994s) ☺
+- exchanges_list (1.0426940917969s) ☺
+- coins_list wait ......... (2.232589006424s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (3.1089611053467s) ☺
-page 2 wait ........ (4.3532431125641s) ☺
-page 3 wait ....... (5.3970520496368s) ☺
-page 4 wait ........ (6.618842124939s) ☺
-page 5 wait ........ (7.8509819507599s) ☺
-page 6 wait ........ (9.0077891349792s) ☺
-page 7 wait ........ end reached
+page 1 wait ......... (3.422511100769s) ☺
+page 2 wait ......... (4.6838049888611s) ☺
+page 3 wait ........ (5.7893879413605s) ☺
+page 4 wait ......... (7.0571060180664s) ☺
+page 5 wait ......... (8.2397241592407s) ☺
+page 6 wait ........ (9.4903540611267s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ......... (11.648421049118s) ☺
-page 2 wait ......... (12.879324913025s) ☺
-page 3 wait ......... (14.11871099472s) ☺
-page 4 wait ......... (15.337353944778s) ☺
+page 1 wait ......... (12.309960126877s) ☺
+page 2 wait ......... (13.53040099144s) ☺
+page 3 wait ......... (14.775506019592s) ☺
+page 4 wait ........ (15.892490148544s) ☺
 page 5 wait ......... end reached
-- coin__ethereum (at 9894.1543359756s/14400s)
-- coin__binancecoin (at 9897.4233031273s/14400s)
-- coin__vechain (at 9895.8060500622s/14400s)
-- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
+- coin__ethereum (at 10792.839421988s/14400s)
+- coin__binancecoin (at 10796.135705948s/14400s)
+- coin__vechain (at 10794.520082951s/14400s)
+- coin__dogecoin (at 10788.07647109s/14400s)
+- coin__ripple (at 10791.359908819s/14400s)
+- coin__chainlink (at 10789.689806938s/14400s)
+- coin__cardano (at 10781.945199966s/14400s)
+- coin__eos (at 10786.590729952s/14400s)
+- coin__tron (at 10785.040883064s/14400s)
+- coin__litecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_litecoin.txt')
 coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 29.430089950562s
+- coins wait ................................................ problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 28.625843763351s
