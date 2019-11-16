@@ -1,13 +1,32 @@
 bittrex
-- exchange_info (0.38906383514404s) ☺
-- exchange_info_v1 wait ................... problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.44581604003906s) ☺
+- exchange_info_v1 wait ................... (3.1265280246735s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+- exchange_info (1.6639099121094s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.35632300376892s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (0.46678113937378s) ☺
+coingecko
+- exchanges_list (1.0774009227753s) ☺
+- coins_list wait ......... (2.3031299114227s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.8903589248657s) ☺
+page 2 wait ........ (5.6518120765686s) ☺
+page 3 wait ........ (6.8162770271301s) ☺
+page 4 wait ......... (8.0528860092163s) ☺
+page 5 wait ........ (9.2610731124878s) ☺
+page 6 wait ......... (10.543596982956s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.641627073288s) ☺
+page 2 wait ........ (14.748553037643s) ☺
+page 3 wait ........ (15.94929599762s) ☺
+page 4 wait ......... (17.185242891312s) ☺
+page 5 wait ......... end reached
+- coin__ethereum wait ......... (20.389334917068s) ☺
+- coin__binancecoin wait ........ (22.014610052109s) ☺
+- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 27.787473917007s
