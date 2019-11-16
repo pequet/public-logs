@@ -1,22 +1,23 @@
 bittrex
-- exchange_info (0.48993301391602s) ☺
-- exchange_info_v1 wait .................. (3.1353731155396s) ☺
+- exchange_info (0.49753308296204s) ☺
+- exchange_info_v1 wait .................. (3.1163818836212s) ☺
 binance
-- exchange_info (0.63407516479492s) ☺
+- exchange_info (0.75325798988342s) ☺
 poloniex
-- exchange_info (0.4156129360199s) ☺
+- exchange_info (0.46037006378174s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 898.58039402962s/3600s)
+- cryptocurrency_listings_latest_header (at 1798.3199810982s/3600s)
 coingecko
-- exchanges_list (2.7162759304047s) ☺
-- coins_list wait ....... (3.886528968811s) ☺
+- exchanges_list (1.0727109909058s) ☺
+- coins_list wait ......... (2.3220400810242s) ☺
 - exchanges_tickers__binance 
-page 1 wait ....... (5.0500109195709s) ☺
-page 2 wait ........ (6.2543430328369s) ☺
-page 3 wait ........ (7.409481048584s) ☺
-page 4 wait ........ (8.5783910751343s) ☺
-page 5 wait ........ (9.7623898983002s) ☺
-page 6 wait ........ error: do_api_call coingecko
+page 1 wait ........ (3.4804351329803s) ☺
+page 2 wait ........ (4.6421539783478s) ☺
+page 3 wait ....... (5.8516280651093s) ☺
+page 4 wait ........ (7.0026609897614s) ☺
+page 5 wait ........ (8.1918711662292s) ☺
+page 6 wait ......... (9.4812572002411s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
 page 1 error: do_api_call coingecko
 - coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
