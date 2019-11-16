@@ -1,25 +1,34 @@
 bittrex
-- exchange_info (0.45444583892822s) ☺
-- exchange_info_v1 wait ................... (3.182296037674s) ☺
+- exchange_info (0.41998505592346s) ☺
+- exchange_info_v1 wait ................... (3.1431398391724s) ☺
 binance
-- exchange_info (2.2458770275116s) ☺
+- exchange_info (1.3799579143524s) ☺
 poloniex
-- exchange_info (0.58036613464355s) ☺
+- exchange_info (0.4246768951416s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1801.1506869793s/3600s)
+- cryptocurrency_listings_latest_header (at 2699.5076570511s/3600s)
 coingecko
-- exchanges_list (2.0752239227295s) ☺
-- coins_list wait ......... (3.2620940208435s) ☺
+- exchanges_list (1.5472509860992s) ☺
+- coins_list wait ......... (2.8014240264893s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (4.5307619571686s) ☺
-page 2 wait ....... error: do_api_call coingecko
+page 1 wait ........ (3.9795680046082s) ☺
+page 2 wait ......... (5.1750280857086s) ☺
+page 3 wait ......... (6.3613450527191s) ☺
+page 4 wait ......... (7.498409986496s) ☺
+page 5 wait ......... (8.6511199474335s) ☺
+page 6 wait ......... (9.8309969902039s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ......... (6.9258410930634s) ☺
-page 2 wait ........ (8.1023819446564s) ☺
-page 3 wait ........ error: do_api_call coingecko
-- coin__ethereum (at 11683.664891958s/14400s)
-- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_vechain.txt')
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 1
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+page 1 wait ......... (12.880415916443s) ☺
+page 2 wait ......... (14.380512952805s) ☺
+page 3 wait ......... (15.5452709198s) ☺
+page 4 wait ......... (16.728240013123s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 12591.358597994s/14400s)
+- coin__vechain (at 12593.955260992s/14400s)
+- coin__binancecoin (at 12589.178512812s/14400s)
+- coin__chainlink (at 12586.669708014s/14400s)
+- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 23.907748222351s
