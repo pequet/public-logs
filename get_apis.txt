@@ -1,12 +1,57 @@
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 2097152) (tried to allocate 20480 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php
-Line Number: 858
-
-Backtrace:
-
+bittrex
+- exchange_info (0.44182801246643s) ☺
+- exchange_info_v1 wait .................. (2.7259049415588s) ☺
+binance
+- exchange_info (1.3195390701294s) ☺
+poloniex
+- exchange_info (0.34443593025208s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.31383585929871s) ☺
+coingecko
+- exchanges_list (0.96132707595825s) ☺
+- coins_list wait ......... (2.187851190567s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.3768780231476s) ☺
+page 2 wait ......... (4.6402390003204s) ☺
+page 3 wait ......... (6.1945960521698s) ☺
+page 4 wait ......... (7.8012700080872s) ☺
+page 5 wait ........ (9.1194319725037s) ☺
+page 6 wait ......... (10.620081186295s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.35385799408s) ☺
+page 2 wait ......... (14.556032180786s) ☺
+page 3 wait ......... (15.793928146362s) ☺
+page 4 wait ........ (16.951335191727s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 8096.0748660564s/14400s)
+- coin__vechain (at 8094.4273560047s/14400s)
+- coin__binancecoin (at 8092.7570939064s/14400s)
+- coin__dogecoin (at 8089.2743470669s/14400s)
+- coin__ripple (at 8091.2594671249s/14400s)
+- coin__chainlink (at 8087.5581421852s/14400s)
+- coin__verge (at 4499.8219060898s/14400s)
+- coin__eos (at 8086.0863029957s/14400s)
+- coin__cardano (at 14397.447321892s/14400s)
+- coin__litecoin (at 8084.5297260284s/14400s)
+- coin__tron (at 14394.378083944s/14400s)
+- coin__elrond (at 14396.004443169s/14400s)
+- coin__bitcoin-cash (at 14392.769617081s/14400s)
+- coin__fetch-ai (at 14391.16395998s/14400s)
+- coin__moeda-loyalty-points (at 14386.47713685s/14400s)
+- coin__iostoken (at 14387.895503044s/14400s)
+- coin__monero (at 14384.970432043s/14400s)
+- coin__neo (at 14389.782823086s/14400s)
+- coin__matic-network (at 14382.030616999s/14400s)
+- coin__stellar (at 14383.321881056s/14400s)
+- coin__basic-attention-token (at 14378.814570904s/14400s)
+- coin__zilliqa (at 14380.495899916s/14400s)
+- coin__ontology (at 14375.747139215s/14400s)
+- coin__siacoin (at 14377.253362894s/14400s)
+- coin__iota (at 14374.176455021s/14400s)
+- coin__quark-chain (at 14371.049010992s/14400s)
+- coin__ravencoin (at 14372.615984917s/14400s)
+- coin__kava problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_kava.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 30.222882032394s
