@@ -1,31 +1,20 @@
 bittrex
-- exchange_info (0.40905714035034s) ☺
-- exchange_info_v1 wait .................. (2.9752650260925s) ☺
+- exchange_info (0.44383811950684s) ☺
+- exchange_info_v1 wait ................... (3.1670410633087s) ☺
 binance
-- exchange_info (1.0398588180542s) ☺
+- exchange_info (0.91610383987427s) ☺
 poloniex
-- exchange_info (0.39007091522217s) ☺
+- exchange_info (0.36318588256836s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3600.0322802067s/3600s)
+- cryptocurrency_listings_latest_header (1.8814558982849s) ☺
 coingecko
-- exchanges_list (0.69604206085205s) ☺
-- coins_list wait ......... (1.945109128952s) ☺
+- exchanges_list (1.1880130767822s) ☺
+- coins_list wait .... (2.3716080188751s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (3.4729371070862s) ☺
-page 2 wait ......... (5.1380200386047s) ☺
-page 3 wait ......... (6.7791221141815s) ☺
-page 4 wait ........ (8.2810800075531s) ☺
-page 5 wait ........ (9.7268090248108s) ☺
-page 6 wait ......... (10.988692998886s) ☺
-page 7 wait ......... end reached
+page 1 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ........ (14.584260940552s) ☺
-page 2 wait ......... (15.758626937866s) ☺
-page 3 wait ......... (16.971050977707s) ☺
-page 4 wait ......... (18.564863920212s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 8097.6788508892s/14400s)
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
+page 1 error: do_api_call coingecko
+- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
