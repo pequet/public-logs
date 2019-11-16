@@ -1,30 +1,33 @@
 bittrex
-- exchange_info (0.49104118347168s) ☺
-- exchange_info_v1 wait .................. (3.1585559844971s) ☺
+- exchange_info (0.39763784408569s) ☺
+- exchange_info_v1 wait ................... (3.0987799167633s) ☺
 binance
-- exchange_info (0.79109907150269s) ☺
+- exchange_info (2.083359003067s) ☺
 poloniex
-- exchange_info (0.45555281639099s) ☺
+- exchange_info (0.47514986991882s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2698.6217360497s/3600s)
+- cryptocurrency_listings_latest_header (at 3599.6851019859s/3600s)
 coingecko
-- exchanges_list (1.1951420307159s) ☺
-- coins_list wait ......... (2.3993809223175s) ☺
+- exchanges_list (0.73376512527466s) ☺
+- coins_list wait ......... (1.9375269412994s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (3.6167531013489s) ☺
-page 2 wait ......... (4.848356962204s) ☺
-page 3 wait ......... (6.0367949008942s) ☺
-page 4 wait ......... (7.2864820957184s) ☺
-page 5 wait ......... (8.9597539901733s) ☺
-page 6 wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 53248 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 53248 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+page 1 wait ........ (3.1089611053467s) ☺
+page 2 wait ........ (4.3532431125641s) ☺
+page 3 wait ....... (5.3970520496368s) ☺
+page 4 wait ........ (6.618842124939s) ☺
+page 5 wait ........ (7.8509819507599s) ☺
+page 6 wait ........ (9.0077891349792s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (11.648421049118s) ☺
+page 2 wait ......... (12.879324913025s) ☺
+page 3 wait ......... (14.11871099472s) ☺
+page 4 wait ......... (15.337353944778s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 9894.1543359756s/14400s)
+- coin__binancecoin (at 9897.4233031273s/14400s)
+- coin__vechain (at 9895.8060500622s/14400s)
+- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.430089950562s
