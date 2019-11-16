@@ -1,30 +1,17 @@
 bittrex
-- exchange_info (0.38698101043701s) ☺
-- exchange_info_v1 wait ................... (2.7558958530426s) ☺
+- exchange_info (0.41001391410828s) ☺
+- exchange_info_v1 wait .................. (3.0747590065002s) ☺
 binance
-- exchange_info (1.34059715271s) ☺
+- exchange_info (1.849310874939s) ☺
 poloniex
-- exchange_info (0.39251708984375s) ☺
+- exchange_info (0.6676459312439s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.3083028793335s) ☺
+- cryptocurrency_listings_latest_header (at 901.13313579559s/3600s)
 coingecko
-- exchanges_list (0.77128791809082s) ☺
-- coins_list wait ........ (1.938472032547s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.4603090286255s) ☺
-page 2 wait ......... (5.2424228191376s) ☺
-page 3 error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (1.0863130092621s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 114688 bytes) in Unknown on line 0
