@@ -1,43 +1,16 @@
 bittrex
-- exchange_info (0.47495007514954s) ☺
-- exchange_info_v1 wait .................. (3.1204550266266s) ☺
+- exchange_info (0.6309871673584s) ☺
+- exchange_info_v1 wait ................. (3.2200241088867s) ☺
 binance
-- exchange_info (0.82155704498291s) ☺
-poloniex
-- exchange_info (0.65215992927551s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (0.37587308883667s) ☺
-coingecko
-- exchanges_list (1.4707870483398s) ☺
-- coins_list wait ......... (2.7333550453186s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (4.9478461742401s) ☺
-page 2 wait ......... (6.2560660839081s) ☺
-page 3 wait ........ (7.3710820674896s) ☺
-page 4 wait ........ (8.5107290744781s) ☺
-page 5 wait ........ (9.6996870040894s) ☺
-page 6 wait ........ (10.8644490242s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (14.131419181824s) ☺
-page 2 wait ....... (15.325666189194s) ☺
-page 3 wait ....... (17.404024124146s) ☺
-page 4 wait ........ (19.583089113235s) ☺
-page 5 wait ......... end reached
-- coin__vechain wait ........ (24.11331820488s) ☺
-- coin__ethereum wait ......... (26.627529144287s) ☺
-- coin__binancecoin wait ........ (28.941958189011s) ☺
-- coin__chainlink wait ......... (31.482171058655s) ☺
-- coin__ripple wait ........ (33.031523227692s) ☺
-- coin__dogecoin wait ........ (35.373504161835s) ☺
-- coin__litecoin wait ......... (37.80135011673s) ☺
-- coin__verge wait ......... (40.282337188721s) ☺
-- coin__eos wait ......... (42.641262054443s) ☺
-- coin__tron wait ........ (45.020178079605s) ☺
-- coin__elrond wait ......... (47.312226057053s) ☺
-- coin__bitcoin-cash wait ........ (49.6320271492s) ☺
-- coin__neo wait ........ (52.038949012756s) ☺
-- coin__monero wait ........ problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-🗲 done in 60.217530965805s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
