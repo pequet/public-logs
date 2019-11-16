@@ -1,33 +1,16 @@
 bittrex
-- exchange_info (0.41461992263794s) ☺
-- exchange_info_v1 wait ................... (3.143385887146s) ☺
+- exchange_info (0.4361400604248s) ☺
+- exchange_info_v1 wait ................... (3.1933689117432s) ☺
 binance
-- exchange_info (0.93992805480957s) ☺
-poloniex
-- exchange_info (0.47703504562378s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (0.89964914321899s) ☺
-coingecko
-- exchanges_list (1.8912181854248s) ☺
-- coins_list wait ......... (3.1227560043335s) ☺
-- exchanges_tickers__binance 
-page 1 wait ...... (4.8561301231384s) ☺
-page 2 wait ........ (7.7425141334534s) ☺
-page 3 wait ......... (9.2629191875458s) ☺
-page 4 wait ......... (10.831514120102s) ☺
-page 5 wait ......... (12.709706068039s) ☺
-page 6 wait ........ (13.882254123688s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (17.147794961929s) ☺
-page 2 wait ......... (18.363934993744s) ☺
-page 3 wait ......... (19.728096008301s) ☺
-page 4 wait ........ (20.955080986023s) ☺
-page 5 wait ........ end reached
-- coin__ethereum (at 12600.22153306s/14400s)
-- coin__binancecoin (at 12596.969967842s/14400s)
-- coin__vechain (at 12598.896429062s/14400s)
-- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 28.457776069641s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
