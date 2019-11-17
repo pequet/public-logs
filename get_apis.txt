@@ -1,32 +1,14 @@
 bittrex
-- exchange_info (0.43413805961609s) ☺
-- exchange_info_v1 wait .................. (3.1165390014648s) ☺
+- exchange_info (0.51931476593018s) ☺
+- exchange_info_v1 wait .................. (3.2151999473572s) ☺
 binance
-- exchange_info (0.74173808097839s) ☺
-poloniex
-- exchange_info (0.40154480934143s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.94352912903s/3600s)
-coingecko
-- exchanges_list (0.77108693122864s) ☺
-- coins_list wait ........ (2.0854749679565s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.4181909561157s) ☺
-page 2 wait ....... (4.5552198886871s) ☺
-page 3 wait ........ (5.8667769432068s) ☺
-page 4 wait ........ (7.3042778968811s) ☺
-page 5 error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 241664 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 241664 bytes)
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
 Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
 Line Number: 85
 
