@@ -1,16 +1,42 @@
 bittrex
-- exchange_info (0.39526700973511s) ☺
-- exchange_info_v1 wait .................. (3.0198049545288s) ☺
+- exchange_info (0.4619140625s) ☺
+- exchange_info_v1 wait .................. (5.415107011795s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- exchange_info (1.2196969985962s) ☺
+poloniex
+- exchange_info (0.46784210205078s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.46294784545898s) ☺
+coingecko
+- exchanges_list (1.3182740211487s) ☺
+- coins_list wait ........ (2.4833900928497s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.7011539936066s) ☺
+page 2 wait ........ (4.8607361316681s) ☺
+page 3 wait ......... (6.3596179485321s) ☺
+page 4 wait ......... (10.117000102997s) ☺
+page 5 wait ......... (11.314596176147s) ☺
+page 6 wait ......... (12.535338163376s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (15.130956172943s) ☺
+page 2 wait ......... (16.614959955215s) ☺
+page 3 wait ........ (19.373021125793s) ☺
+page 4 wait ........ (22.572422027588s) ☺
+page 5 end reached
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 122880 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
+Message:     Out of memory (allocated 4194304) (tried to allocate 122880 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
 
 Backtrace:
 
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 122880 bytes) in Unknown on line 0
