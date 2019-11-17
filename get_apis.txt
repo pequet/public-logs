@@ -1,42 +1,30 @@
 bittrex
-- exchange_info (0.4619140625s) ☺
-- exchange_info_v1 wait .................. (5.415107011795s) ☺
+- exchange_info (0.45714402198792s) ☺
+- exchange_info_v1 wait .................. (3.0918819904327s) ☺
 binance
-- exchange_info (1.2196969985962s) ☺
+- exchange_info (0.78292393684387s) ☺
 poloniex
-- exchange_info (0.46784210205078s) ☺
+- exchange_info (0.35599303245544s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.46294784545898s) ☺
+- cryptocurrency_listings_latest_header (at 895.80438899994s/3600s)
 coingecko
-- exchanges_list (1.3182740211487s) ☺
-- coins_list wait ........ (2.4833900928497s) ☺
+- exchanges_list (1.0132830142975s) ☺
+- coins_list wait ......... (2.2848649024963s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (3.7011539936066s) ☺
-page 2 wait ........ (4.8607361316681s) ☺
-page 3 wait ......... (6.3596179485321s) ☺
-page 4 wait ......... (10.117000102997s) ☺
-page 5 wait ......... (11.314596176147s) ☺
-page 6 wait ......... (12.535338163376s) ☺
-page 7 wait ......... end reached
+page 1 wait ........ (3.4230070114136s) ☺
+page 2 wait ......... (4.664803981781s) ☺
+page 3 wait ........ error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ........ (15.130956172943s) ☺
-page 2 wait ......... (16.614959955215s) ☺
-page 3 wait ........ (19.373021125793s) ☺
-page 4 wait ........ (22.572422027588s) ☺
-page 5 end reached
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+page 1 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
-- coins 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 122880 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 122880 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
-
-Backtrace:
-
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 122880 bytes) in Unknown on line 0
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
