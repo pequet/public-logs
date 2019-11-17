@@ -1,33 +1,17 @@
 bittrex
-- exchange_info (0.37314701080322s) ☺
-- exchange_info_v1 wait ................... (3.0013229846954s) ☺
+- exchange_info (0.48096299171448s) ☺
+- exchange_info_v1 wait ................... (3.324285030365s) ☺
 binance
-- exchange_info (2.0464251041412s) ☺
+- exchange_info (2.1370680332184s) ☺
 poloniex
-- exchange_info (0.43191194534302s) ☺
+- exchange_info (0.42897891998291s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.17016911507s/3600s)
+- cryptocurrency_listings_latest_header (at 1799.2861809731s/3600s)
 coingecko
-- exchanges_list (0.80586504936218s) ☺
-- coins_list wait ......... (2.0449569225311s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.207906961441s) ☺
-page 2 wait ........ (4.4172151088715s) ☺
-page 3 wait ........ (5.6303551197052s) ☺
-page 4 wait ....... (6.6976180076599s) ☺
-page 5 wait ......... (7.9215049743652s) ☺
-page 6 wait ........ (9.0399858951569s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ....... (11.836405038834s) ☺
-page 2 wait ......... (13.094708919525s) ☺
-page 3 wait ......... (14.398596048355s) ☺
-page 4 wait ........ (15.605659008026s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 10796.327372074s/14400s)
-- coin__ethereum (at 10798.230997086s/14400s)
-- coin__dogecoin (at 10793.177783012s/14400s)
-- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_vechain.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 29.151194095612s
+- exchanges_list (1.4564831256866s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in Unknown on line 0
