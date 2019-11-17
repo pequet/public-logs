@@ -1,17 +1,16 @@
 bittrex
-- exchange_info (0.48096299171448s) ☺
-- exchange_info_v1 wait ................... (3.324285030365s) ☺
+- exchange_info (0.52385902404785s) ☺
+- exchange_info_v1 wait .................. (3.2838740348816s) ☺
 binance
-- exchange_info (2.1370680332184s) ☺
-poloniex
-- exchange_info (0.42897891998291s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.2861809731s/3600s)
-coingecko
-- exchanges_list (1.4564831256866s) ☺
-- coins_list wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+A PHP Error was encountered
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in Unknown on line 0
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
