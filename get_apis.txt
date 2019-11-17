@@ -1,16 +1,74 @@
 bittrex
-- exchange_info (0.43754506111145s) ☺
-- exchange_info_v1 wait .................. (3.0322239398956s) ☺
+- exchange_info (0.40456485748291s) ☺
+- exchange_info_v1 wait .................. (2.9877238273621s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (2.2440419197083s) ☺
+poloniex
+- exchange_info (0.38096213340759s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 2698.9350440502s/3600s)
+coingecko
+- exchanges_list (0.83638310432434s) ☺
+- coins_list wait ......... (2.0601890087128s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.8856270313263s) ☺
+page 2 wait ......... (5.4249339103699s) ☺
+page 3 wait ......... (6.9759950637817s) ☺
+page 4 wait ......... (8.6036338806152s) ☺
+page 5 wait ........ (10.124402046204s) ☺
+page 6 wait ........ (11.637746095657s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (14.310247898102s) ☺
+page 2 wait ......... (15.559743881226s) ☺
+page 3 wait ........ (16.716242074966s) ☺
+page 4 wait ........ (17.870987892151s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 7198.4352021217s/14400s)
+- coin__binancecoin (at 6298.4738881588s/14400s)
+- coin__dogecoin (at 6296.785243988s/14400s)
+- coin__vechain (at 6295.1368179321s/14400s)
+- coin__ripple (at 6293.1889350414s/14400s)
+- coin__chainlink (at 6291.3640830517s/14400s)
+- coin__elrond (at 6289.8288328648s/14400s)
+- coin__eos (at 6288.2911508083s/14400s)
+- coin__tron (at 6284.5355570316s/14400s)
+- coin__cardano (at 6286.3164200783s/14400s)
+- coin__litecoin (at 6282.8185510635s/14400s)
+- coin__fetch-ai (at 1799.4845318794s/14400s)
+- coin__verge (at 1801.0056610107s/14400s)
+- coin__mainframe (at 1797.9415659904s/14400s)
+- coin__matic-network wait ...... (21.775635004044s) ☺
+- coin__neo (22.778279066086s) ☺
+- coin__monero wait ......... (24.363328933716s) ☺
+- coin__kava wait ........ (26.844253063202s) ☺
+- coin__bitcoin-cash (at 1803.5095369816s/14400s)
+- coin__iostoken wait ........ (28.40153503418s) ☺
+- coin__stellar wait ......... (30.260783910751s) ☺
+- coin__moeda-loyalty-points wait ........ (31.663287878036s) ☺
+- coin__basic-attention-token wait ........ (33.23844408989s) ☺
+- coin__storm wait ........ (34.753886938095s) ☺
+- coin__iota wait ........ (36.260370969772s) ☺
+- coin__zilliqa wait ........ (37.8351790905s) ☺
+- coin__siacoin wait ........ (39.414772033691s) ☺
+- coin__ravencoin wait ......... (41.063201904297s) ☺
+- coin__ontology wait ......... (42.746098995209s) ☺
+- coin__arpa-chain wait ......... (44.334059000015s) ☺
+- coin__harmony wait ......... (45.842089891434s) ☺
+- coin__selfkey wait ......... (47.389374017715s) ☺
+- coin__ankr wait ....... (48.788666009903s) ☺
+- coin__ethlend wait ........ (50.269371032715s) ☺
+- coin__zcash wait ........ (51.845143079758s) ☺
+- coin__cosmos wait ......... (53.477506875992s) ☺
+- coin__celer-network wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
