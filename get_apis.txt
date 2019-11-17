@@ -1,35 +1,25 @@
 bittrex
-- exchange_info (0.39473795890808s) ☺
-- exchange_info_v1 wait .................. (2.6941599845886s) ☺
+- exchange_info (0.61749696731567s) ☺
+- exchange_info_v1 wait .................. (3.1973819732666s) ☺
 binance
-- exchange_info (1.383721113205s) ☺
+- exchange_info (0.77707004547119s) ☺
 poloniex
-- exchange_info (0.43098092079163s) ☺
+- exchange_info (0.38908910751343s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.58764910697937s) ☺
+- cryptocurrency_listings_latest_header (at 899.0725851059s/3600s)
 coingecko
-- exchanges_list (1.6535727977753s) ☺
-- coins_list wait ......... (2.9783070087433s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (4.1627159118652s) ☺
-page 2 wait ........ (5.3137187957764s) ☺
-page 3 wait ........ (6.4421498775482s) ☺
-page 4 wait ......... (7.6314158439636s) ☺
-page 5 wait ......... (9.2179169654846s) ☺
-page 6 wait ........ (10.779780864716s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (13.714433908463s) ☺
-page 2 wait ........ error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_list (1.037966966629s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 229376 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 229376 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
+
+Backtrace:
+
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 229376 bytes) in Unknown on line 0
