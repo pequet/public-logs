@@ -1,16 +1,25 @@
 bittrex
-- exchange_info (0.51937294006348s) ☺
-- exchange_info_v1 wait .................. (3.2455379962921s) ☺
+- exchange_info (0.53162503242493s) ☺
+- exchange_info_v1 wait .................. (3.2386920452118s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+poloniex
+- exchange_info (0.45305013656616s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+coingecko
+- exchanges_list (1.3408260345459s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 90112 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
+Message:     Out of memory (allocated 4194304) (tried to allocate 90112 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
 
 Backtrace:
 
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 90112 bytes) in Unknown on line 0
