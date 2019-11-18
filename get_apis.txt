@@ -1,88 +1,15 @@
 bittrex
-- exchange_info (0.49092602729797s) ☺
-- exchange_info_v1 wait ................. (3.1182961463928s) ☺
+- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
 binance
-- exchange_info (0.77831411361694s) ☺
-poloniex
-- exchange_info (0.40553188323975s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 897.06086397171s/3600s)
-coingecko
-- exchanges_list (1.3236420154572s) ☺
-- coins_list wait ......... (2.5775558948517s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.8758730888367s) ☺
-page 2 wait ....... (4.9770879745483s) ☺
-page 3 wait ........ (6.2775819301605s) ☺
-page 4 wait ........ (7.4831459522247s) ☺
-page 5 wait ........ (8.7198579311371s) ☺
-page 6 wait ........ (10.010099887848s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (12.610138893127s) ☺
-page 2 wait ........ (13.839252948761s) ☺
-page 3 wait ........ (14.991569042206s) ☺
-page 4 wait ........ (16.257900953293s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 10805.814151049s/14400s)
-- coin__binancecoin (at 10804.241844893s/14400s)
-- coin__cardano (at 10794.732810974s/14400s)
-- coin__ripple (at 10802.682804108s/14400s)
-- coin__chainlink (at 10801.023627996s/14400s)
-- coin__eos (at 10799.631397009s/14400s)
-- coin__dogecoin (at 10796.454704046s/14400s)
-- coin__vechain (at 10798.136193037s/14400s)
-- coin__litecoin (at 10793.214781046s/14400s)
-- coin__bitcoin-cash (at 10789.973934889s/14400s)
-- coin__monero (at 10788.318641901s/14400s)
-- coin__tron (at 10791.656713009s/14400s)
-- coin__neo (at 10786.958120108s/14400s)
-- coin__fetch-ai (at 10785.62018013s/14400s)
-- coin__basic-attention-token (at 10782.57989502s/14400s)
-- coin__stellar (at 10784.247996807s/14400s)
-- coin__iota (at 10777.813493013s/14400s)
-- coin__matic-network (at 10781.218783855s/14400s)
-- coin__iostoken (at 10779.666695118s/14400s)
-- coin__elrond (at 10770.20548296s/14400s)
-- coin__storm (at 10773.370718956s/14400s)
-- coin__decred (at 10776.585491896s/14400s)
-- coin__ravencoin (at 10771.810627937s/14400s)
-- coin__cosmos (19.970577955246s) ☺
-- coin__kava wait ......... (21.816956043243s) ☺
-- coin__wanchain wait ........ (23.566269874573s) ☺
-- coin__zcash wait ......... (25.191413879395s) ☺
-- coin__ontology (at 10773.096858978s/14400s)
-- coin__arpa-chain wait ....... (26.73609995842s) ☺
-- coin__zilliqa (at 10772.956907034s/14400s)
-- coin__icon wait ........ (28.294863939285s) ☺
-- coin__ethereum-classic wait ......... (29.976293087006s) ☺
-- coin__qtum wait ........ (31.691072940826s) ☺
-- coin__chiliz wait ........ (33.231314897537s) ☺
-- coin__mainframe (at 10777.84547019s/14400s)
-- coin__tezos wait ...... (34.861715078354s) ☺
-- coin__enigma wait ........ (36.339111089706s) ☺
-- coin__siacoin wait ........ (37.975825071335s) ☺
-- coin__iexec-rlc (at 10787.440726042s/14400s)
-- coin__dash wait ....... (39.692139863968s) ☺
-- coin__verge wait ........ (41.379976987839s) ☺
-- coin__red-pulse wait ........ (42.940161943436s) ☺
-- coin__blockstack-iou wait ........ (44.488023996353s) ☺
-- coin__singulardtv wait ........ (46.077888011932s) ☺
-- coin__harmony wait ....... (47.558831930161s) ☺
-- coin__ethlend wait ........ (49.127321958542s) ☺
-- coin__moeda-loyalty-points (at 10805.056052208s/14400s)
-- coin__nem wait ...... (50.698937892914s) ☺
-- coin__waltonchain wait ........ (52.320483922958s) ☺
-- coin__0x wait ........ (53.93120098114s) ☺
-- coin__viberate wait ........ problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
