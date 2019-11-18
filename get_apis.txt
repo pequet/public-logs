@@ -1,46 +1,49 @@
 bittrex
-- exchange_info (0.53449892997742s) ☺
-- exchange_info_v1 wait .................. (3.0070009231567s) ☺
+- exchange_info (0.56250286102295s) ☺
+- exchange_info_v1 wait ................. (3.2899479866028s) ☺
 binance
-- exchange_info (1.2280879020691s) ☺
+- exchange_info (2.4790050983429s) ☺
 poloniex
-- exchange_info (0.46785807609558s) ☺
+- exchange_info (0.5358829498291s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2698.9275660515s/3600s)
+- cryptocurrency_listings_latest_header (0.41137599945068s) ☺
 coingecko
-- exchanges_list (0.83700108528137s) ☺
-- coins_list wait ........ (2.0565249919891s) ☺
+- exchanges_list (0.79399704933167s) ☺
+- coins_list wait ......... (2.098916053772s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (3.5210480690002s) ☺
-page 2 wait ......... (5.2280290126801s) ☺
-page 3 wait ........ (6.78346991539s) ☺
-page 4 wait ........ (8.3139250278473s) ☺
-page 5 wait ........ (10.032284975052s) ☺
-page 6 wait ...... (11.512459993362s) ☺
+page 1 wait ........ (3.2336180210114s) ☺
+page 2 wait ......... (4.6125140190125s) ☺
+page 3 wait ....... (5.7809269428253s) ☺
+page 4 wait ........ (7.1625380516052s) ☺
+page 5 wait ....... (8.1973509788513s) ☺
+page 6 wait ......... (9.4905760288239s) ☺
 page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ (14.167838096619s) ☺
-page 2 wait ........ (15.373532056808s) ☺
-page 3 wait ........ (16.552758932114s) ☺
-page 4 wait ......... (17.809365987778s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 9008.7473900318s/14400s)
-- coin__binancecoin (at 9007.1168260574s/14400s)
-- coin__cardano (at 8997.6037869453s/14400s)
-- coin__ripple (at 9005.5608999729s/14400s)
-- coin__chainlink (at 9003.8911881447s/14400s)
-- coin__dogecoin (at 8999.2746911049s/14400s)
-- coin__eos (at 9002.5231869221s/14400s)
-- coin__vechain (at 9000.9902589321s/14400s)
-- coin__litecoin (at 8996.0836548805s/14400s)
-- coin__bitcoin-cash (at 8992.8414919376s/14400s)
-- coin__monero (at 8991.1945040226s/14400s)
-- coin__neo (at 8989.6827771664s/14400s)
-- coin__tron (at 8994.532804966s/14400s)
-- coin__fetch-ai (at 8988.235419035s/14400s)
-- coin__basic-attention-token (at 8985.0643110275s/14400s)
-- coin__stellar (at 8986.6834218502s/14400s)
-- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
+page 1 wait ........ (12.394382953644s) ☺
+page 2 wait ........ (13.660552978516s) ☺
+page 3 wait ........ (14.841741085052s) ☺
+page 4 wait ........ (16.160125017166s) ☺
+page 5 wait ........ end reached
+- coin__ethereum (at 9908.5508949757s/14400s)
+- coin__binancecoin (at 9906.9850790501s/14400s)
+- coin__cardano (at 9897.4510850906s/14400s)
+- coin__ripple (at 9905.4044110775s/14400s)
+- coin__chainlink (at 9903.7474851608s/14400s)
+- coin__eos (at 9902.3375618458s/14400s)
+- coin__dogecoin (at 9899.1425819397s/14400s)
+- coin__vechain (at 9900.8315849304s/14400s)
+- coin__litecoin (at 9895.9269530773s/14400s)
+- coin__bitcoin-cash (at 9892.7697739601s/14400s)
+- coin__monero (at 9891.2388670444s/14400s)
+- coin__tron (at 9894.6200070381s/14400s)
+- coin__neo (at 9889.8894720078s/14400s)
+- coin__fetch-ai (at 9888.5012331009s/14400s)
+- coin__basic-attention-token (at 9885.4692270756s/14400s)
+- coin__stellar (at 9887.1513268948s/14400s)
+- coin__iota (at 9880.7284588814s/14400s)
+- coin__matic-network (at 9884.0598728657s/14400s)
+- coin__iostoken (at 9882.348402977s/14400s)
+- coin__elrond problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_elrond.txt')
 coincheckup
 - coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.389245986938s
+🗲 done in 32.685600042343s
