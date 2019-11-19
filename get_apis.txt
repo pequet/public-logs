@@ -1,4 +1,37 @@
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+bittrex
+- exchange_info (0.39504313468933s) ☺
+- exchange_info_v1 wait ................... (2.8538110256195s) ☺
+binance
+- exchange_info (0.81755614280701s) ☺
+poloniex
+- exchange_info (0.61873316764832s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.40202713012695s) ☺
+coingecko
+- exchanges_list (1.0119831562042s) ☺
+- coins_list wait ......... (2.2221250534058s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.4399790763855s) ☺
+page 2 wait ......... (4.7423920631409s) ☺
+page 3 wait ........ (5.9414610862732s) ☺
+page 4 wait ........ (7.1998300552368s) ☺
+page 5 wait ........ (8.3937039375305s) ☺
+page 6 wait ........ (9.5368330478668s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (12.609540939331s) ☺
+page 2 wait ....... (14.042674064636s) ☺
+page 3 error: do_api_call coingecko
+- coin__ethereum (at 7189.6999709606s/14400s)
+- coin__holotoken problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_holotoken.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
