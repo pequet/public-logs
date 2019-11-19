@@ -1,38 +1,4 @@
-bittrex
-- exchange_info (0.46484804153442s) ☺
-- exchange_info_v1 wait .................. (2.7375028133392s) ☺
-binance
-- exchange_info (1.8041620254517s) ☺
-poloniex
-- exchange_info (0.43868207931519s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1800.8201100826s/3600s)
-coingecko
-- exchanges_list (0.74766111373901s) ☺
-- coins_list wait ......... (2.0180680751801s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.1513319015503s) ☺
-page 2 wait ......... (4.3742890357971s) ☺
-page 3 wait ......... (5.6487300395966s) ☺
-page 4 wait ........ (6.8265659809113s) ☺
-page 5 wait ......... (8.1084430217743s) ☺
-page 6 wait ........ (9.3247799873352s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (12.004872083664s) ☺
-page 2 wait ......... (13.313834905624s) ☺
-page 3 wait ........ (14.509532928467s) ☺
-page 4 wait ......... (15.696762084961s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 7196.6516039371s/14400s)
-- coin__binancecoin (at 7195.0985741615s/14400s)
-- coin__holotoken (at 7193.7567660809s/14400s)
-- coin__ripple (at 7192.2911250591s/14400s)
-- coin__eos (at 7190.8564069271s/14400s)
-- coin__chainlink (at 7189.4224460125s/14400s)
-- coin__litecoin (at 7187.8265280724s/14400s)
-- coin__vechain (at 7183.0017960072s/14400s)
-- coin__dogecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_dogecoin.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 29.371001005173s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
