@@ -1,4 +1,37 @@
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+bittrex
+- exchange_info (0.47884702682495s) ☺
+- exchange_info_v1 wait .................. (3.2629640102386s) ☺
+binance
+- exchange_info (2.3630840778351s) ☺
+poloniex
+- exchange_info (0.39128398895264s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.4567551612854s) ☺
+coingecko
+- exchanges_list (0.78007888793945s) ☺
+- coins_list wait ........ (2.0051279067993s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (4.2989211082458s) ☺
+page 2 wait ........ (6.1881220340729s) ☺
+page 3 wait ........ (7.745099067688s) ☺
+page 4 wait ........ (9.2562599182129s) ☺
+page 5 wait ........ (10.760126113892s) ☺
+page 6 wait ........ (12.288954973221s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (15.011651039124s) ☺
+page 2 wait ........ (16.219690084457s) ☺
+page 3 wait ........ (17.837986946106s) ☺
+page 4 wait ........ (19.02285695076s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 7202.3538429737s/14400s)
+- coin__holotoken (at 7199.2102050781s/14400s)
+- coin__binancecoin (at 7200.8792171478s/14400s)
+- coin__ripple (at 7197.7800300121s/14400s)
+- coin__eos (at 7194.7811579704s/14400s)
+- coin__litecoin (at 7191.5112991333s/14400s)
+- coin__vechain (at 7193.219340086s/14400s)
+- coin__chainlink problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chainlink.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 34.000249862671s
