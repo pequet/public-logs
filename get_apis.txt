@@ -1,22 +1,33 @@
 bittrex
-- exchange_info (0.54940581321716s) ☺
-- exchange_info_v1 wait .................. (3.7677979469299s) ☺
+- exchange_info (0.40104293823242s) ☺
+- exchange_info_v1 wait ................... (3.0661299228668s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+- exchange_info (0.64064979553223s) ☺
 poloniex
-- exchange_info (0.48442506790161s) ☺
+- exchange_info (0.38946509361267s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.6396131516s/3600s)
+- cryptocurrency_listings_latest_header (0.29768109321594s) ☺
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (1.3502969741821s) ☺
+- coins_list wait ......... (2.6179049015045s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.8927879333496s) ☺
+page 2 wait ....... (5.0352721214294s) ☺
+page 3 wait ........ (6.7837779521942s) ☺
+page 4 wait ........ (8.1431310176849s) ☺
+page 5 wait ......... (9.8368890285492s) ☺
+page 6 wait ........ (11.318520069122s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (14.05609703064s) ☺
+page 2 wait ........ (15.27334690094s) ☺
+page 3 wait ........ (16.501903057098s) ☺
+page 4 wait ........ (17.669814109802s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 5397.7284049988s/14400s)
+- coin__binancecoin (at 5396.106276989s/14400s)
+- coin__holotoken (at 5394.6466150284s/14400s)
+- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.790980100632s
