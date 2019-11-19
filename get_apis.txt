@@ -1,42 +1,29 @@
 bittrex
-- exchange_info (0.41066288948059s) ☺
-- exchange_info_v1 wait ................... (3.0658619403839s) ☺
+- exchange_info (0.42288708686829s) ☺
+- exchange_info_v1 wait .................. (3.0041341781616s) ☺
 binance
-- exchange_info (0.82210993766785s) ☺
+- exchange_info (0.92437696456909s) ☺
 poloniex
-- exchange_info (0.38804817199707s) ☺
+- exchange_info (0.36578702926636s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.29128909111s/3600s)
+- cryptocurrency_listings_latest_header (at 1800.7324061394s/3600s)
 coingecko
-- exchanges_list (1.7123689651489s) ☺
-- coins_list wait ......... (3.1049540042877s) ☺
+- exchanges_list (1.0087821483612s) ☺
+- coins_list wait ........ (2.2965772151947s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (4.6720209121704s) ☺
-page 2 wait ......... (6.6072089672089s) ☺
-page 3 wait ........ (8.1537029743195s) ☺
-page 4 wait ........ (9.6789059638977s) ☺
-page 5 wait ......... (11.235299825668s) ☺
-page 6 wait ........ (12.777515888214s) ☺
+page 1 wait ........ (3.8603410720825s) ☺
+page 2 wait ........ (5.2185971736908s) ☺
+page 3 wait ......... (6.4824111461639s) ☺
+page 4 wait ......... (7.6931080818176s) ☺
+page 5 wait ........ (8.8266370296478s) ☺
+page 6 wait ........ (9.9951410293579s) ☺
 page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ......... (15.442358016968s) ☺
-page 2 wait ......... (16.705387830734s) ☺
-page 3 wait ......... (18.060078859329s) ☺
+page 1 wait ....... (12.659476041794s) ☺
+page 2 wait ......... (13.849019050598s) ☺
+page 3 wait ........ (15.245744228363s) ☺
 page 4 error: do_api_call coingecko
-- coin__ethereum (at 8093.9414050579s/14400s)
-- coin__holotoken problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_holotoken.txt')
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
-- coins 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 106496 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 106496 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
-
-Backtrace:
-
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 106496 bytes) in Unknown on line 0
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 20.31063580513s
