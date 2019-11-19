@@ -6,32 +6,19 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-watchlists
 last run: 1574157651.9427
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1573074410.9876
-- no file to update
-coins_by_volume
-local path: ../files/repositories
-local folder: coins-by-volume
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-volume
-last run: 1573033879.7764
-- no file to update
-coins_by_id
-local path: ../files/repositories
-local folder: coins-by-id
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-id
-last run: 1573033881.8085
-- no file to update
-🗲 done in 4.269495010376s
+- bittrex_watchlist_btc.txt Commit (November 19 2019 19:46:00 UTC) 
+- bittrex_watchlist_eth.txt Whoops\Exception\ErrorException: Undefined offset: 1 in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 133
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:133
+  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:133
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:120
+  4. My_times->get_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:90
+  5. My_times->dont_over_run() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:33
+  6. My_times->do_dont_over_run() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_github.php:81
+  7. My_github->upload_update() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
+  8. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:224
+  9. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
+ 10. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+ 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+ 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+ 13. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
