@@ -1,13 +1,42 @@
 bittrex
-- exchange_info (0.434241771698s) ☺
-- exchange_info_v1 wait ................... (2.8207228183746s) ☺
+- exchange_info (0.40911912918091s) ☺
+- exchange_info_v1 wait .................. (2.9864871501923s) ☺
 binance
-- exchange_info (1.8681428432465s) ☺
+- exchange_info (0.86752486228943s) ☺
 poloniex
-- exchange_info (0.52421498298645s) ☺
+- exchange_info (0.68843483924866s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.64685797691345s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (at 899.23803210258s/3600s)
+coingecko
+- exchanges_list (1.19810795784s) ☺
+- coins_list wait ........ (2.4503450393677s) ☺
+- exchanges_tickers__binance 
+page 1 wait ....... (3.6243810653687s) ☺
+page 2 wait ........ (4.8651530742645s) ☺
+page 3 wait ........ (5.9974129199982s) ☺
+page 4 wait ......... (7.2492370605469s) ☺
+page 5 wait ........ (8.5198640823364s) ☺
+page 6 wait ......... (10.055531024933s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (12.885737895966s) ☺
+page 2 wait ........ (14.096869945526s) ☺
+page 3 wait ........ (15.275754928589s) ☺
+page 4 wait ......... (16.503113031387s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 14397.476762056s/14400s)
+- coin__binancecoin (at 14395.839818001s/14400s)
+- coin__holotoken (at 14394.38341713s/14400s)
+- coin__ripple (at 14392.936197042s/14400s)
+- coin__eos (at 14391.530186892s/14400s)
+- coin__chainlink (at 14390.116482019s/14400s)
+- coin__litecoin (at 14385.751253843s/14400s)
+- coin__dogecoin (at 14388.893173933s/14400s)
+- coin__vechain (at 14384.907253027s/14400s)
+- coin__cardano (at 14387.655908823s/14400s)
+- coin__bitcoin-cash (at 14382.242205858s/14400s)
+- coin__tron (at 14383.678604126s/14400s)
+- coin__kava problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_kava.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.948061943054s
