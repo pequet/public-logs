@@ -1,37 +1,4 @@
-bittrex
-- exchange_info (0.43150615692139s) ☺
-- exchange_info_v1 wait .................. (3.0477180480957s) ☺
-binance
-- exchange_info (1.3510060310364s) ☺
-poloniex
-- exchange_info (0.40856194496155s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 2699.4192969799s/3600s)
-coingecko
-- exchanges_list (1.4286479949951s) ☺
-- coins_list wait ......... (2.7090120315552s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.9497890472412s) ☺
-page 2 wait ......... (5.1162579059601s) ☺
-page 3 wait ......... (6.3446478843689s) ☺
-page 4 wait ........ (7.4875309467316s) ☺
-page 5 wait ......... (8.7658128738403s) ☺
-page 6 wait ........ (9.9717009067535s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (12.71916103363s) ☺
-page 2 wait ........ (13.897420883179s) ☺
-page 3 wait ......... (15.218251943588s) ☺
-page 4 wait ........ (16.412303924561s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 5398.0436279774s/14400s)
-- coin__binancecoin (at 5396.4357221127s/14400s)
-- coin__holotoken (at 5394.9964931011s/14400s)
-- coin__ripple (at 5393.4637720585s/14400s)
-- coin__eos (at 5390.5456340313s/14400s)
-- coin__litecoin (at 5387.3567969799s/14400s)
-- coin__vechain (at 5389.0402021408s/14400s)
-- coin__chainlink problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chainlink.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 29.827857017517s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
