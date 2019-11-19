@@ -1,14 +1,63 @@
 bittrex
-- exchange_info (0.41188716888428s) ☺
-- exchange_info_v1 wait .................. problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.48424601554871s) ☺
+- exchange_info_v1 wait .................. (3.1631970405579s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (1.838730096817s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.4316349029541s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2699.2675640583s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (1.8287470340729s) ☺
+- coins_list wait ......... (3.0685181617737s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (5.0880620479584s) ☺
+page 2 wait ........ (7.2280721664429s) ☺
+page 3 wait ........ (8.8296670913696s) ☺
+page 4 wait ........ (10.622524023056s) ☺
+page 5 wait ........ (12.118283987045s) ☺
+page 6 wait ........ (13.586658000946s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (16.662789106369s) ☺
+page 2 wait ......... (18.49653506279s) ☺
+page 3 wait ......... (20.738372087479s) ☺
+page 4 wait ......... (21.971374034882s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 9906.072868824s/14400s)
+- coin__holotoken (at 9902.847151041s/14400s)
+- coin__binancecoin (at 9904.4156601429s/14400s)
+- coin__ripple (at 9901.2763302326s/14400s)
+- coin__vechain (at 9896.637223959s/14400s)
+- coin__eos (at 9898.2962229252s/14400s)
+- coin__litecoin (at 9895.0118200779s/14400s)
+- coin__chainlink (at 9899.9127030373s/14400s)
+- coin__bitcoin-cash (at 9891.7723588943s/14400s)
+- coin__tron (at 9888.6174061298s/14400s)
+- coin__cardano (at 9890.2401931286s/14400s)
+- coin__kava (at 9885.6101109982s/14400s)
+- coin__matic-network (at 9887.1213469505s/14400s)
+- coin__stellar (at 9883.9999809265s/14400s)
+- coin__neo wait ..... (26.987053155899s) ☺
+- coin__monero (at 9884.0405130386s/14400s)
+- coin__iostoken wait ......... (29.052709102631s) ☺
+- coin__fetch-ai wait ........ (30.512969017029s) ☺
+- coin__dogecoin (at 9898.7218661308s/14400s)
+- coin__elrond wait ......... (32.267570018768s) ☺
+- coin__basic-attention-token wait ......... (34.1011531353s) ☺
+- coin__iota wait ......... (35.759818077087s) ☺
+- coin__nucleus-vision wait ........ (37.333477973938s) ☺
+- coin__ethereum-classic wait ......... (38.955247163773s) ☺
+- coin__storm wait ......... (40.64222407341s) ☺
+- coin__cocos-bcx wait ....... (42.108150005341s) ☺
+- coin__ravencoin wait ....... (43.677309036255s) ☺
+- coin__ontology wait ........ (45.31019616127s) ☺
+- coin__qtum wait ........ (47.239104032516s) ☺
+- coin__cosmos wait ........ (48.890069007874s) ☺
+- coin__tezos wait ...... (50.454522132874s) ☺
+- coin__chiliz wait ........ (52.061764001846s) ☺
+- coin__zcash wait ......... (53.755429029465s) ☺
+- coin__siacoin wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
