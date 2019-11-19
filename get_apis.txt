@@ -1,15 +1,38 @@
 bittrex
-- exchange_info (0.49739098548889s) ☺
-- exchange_info_v1 wait .................. (3.1505868434906s) ☺
+- exchange_info (0.49886894226074s) ☺
+- exchange_info_v1 wait .................. (3.1526391506195s) ☺
 binance
-- exchange_info (1.0490169525146s) ☺
+- exchange_info (1.0002830028534s) ☺
 poloniex
-- exchange_info (0.39814901351929s) ☺
+- exchange_info (0.41477489471436s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.3372528553s/3600s)
+- cryptocurrency_listings_latest_header (at 1799.8418958187s/3600s)
 coingecko
-- exchanges_list (1.364198923111s) ☺
-- coins_list wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
+- exchanges_list (1.5374970436096s) ☺
+- coins_list wait ......... (6.3764781951904s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (8.0511450767517s) ☺
+page 2 wait ........ (9.6305050849915s) ☺
+page 3 wait ........ (11.162683010101s) ☺
+page 4 wait ......... (12.410948991776s) ☺
+page 5 wait ........ (13.563394069672s) ☺
+page 6 wait ......... (14.874538183212s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (17.831470012665s) ☺
+page 2 wait ......... (19.040704011917s) ☺
+page 3 wait ......... (20.291524171829s) ☺
+page 4 wait ........ (21.459150075912s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 10802.111006021s/14400s)
+- coin__binancecoin (at 10800.518027067s/14400s)
+- coin__holotoken (at 10799.060658932s/14400s)
+- coin__ripple (at 10797.468976021s/14400s)
+- coin__eos (at 10795.924789906s/14400s)
+- coin__chainlink (at 10794.4226439s/14400s)
+- coin__litecoin (at 10792.815201998s/14400s)
+- coin__vechain (at 10787.993623018s/14400s)
+- coin__dogecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_dogecoin.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 34.173240184784s
