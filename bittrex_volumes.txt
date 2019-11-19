@@ -1,10 +1,4 @@
-coins-by-volume/readme.md
-Whoops\Exception\ErrorException: Undefined property: stdClass::$sai in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 196
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php:196
-  2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php:196
-  3. Coingecko->order_all_exchange_coins_by_volume() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_bittrex_volumes.php:46
-  4. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
