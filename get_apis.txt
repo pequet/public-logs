@@ -1,29 +1,28 @@
 bittrex
-- exchange_info (0.87520885467529s) ☺
-- exchange_info_v1 wait ................ (3.517077922821s) ☺
+- exchange_info (0.37638282775879s) ☺
+- exchange_info_v1 wait ................... (3.0168988704681s) ☺
 binance
-- exchange_info (1.651909828186s) ☺
+- exchange_info (0.57281899452209s) ☺
 poloniex
-- exchange_info (0.69389390945435s) ☺
+- exchange_info (0.33916306495667s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.43178987503052s) ☺
+- cryptocurrency_listings_latest_header (at 896.81512308121s/3600s)
 coingecko
-- exchanges_list (0.83846688270569s) ☺
-- coins_list wait ........ (1.9703299999237s) ☺
+- exchanges_list (0.90374684333801s) ☺
+- coins_list wait .......... (2.2809119224548s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (3.2763369083405s) ☺
-page 2 wait ....... (4.4144330024719s) ☺
-page 3 wait ........ (5.6459269523621s) ☺
-page 4 wait ........ (6.8906118869781s) ☺
-page 5 wait ......... (8.3627769947052s) ☺
-page 6 wait ........ (10.168396949768s) ☺
-page 7 wait .... end reached
+page 1 wait ........ (4.3842868804932s) ☺
+page 2 wait ........ (6.1656620502472s) ☺
+page 3 wait ......... (7.7970519065857s) ☺
+page 4 wait ........ (9.4905219078064s) ☺
+page 5 wait ........ (11.26947593689s) ☺
+page 6 wait ........ (12.813171863556s) ☺
+page 7 wait ........ end reached
 - exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__ethereum (at 8086.1724591255s/14400s)
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
+page 1 wait ........ error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
 Stack trace:
   1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
