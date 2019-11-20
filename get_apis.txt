@@ -1,28 +1,56 @@
 bittrex
-- exchange_info (0.48785090446472s) ☺
-- exchange_info_v1 wait .................. (3.2202889919281s) ☺
+- exchange_info (0.4400749206543s) ☺
+- exchange_info_v1 wait .................. (3.0153210163116s) ☺
 binance
-- exchange_info (0.81913185119629s) ☺
+- exchange_info (1.7699129581451s) ☺
 poloniex
-- exchange_info (0.43976593017578s) ☺
+- exchange_info (0.4238760471344s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.60941982269287s) ☺
+- cryptocurrency_listings_latest_header (at 900.17421507835s/3600s)
 coingecko
-- exchanges_list (1.2799639701843s) ☺
-- coins_list wait ........ (5.3566520214081s) ☺
+- exchanges_list (0.67988300323486s) ☺
+- coins_list wait ......... (1.8894090652466s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ error: do_api_call coingecko
+page 1 wait ........ (3.181499004364s) ☺
+page 2 wait ........ (4.303966999054s) ☺
+page 3 wait ......... (5.5197820663452s) ☺
+page 4 wait ......... (6.7348511219025s) ☺
+page 5 wait ......... (7.9748070240021s) ☺
+page 6 wait ......... (9.1320650577545s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
+page 1 wait ........ (11.760723114014s) ☺
+page 2 wait ......... (12.961179971695s) ☺
+page 3 wait ......... (14.150454044342s) ☺
+page 4 wait ......... (15.552341938019s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 5405.7285559177s/14400s)
+- coin__chainlink (at 5403.9494781494s/14400s)
+- coin__binancecoin (at 5402.4033029079s/14400s)
+- coin__matic-network (at 5399.3386590481s/14400s)
+- coin__vechain (at 5400.8569409847s/14400s)
+- coin__ripple (at 5397.8190579414s/14400s)
+- coin__dogecoin wait ....... (19.293609142303s) ☺
+- coin__eos wait ......... (20.842549085617s) ☺
+- coin__litecoin wait ......... (22.432294130325s) ☺
+- coin__kava wait ......... (23.970338106155s) ☺
+- coin__monero wait ........ (25.557113170624s) ☺
+- coin__tron wait ......... (27.108261108398s) ☺
+- coin__cardano wait ......... (28.74639415741s) ☺
+- coin__bitcoin-cash wait ......... (30.318654060364s) ☺
+- coin__neo wait ....... (31.855337142944s) ☺
+- coin__stellar wait ......... (33.413017988205s) ☺
+- coin__elrond wait ......... (34.965595960617s) ☺
+- coin__ontology wait ......... (36.544088125229s) ☺
+- coin__cocos-bcx wait ......... (37.86950302124s) ☺
+- coin__fetch-ai wait .......... (39.73729300499s) ☺
+- coin__ravencoin wait ......... (41.397884130478s) ☺
+- coin__basic-attention-token wait ........ (42.917129039764s) ☺
+- coin__tezos wait ........ (44.503483057022s) ☺
+- coin__cosmos wait ........ (46.001917123795s) ☺
+- coin__iostoken wait ......... (47.65204000473s) ☺
+- coin__iota wait ......... (49.28822016716s) ☺
+- coin__selfkey wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+🗲 done in 56.191867113113s
