@@ -1,28 +1,62 @@
 bittrex
-- exchange_info (0.56372404098511s) ☺
-- exchange_info_v1 wait .................. (3.2208099365234s) ☺
+- exchange_info (0.3660409450531s) ☺
+- exchange_info_v1 wait ................... (3.0254859924316s) ☺
 binance
-- exchange_info (0.81338286399841s) ☺
+- exchange_info (0.93402600288391s) ☺
 poloniex
-- exchange_info (0.47481203079224s) ☺
+- exchange_info (0.42979598045349s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1796.6766159534s/3600s)
+- cryptocurrency_listings_latest_header (at 2696.9175710678s/3600s)
 coingecko
-- exchanges_list (1.6670138835907s) ☺
-- coins_list wait ........ (2.8142559528351s) ☺
+- exchanges_list (0.76015090942383s) ☺
+- coins_list wait ........ (1.992075920105s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (4.0316159725189s) ☺
-page 2 error: do_api_call coingecko
+page 1 wait ......... (3.5559430122375s) ☺
+page 2 wait ......... (5.0903499126434s) ☺
+page 3 wait ......... (6.2945919036865s) ☺
+page 4 wait ......... (7.5284209251404s) ☺
+page 5 wait ......... (8.6930289268494s) ☺
+page 6 wait ......... (9.9449229240417s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 16384 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 16384 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
-
-Backtrace:
-
+page 1 wait ......... (12.766880989075s) ☺
+page 2 wait ......... (14.079787969589s) ☺
+page 3 wait ........ (15.240073919296s) ☺
+page 4 wait ....... (17.134078025818s) ☺
+page 5 wait ....... end reached
+- coin__ethereum wait ......... (20.330744981766s) ☺
+- coin__binancecoin wait ........ (21.895330905914s) ☺
+- coin__matic-network wait ......... (23.51584482193s) ☺
+- coin__ripple wait ........ (25.033352851868s) ☺
+- coin__vechain wait ......... (26.60346198082s) ☺
+- coin__chainlink wait ......... (28.22421002388s) ☺
+- coin__eos wait ......... (29.894191026688s) ☺
+- coin__litecoin wait ......... (31.551549911499s) ☺
+- coin__dogecoin (at 14393.87198782s/14400s)
+- coin__monero (at 14398.78382206s/14400s)
+- coin__bitcoin-cash wait ..... (33.108741044998s) ☺
+- coin__tron wait ........ (34.673518896103s) ☺
+- coin__kava wait ......... (36.311815023422s) ☺
+- coin__cardano wait ........ (37.968943834305s) ☺
+- coin__neo wait ........ (39.506639003754s) ☺
+- coin__iostoken wait ........ (41.140543937683s) ☺
+- coin__stellar wait ........ (42.991847991943s) ☺
+- coin__elrond wait ...... (44.353624820709s) ☺
+- coin__fetch-ai wait ........ (45.98393702507s) ☺
+- coin__basic-attention-token wait ........ (47.73072886467s) ☺
+- coin__cocos-bcx wait ........ (49.271160840988s) ☺
+- coin__ontology wait ........ (50.922379016876s) ☺
+- coin__ravencoin wait ........ (52.26603603363s) ☺
+- coin__iota wait ........ (53.93455696106s) ☺
+- coin__cosmos wait ........ problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
