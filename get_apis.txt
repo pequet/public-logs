@@ -1,49 +1,14 @@
 bittrex
-- exchange_info (0.38835978507996s) ☺
-- exchange_info_v1 wait ................... (3.0268099308014s) ☺
+- exchange_info (0.48882102966309s) ☺
+- exchange_info_v1 wait ................... (2.8521671295166s) ☺
 binance
-- exchange_info (1.0257589817047s) ☺
+- exchange_info (0.61966705322266s) ☺
 poloniex
-- exchange_info (0.3758819103241s) ☺
+- exchange_info (0.40421295166016s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1798.9356222153s/3600s)
+- cryptocurrency_listings_latest_header (at 2698.7101972103s/3600s)
 coingecko
-- exchanges_list (2.8501410484314s) ☺
-- coins_list wait ........ (4.0364170074463s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (5.2538709640503s) ☺
-page 2 wait ......... (6.4876010417938s) ☺
-page 3 wait ........ (7.6375029087067s) ☺
-page 4 wait ......... (8.8453989028931s) ☺
-page 5 wait ......... (10.021898984909s) ☺
-page 6 wait ......... (11.196611881256s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (14.015712976456s) ☺
-page 2 wait ......... (15.178200006485s) ☺
-page 3 wait ........ (16.349267959595s) ☺
-page 4 wait ......... (17.703923940659s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 6306.6447958946s/14400s)
-- coin__matic-network (at 6300.1970150471s/14400s)
-- coin__binancecoin (at 6303.3183591366s/14400s)
-- coin__vechain (at 6301.7589669228s/14400s)
-- coin__chainlink (at 6304.9346950054s/14400s)
-- coin__ripple (at 6298.7329089642s/14400s)
-- coin__litecoin (at 895.78728985786s/14400s)
-- coin__eos (at 897.39402294159s/14400s)
-- coin__kava (at 894.2944009304s/14400s)
-- coin__monero (at 892.7345790863s/14400s)
-- coin__tron (at 891.19547104836s/14400s)
-- coin__cardano (at 889.57550311089s/14400s)
-- coin__bitcoin-cash (at 888.02261590958s/14400s)
-- coin__neo (at 886.50669503212s/14400s)
-- coin__elrond (at 883.42300891876s/14400s)
-- coin__stellar (at 885.01198911667s/14400s)
-- coin__dogecoin (at 899.15439105034s/14400s)
-- coin__ontology (at 881.91534590721s/14400s)
-- coin__cocos-bcx (at 880.60335707664s/14400s)
-- coin__fetch-ai problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_fetch-ai.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 30.612686157227s
+- exchanges_list 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
