@@ -1,30 +1,13 @@
 bittrex
-- exchange_info (0.51248908042908s) ☺
-- exchange_info_v1 wait .................. (3.463751077652s) ☺
+- exchange_info (0.47972512245178s) ☺
+- exchange_info_v1 wait .................. (3.175234079361s) ☺
 binance
-- exchange_info (1.152107000351s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
 poloniex
-- exchange_info (0.94882297515869s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.21101689339s/3600s)
-coingecko
-- exchanges_list (1.8182969093323s) ☺
-- coins_list wait ........ (3.0535140037537s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (4.6866579055786s) ☺
-page 2 wait ......... (6.8112139701843s) ☺
-page 3 wait ... (7.9023458957672s) ☺
-page 4 wait ......... (9.4948029518127s) ☺
-page 5 wait ......... (11.133280038834s) ☺
-page 6 wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 53248 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 
-A PHP Error was encountered
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
 
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 53248 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
