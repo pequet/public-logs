@@ -1,44 +1,16 @@
 bittrex
-- exchange_info (0.4099428653717s) ☺
-- exchange_info_v1 wait .................. (3.8357129096985s) ☺
+- exchange_info (0.46122193336487s) ☺
+- exchange_info_v1 wait .................. (3.2723309993744s) ☺
 binance
-- exchange_info (0.59450817108154s) ☺
-poloniex
-- exchange_info (0.70201516151428s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1798.8606078625s/3600s)
-coingecko
-- exchanges_list (0.95374989509583s) ☺
-- coins_list wait ......... (2.1898548603058s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.3370599746704s) ☺
-page 2 wait ......... (4.5581929683685s) ☺
-page 3 wait ......... (5.6750030517578s) ☺
-page 4 wait ......... (6.8889808654785s) ☺
-page 5 wait ......... (8.0871050357819s) ☺
-page 6 wait ......... (9.3689908981323s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (12.076143980026s) ☺
-page 2 wait ......... (13.36608505249s) ☺
-page 3 wait ........ (14.495630979538s) ☺
-page 4 wait ......... (15.685495853424s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 11706.20936799s/14400s)
-- coin__holotoken wait ........ (19.937221050262s) ☺
-- coin__matic-network (at 11701.386095047s/14400s)
-- coin__binancecoin (at 11704.537401915s/14400s)
-- coin__vechain (at 11702.969388962s/14400s)
-- coin__ripple (at 11699.934262037s/14400s)
-- coin__chainlink (at 11706.172841072s/14400s)
-- coin__eos (at 6298.5944700241s/14400s)
-- coin__litecoin (at 6297.0348780155s/14400s)
-- coin__kava (at 6295.5162949562s/14400s)
-- coin__monero (at 6293.959100008s/14400s)
-- coin__tron (at 6292.4206280708s/14400s)
-- coin__bitcoin-cash (at 6289.2249469757s/14400s)
-- coin__cardano (at 6290.8060400486s/14400s)
-- coin__neo problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_neo.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.798800945282s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
