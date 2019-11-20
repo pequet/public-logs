@@ -1,36 +1,14 @@
 bittrex
-- exchange_info (0.47955012321472s) ☺
-- exchange_info_v1 wait ................. (3.1031610965729s) ☺
+- exchange_info (0.45033693313599s) ☺
+- exchange_info_v1 wait .................. (3.1658999919891s) ☺
 binance
-- exchange_info (1.0854120254517s) ☺
-poloniex
-- exchange_info (0.6703360080719s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1800.0035419464s/3600s)
-coingecko
-- exchanges_list (1.0708200931549s) ☺
-- coins_list wait ........ (2.3074150085449s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.524936914444s) ☺
-page 2 wait ......... (4.7879979610443s) ☺
-page 3 wait ......... (6.0607271194458s) ☺
-page 4 wait ........ (7.3908519744873s) ☺
-page 5 wait ......... (8.8861100673676s) ☺
-page 6 wait ......... (10.495051145554s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (13.250694036484s) ☺
-page 2 wait ........ (14.509423971176s) ☺
-page 3 wait ...... (15.651704072952s) ☺
-page 4 wait ........ (16.848577022552s) ☺
-page 5 wait ........ end reached
-- coin__ethereum wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 90112 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 651264 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 90112 bytes)
+Message:     Out of memory (allocated 4194304) (tried to allocate 651264 bytes)
 Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
 Line Number: 85
 
