@@ -1,27 +1,4 @@
-bittrex
-- exchange_info (0.4851450920105s) ☺
-- exchange_info_v1 wait .................. (3.0827341079712s) ☺
-binance
-- exchange_info (1.1607880592346s) ☺
-poloniex
-- exchange_info (0.35967612266541s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.71439290047s/3600s)
-coingecko
-- exchanges_list (1.1464898586273s) ☺
-- coins_list wait ......... (2.3657920360565s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.656327009201s) ☺
-page 2 wait ........ (4.8317928314209s) ☺
-page 3 wait ......... (6.1099469661713s) ☺
-page 4 wait ........ (7.2850179672241s) ☺
-page 5 wait ........ (8.4052309989929s) ☺
-page 6 wait ........ (9.5117778778076s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ error: do_api_call coingecko
-- coin__ethereum wait ........ (13.94769692421s) ☺
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 18.783488035202s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
