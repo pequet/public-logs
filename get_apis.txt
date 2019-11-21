@@ -1,16 +1,21 @@
 bittrex
-- exchange_info (0.4986560344696s) ☺
-- exchange_info_v1 wait .................. (2.7927770614624s) ☺
+- exchange_info (0.45052981376648s) ☺
+- exchange_info_v1 wait .................. (3.1107568740845s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+- exchange_info (0.66330814361572s) ☺
+poloniex
+- exchange_info (0.47746300697327s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.36215615272522s) ☺
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
+Message:     Out of memory (allocated 4194304) (tried to allocate 20480 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
+Line Number: 893
 
 Backtrace:
 
