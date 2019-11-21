@@ -1,13 +1,61 @@
 bittrex
-- exchange_info (0.51235103607178s) ☺
-- exchange_info_v1 wait .................. (3.1766679286957s) ☺
+- exchange_info (0.41045808792114s) ☺
+- exchange_info_v1 wait .................. (3.0419781208038s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+- exchange_info (1.3627109527588s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__poloniex.txt')
+- exchange_info (0.32361912727356s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (0.24958896636963s) ☺
+coingecko
+- exchanges_list (1.0673809051514s) ☺
+- coins_list wait .......... (2.1471059322357s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (3.2334139347076s) ☺
+page 2 wait .......... (4.2797539234161s) ☺
+page 3 wait .......... (5.3386988639832s) ☺
+page 4 wait .......... (6.3908839225769s) ☺
+page 5 wait .......... (7.4480199813843s) ☺
+page 6 wait .......... (8.494854927063s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (10.879508018494s) ☺
+page 2 wait .......... (11.926370859146s) ☺
+page 3 wait .......... (12.979732990265s) ☺
+page 4 wait .......... (14.028102874756s) ☺
+page 5 wait .......... end reached
+- coin__ethereum (at 9901.7554860115s/14400s)
+- coin__binancecoin wait .......... (16.668027877808s) ☺
+- coin__holotoken wait .......... (18.102015972137s) ☺
+- coin__chainlink wait .......... (19.498414993286s) ☺
+- coin__ripple wait .......... (21.422377824783s) ☺
+- coin__vechain wait .......... (23.944197893143s) ☺
+- coin__dogecoin wait .......... (25.406322956085s) ☺
+- coin__litecoin wait .......... (26.81705904007s) ☺
+- coin__eos wait .......... (28.267277956009s) ☺
+- coin__monero wait .......... (29.701457977295s) ☺
+- coin__kava wait .......... (31.158381938934s) ☺
+- coin__tron wait .......... (32.583232879639s) ☺
+- coin__cardano wait .......... (34.047335863113s) ☺
+- coin__matic-network wait .......... (35.477211952209s) ☺
+- coin__bitcoin-cash wait .......... (36.909411907196s) ☺
+- coin__neo wait .......... (38.313673973083s) ☺
+- coin__stellar wait .......... (39.730957984924s) ☺
+- coin__basic-attention-token wait .......... (41.20781993866s) ☺
+- coin__elrond wait .......... (42.572052955627s) ☺
+- coin__ontology wait .......... (44.024216890335s) ☺
+- coin__iota wait .......... (45.426213026047s) ☺
+- coin__selfkey wait .......... (46.745617866516s) ☺
+- coin__enjincoin wait .......... (48.138012886047s) ☺
+- coin__tezos wait .......... (49.527861833572s) ☺
+- coin__cosmos wait .......... (50.967681884766s) ☺
+- coin__ravencoin wait .......... (52.361529827118s) ☺
+- coin__siacoin wait .......... (53.851202011108s) ☺
+- coin__zcash wait .......... (55.321728944778s) ☺
+- coin__ethereum-classic wait .......... (56.843511819839s) ☺
+- coin__arpa-chain wait .......... (58.253190040588s) ☺
+- coin__iostoken wait .......... (59.758870840073s) ☺
+- coin__mainframe wait .......... (61.102083921432s) ☺
+- coin__harmony wait .......... (62.455399990082s) ☺
+- coin__augur wait .......... (63.876576900482s) ☺
+- coin__0x wait ......
