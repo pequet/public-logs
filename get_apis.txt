@@ -1,13 +1,23 @@
 bittrex
-- exchange_info (0.54389405250549s) ☺
-- exchange_info_v1 wait .................. (3.2458519935608s) ☺
+- exchange_info (0.44655084609985s) ☺
+- exchange_info_v1 wait .................. (2.7275578975677s) ☺
 binance
-- exchange_info (0.85333800315857s) ☺
+- exchange_info (1.281996011734s) ☺
 poloniex
-- exchange_info (0.47915291786194s) ☺
+- exchange_info (0.4915599822998s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.43714094161987s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (at 899.22163701057s/3600s)
+coingecko
+- exchanges_list (1.452693939209s) ☺
+- coins_list wait ........ (2.7226939201355s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.9488878250122s) ☺
+page 2 wait ........ (5.1503050327301s) ☺
+page 3 wait ....... (6.4134960174561s) ☺
+page 4 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ...... error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 12.410644054413s
