@@ -1,21 +1,32 @@
 bittrex
-- exchange_info (0.45052981376648s) ☺
-- exchange_info_v1 wait .................. (3.1107568740845s) ☺
+- exchange_info (0.51832389831543s) ☺
+- exchange_info_v1 wait .................. (3.2107980251312s) ☺
 binance
-- exchange_info (0.66330814361572s) ☺
+- exchange_info (0.72577118873596s) ☺
 poloniex
-- exchange_info (0.47746300697327s) ☺
+- exchange_info (0.47272491455078s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.36215615272522s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 20480 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
-
-Backtrace:
-
+- cryptocurrency_listings_latest_header (at 899.45428609848s/3600s)
+coingecko
+- exchanges_list (1.9970481395721s) ☺
+- coins_list wait ......... (3.3150451183319s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (4.4855961799622s) ☺
+page 2 wait ........ (5.696277141571s) ☺
+page 3 wait ........ (7.0634260177612s) ☺
+page 4 wait ........ (8.8712830543518s) ☺
+page 5 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 error: do_api_call coingecko
+- coin__holotoken problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_holotoken.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
