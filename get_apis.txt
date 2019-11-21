@@ -1,17 +1,31 @@
 bittrex
-- exchange_info (0.38446998596191s) ☺
-- exchange_info_v1 wait ................... (3.1430540084839s) ☺
+- exchange_info (0.37356090545654s) ☺
+- exchange_info_v1 wait ................... (3.1438698768616s) ☺
 binance
-- exchange_info (0.93310594558716s) ☺
+- exchange_info (0.8640718460083s) ☺
 poloniex
-- exchange_info (0.48818898200989s) ☺
+- exchange_info (0.43698501586914s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.4391181469s/3600s)
+- cryptocurrency_listings_latest_header (at 2699.3791661263s/3600s)
 coingecko
-- exchanges_list (0.77012896537781s) ☺
-- coins_list wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- exchanges_list (1.5425169467926s) ☺
+- coins_list wait ......... (2.812047958374s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (4.5572650432587s) ☺
+page 2 wait ....... (6.0236508846283s) ☺
+page 3 wait ........ (7.6422848701477s) ☺
+page 4 wait ......... (9.6367080211639s) ☺
+page 5 wait ........ (11.165370941162s) ☺
+page 6 wait ......... (12.746324062347s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (18.433753013611s) ☺
+page 2 wait ......... (19.631772994995s) ☺
+page 3 wait ......... (20.940281867981s) ☺
+page 4 wait ........ (22.150172948837s) ☺
+page 5 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 1
 
 Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in Unknown on line 0
