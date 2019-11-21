@@ -1,21 +1,13 @@
 bittrex
-- exchange_info (0.4424090385437s) ☺
-- exchange_info_v1 wait .................. (3.8290281295776s) ☺
+- exchange_info (0.51979684829712s) ☺
+- exchange_info_v1 wait .................. (3.2540290355682s) ☺
 binance
-- exchange_info (1.284227848053s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
 poloniex
-- exchange_info (0.45071792602539s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.7484540939s/3600s)
-coingecko
-- exchanges_list (0.82043385505676s) ☺
-- coins_list wait ........ (1.9981689453125s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 57344 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 57344 bytes) in Unknown on line 0
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
