@@ -1,4 +1,21 @@
+bittrex
+- exchange_info (0.52780199050903s) ☺
+- exchange_info_v1 wait .................. (3.1687860488892s) ☺
+binance
+- exchange_info (1.2727060317993s) ☺
+poloniex
+- exchange_info (0.63277888298035s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 1803.6693129539s/3600s)
+coingecko
+- exchanges_list (2.441920042038s) ☺
+- coins_list wait ......... (3.7578690052032s) ☺
+- exchanges_tickers__binance 
+page 1 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
 
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in Unknown on line 0
