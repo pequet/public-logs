@@ -1,38 +1,4 @@
-bittrex
-- exchange_info (0.43622779846191s) ☺
-- exchange_info_v1 wait .................. (3.0218548774719s) ☺
-binance
-- exchange_info (0.93421292304993s) ☺
-poloniex
-- exchange_info (0.38418197631836s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (0.31716299057007s) ☺
-coingecko
-- exchanges_list (0.74722099304199s) ☺
-- coins_list wait ......... (2.020674943924s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.5459728240967s) ☺
-page 2 wait ........ (5.0168597698212s) ☺
-page 3 wait ......... (6.6416928768158s) ☺
-page 4 wait ......... (8.1834428310394s) ☺
-page 5 wait ......... (9.7226967811584s) ☺
-page 6 wait ......... (11.2670378685s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (14.07163476944s) ☺
-page 2 wait ......... (15.282237768173s) ☺
-page 3 wait ......... (16.550609827042s) ☺
-page 4 wait ........ (17.719460964203s) ☺
-page 5 wait ......... end reached
-- coin__ethereum wait ......... (20.859775781631s) ☺
-- coin__holotoken wait ......... (22.596851825714s) ☺
-- coin__binancecoin wait ....... (24.256862878799s) ☺
-- coin__ripple wait ........ (25.869894981384s) ☺
-- coin__vechain wait ........ (27.480344772339s) ☺
-- coin__litecoin wait ........ (29.035118818283s) ☺
-- coin__eos wait ......... (30.610686779022s) ☺
-- coin__chainlink wait ........ (32.358452796936s) ☺
-- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-🗲 done in 37.680227041245s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
