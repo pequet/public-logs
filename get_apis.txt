@@ -1,23 +1,25 @@
 bittrex
-- exchange_info (0.52873015403748s) ☺
-- exchange_info_v1 wait ............. (3.4824459552765s) ☺
+- exchange_info (0.38629698753357s) ☺
+- exchange_info_v1 wait ................... (3.1347119808197s) ☺
 binance
-- exchange_info (0.93934297561646s) ☺
+- exchange_info (0.89865112304688s) ☺
 poloniex
-- exchange_info (0.48696398735046s) ☺
+- exchange_info (0.35963201522827s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1798.5203831196s/3600s)
+- cryptocurrency_listings_latest_header (at 2698.7485659122s/3600s)
 coingecko
-- exchanges_list (0.72229385375977s) ☺
-- coins_list wait ......... (1.9616248607635s) ☺
+- exchanges_list (0.79086685180664s) ☺
+- coins_list wait ......... (2.0856359004974s) ☺
 - exchanges_tickers__binance 
-page 1 wait ....... (3.4504380226135s) ☺
-page 2 wait ........ (4.9244508743286s) ☺
-page 3 wait ......... (6.481006860733s) ☺
-page 4 wait ......... (8.0602729320526s) ☺
-page 5 error: do_api_call coingecko
+page 1 wait ........ (3.2906818389893s) ☺
+page 2 wait ........ (4.3999040126801s) ☺
+page 3 wait ......... (5.6080808639526s) ☺
+page 4 wait ......... (7.2259678840637s) ☺
+page 5 wait ......... (8.8053789138794s) ☺
+page 6 wait ......... (10.384164810181s) ☺
+page 7 wait ......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ........ 
+page 1 wait ..... 
 Fatal error: Out of memory (allocated 4194304) (tried to allocate 69632 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
 A PHP Error was encountered
