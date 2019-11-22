@@ -1,21 +1,48 @@
 bittrex
-- exchange_info problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
+- exchange_info (0.43584704399109s) ☺
+- exchange_info_v1 wait ................... (2.8800458908081s) ☺
 binance
-- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
+- exchange_info (0.91238403320312s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.44171285629272s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 2699.3446011543s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
+- exchanges_list (0.81709599494934s) ☺
+- coins_list wait ......... (2.0821001529694s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.3046450614929s) ☺
+page 2 wait ........ (4.478490114212s) ☺
+page 3 wait ........ (5.6972761154175s) ☺
+page 4 wait ........ (6.8918449878693s) ☺
+page 5 wait ......... (8.1583180427551s) ☺
+page 6 wait ........ (9.2583091259003s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (12.49405503273s) ☺
+page 2 wait ........ (13.717314004898s) ☺
+page 3 wait ........ (14.91338801384s) ☺
+page 4 wait ......... (16.104432106018s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 12596.391185045s/14400s)
+- coin__holotoken (at 12594.749166012s/14400s)
+- coin__binancecoin (at 12593.170906067s/14400s)
+- coin__ripple (at 12591.690416098s/14400s)
+- coin__litecoin (at 12588.586840153s/14400s)
+- coin__eos (at 12587.049803019s/14400s)
+- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_vechain.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- coins 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 98304 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 98304 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
+
+Backtrace:
+
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 98304 bytes) in Unknown on line 0
