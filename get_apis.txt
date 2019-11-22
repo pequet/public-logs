@@ -1,30 +1,20 @@
 bittrex
-- exchange_info (0.35274696350098s) ☺
-- exchange_info_v1 wait ................... (2.9505338668823s) ☺
+- exchange_info (0.41403913497925s) ☺
+- exchange_info_v1 wait .................. (2.7118289470673s) ☺
 binance
-- exchange_info (0.74605798721313s) ☺
+- exchange_info (0.9023699760437s) ☺
 poloniex
-- exchange_info (0.35007309913635s) ☺
+- exchange_info (0.44517087936401s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2696.9459710121s/3600s)
+- cryptocurrency_listings_latest_header (at 3596.9408829212s/3600s)
 coingecko
-- exchanges_list (1.6480939388275s) ☺
-- coins_list wait ......... (2.8765909671783s) ☺
+- exchanges_list (0.68801808357239s) ☺
+- coins_list wait ......... (3.9176530838013s) ☺
 - exchanges_tickers__binance 
-page 1 wait ......... (4.1319718360901s) ☺
-page 2 wait ........ (5.2728259563446s) ☺
-page 3 wait ........ error: do_api_call coingecko
-- exchanges_tickers__bittrex 
 page 1 error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- exchanges_tickers__bittrex 
+page 1 wait ........ (5.0546910762787s) ☺
+page 2 wait ......... 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 16384 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
