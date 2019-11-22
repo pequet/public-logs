@@ -1,13 +1,15 @@
 bittrex
-- exchange_info (0.46085810661316s) ☺
-- exchange_info_v1 wait ................... (3.1994340419769s) ☺
+- exchange_info (0.44384217262268s) ☺
+- exchange_info_v1 wait ................... (3.1959321498871s) ☺
 binance
-- exchange_info (1.9980540275574s) ☺
+- exchange_info (0.80363988876343s) ☺
 poloniex
-- exchange_info (0.4248309135437s) ☺
+- exchange_info (0.44576907157898s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.35852599143982s) ☺
+- cryptocurrency_listings_latest_header (at 898.61795377731s/3600s)
+coingecko
+- exchanges_list (0.85943198204041s) ☺
+- coins_list wait ...... 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
