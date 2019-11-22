@@ -1,16 +1,41 @@
 bittrex
-- exchange_info (0.46464014053345s) ☺
-- exchange_info_v1 wait ................. (3.0519380569458s) ☺
+- exchange_info (1.1554219722748s) ☺
+- exchange_info_v1 wait .......... (2.8787870407104s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (2.0621008872986s) ☺
+poloniex
+- exchange_info (0.74033308029175s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.34889793395996s) ☺
+coingecko
+- exchanges_list (0.89117288589478s) ☺
+- coins_list wait ......... (2.6584830284119s) ☺
+- exchanges_tickers__binance 
+page 1 wait .. (3.3071000576019s) ☺
+page 2 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ........ (4.5715360641479s) ☺
+page 2 wait ........ (5.7337579727173s) ☺
+page 3 wait ........ (6.916090965271s) ☺
+page 4 wait ........ (8.1423161029816s) ☺
+page 5 wait ........ end reached
+- coin__ethereum wait ......... (10.94800901413s) ☺
+- coin__holotoken wait ........ (12.479971885681s) ☺
+- coin__binancecoin wait ........ (14.130656957626s) ☺
+- coin__vechain wait ........ (15.645865917206s) ☺
+- coin__ripple wait ......... (17.049287080765s) ☺
+- coin__selfkey wait ......... (18.591976881027s) ☺
+- coin__eos wait ......... (20.274720907211s) ☺
+- coin__chainlink wait ........ (21.800031900406s) ☺
+- coin__bitcoin-cash wait ........ (23.415791034698s) ☺
+- coin__litecoin wait ........ (25.140314102173s) ☺
+- coin__matic-network wait ........ (26.460124969482s) ☺
+- coin__cardano wait ......... (28.113660097122s) ☺
+- coin__neo wait ........ (29.626998901367s) ☺
+- coin__tron wait ........ (31.408518075943s) ☺
+- coin__monero wait ...... (32.859134912491s) ☺
+- coin__monaco wait ...... (34.79986000061s) ☺
+- coin__dogecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_dogecoin.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 41.633533000946s
