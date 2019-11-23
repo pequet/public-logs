@@ -1,41 +1,16 @@
 bittrex
-- exchange_info (0.47664403915405s) ☺
-- exchange_info_v1 wait .................. (3.078978061676s) ☺
+- exchange_info (0.4900529384613s) ☺
+- exchange_info_v1 wait .................. (3.1593000888824s) ☺
 binance
-- exchange_info (1.0669980049133s) ☺
-poloniex
-- exchange_info (0.46429014205933s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1796.933619976s/3600s)
-coingecko
-- exchanges_list (0.87767505645752s) ☺
-- coins_list wait ......... (2.1079959869385s) ☺
-- exchanges_tickers__binance 
-page 1 error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 wait ......... (3.3579559326172s) ☺
-page 2 wait ......... (4.6047790050507s) ☺
-page 3 wait ........ (5.7805991172791s) ☺
-page 4 wait ........ (6.9145569801331s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 14389.823600054s/14400s)
-- coin__binancecoin (at 14388.650226116s/14400s)
-- coin__matic-network (at 14384.055719852s/14400s)
-- coin__moeda-loyalty-points (at 12586.59326005s/14400s)
-- coin__ripple (at 14385.855857849s/14400s)
-- coin__bitcoin-cash (at 12592.383970976s/14400s)
-- coin__chainlink (at 12591.001550913s/14400s)
-- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_vechain.txt')
-coincheckup
-- coins 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 57344 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 57344 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
-Line Number: 40
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
 
 Backtrace:
 
