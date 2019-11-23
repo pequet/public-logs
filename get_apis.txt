@@ -1,34 +1,16 @@
 bittrex
-- exchange_info (0.4056088924408s) ☺
-- exchange_info_v1 wait ................... (3.1767740249634s) ☺
+- exchange_info (0.40511393547058s) ☺
+- exchange_info_v1 wait .................. (3.0785419940948s) ☺
 binance
-- exchange_info (1.2299931049347s) ☺
-poloniex
-- exchange_info (0.57457304000854s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.4925239086s/3600s)
-coingecko
-- exchanges_list (1.5296380519867s) ☺
-- coins_list wait ........ (2.6902089118958s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.8986790180206s) ☺
-page 2 wait ......... (5.1855719089508s) ☺
-page 3 wait ........ (6.3123688697815s) ☺
-page 4 wait ........ (7.4812400341034s) ☺
-page 5 wait ........ (8.6190910339355s) ☺
-page 6 wait ........ (9.7547500133514s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (13.70995593071s) ☺
-page 2 wait ........ (14.890963077545s) ☺
-page 3 wait ........ (16.759702920914s) ☺
-page 4 wait ......... (18.694103002548s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 4508.6454880238s/14400s)
-- coin__binancecoin (at 4506.5956761837s/14400s)
-- coin__ripple (at 4504.5345208645s/14400s)
-- coin__holotoken (at 4502.2734680176s/14400s)
-- coin__litecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_litecoin.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 32.324083089828s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
