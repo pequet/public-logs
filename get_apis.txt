@@ -1,26 +1,65 @@
 bittrex
-- exchange_info (0.39192700386047s) ☺
-- exchange_info_v1 wait .................. (3.0718059539795s) ☺
+- exchange_info (0.42964792251587s) ☺
+- exchange_info_v1 wait ................... (4.1012480258942s) ☺
 binance
-- exchange_info (2.084883928299s) ☺
+- exchange_info (0.82451701164246s) ☺
 poloniex
-- exchange_info (0.47766494750977s) ☺
+- exchange_info (0.23755693435669s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.9308331013s/3600s)
+- cryptocurrency_listings_latest_header (at 2699.1720850468s/3600s)
 coingecko
-- exchanges_list (0.78646111488342s) ☺
-- coins_list wait ......... (2.0228221416473s) ☺
+- exchanges_list (0.73887801170349s) ☺
+- coins_list wait .......... (1.8024220466614s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (3.3158450126648s) ☺
-page 2 wait ....... (4.38112616539s) ☺
-page 3 wait ........ (5.5562670230865s) ☺
-page 4 wait ........ (6.7262201309204s) ☺
-page 5 wait ........ (7.8718230724335s) ☺
-page 6 wait ........ (9.0040180683136s) ☺
-page 7 wait ......... end reached
+page 1 wait .......... (2.8719930648804s) ☺
+page 2 wait .......... (3.9622061252594s) ☺
+page 3 wait .......... (5.0620510578156s) ☺
+page 4 wait .......... (6.1791279315948s) ☺
+page 5 wait .......... (7.2284080982208s) ☺
+page 6 wait .......... (8.2745499610901s) ☺
+page 7 wait .......... end reached
 - exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 17.027736902237s
+page 1 wait .......... (10.655052900314s) ☺
+page 2 wait .......... (11.709739923477s) ☺
+page 3 wait .......... (12.756915092468s) ☺
+page 4 wait .......... (13.804001092911s) ☺
+page 5 wait .......... end reached
+- coin__ethereum (at 1796.7441930771s/14400s)
+- coin__matic-network (at 1790.4542920589s/14400s)
+- coin__binancecoin (at 1795.3478500843s/14400s)
+- coin__ripple (at 1792.0990459919s/14400s)
+- coin__bitcoin-cash wait .......... (16.561814069748s) ☺
+- coin__chainlink wait .......... (17.962986946106s) ☺
+- coin__vechain wait .......... (19.413891077042s) ☺
+- coin__litecoin wait .......... (20.86393904686s) ☺
+- coin__moeda-loyalty-points wait .......... (22.285815000534s) ☺
+- coin__eos wait .......... (23.750648975372s) ☺
+- coin__cardano wait .......... (25.154043912888s) ☺
+- coin__tron wait .......... (26.552191019058s) ☺
+- coin__monero wait .......... (27.967896938324s) ☺
+- coin__tezos wait .......... (29.233547925949s) ☺
+- coin__selfkey wait .......... (30.623689889908s) ☺
+- coin__stellar wait .......... (32.021557092667s) ☺
+- coin__neo wait .......... (33.436244010925s) ☺
+- coin__fetch-ai wait .......... (34.84255695343s) ☺
+- coin__monaco wait .......... (36.324858903885s) ☺
+- coin__basic-attention-token wait .......... (37.759046077728s) ☺
+- coin__elrond wait .......... (39.135648965836s) ☺
+- coin__cocos-bcx wait .......... (40.482496023178s) ☺
+- coin__chiliz wait .......... (41.830002069473s) ☺
+- coin__iota wait .......... (43.219198942184s) ☺
+- coin__siacoin wait .......... (44.66672706604s) ☺
+- coin__kava wait .......... (46.058881044388s) ☺
+- coin__cosmos wait .......... (47.455864906311s) ☺
+- coin__dogecoin wait .......... (48.844018936157s) ☺
+- coin__ontology wait .......... (50.24165892601s) ☺
+- coin__iexec-rlc wait .......... (51.566730976105s) ☺
+- coin__qtum wait .......... (52.963128089905s) ☺
+- coin__iostoken wait .......... (54.36523604393s) ☺
+- coin__ravencoin wait .......... (55.908442974091s) ☺
+- coin__enigma wait .......... (57.287848949432s) ☺
+- coin__nucleus-vision wait .......... (58.697829961777s) ☺
+- coin__zcash wait .......... (60.141252040863s) ☺
+- coin__dash wait .......... (61.626019001007s) ☺
+- coin__mainframe wait .......... (63.69028711319s) ☺
+- coin__blockstack-iou wait .......... 
