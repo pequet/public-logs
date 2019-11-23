@@ -1,36 +1,4 @@
-bittrex
-- exchange_info (0.3759560585022s) ☺
-- exchange_info_v1 wait ................... (2.7408230304718s) ☺
-binance
-- exchange_info (2.0665490627289s) ☺
-poloniex
-- exchange_info (0.42463207244873s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 2700.1341671944s/3600s)
-coingecko
-- exchanges_list (0.86524200439453s) ☺
-- coins_list wait ........ (2.0668430328369s) ☺
-- exchanges_tickers__binance 
-page 1 wait ....... (3.5311980247498s) ☺
-page 2 wait ........ (4.990895986557s) ☺
-page 3 wait ......... (6.5996611118317s) ☺
-page 4 wait ......... (8.1566340923309s) ☺
-page 5 wait ........ (9.6525480747223s) ☺
-page 6 wait ......... (11.321105003357s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (14.219278097153s) ☺
-page 2 wait ........ (15.312644958496s) ☺
-page 3 wait ......... (16.521984100342s) ☺
-page 4 wait ........ (17.697697162628s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 12607.581852198s/14400s)
-- coin__binancecoin (at 12605.49616003s/14400s)
-- coin__holotoken (at 12601.128760815s/14400s)
-- coin__ripple (at 12603.422797918s/14400s)
-- coin__chainlink (at 12594.999619961s/14400s)
-- coin__litecoin (at 12599.150823116s/14400s)
-- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.12913107872s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
