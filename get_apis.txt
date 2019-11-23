@@ -1,25 +1,22 @@
 bittrex
-- exchange_info (0.41915583610535s) ☺
-- exchange_info_v1 wait ................... (3.108649969101s) ☺
+- exchange_info (0.36777520179749s) ☺
+- exchange_info_v1 wait .................. (3.0036940574646s) ☺
 binance
-- exchange_info (1.3064041137695s) ☺
+- exchange_info (1.3388769626617s) ☺
 poloniex
-- exchange_info (0.61699414253235s) ☺
+- exchange_info (0.49277806282043s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.34368395805359s) ☺
+- cryptocurrency_listings_latest_header (at 899.17495799065s/3600s)
 coingecko
-- exchanges_list (1.2796859741211s) ☺
-- coins_list wait ......... (2.5763068199158s) ☺
+- exchanges_list (0.66084098815918s) ☺
+- coins_list wait ......... (1.899307012558s) ☺
 - exchanges_tickers__binance 
-page 1 wait ........ (4.0588529109955s) ☺
-page 2 wait ......... (5.5892589092255s) ☺
-page 3 wait ........ (7.07244181633s) ☺
-page 4 wait ......... (8.7209978103638s) ☺
-page 5 wait ....... (10.25001001358s) ☺
-page 6 error: do_api_call coingecko
+page 1 wait ......... (3.5264430046082s) ☺
+page 2 wait ....... (5.0882709026337s) ☺
+page 3 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
 page 1 error: do_api_call coingecko
 - coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 15.828042984009s
+🗲 done in 10.24135518074s
