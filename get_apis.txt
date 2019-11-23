@@ -1,16 +1,48 @@
 bittrex
-- exchange_info (0.79419803619385s) ☺
-- exchange_info_v1 wait ................ (2.9796009063721s) ☺
+- exchange_info (0.39671993255615s) ☺
+- exchange_info_v1 wait ................... (3.0541920661926s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (2.0431840419769s) ☺
+poloniex
+- exchange_info (0.40427112579346s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 2699.3443000317s/3600s)
+coingecko
+- exchanges_list (0.92882704734802s) ☺
+- coins_list wait ........ (2.0947542190552s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.368084192276s) ☺
+page 2 wait ........ (4.5481321811676s) ☺
+page 3 wait ......... (5.8390591144562s) ☺
+page 4 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ....... (6.9400410652161s) ☺
+page 2 wait ........ (8.1168990135193s) ☺
+page 3 wait ........ (9.270015001297s) ☺
+page 4 wait ......... (10.498002052307s) ☺
+page 5 wait ........ end reached
+- coin__ethereum (at 13492.782108068s/14400s)
+- coin__binancecoin (at 13491.273103952s/14400s)
+- coin__holotoken (at 13489.36371088s/14400s)
+- coin__ripple (at 10794.073964119s/14400s)
+- coin__bitcoin-cash (at 10788.600696087s/14400s)
+- coin__matic-network (at 10792.531218052s/14400s)
+- coin__litecoin (at 10790.371140003s/14400s)
+- coin__chainlink (at 10787.049782991s/14400s)
+- coin__vechain (at 10785.562429905s/14400s)
+- coin__eos (at 10784.037408113s/14400s)
+- coin__moeda-loyalty-points (at 10779.403143883s/14400s)
+- coin__cardano (at 10782.740123987s/14400s)
+- coin__selfkey (at 10778.20896697s/14400s)
+- coin__tron problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_tron.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
