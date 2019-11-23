@@ -1,16 +1,33 @@
 bittrex
-- exchange_info (0.35680890083313s) ☺
-- exchange_info_v1 wait ................... (3.0739588737488s) ☺
+- exchange_info (0.40217781066895s) ☺
+- exchange_info_v1 wait ................... (3.0921189785004s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (1.6222460269928s) ☺
+poloniex
+- exchange_info (0.49249887466431s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.34311318397522s) ☺
+coingecko
+- exchanges_list (0.80981588363647s) ☺
+- coins_list wait ......... (2.0598130226135s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.2349770069122s) ☺
+page 2 wait ........ (4.4310600757599s) ☺
+page 3 wait ........ (5.6542580127716s) ☺
+page 4 wait ........ (6.7934648990631s) ☺
+page 5 wait ....... (8.012510061264s) ☺
+page 6 wait ........ (9.1879279613495s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (12.376694917679s) ☺
+page 2 wait ........ (13.577749013901s) ☺
+page 3 wait ........ (14.737302064896s) ☺
+page 4 wait ........ (15.902057886124s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 10799.369593143s/14400s)
+- coin__binancecoin (at 10797.772116899s/14400s)
+- coin__ripple (at 8100.3309340477s/14400s)
+- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 30.009664058685s
