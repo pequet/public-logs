@@ -1,17 +1,63 @@
 bittrex
-- exchange_info (0.77605009078979s) ☺
-- exchange_info_v1 wait .................. (3.4254078865051s) ☺
+- exchange_info (0.45487189292908s) ☺
+- exchange_info_v1 wait .................. (3.1277549266815s) ☺
 binance
-- exchange_info (1.6596939563751s) ☺
+- exchange_info (1.2384281158447s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.41940093040466s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+- cryptocurrency_listings_latest_header (at 1799.834015131s/3600s)
 coingecko
-- exchanges_list (0.70689010620117s) ☺
-- coins_list wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in Unknown on line 0
+- exchanges_list (1.0297360420227s) ☺
+- coins_list wait ......... (2.2990899085999s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.8210928440094s) ☺
+page 2 wait ......... (5.3976080417633s) ☺
+page 3 wait ........ (6.9748330116272s) ☺
+page 4 wait ........ (8.4730758666992s) ☺
+page 5 wait ......... (9.7340359687805s) ☺
+page 6 wait ......... (10.998080015182s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (13.723994970322s) ☺
+page 2 wait ........ (14.966423034668s) ☺
+page 3 wait ......... (16.164715051651s) ☺
+page 4 wait ........ (17.326292991638s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 11706.876850128s/14400s)
+- coin__binancecoin (at 11704.784911156s/14400s)
+- coin__ripple (at 11702.690986872s/14400s)
+- coin__holotoken (at 11700.446206808s/14400s)
+- coin__litecoin (at 11698.426670074s/14400s)
+- coin__chainlink (at 11694.314425945s/14400s)
+- coin__eos (at 11696.444397926s/14400s)
+- coin__bitcoin-cash (at 11692.124699831s/14400s)
+- coin__vechain (at 11690.085154057s/14400s)
+- coin__matic-network (at 11688.234287024s/14400s)
+- coin__selfkey (at 11686.263727903s/14400s)
+- coin__cardano (at 11684.195719957s/14400s)
+- coin__tron (at 11682.112232924s/14400s)
+- coin__monaco (at 11680.126415968s/14400s)
+- coin__dogecoin wait ..... (20.455420017242s) ☺
+- coin__neo wait ........ (22.014303922653s) ☺
+- coin__monero wait ....... (23.589861869812s) ☺
+- coin__tezos wait ........ (25.140315055847s) ☺
+- coin__stellar wait ........ (26.718193054199s) ☺
+- coin__fetch-ai wait ........ (28.2879550457s) ☺
+- coin__kava wait ........ (29.838510990143s) ☺
+- coin__basic-attention-token wait ........ (31.608139038086s) ☺
+- coin__cocos-bcx wait ......... (33.478785037994s) ☺
+- coin__iota wait ........ (35.038321971893s) ☺
+- coin__ontology wait ......... (36.895432949066s) ☺
+- coin__cosmos problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_cosmos.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
