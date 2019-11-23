@@ -1,32 +1,13 @@
 bittrex
-- exchange_info (0.46351003646851s) ☺
-- exchange_info_v1 wait ................. (3.0010340213776s) ☺
+- exchange_info (0.40493321418762s) ☺
+- exchange_info_v1 wait .................. (3.0184051990509s) ☺
 binance
-- exchange_info (0.74289512634277s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
 poloniex
-- exchange_info (0.42425799369812s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.0852029324s/3600s)
-coingecko
-- exchanges_list (0.97431111335754s) ☺
-- coins_list wait ......... (2.1867580413818s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.7199201583862s) ☺
-page 2 wait ........ (5.5043339729309s) ☺
-page 3 wait ......... (7.1338150501251s) ☺
-page 4 wait ......... (8.632835149765s) ☺
-page 5 wait ......... (10.135492086411s) ☺
-page 6 wait ......... (11.677883148193s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (14.479624986649s) ☺
-page 2 wait ....... (15.693778038025s) ☺
-page 3 wait ........ (16.84530210495s) ☺
-page 4 wait ........ (18.033883094788s) ☺
-page 5 wait ........ end reached
-- coin__ethereum wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 65536 bytes) in Unknown on line 0
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
