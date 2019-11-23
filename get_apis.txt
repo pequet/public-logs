@@ -1,32 +1,15 @@
 bittrex
-- exchange_info (0.41008901596069s) ☺
-- exchange_info_v1 wait ................... (3.0570020675659s) ☺
+- exchange_info (0.35985517501831s) ☺
+- exchange_info_v1 wait ................... (2.726870059967s) ☺
 binance
-- exchange_info (1.0023899078369s) ☺
+- exchange_info (0.8672821521759s) ☺
 poloniex
-- exchange_info (0.48003196716309s) ☺
+- exchange_info (0.46151208877563s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2699.1580078602s/3600s)
+- cryptocurrency_listings_latest_header (at 3599.3714959621s/3600s)
 coingecko
-- exchanges_list (1.2259340286255s) ☺
-- coins_list wait ........ (2.3772661685944s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (4.4241349697113s) ☺
-page 2 wait ........ (6.3189671039581s) ☺
-page 3 wait ........ (8.2110440731049s) ☺
-page 4 wait ......... (10.125560045242s) ☺
-page 5 wait ........ (11.952854156494s) ☺
-page 6 wait ......... (14.1422290802s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (17.211490154266s) ☺
-page 2 wait ......... (18.421279191971s) ☺
-page 3 wait ........ (19.596471071243s) ☺
-page 4 wait ........ (20.79749417305s) ☺
-page 5 wait ........ end reached
-- coin__ethereum (at 11711.14408803s/14400s)
-- coin__binancecoin (at 11707.510085821s/14400s)
-- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 33.767246007919s
+- exchanges_list (1.25519490242s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
