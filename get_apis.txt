@@ -1,17 +1,27 @@
 bittrex
-- exchange_info (0.4026141166687s) ☺
-- exchange_info_v1 wait ................... (3.1665890216827s) ☺
+- exchange_info (0.64757990837097s) ☺
+- exchange_info_v1 wait .................. (3.2663629055023s) ☺
 binance
-- exchange_info (0.80408120155334s) ☺
+- exchange_info (0.65457201004028s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.37525200843811s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coinmarketcap.txt')
+- cryptocurrency_listings_latest_header (0.51213788986206s) ☺
 coingecko
-- exchanges_list (0.80833005905151s) ☺
-- coins_list wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in Unknown on line 0
+- exchanges_list (1.8068649768829s) ☺
+- coins_list wait ........ (3.045107126236s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (4.8343980312347s) ☺
+page 2 wait ......... (6.4845721721649s) ☺
+page 3 wait ........ (8.0882611274719s) ☺
+page 4 wait ........ (9.1763491630554s) ☺
+page 5 wait ......... (10.41886305809s) ☺
+page 6 wait ......... (11.591869115829s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (14.475783109665s) ☺
+page 2 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 19.508893966675s
