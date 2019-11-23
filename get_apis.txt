@@ -1,36 +1,15 @@
 bittrex
-- exchange_info (0.4880850315094s) ☺
-- exchange_info_v1 wait .................. (3.1337108612061s) ☺
+- exchange_info (0.47206807136536s) ☺
+- exchange_info_v1 wait .................. (3.0839970111847s) ☺
 binance
-- exchange_info (1.7281460762024s) ☺
+- exchange_info (0.61337399482727s) ☺
 poloniex
-- exchange_info (0.52189207077026s) ☺
+- exchange_info (0.44473505020142s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.74373388290405s) ☺
+- cryptocurrency_listings_latest_header (at 897.31109309196s/3600s)
 coingecko
-- exchanges_list (1.6131961345673s) ☺
-- coins_list wait ...... (2.6925950050354s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.9521470069885s) ☺
-page 2 wait ........ (5.1087200641632s) ☺
-page 3 wait ........ (6.3135681152344s) ☺
-page 4 wait ........ (7.4770770072937s) ☺
-page 5 wait ........ (8.6944739818573s) ☺
-page 6 wait ....... (9.875659942627s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (12.959553956985s) ☺
-page 2 wait ......... (14.276554107666s) ☺
-page 3 wait ........ (15.426893949509s) ☺
-page 4 wait ........ (16.62530207634s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 4508.9818210602s/14400s)
-- coin__holotoken (at 4506.9765229225s/14400s)
-- coin__binancecoin (at 4505.496295929s/14400s)
-- coin__ripple (at 4503.9774661064s/14400s)
-- coin__selfkey (at 4502.2530012131s/14400s)
-- coin__eos (at 4500.8547439575s/14400s)
-- coin__litecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_litecoin.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.506792068481s
+- exchanges_list (1.3045790195465s) ☺
+- coins_list wait ....... 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
