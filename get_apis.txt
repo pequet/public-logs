@@ -1,15 +1,35 @@
 bittrex
-- exchange_info (0.35985517501831s) ☺
-- exchange_info_v1 wait ................... (2.726870059967s) ☺
+- exchange_info (0.45059108734131s) ☺
+- exchange_info_v1 wait .................. (3.0444450378418s) ☺
 binance
-- exchange_info (0.8672821521759s) ☺
+- exchange_info (0.77649617195129s) ☺
 poloniex
-- exchange_info (0.46151208877563s) ☺
+- exchange_info (0.42535400390625s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3599.3714959621s/3600s)
+- cryptocurrency_listings_latest_header (0.32629585266113s) ☺
 coingecko
-- exchanges_list (1.25519490242s) ☺
-- coins_list wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
+- exchanges_list (1.1600370407104s) ☺
+- coins_list wait ......... (2.3513100147247s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.4447979927063s) ☺
+page 2 wait ......... (4.7049610614777s) ☺
+page 3 wait ........ (5.8891780376434s) ☺
+page 4 wait ......... (7.164696931839s) ☺
+page 5 wait ........ (8.2975280284882s) ☺
+page 6 wait ......... (9.537446975708s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (12.673428058624s) ☺
+page 2 wait ........ (13.848330974579s) ☺
+page 3 wait ......... (15.042705059052s) ☺
+page 4 wait ......... (16.302830934525s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 13506.546960115s/14400s)
+- coin__binancecoin (at 13502.948683023s/14400s)
+- coin__ripple (at 13501.388780117s/14400s)
+- coin__holotoken (at 13504.585493088s/14400s)
+- coin__eos (at 13498.22417593s/14400s)
+- coin__litecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_litecoin.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.27565407753s
