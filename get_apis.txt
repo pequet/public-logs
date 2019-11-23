@@ -1,13 +1,34 @@
 bittrex
-- exchange_info (1.6887519359589s) ☺
-- exchange_info_v1 wait ............... (4.0096719264984s) ☺
+- exchange_info (0.49742102622986s) ☺
+- exchange_info_v1 wait ................... (3.171422958374s) ☺
 binance
-- exchange_info (2.4424648284912s) ☺
+- exchange_info (2.2781348228455s) ☺
 poloniex
-- exchange_info (0.3772280216217s) ☺
+- exchange_info (0.42557978630066s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.49834108352661s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+- cryptocurrency_listings_latest_header (at 898.25498390198s/3600s)
+coingecko
+- exchanges_list (1.0279030799866s) ☺
+- coins_list wait ......... (2.2604529857635s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.7862091064453s) ☺
+page 2 wait ......... (5.9287989139557s) ☺
+page 3 wait ........ (7.399710893631s) ☺
+page 4 wait ........ (8.9207580089569s) ☺
+page 5 wait ........ (10.460731983185s) ☺
+page 6 wait ........ (11.985352039337s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (14.607614040375s) ☺
+page 2 wait ......... (16.183617115021s) ☺
+page 3 wait ........ (17.348047971725s) ☺
+page 4 wait ........ (18.504487991333s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 13502.846055031s/14400s)
+- coin__binancecoin (at 13501.525832176s/14400s)
+- coin__matic-network (at 13496.660881042s/14400s)
+- coin__moeda-loyalty-points (at 11699.090077877s/14400s)
+- coin__ripple problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ripple.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 32.508452177048s
