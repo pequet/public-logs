@@ -1,15 +1,37 @@
 bittrex
-- exchange_info (0.41476392745972s) ☺
-- exchange_info_v1 wait .................. (2.6548309326172s) ☺
+- exchange_info (0.43976497650146s) ☺
+- exchange_info_v1 wait ................... (3.154510974884s) ☺
 binance
-- exchange_info (0.60753297805786s) ☺
+- exchange_info (1.3654890060425s) ☺
 poloniex
-- exchange_info (0.484699010849s) ☺
+- exchange_info (0.81264209747314s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1797.496352911s/3600s)
+- cryptocurrency_listings_latest_header (at 2698.6707410812s/3600s)
 coingecko
-- exchanges_list (1.3787848949432s) ☺
-- coins_list wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 24576 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/views/errors/cli/error_php.php on line 1
+- exchanges_list (1.0357291698456s) ☺
+- coins_list wait ......... (2.234824180603s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.4222400188446s) ☺
+page 2 wait ........ (4.580295085907s) ☺
+page 3 wait ........ (5.790381193161s) ☺
+page 4 wait ........ (6.9581360816956s) ☺
+page 5 wait ........ (8.1080780029297s) ☺
+page 6 wait ......... (9.3131420612335s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ........ (12.468838214874s) ☺
+page 2 wait ......... (13.769129991531s) ☺
+page 3 wait ....... error: do_api_call coingecko
+- coin__ethereum (at 7204.4691359997s/14400s)
+- coin__holotoken problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_holotoken.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
