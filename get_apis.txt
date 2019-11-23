@@ -1,42 +1,13 @@
 bittrex
-- exchange_info (0.43287086486816s) ☺
-- exchange_info_v1 wait ................... (3.1579439640045s) ☺
+- exchange_info (1.6887519359589s) ☺
+- exchange_info_v1 wait ............... (4.0096719264984s) ☺
 binance
-- exchange_info (2.0606310367584s) ☺
+- exchange_info (2.4424648284912s) ☺
 poloniex
-- exchange_info (0.3806619644165s) ☺
+- exchange_info (0.3772280216217s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 2700.8899829388s/3600s)
-coingecko
-- exchanges_list (0.2890739440918s) ☺
-- coins_list wait ......... (1.5484600067139s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.0538210868835s) ☺
-page 2 wait ........ (4.5487170219421s) ☺
-page 3 wait ......... (6.0869359970093s) ☺
-page 4 wait ......... (7.3658571243286s) ☺
-page 5 wait ......... (8.5480380058289s) ☺
-page 6 wait ......... (9.7132680416107s) ☺
-page 7 wait .......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (12.657339096069s) ☺
-page 2 wait ........ (13.783756971359s) ☺
-page 3 wait ......... (15.020570039749s) ☺
-page 4 wait ......... (16.221439123154s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 11699.993916988s/14400s)
-- coin__binancecoin (at 11698.654255152s/14400s)
-- coin__matic-network (at 11693.784013987s/14400s)
-- coin__ripple (at 11695.440928936s/14400s)
-- coin__bitcoin-cash (at 9901.9631690979s/14400s)
-- coin__chainlink (at 9900.5844979286s/14400s)
-- coin__vechain (at 9899.1564910412s/14400s)
-- coin__litecoin (at 9897.7235870361s/14400s)
-- coin__eos (at 9894.8593418598s/14400s)
-- coin__tezos (at 9889.3965780735s/14400s)
-- coin__cardano (at 9893.4973208904s/14400s)
-- coin__tron (at 9892.1278941631s/14400s)
-- coin__selfkey problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_selfkey.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 30.350183963776s
+- cryptocurrency_listings_latest_header (0.49834108352661s) ☺
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
