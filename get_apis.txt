@@ -1,54 +1,16 @@
 bittrex
-- exchange_info (0.39058780670166s) ☺
-- exchange_info_v1 wait .................. (2.6435689926147s) ☺
+- exchange_info (0.4849328994751s) ☺
+- exchange_info_v1 wait .................. (3.1937038898468s) ☺
 binance
-- exchange_info (1.1064310073853s) ☺
-poloniex
-- exchange_info (0.42723989486694s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 3598.978605032s/3600s)
-coingecko
-- exchanges_list (1.0602779388428s) ☺
-- coins_list wait ......... (2.2650330066681s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (4.0036458969116s) ☺
-page 2 wait ........ (5.1246948242188s) ☺
-page 3 wait ........ (6.3037819862366s) ☺
-page 4 wait ......... (7.5996809005737s) ☺
-page 5 wait ........ (8.7531008720398s) ☺
-page 6 wait ......... (10.001102924347s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (12.528610944748s) ☺
-page 2 wait ......... (13.78479886055s) ☺
-page 3 wait ......... (15.044629812241s) ☺
-page 4 wait ......... (16.355250835419s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 2697.5799992085s/14400s)
-- coin__binancecoin (at 2695.974437952s/14400s)
-- coin__holotoken (at 2693.9646019936s/14400s)
-- coin__ripple wait ........ (19.463660955429s) ☺
-- coin__matic-network wait ......... (21.239753007889s) ☺
-- coin__litecoin wait ........ (23.459683895111s) ☺
-- coin__bitcoin-cash wait ......... (25.058096885681s) ☺
-- coin__chainlink wait ......... (26.871096849442s) ☺
-- coin__vechain wait ......... (28.4845058918s) ☺
-- coin__eos wait ......... (30.143018960953s) ☺
-- coin__cardano wait ........ (31.686295986176s) ☺
-- coin__tron wait ........ (33.282341957092s) ☺
-- coin__moeda-loyalty-points wait ......... (34.887882947922s) ☺
-- coin__selfkey wait ........ (36.34934091568s) ☺
-- coin__tezos (at 9911.4031231403s/14400s)
-- coin__monero (at 9912.9965658188s/14400s)
-- coin__neo (at 9914.5804178715s/14400s)
-- coin__stellar (at 9909.8987188339s/14400s)
-- coin__monaco wait ........ (37.909857034683s) ☺
-- coin__fetch-ai (at 9909.8039169312s/14400s)
-- coin__basic-attention-token (at 9906.5094029903s/14400s)
-- coin__kava (at 9908.2948989868s/14400s)
-- coin__iostoken wait ......... 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+A PHP Error was encountered
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in Unknown on line 0
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
