@@ -1,36 +1,16 @@
 bittrex
-- exchange_info (0.41412997245789s) ☺
-- exchange_info_v1 wait .................. (3.0296730995178s) ☺
+- exchange_info (0.43361496925354s) ☺
+- exchange_info_v1 wait .................. (3.1578598022461s) ☺
 binance
-- exchange_info (1.5604360103607s) ☺
-poloniex
-- exchange_info (0.4445219039917s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 2698.1152188778s/3600s)
-coingecko
-- exchanges_list (0.70596408843994s) ☺
-- coins_list wait ......... (1.9322321414948s) ☺
-- exchanges_tickers__binance 
-page 1 wait ........ (3.0575950145721s) ☺
-page 2 wait ........ (4.1329991817474s) ☺
-page 3 wait ......... (5.381117105484s) ☺
-page 4 wait ........ (6.5448291301727s) ☺
-page 5 wait ........ (7.6814200878143s) ☺
-page 6 wait ........ (8.8760821819305s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (11.666306018829s) ☺
-page 2 wait ......... (12.927429199219s) ☺
-page 3 wait ........ (14.063549995422s) ☺
-page 4 wait ......... (15.324004173279s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 12595.003841162s/14400s)
-- coin__ethereum (at 12596.615370989s/14400s)
-- coin__matic-network (at 12593.649468899s/14400s)
-- coin__ripple (at 12590.418620825s/14400s)
-- coin__bitcoin-cash (at 12588.775775194s/14400s)
-- coin__chainlink problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chainlink.txt')
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 1
+A PHP Error was encountered
 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
