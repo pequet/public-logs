@@ -1,35 +1,21 @@
 bittrex
-- exchange_info (0.37568187713623s) ☺
-- exchange_info_v1 wait .................. (3.0385980606079s) ☺
+- exchange_info (0.40513801574707s) ☺
+- exchange_info_v1 wait ................... (3.440034866333s) ☺
 binance
-- exchange_info (0.81157398223877s) ☺
+- exchange_info (2.0982539653778s) ☺
 poloniex
-- exchange_info (0.65803194046021s) ☺
+- exchange_info (0.38194298744202s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3600.0246829987s/3600s)
-coingecko
-- exchanges_list (0.74061894416809s) ☺
-- coins_list wait ......... (1.9454181194305s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.5682730674744s) ☺
-page 2 wait ........ (5.0478971004486s) ☺
-page 3 wait ......... (6.5967280864716s) ☺
-page 4 wait ......... (8.1377410888672s) ☺
-page 5 wait ......... (9.6265070438385s) ☺
-page 6 wait ......... (11.145987033844s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (13.972225904465s) ☺
-page 2 wait ......... (15.276742935181s) ☺
-page 3 wait ......... (16.491821050644s) ☺
-page 4 wait ......... (18.086688995361s) ☺
-page 5 wait ......... end reached
-- coin__ethereum (at 8999.4947910309s/14400s)
-- coin__binancecoin (at 8998.0910799503s/14400s)
-- coin__matic-network (at 8996.685890913s/14400s)
-- coin__ripple (at 8993.4597809315s/14400s)
-- coin__bitcoin-cash (at 8991.8173980713s/14400s)
-- coin__chainlink problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_chainlink.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 30.956434011459s
+- cryptocurrency_listings_latest_header (0.4334511756897s) ☺
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 20480 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
+Line Number: 893
+
+Backtrace:
+
