@@ -1,17 +1,39 @@
 bittrex
-- exchange_info (0.38404703140259s) ☺
-- exchange_info_v1 wait .................. (3.0706059932709s) ☺
+- exchange_info (0.36077308654785s) ☺
+- exchange_info_v1 wait ................... (3.1146340370178s) ☺
 binance
-- exchange_info (0.78893399238586s) ☺
+- exchange_info (1.2289071083069s) ☺
 poloniex
-- exchange_info (0.43928098678589s) ☺
+- exchange_info (0.5003080368042s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.74413084984s/3600s)
+- cryptocurrency_listings_latest_header (at 1799.4542119503s/3600s)
 coingecko
-- exchanges_list (1.4572379589081s) ☺
-- coins_list wait ........ 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 98304 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 98304 bytes) in Unknown on line 0
+- exchanges_list (0.3498101234436s) ☺
+- coins_list wait ......... (1.5421380996704s) ☺
+- exchanges_tickers__binance 
+page 1 wait ......... (3.0884830951691s) ☺
+page 2 wait ........ (4.5868120193481s) ☺
+page 3 wait ........ (6.0529160499573s) ☺
+page 4 wait ......... (7.56605219841s) ☺
+page 5 wait ......... (9.1681170463562s) ☺
+page 6 wait ......... (10.719386100769s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.412838220596s) ☺
+page 2 wait ......... (15.08927822113s) ☺
+page 3 wait ......... (16.283822059631s) ☺
+page 4 wait ......... (17.488717079163s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 7198.2169189453s/14400s)
+- coin__binancecoin (at 7196.7557630539s/14400s)
+- coin__matic-network (at 7195.2251169682s/14400s)
+- coin__moeda-loyalty-points (at 7193.3811039925s/14400s)
+- coin__ripple (at 7191.9932990074s/14400s)
+- coin__bitcoin-cash (at 7190.3522460461s/14400s)
+- coin__litecoin (at 7185.6369287968s/14400s)
+- coin__chainlink (at 7188.7616882324s/14400s)
+- coin__vechain (at 7187.2716870308s/14400s)
+- coin__eos problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_eos.txt')
+coincheckup
+- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 30.307087898254s
