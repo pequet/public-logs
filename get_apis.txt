@@ -1,21 +1,25 @@
 bittrex
-- exchange_info (0.77320003509521s) ☺
-- exchange_info_v1 wait ................... (3.6129879951477s) ☺
+- exchange_info (0.50038003921509s) ☺
+- exchange_info_v1 wait ................... (3.205680847168s) ☺
 binance
-- exchange_info (1.679582118988s) ☺
+- exchange_info (1.6319959163666s) ☺
 poloniex
-- exchange_info (0.39035081863403s) ☺
+- exchange_info (0.6482949256897s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.38802599906921s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+- cryptocurrency_listings_latest_header (at 898.8145711422s/3600s)
+coingecko
+- exchanges_list (0.73416304588318s) ☺
+- coins_list wait ........ 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 4096 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
+Message:     Out of memory (allocated 4194304) (tried to allocate 40960 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
 
 Backtrace:
 
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 40960 bytes) in Unknown on line 0
