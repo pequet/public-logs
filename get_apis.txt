@@ -1,16 +1,43 @@
 bittrex
-- exchange_info (0.41841912269592s) ☺
-- exchange_info_v1 wait ................... (3.1551852226257s) ☺
+- exchange_info (0.39591002464294s) ☺
+- exchange_info_v1 wait ................... (3.1306529045105s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (1.5748369693756s) ☺
+poloniex
+- exchange_info (0.53799796104431s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (at 3599.1221539974s/3600s)
+coingecko
+- exchanges_list (0.77233910560608s) ☺
+- coins_list wait ......... (2.0201361179352s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.1581461429596s) ☺
+page 2 wait ........ (4.6963601112366s) ☺
+page 3 wait ........ (6.1824769973755s) ☺
+page 4 wait ........ (7.7085809707642s) ☺
+page 5 wait ......... (9.2772209644318s) ☺
+page 6 wait ......... (10.84765291214s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.664698123932s) ☺
+page 2 wait ........ (14.842193126678s) ☺
+page 3 wait ......... (16.031558036804s) ☺
+page 4 wait ......... (17.272393941879s) ☺
+page 5 wait ......... end reached
+- coin__binancecoin wait ......... (20.448066949844s) ☺
+- coin__ethereum wait ......... (22.044968128204s) ☺
+- coin__vechain wait ........ (23.612509965897s) ☺
+- coin__matic-network wait ....... (25.188884973526s) ☺
+- coin__ripple wait ........ (26.585050106049s) ☺
+- coin__bitcoin-cash problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-cash.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
