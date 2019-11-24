@@ -1,35 +1,16 @@
 bittrex
-- exchange_info (0.55192017555237s) ☺
-- exchange_info_v1 wait ................. (2.89138007164s) ☺
+- exchange_info (0.40444302558899s) ☺
+- exchange_info_v1 wait ................ (3.2003331184387s) ☺
 binance
-- exchange_info (1.4431228637695s) ☺
-poloniex
-- exchange_info (0.51027917861938s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.6842889786s/3600s)
-coingecko
-- exchanges_list (1.5168769359589s) ☺
-- coins_list wait ........ (2.6965458393097s) ☺
-- exchanges_tickers__binance 
-page 1 wait ....... (4.2956368923187s) ☺
-page 2 wait ........ (5.8236978054047s) ☺
-page 3 wait ........ (7.4021778106689s) ☺
-page 4 wait ........ (8.8213098049164s) ☺
-page 5 wait ........ (10.301118850708s) ☺
-page 6 wait ........ (11.754585027695s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (14.427959918976s) ☺
-page 2 wait ......... (15.673555850983s) ☺
-page 3 wait ......... (16.832113981247s) ☺
-page 4 wait ......... (18.016371011734s) ☺
-page 5 wait ......... end reached
-- coin__binancecoin (at 1812.9209909439s/14400s)
-- coin__ethereum (at 1811.471544981s/14400s)
-- coin__matic-network (at 1810.126085043s/14400s)
-- coin__vechain (at 1808.6009340286s/14400s)
-- coin__ripple (at 1807.0528590679s/14400s)
-- coin__bitcoin-cash problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-cash.txt')
-coincheckup
-- coins wait ................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.196743965149s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
