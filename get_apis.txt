@@ -1,16 +1,34 @@
 bittrex
-- exchange_info (0.43361496925354s) ☺
-- exchange_info_v1 wait .................. (3.1578598022461s) ☺
+- exchange_info (0.49163389205933s) ☺
+- exchange_info_v1 wait .................. (3.1974308490753s) ☺
 binance
-- exchange_info 
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
-Line Number: 85
-
-Backtrace:
-
+- exchange_info (2.2904109954834s) ☺
+poloniex
+- exchange_info (0.44390606880188s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.50343012809753s) ☺
+coingecko
+- exchanges_list (0.7404899597168s) ☺
+- coins_list wait ......... (1.9652900695801s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.1462190151215s) ☺
+page 2 wait ........ (4.3257839679718s) ☺
+page 3 wait ........ (5.5098459720612s) ☺
+page 4 wait ......... (6.777055978775s) ☺
+page 5 wait ........ (8.0004751682281s) ☺
+page 6 wait ........ (9.191025018692s) ☺
+page 7 wait ........ end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (11.935250997543s) ☺
+page 2 wait ........ (13.044541120529s) ☺
+page 3 wait ........ (14.226380109787s) ☺
+page 4 wait ......... (15.542271137238s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 14398.291052103s/14400s)
+- coin__binancecoin (at 14396.869159937s/14400s)
+- coin__matic-network (at 14395.367254019s/14400s)
+- coin__ripple (at 14392.113054991s/14400s)
+- coin__bitcoin-cash problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_bitcoin-cash.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 30.152372121811s
