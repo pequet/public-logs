@@ -1,21 +1,36 @@
 bittrex
-- exchange_info (0.40513801574707s) ☺
-- exchange_info_v1 wait ................... (3.440034866333s) ☺
+- exchange_info (0.4072380065918s) ☺
+- exchange_info_v1 wait .................. (2.9790639877319s) ☺
 binance
-- exchange_info (2.0982539653778s) ☺
+- exchange_info (0.923907995224s) ☺
 poloniex
-- exchange_info (0.38194298744202s) ☺
+- exchange_info (0.41551613807678s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.4334511756897s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
-
-A PHP Error was encountered
-
-Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 20480 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
-
-Backtrace:
-
+- cryptocurrency_listings_latest_header (at 897.78255081177s/3600s)
+coingecko
+- exchanges_list (0.77614116668701s) ☺
+- coins_list wait ......... (1.9723739624023s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.4680211544037s) ☺
+page 2 wait ......... (4.95627617836s) ☺
+page 3 wait ........ (6.4960181713104s) ☺
+page 4 wait ......... (8.0385401248932s) ☺
+page 5 wait ........ (9.5457801818848s) ☺
+page 6 wait ........ (10.979220151901s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.660073041916s) ☺
+page 2 wait ........ (14.807834148407s) ☺
+page 3 wait ......... (16.147917032242s) ☺
+page 4 wait ........ (17.303475141525s) ☺
+page 5 wait ......... end reached
+- coin__binancecoin (at 10796.623764038s/14400s)
+- coin__ethereum (at 10798.213386059s/14400s)
+- coin__matic-network (at 10795.170002937s/14400s)
+- coin__ripple (at 10791.909582853s/14400s)
+- coin__bitcoin-cash (at 10790.272382021s/14400s)
+- coin__litecoin (at 10785.555501938s/14400s)
+- coin__vechain problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_vechain.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.945547819138s
