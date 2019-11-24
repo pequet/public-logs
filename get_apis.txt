@@ -1,4 +1,30 @@
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+bittrex
+- exchange_info (0.40480613708496s) ☺
+- exchange_info_v1 wait ................... (3.1112539768219s) ☺
+binance
+- exchange_info (1.190847158432s) ☺
+poloniex
+- exchange_info (0.61046695709229s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.46580600738525s) ☺
+coingecko
+- exchanges_list (0.89448499679565s) ☺
+- coins_list wait ........ (2.0639050006866s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.5002799034119s) ☺
+page 2 wait ......... (5.0334639549255s) ☺
+page 3 wait ........ (6.4829618930817s) ☺
+page 4 wait ......... (8.0625929832458s) ☺
+page 5 wait ......... (9.6079440116882s) ☺
+page 6 wait ........ (11.149718046188s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... (13.926527023315s) ☺
+page 2 wait ......... (15.328562021255s) ☺
+page 3 error: do_api_call coingecko
+- coin__ethereum (at 5395.1540749073s/14400s)
+- coin__binancecoin (at 5393.6981010437s/14400s)
+- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
+coincheckup
+- coins wait ................................................ problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 27.846699953079s
