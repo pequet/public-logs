@@ -1,21 +1,33 @@
 bittrex
-- exchange_info (0.46369123458862s) ☺
-- exchange_info_v1 wait .................. (3.144721031189s) ☺
+- exchange_info (0.38767910003662s) ☺
+- exchange_info_v1 wait ................... (2.7566030025482s) ☺
 binance
-- exchange_info (0.9566068649292s) ☺
+- exchange_info (1.8238568305969s) ☺
 poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
+- exchange_info (0.46588611602783s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.53810906410217s) ☺
-
-Fatal error: Out of memory (allocated 4194304) (tried to allocate 4096 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+- cryptocurrency_listings_latest_header (at 900.43416786194s/3600s)
+coingecko
+- exchanges_list (0.883061170578s) ☺
+- coins_list wait ......... (2.2175540924072s) ☺
+- exchanges_tickers__binance 
+page 1 wait ........ (3.7033970355988s) ☺
+page 2 wait ........ (5.2088961601257s) ☺
+page 3 wait ........ (6.7329540252686s) ☺
+page 4 wait ......... (8.2750790119171s) ☺
+page 5 wait ......... (9.8220980167389s) ☺
+page 6 wait ........ (11.265695095062s) ☺
+page 7 wait ......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait ......... 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 57344 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php on line 40
 
 A PHP Error was encountered
 
 Severity:    Error
-Message:     Out of memory (allocated 4194304) (tried to allocate 4096 bytes)
-Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php
-Line Number: 893
+Message:     Out of memory (allocated 4194304) (tried to allocate 57344 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php
+Line Number: 40
 
 Backtrace:
 
