@@ -26,11 +26,27 @@ Stack trace:
   2. Whoops\Run->handleError() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1370
   3. My_webdriver->run_javascript() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1450
   4. My_webdriver->do_logout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:185
-  5. Exception->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:180
-  6. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  7. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
-  8. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
-  9. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 10. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 11. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 12. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+  5. Error->() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/HttpCommandExecutor.php:157
+  6. Facebook\WebDriver\Remote\HttpCommandExecutor->__construct() /home/dkgbzkhsyhkrivzo/app-04/vendor/facebook/webdriver/lib/Remote/RemoteWebDriver.php:105
+  7. Facebook\WebDriver\Remote\RemoteWebDriver->create() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_webdriver.php:1734
+  8. My_webdriver->connect() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_tradingview.php:68
+  9. My_tradingview->indicator_update_process() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
+ 10. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:255
+ 11. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_scanners.php:17
+ 12. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+ 13. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+ 14. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+ 15. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+
+A PHP Error was encountered
+
+Severity:    Core Warning
+Message:     PHP Startup: Unable to load dynamic library 'zip.so' (tried: /usr/lib/php/20170718/zip.so (/usr/lib/php/20170718/zip.so: failed to map segment from shared object), /usr/lib/php/20170718/zip.so.so (/usr/lib/php/20170718/zip.so.so: cannot open shared object file: No such file or directory))
+Filename:    Unknown
+Line Number: 0
+
+Backtrace:
+
+Whoops\Exception\ErrorException: PHP Startup: Unable to load dynamic library 'zip.so' (tried: /usr/lib/php/20170718/zip.so (/usr/lib/php/20170718/zip.so: failed to map segment from shared object), /usr/lib/php/20170718/zip.so.so (/usr/lib/php/20170718/zip.so.so: cannot open shared object file: No such file or directory)) in file Unknown on line 0
+Stack trace:
+  1. Whoops\Exception\ErrorException->() Unknown:0
