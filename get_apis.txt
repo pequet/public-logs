@@ -1,0 +1,20 @@
+bittrex
+- exchange_info (0.37912082672119s) ☺
+- exchange_info_v1 wait ................... (2.9187998771667s) ☺
+binance
+- exchange_info (0.69338393211365s) ☺
+poloniex
+- exchange_info (0.37178897857666s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.33970403671265s) ☺
+coingecko
+- exchanges_list (0.69410395622253s) ☺
+- coins_list wait ......... (1.8522279262543s) ☺
+- exchanges_tickers__binance 
+page 1 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+🗲 done in 6.2786359786987s
