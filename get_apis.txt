@@ -1,52 +1,30 @@
 bittrex
-- exchange_info (0.360347032547s) ☺
-- exchange_info_v1 wait ................... (2.9117910861969s) ☺
+- exchange_info (0.3554470539093s) ☺
+- exchange_info_v1 wait .................... (3.5549459457397s) ☺
 binance
-- exchange_info (0.94902300834656s) ☺
+- exchange_info (0.65731000900269s) ☺
 poloniex
-- exchange_info (0.50430011749268s) ☺
+- exchange_info (0.36421298980713s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.40195417404175s) ☺
+- cryptocurrency_listings_latest_header (at 899.83946013451s/3600s)
 coingecko
-- exchanges_list (0.82216501235962s) ☺
-- coins_list wait ......... (1.8856301307678s) ☺
+- exchanges_list (0.66440796852112s) ☺
+- coins_list wait ......... (1.7290270328522s) ☺
 - exchanges_tickers__binance 
-page 1 wait .......... (3.3942551612854s) ☺
-page 2 wait ......... (4.8133320808411s) ☺
-page 3 wait .......... (6.3682241439819s) ☺
-page 4 wait ......... (7.7786600589752s) ☺
-page 5 wait ......... (9.2034571170807s) ☺
-page 6 wait .......... (10.512290000916s) ☺
-page 7 wait ......... end reached
+page 1 wait .......... (2.9547810554504s) ☺
+page 2 wait ......... (4.1606760025024s) ☺
+page 3 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
-page 1 wait ......... (12.997744083405s) ☺
-page 2 wait .......... (14.189819097519s) ☺
-page 3 wait .......... (15.437927961349s) ☺
-page 4 wait ......... (16.557271957397s) ☺
-page 5 wait .......... end reached
-- coin__ethereum (at 3597.9111058712s/14400s)
-- coin__matic-network (at 3596.4510779381s/14400s)
-- coin__streamr-datacoin (at 3594.9006910324s/14400s)
-- coin__binancecoin (at 3593.4985821247s/14400s)
-- coin__ripple (at 3591.9221508503s/14400s)
-- coin__holotoken wait ......... (19.588428974152s) ☺
-- coin__bitcoin-cash (at 3589.0496277809s/14400s)
-- coin__vechain (at 3582.9959220886s/14400s)
-- coin__chainlink (at 3587.6572539806s/14400s)
-- coin__eos (at 3591.9426500797s/14400s)
-- coin__litecoin (at 3586.154984951s/14400s)
-- coin__basic-attention-token (at 3584.6221930981s/14400s)
-- coin__fetch-ai (at 3581.7032542229s/14400s)
-- coin__nav-coin (at 2702.5329120159s/14400s)
-- coin__tron (at 3578.3088350296s/14400s)
-- coin__moeda-loyalty-points (at 3590.6792490482s/14400s)
-- coin__cardano (at 3575.2103290558s/14400s)
-- coin__dogecoin (at 3580.2674760818s/14400s)
-- coin__harmony (at 3573.3898980618s/14400s)
-- coin__viberate (at 3576.9136078358s/14400s)
-- coin__sonm (at 3570.8995528221s/14400s)
-- coin__monero (at 3567.8037559986s/14400s)
-- coin__cosmos problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_cosmos.txt')
+page 1 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
 coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.307361125946s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
