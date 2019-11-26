@@ -1,0 +1,55 @@
+bittrex
+- exchange_info (0.35051393508911s) ☺
+- exchange_info_v1 wait ................... (2.9232730865479s) ☺
+binance
+- exchange_info (1.4275591373444s) ☺
+poloniex
+- exchange_info (0.46111607551575s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.32103896141052s) ☺
+coingecko
+- exchanges_list (0.8329598903656s) ☺
+- coins_list wait .......... (1.9868350028992s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (3.1550359725952s) ☺
+page 2 wait .......... (4.3282539844513s) ☺
+page 3 wait ......... (5.4728510379791s) ☺
+page 4 wait ......... (6.5585899353027s) ☺
+page 5 wait .......... (7.7168910503387s) ☺
+page 6 wait .......... (8.8602929115295s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (11.351382017136s) ☺
+page 2 wait ......... (12.507653951645s) ☺
+page 3 wait ......... (13.57265496254s) ☺
+page 4 wait .......... (14.740751981735s) ☺
+page 5 wait ......... end reached
+- coin__matic-network wait .......... (17.712933063507s) ☺
+- coin__binancecoin wait ......... (19.236588001251s) ☺
+- coin__ethereum wait ......... (21.108633041382s) ☺
+- coin__tezos wait .......... (22.657080888748s) ☺
+- coin__ripple wait ......... (23.868251085281s) ☺
+- coin__elrond wait ......... (25.08858704567s) ☺
+- coin__chainlink wait .......... (26.76175904274s) ☺
+- coin__moeda-loyalty-points wait ......... (28.246942996979s) ☺
+- coin__bitcoin-cash wait ......... (29.894389867783s) ☺
+- coin__vechain wait ......... (31.386566877365s) ☺
+- coin__fetch-ai wait .......... (32.925559997559s) ☺
+- coin__eos wait .......... (34.464746952057s) ☺
+- coin__tron wait ......... (35.977238893509s) ☺
+- coin__basic-attention-token wait .......... (37.563849925995s) ☺
+- coin__dogecoin wait .......... (39.260446071625s) ☺
+- coin__cardano wait ........ (40.746865987778s) ☺
+- coin__litecoin wait ......... (42.249858856201s) ☺
+- coin__monero wait .......... (43.808243989944s) ☺
+- coin__cosmos wait ......... (45.268049001694s) ☺
+- coin__streamr-datacoin wait ......... (46.72122502327s) ☺
+- coin__neo wait ......... (48.223873853683s) ☺
+- coin__pivx wait ......... (49.451566934586s) ☺
+- coin__cocos-bcx wait ......... (50.945033073425s) ☺
+- coin__stellar wait ......... (52.48130106926s) ☺
+- coin__ontology wait .......... (54.036639928818s) ☺
+- coin__nav-coin wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 67.000082969666s
