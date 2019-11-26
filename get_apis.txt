@@ -1,90 +1,32 @@
 bittrex
-- exchange_info (0.34261107444763s) ☺
-- exchange_info_v1 wait .................... (2.923052072525s) ☺
+- exchange_info (0.38244700431824s) ☺
+- exchange_info_v1 wait .................... (3.0146799087524s) ☺
 binance
-- exchange_info (1.0929539203644s) ☺
+- exchange_info (2.637542963028s) ☺
 poloniex
-- exchange_info (0.28145408630371s) ☺
+- exchange_info (0.38667392730713s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1800.3521690369s/3600s)
+- cryptocurrency_listings_latest_header (at 2701.9783911705s/3600s)
 coingecko
-- exchanges_list (0.60533499717712s) ☺
-- coins_list wait ......... (1.7467031478882s) ☺
+- exchanges_list (1.2914431095123s) ☺
+- coins_list wait ........ (2.3495621681213s) ☺
 - exchanges_tickers__binance 
-page 1 wait .......... (2.9217381477356s) ☺
-page 2 wait ......... (3.9998672008514s) ☺
-page 3 wait .......... (5.1512801647186s) ☺
-page 4 wait .......... (6.3134829998016s) ☺
-page 5 wait .......... (7.5039660930634s) ☺
-page 6 wait .......... (8.6747581958771s) ☺
+page 1 wait .......... (3.5392210483551s) ☺
+page 2 wait ......... (4.6155471801758s) ☺
+page 3 wait ......... (5.7260479927063s) ☺
+page 4 wait ......... (6.8788211345673s) ☺
+page 5 wait ......... (7.9913830757141s) ☺
+page 6 wait .......... (9.1597151756287s) ☺
 page 7 wait .......... end reached
 - exchanges_tickers__bittrex 
-page 1 wait ......... (11.213656187057s) ☺
-page 2 wait ......... (12.289182186127s) ☺
-page 3 wait .......... (13.469259023666s) ☺
-page 4 wait ......... (14.561982154846s) ☺
-page 5 wait .......... end reached
-- coin__ethereum (at 895.50034499168s/14400s)
-- coin__matic-network (at 894.03859400749s/14400s)
-- coin__streamr-datacoin (at 892.49890804291s/14400s)
-- coin__binancecoin (at 891.09360194206s/14400s)
-- coin__ripple (at 889.52593398094s/14400s)
-- coin__holotoken (at 12596.285238981s/14400s)
-- coin__moeda-loyalty-points (at 886.62024593353s/14400s)
-- coin__chainlink (at 883.75867295265s/14400s)
-- coin__bitcoin-cash (at 885.19314694405s/14400s)
-- coin__vechain (at 879.13166594505s/14400s)
-- coin__eos (at 888.07086420059s/14400s)
-- coin__litecoin (at 882.2875649929s/14400s)
-- coin__basic-attention-token (at 880.75058102608s/14400s)
-- coin__nav-coin wait ....... (17.573565006256s) ☺
-- coin__fetch-ai (at 879.23635220528s/14400s)
-- coin__dogecoin (at 877.71912097931s/14400s)
-- coin__tron (at 875.84586811066s/14400s)
-- coin__cardano (at 872.72550392151s/14400s)
-- coin__harmony (at 870.87956786156s/14400s)
-- coin__viberate (at 874.38386487961s/14400s)
-- coin__sonm (at 868.36219000816s/14400s)
-- coin__neo (at 862.04764413834s/14400s)
-- coin__monero (at 865.30905103683s/14400s)
-- coin__cosmos wait ...... (18.898949146271s) ☺
-- coin__ontology (at 864.73369407654s/14400s)
-- coin__tezos (at 868.03592991829s/14400s)
-- coin__stellar wait ......... (20.380040168762s) ☺
-- coin__elrond (at 872.55044293404s/14400s)
-- coin__cocos-bcx wait ......... (21.807666063309s) ☺
-- coin__iota wait .......... (23.33802318573s) ☺
-- coin__monaco wait ......... (24.879709005356s) ☺
-- coin__kava wait .......... (26.375330209732s) ☺
-- coin__district0x wait .......... (27.944473028183s) ☺
-- coin__iostoken wait .......... (29.529940128326s) ☺
-- coin__zcash wait .......... (31.111076116562s) ☺
-- coin__celer-network wait ......... (32.539666175842s) ☺
-- coin__selfkey wait ......... (34.131878137589s) ☺
-- coin__chiliz wait .......... (35.608282089233s) ☺
-- coin__agrello (at 12614.306315899s/14400s)
-- coin__dash wait ......... (37.122274160385s) ☺
-- coin__mainframe wait .......... (38.665583133698s) ☺
-- coin__ravencoin wait ......... (40.136887073517s) ☺
-- coin__ethereum-classic wait ......... (41.601076126099s) ☺
-- coin__etherparty wait .......... (43.099920034409s) ☺
-- coin__siacoin wait ......... (44.587343215942s) ☺
-- coin__wepower wait ......... (46.027135133743s) ☺
-- coin__republic-protocol wait ......... (47.460369110107s) ☺
-- coin__arpa-chain wait ......... (48.880561113358s) ☺
-- coin__qtum wait ......... (50.358285188675s) ☺
-- coin__nucleus-vision wait ......... (51.78245306015s) ☺
-- coin__0x wait ......... (53.309954166412s) ☺
-- coin__monetha wait ......... (54.790118217468s) ☺
-- coin__red-pulse wait ......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+page 1 wait ......... (11.749365091324s) ☺
+page 2 wait ......... (12.862648010254s) ☺
+page 3 wait ......... (13.972346067429s) ☺
+page 4 wait ........ (15.084554195404s) ☺
+page 5 wait ......... end reached
+- coin__ethereum (at 1798.1722598076s/14400s)
+- coin__matic-network (at 1796.7795910835s/14400s)
+- coin__streamr-datacoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_streamr-datacoin.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
-  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 29.17911195755s
