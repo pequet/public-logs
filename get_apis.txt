@@ -1,0 +1,51 @@
+bittrex
+- exchange_info (0.31839609146118s) ☺
+- exchange_info_v1 wait .................... (2.9278719425201s) ☺
+binance
+- exchange_info (0.63943815231323s) ☺
+poloniex
+- exchange_info (0.25583696365356s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (0.4071729183197s) ☺
+coingecko
+- exchanges_list (1.8459510803223s) ☺
+- coins_list wait .......... (3.0096180438995s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (4.182058095932s) ☺
+page 2 wait .......... (5.3527381420135s) ☺
+page 3 wait .......... (6.5135262012482s) ☺
+page 4 wait .......... (7.6688101291656s) ☺
+page 5 wait .......... (8.8160891532898s) ☺
+page 6 wait .......... (9.9638960361481s) ☺
+page 7 wait .......... end reached
+- exchanges_tickers__bittrex 
+page 1 wait .......... (12.566553115845s) ☺
+page 2 wait .......... (13.723328113556s) ☺
+page 3 wait .......... (14.875251054764s) ☺
+page 4 wait .......... (16.022319078445s) ☺
+page 5 wait .......... end reached
+- coin__matic-network wait ......... (18.931442975998s) ☺
+- coin__ethereum wait ......... (20.384881019592s) ☺
+- coin__binancecoin wait .......... (21.916831970215s) ☺
+- coin__holotoken wait ......... (23.391920089722s) ☺
+- coin__ripple wait .......... (24.937741994858s) ☺
+- coin__chainlink wait ......... (26.395958185196s) ☺
+- coin__vechain wait .......... (27.787536144257s) ☺
+- coin__streamr-datacoin wait ......... (29.251621007919s) ☺
+- coin__bitcoin-cash wait ......... (30.746867179871s) ☺
+- coin__eos wait ......... (32.229196071625s) ☺
+- coin__fetch-ai wait ......... (33.73521900177s) ☺
+- coin__litecoin wait ......... (35.255590200424s) ☺
+- coin__elrond wait ......... (36.66641998291s) ☺
+- coin__tron wait .......... (38.199861049652s) ☺
+- coin__monero wait ......... (39.710873126984s) ☺
+- coin__nav-coin wait ......... (41.181524991989s) ☺
+- coin__dogecoin wait .......... (42.730276107788s) ☺
+- coin__tezos wait ......... (44.226238012314s) ☺
+- coin__cardano wait ......... (45.932165145874s) ☺
+- coin__neo wait ......... (47.468199968338s) ☺
+- coin__selfkey (at 14394.074944973s/14400s)
+- coin__basic-attention-token wait ....... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 53.189517021179s
