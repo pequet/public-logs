@@ -1,14 +1,16 @@
 bittrex
-- exchange_info (1.7939031124115s) ☺
-- exchange_info_v1 wait .................... (4.447261095047s) ☺
+- exchange_info (0.46991109848022s) ☺
+- exchange_info_v1 wait .................. (3.1651759147644s) ☺
 binance
-- exchange_info (2.518364906311s) ☺
-poloniex
-- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
-coinmarketcap
-- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
-coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
-🗲 done in 7.0759928226471s
+- exchange_info 
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 655360 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php on line 85
+
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 4194304) (tried to allocate 655360 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/vendor/guzzlehttp/psr7/src/Stream.php
+Line Number: 85
+
+Backtrace:
+
