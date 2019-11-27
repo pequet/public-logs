@@ -1,45 +1,4 @@
-bittrex
-- exchange_info (0.54454398155212s) ☺
-- exchange_info_v1 wait ................. (3.1614758968353s) ☺
-binance
-- exchange_info (1.9703938961029s) ☺
-poloniex
-- exchange_info (0.55089497566223s) ☺
-coinmarketcap
-- cryptocurrency_listings_latest_header (at 1802.526004076s/3600s)
-coingecko
-- exchanges_list (0.90505194664001s) ☺
-- coins_list wait ......... (2.2206268310547s) ☺
-- exchanges_tickers__binance 
-page 1 wait ....... (3.6084289550781s) ☺
-page 2 wait ....... (5.1709468364716s) ☺
-page 3 wait ....... (6.6217110157013s) ☺
-page 4 wait ....... (8.1021568775177s) ☺
-page 5 wait ........ (9.5559508800507s) ☺
-page 6 wait ....... (11.109606027603s) ☺
-page 7 wait ........ end reached
-- exchanges_tickers__bittrex 
-page 1 wait ........ (13.723484992981s) ☺
-page 2 wait ......... (14.864166975021s) ☺
-page 3 wait ........ (16.389865875244s) ☺
-page 4 wait ..... (17.40972495079s) ☺
-page 5 wait ......... end reached
-- coin__matic-network (at 7201.8064250946s/14400s)
-- coin__ethereum (at 7198.5253088474s/14400s)
-- coin__binancecoin (at 7200.4389150143s/14400s)
-- coin__tezos (at 7197.0342609882s/14400s)
-- coin__ripple (at 7195.841452837s/14400s)
-- coin__elrond (at 7194.6487460136s/14400s)
-- coin__chainlink (at 7192.9992549419s/14400s)
-- coin__basic-attention-token (at 7182.2119188309s/14400s)
-- coin__bitcoin-cash (at 7189.9124941826s/14400s)
-- coin__vechain (at 7188.428442955s/14400s)
-- coin__eos (at 7185.3582141399s/14400s)
-- coin__tron (at 7183.8666129112s/14400s)
-- coin__fetch-ai (at 7186.9435019493s/14400s)
-- coin__litecoin (at 7177.6385688782s/14400s)
-- coin__dogecoin (at 7180.6345629692s/14400s)
-- coin__cardano problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_cardano.txt')
-coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 31.209095001221s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
