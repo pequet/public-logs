@@ -1,17 +1,21 @@
 bittrex
-- exchange_info (0.3911190032959s) ☺
-- exchange_info_v1 wait ................... (2.9581658840179s) ☺
+- exchange_info (0.37116312980652s) ☺
+- exchange_info_v1 wait .................... (3.0179769992828s) ☺
 binance
-- exchange_info (1.309369802475s) ☺
+- exchange_info (1.2927749156952s) ☺
 poloniex
-- exchange_info (0.40472483634949s) ☺
+- exchange_info (0.40413284301758s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.58695507049561s) ☺
+- cryptocurrency_listings_latest_header (at 900.16144800186s/3600s)
 coingecko
-- exchanges_list (1.5477678775787s) ☺
-- coins_list wait ......... (2.6744718551636s) ☺
+- exchanges_list (0.62647914886475s) ☺
+- coins_list wait ......... (1.7410500049591s) ☺
 - exchanges_tickers__binance 
-page 1 error: do_api_call coingecko
+page 1 wait .......... (3.2148010730743s) ☺
+page 2 wait .......... (4.6970391273499s) ☺
+page 3 wait .......... (6.2127091884613s) ☺
+page 4 wait ......... (7.7119841575623s) ☺
+page 5 error: do_api_call coingecko
 - exchanges_tickers__bittrex 
 page 1 error: do_api_call coingecko
 - coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
