@@ -1,28 +1,14 @@
 bittrex
-- exchange_info (0.39422082901001s) ☺
-- exchange_info_v1 wait ................... (2.9591000080109s) ☺
+- exchange_info (0.37898898124695s) ☺
+- exchange_info_v1 wait ................... (3.0050630569458s) ☺
 binance
-- exchange_info (0.94859981536865s) ☺
+- exchange_info (2.5605630874634s) ☺
 poloniex
-- exchange_info (0.39673590660095s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 900.21338391304s/3600s)
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 coingecko
-- exchanges_list (1.6536791324615s) ☺
-- coins_list wait ......... (2.7696280479431s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (4.0917730331421s) ☺
-page 2 wait ......... (5.214565038681s) ☺
-page 3 wait ......... (6.3364591598511s) ☺
-page 4 wait ......... (7.4551382064819s) ☺
-page 5 wait ......... (8.5368540287018s) ☺
-page 6 wait .......... (9.7179651260376s) ☺
-page 7 wait ......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (12.210336208344s) ☺
-page 2 error: do_api_call coingecko
-- coin__ethereum (at 8092.9442911148s/14400s)
-- coin__binancecoin problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_binancecoin.txt')
+- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
 coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 22.734688997269s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 5.6601560115814s
