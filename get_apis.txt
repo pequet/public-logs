@@ -1,24 +1,16 @@
 bittrex
-- exchange_info (0.3889799118042s) ☺
-- exchange_info_v1 wait ................... (2.9593160152435s) ☺
+- exchange_info (0.3419930934906s) ☺
+- exchange_info_v1 wait .................... (2.9491081237793s) ☺
 binance
-- exchange_info (1.0199899673462s) ☺
+- exchange_info (0.68966889381409s) ☺
 poloniex
-- exchange_info (0.58566093444824s) ☺
+- exchange_info (0.34924697875977s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 1799.1765229702s/3600s)
+- cryptocurrency_listings_latest_header (at 2697.9238028526s/3600s)
 coingecko
-- exchanges_list (0.75610303878784s) ☺
-- coins_list wait ......... (1.9353311061859s) ☺
-- exchanges_tickers__binance 
-page 1 wait ......... (3.4299499988556s) ☺
-page 2 wait ......... (4.8849771022797s) ☺
-page 3 error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 error: do_api_call coingecko
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
+- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
 Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
 Stack trace:
   1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
