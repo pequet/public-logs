@@ -1,31 +1,13 @@
 bittrex
-- exchange_info (0.37787103652954s) ☺
-- exchange_info_v1 wait ................... (2.9201090335846s) ☺
+- exchange_info (1.284873008728s) ☺
+- exchange_info_v1 wait .............. problem with bittrex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__bittrex.txt')
 binance
-- exchange_info (1.4308168888092s) ☺
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/binance_api_v1_exchangeinfo.txt')
 poloniex
-- exchange_info (0.51036095619202s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 3598.8671360016s/3600s)
-coingecko
-- exchanges_list (0.65130591392517s) ☺
-- coins_list wait ......... (1.7799158096313s) ☺
-- exchanges_tickers__binance 
-page 1 wait .......... (2.9493038654327s) ☺
-page 2 wait .......... (4.1374909877777s) ☺
-page 3 wait ......... (5.2101149559021s) ☺
-page 4 wait .......... (6.3682718276978s) ☺
-page 5 wait ......... (7.5641248226166s) ☺
-page 6 wait ....... (8.5665109157562s) ☺
-page 7 wait .......... end reached
-- exchanges_tickers__bittrex 
-page 1 wait ......... (11.239619970322s) ☺
-page 2 wait ......... (12.356554985046s) ☺
-page 3 wait .......... (13.532420873642s) ☺
-page 4 wait ......... (14.606189966202s) ☺
-page 5 wait .......... end reached
-- coin__matic-network (at 895.31446790695s/14400s)
-- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_ethereum.txt')
-coincheckup
-- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-🗲 done in 21.072180986404s
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 893
+
+Fatal error: Out of memory (allocated 4194304) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
