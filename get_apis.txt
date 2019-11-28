@@ -1,4 +1,23 @@
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
-
-Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
+bittrex
+- exchange_info (0.48409295082092s) ☺
+- exchange_info_v1 wait .................... (3.0972199440002s) ☺
+binance
+- exchange_info problem with binance get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__binance.txt')
+poloniex
+- exchange_info (0.60622811317444s) ☺
+coinmarketcap
+- cryptocurrency_listings_latest_header (1.04665184021s) ☺
+coingecko
+- exchanges_list (1.3323168754578s) ☺
+- coins_list wait ......... (2.4668688774109s) ☺
+- exchanges_tickers__binance 
+page 1 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait ......... (3.6364908218384s) ☺
+page 2 wait ......... (4.8019139766693s) ☺
+page 3 wait ......... (5.9446399211884s) ☺
+page 4 error: do_api_call coingecko
+- coin__ethereum problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+coincheckup
+- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
+🗲 done in 17.735527038574s
