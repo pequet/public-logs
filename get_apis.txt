@@ -1,14 +1,32 @@
 bittrex
-- exchange_info (0.32021284103394s) ☺
-- exchange_info_v1 wait .................... (2.9023039340973s) ☺
+- exchange_info (0.35608315467834s) ☺
+- exchange_info_v1 wait ................... (2.8903779983521s) ☺
 binance
-- exchange_info (1.3652608394623s) ☺
+- exchange_info (1.2016861438751s) ☺
 poloniex
-- exchange_info (0.31218504905701s) ☺
+- exchange_info (0.66068410873413s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.27818179130554s) ☺
+- cryptocurrency_listings_latest_header (at 899.5185239315s/3600s)
 coingecko
-- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+- exchanges_list (1.046954870224s) ☺
+- coins_list wait .......... (2.2174680233002s) ☺
+- exchanges_tickers__binance 
+page 1 wait .......... (3.3923199176788s) ☺
+page 2 error: do_api_call coingecko
+- exchanges_tickers__bittrex 
+page 1 wait .......... (4.5758988857269s) ☺
+page 2 wait ......... (5.6624150276184s) ☺
+page 3 error: do_api_call coingecko
+- coin__ethereum (at 8983.8439061642s/14400s)
+- coin__matic-network problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_matic-network.txt')
 coincheckup
 - coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coincheckup.txt')
-🗲 done in 4.9695229530334s
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/Cron__v1__get_apis.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+Stack trace:
+  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
+  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:51
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
