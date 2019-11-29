@@ -1,26 +1,15 @@
 bittrex
-- exchange_info (0.42166209220886s) ☺
-- exchange_info_v1 wait ................... (3.0223150253296s) ☺
+- exchange_info (0.36356115341187s) ☺
+- exchange_info_v1 wait ................... (2.6217820644379s) ☺
 binance
-- exchange_info (1.6273579597473s) ☺
+- exchange_info (1.0217230319977s) ☺
 poloniex
-- exchange_info (0.37813401222229s) ☺
+- exchange_info (0.34107494354248s) ☺
 coinmarketcap
-- cryptocurrency_listings_latest_header (0.35222506523132s) ☺
+- cryptocurrency_listings_latest_header (at 899.40885996819s/3600s)
 coingecko
-- exchanges_list (0.68887901306152s) ☺
-- coins_list wait ......... (1.808336019516s) ☺
-- exchanges_tickers__binance 
-page 1 error: do_api_call coingecko
-- exchanges_tickers__bittrex 
-page 1 wait .......... (2.9890110492706s) ☺
-page 2 wait .......... (4.4667131900787s) ☺
-page 3 wait ......... (5.545154094696s) ☺
-page 4 wait .......... (6.7170991897583s) ☺
-page 5 wait .......... end reached
-- coin__ethereum wait ......... (9.7016141414642s) ☺
-- coin__streamr-datacoin (at 11699.885728121s/14400s)
-- coin__holotoken problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_coin_holotoken.txt')
+- exchanges_list (0.84165501594543s) ☺
+- coins_list wait .......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
 coincheckup
 - coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 20.958966970444s
+🗲 done in 11.906877040863s
