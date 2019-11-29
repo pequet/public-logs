@@ -1,15 +1,14 @@
 bittrex
-- exchange_info (0.36356115341187s) ☺
-- exchange_info_v1 wait ................... (2.6217820644379s) ☺
+- exchange_info (0.44609093666077s) ☺
+- exchange_info_v1 wait ................... (2.9946999549866s) ☺
 binance
-- exchange_info (1.0217230319977s) ☺
+- exchange_info (1.0350890159607s) ☺
 poloniex
-- exchange_info (0.34107494354248s) ☺
+- exchange_info problem with poloniex get_exchange_info 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/poloniex_public_returnticker.txt')
 coinmarketcap
-- cryptocurrency_listings_latest_header (at 899.40885996819s/3600s)
+- cryptocurrency_listings_latest_header problem with coinmarketcap get_cryptocurrency_latest_listings 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coinmarketcap_cryptocurrency_listings_latest.txt')
 coingecko
-- exchanges_list (0.84165501594543s) ☺
-- coins_list wait .......... problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_apis__coingecko.txt')
+- exchanges_list problem with coingecko get_lists 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coingecko_api_v3_exchanges_list.txt')
 coincheckup
-- coins wait .................................................. problem with coincheckup get_apis 1234 (Object of class GuzzleHttp\Psr7\Response could not be converted to string)
-🗲 done in 11.906877040863s
+- coins problem with coincheckup get_apis 1234 (shell_exec(): Unable to execute 'stat --format "%y" ../files/in/coincheckup_coins.txt')
+🗲 done in 4.1345739364624s
