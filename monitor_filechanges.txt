@@ -15,13 +15,23 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-scanners
 last run: 1575104722.3103
-Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" /home/dkgbzkhsyhkrivzo/app-04/files/repositories/tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_8_of_8.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:188
-  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
-  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
-  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
-  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+- no file to update
+coins_by_volume
+local path: ../files/repositories
+local folder: coins-by-volume
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-volume
+last run: 1574652150.4655
+- no file to update
+coins_by_id
+local path: ../files/repositories
+local folder: coins-by-id
+task: github_update
+github auth user: pakeji
+github repo user: pequet
+github repository: coins-by-id
+last run: 1575029264.7985
+- no file to update
+🗲 done in 2.8482542037964s
