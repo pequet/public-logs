@@ -23,7 +23,7 @@ no change (2 markets)
 no change (13 markets)
 - binance_watchlist_ngn.txt
 no change (3 markets)
-binance done (0.021826028823853s) ☺
+binance done (0.04604697227478s) ☺
 - bittrex_watchlist_btc.txt
 no change (95 markets)
 - bittrex_watchlist_usd.txt
@@ -32,7 +32,7 @@ no change (22 markets)
 no change (28 markets)
 - bittrex_watchlist_usdt.txt
 no change (26 markets)
-bittrex done (0.0093958377838135s) ☺
+bittrex done (0.0093801021575928s) ☺
 - poloniex_watchlist_btc.txt
 no change (49 markets)
 - poloniex_watchlist_usdt.txt
@@ -41,10 +41,18 @@ no change (26 markets)
 no change (6 markets)
 - poloniex_watchlist_usdc.txt
 no change (17 markets)
-poloniex done (0.0033490657806396s) ☺
+poloniex done (0.004234790802002s) ☺
 - fa watchlists
 - binance_watchlist_fa_btc.txt
 
-Fatal error: Out of memory (allocated 16367616) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 50
+Fatal error: Out of memory (allocated 8388608) (tried to allocate 5886680 bytes) in /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php on line 49
 
-Fatal error: Out of memory (allocated 16367616) (tried to allocate 32768 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Exceptions.php on line 1
+A PHP Error was encountered
+
+Severity:    Error
+Message:     Out of memory (allocated 8388608) (tried to allocate 5886680 bytes)
+Filename:    /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coincheckup.php
+Line Number: 49
+
+Backtrace:
+
