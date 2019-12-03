@@ -15,19 +15,14 @@ github auth user: pakeji
 github repo user: pequet
 github repository: tradingview-scanners
 last run: 1575104722.3103
-- bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt Commit (December 03 2019 01:15:08 UTC) 
-- bot_long/indicators/bittrex_bot_long_btc_btc_2_of_8.txt Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_github__upload_update.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
+- bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt Commit (December 03 2019 01:30:07 UTC) 
+Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" /home/dkgbzkhsyhkrivzo/app-04/files/repositories/tradingview-scanners/bot_long/indicators/bittrex_bot_long_btc_btc_2_of_8.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
 Stack trace:
   1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
   2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:120
-  4. My_times->get_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:90
-  5. My_times->dont_over_run() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:33
-  6. My_times->do_dont_over_run() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_github.php:81
-  7. My_github->upload_update() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  8. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:224
-  9. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
- 10. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
- 11. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 12. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 13. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:188
+  4. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
+  5. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  6. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  7. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  8. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
