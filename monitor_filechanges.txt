@@ -1,30 +1,4 @@
-tradingview_watchlists
-local path: ../files/repositories/
-local folder: tradingview-watchlists
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-watchlists
-last run: 1575309623.0397
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1575347701.7604
-- bot_long/indicators/bittrex_bot_long_btc_btc_1_of_8.txt Commit (December 03 2019 17:15:06 UTC) Whoops\Exception\ErrorException: shell_exec(): Unable to execute 'stat --format "%y" ../files/last_run/My_github__upload_update.txt' in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php on line 131
-Stack trace:
-  1. Whoops\Exception\ErrorException->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  2. shell_exec() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:131
-  3. My_times->get_file_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_times.php:77
-  4. My_times->set_last_run_time() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_github.php:193
-  5. My_github->upload_update() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_shout.php:50
-  6. My_shout->shout() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_filechanges.php:224
-  7. My_filechanges->monitor_filechanges() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_monitor_filechanges.php:17
-  8. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
-  9. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
- 10. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
- 11. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
