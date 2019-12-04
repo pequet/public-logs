@@ -1,37 +1,4 @@
-tradingview_watchlists
-local path: ../files/repositories/
-local folder: tradingview-watchlists
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-watchlists
-last run: 1575416723.6883
-- no file to update
-tradingview_scanners
-local path: ../files/repositories/
-local folder: tradingview-scanners
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: tradingview-scanners
-last run: 1575417008.6155
-- no file to update
-coins_by_volume
-local path: ../files/repositories
-local folder: coins-by-volume
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-volume
-last run: 1574652150.4655
-- no file to update
-coins_by_id
-local path: ../files/repositories
-local folder: coins-by-id
-task: github_update
-github auth user: pakeji
-github repo user: pequet
-github repository: coins-by-id
-last run: 1575029264.7985
-- no file to update
-🗲 done in 1.1753330230713s
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Loader.php on line 858
+
+Fatal error: Out of memory (allocated 2097152) (tried to allocate 20480 bytes) in /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/Common.php on line 685
