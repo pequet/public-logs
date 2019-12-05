@@ -1,1 +1,9 @@
-coins-by-id/readme.md 
+coins-by-id/readme.md Error: Call to undefined function json_decode() in file /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php on line 34
+Stack trace:
+  1. Error->() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/Coingecko.php:34
+  2. Coingecko->list_coins() /home/dkgbzkhsyhkrivzo/app-04/application/libraries/My_reconcile.php:81
+  3. My_reconcile->matches_lowercase() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron_v1/inc_reconcile_ids.php:20
+  4. include() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:42
+  5. Cron->v1() /home/dkgbzkhsyhkrivzo/app-04/application/modules/cron/controllers/Cron.php:30
+  6. Cron->index() /home/dkgbzkhsyhkrivzo/app-04/vendor/codeigniter/framework/system/core/CodeIgniter.php:532
+  7. require_once() /home/dkgbzkhsyhkrivzo/app-04/public/index.php:315
